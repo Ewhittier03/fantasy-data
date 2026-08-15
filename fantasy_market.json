@@ -1,1859 +1,1512 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-08-15T02:43:56.487Z",
+  "schema_version": 3,
+  "generated_at": "2026-08-15T02:48:27.383Z",
   "data_type": "fantasy_market_state",
   "season": 2026,
   "week": 1,
-  "source": "FantasyPros Public API v2",
+  "source": "FantasyPros hybrid: public consensus pages + limited Public API v2",
   "source_health": {
-    "checked_at": "2026-08-15T02:43:56.486Z",
+    "checked_at": "2026-08-15T02:48:27.369Z",
     "overall_status": "degraded",
     "request_budget": {
+      "fantasypros_api_calls_per_run": 2,
       "schedule_hours": 6,
-      "fantasypros_calls_per_run": 10,
-      "estimated_calls_per_day": 40,
+      "estimated_api_calls_per_day": 8,
       "stated_daily_limit": 50,
-      "headroom": 10
+      "headroom": 42
     },
     "sources": {
-      "players": {
-        "status": "ok",
-        "row_count": 10,
-        "allow_empty": false
-      },
-      "draft_rankings": {
-        "status": "empty",
+      "draft_ppr": {
+        "status": "parse_empty",
+        "bytes": 810183,
         "row_count": 0,
         "allow_empty": false
       },
-      "ros_rankings": {
+      "adp": {
+        "status": "parse_empty",
+        "bytes": 313583,
+        "row_count": 0,
+        "allow_empty": false
+      },
+      "ros_ppr": {
         "status": "ok_empty",
+        "bytes": 659890,
         "row_count": 0,
         "allow_empty": true
       },
-      "weekly_rankings": {
-        "status": "error",
+      "weekly_flex": {
+        "status": "ok_empty",
+        "bytes": 556884,
         "row_count": 0,
         "allow_empty": true
       },
-      "qb_projections": {
-        "status": "ok",
-        "row_count": 10,
-        "allow_empty": false
-      },
-      "rb_projections": {
-        "status": "ok",
-        "row_count": 10,
-        "allow_empty": false
-      },
-      "wr_projections": {
-        "status": "ok",
-        "row_count": 10,
-        "allow_empty": false
-      },
-      "te_projections": {
-        "status": "ok",
-        "row_count": 10,
-        "allow_empty": false
-      },
-      "injuries": {
-        "status": "error",
+      "weekly_qb": {
+        "status": "ok_empty",
+        "bytes": 430689,
         "row_count": 0,
         "allow_empty": true
       },
-      "news": {
-        "status": "error",
+      "weekly_rb": {
+        "status": "ok_empty",
+        "bytes": 466931,
         "row_count": 0,
         "allow_empty": true
+      },
+      "weekly_wr": {
+        "status": "ok_empty",
+        "bytes": 475457,
+        "row_count": 0,
+        "allow_empty": true
+      },
+      "weekly_te": {
+        "status": "ok_empty",
+        "bytes": 430130,
+        "row_count": 0,
+        "allow_empty": true
+      },
+      "projection_qb": {
+        "status": "ok",
+        "bytes": 293992,
+        "row_count": 10,
+        "allow_empty": false
+      },
+      "projection_rb": {
+        "status": "ok",
+        "bytes": 294086,
+        "row_count": 10,
+        "allow_empty": false
+      },
+      "projection_wr": {
+        "status": "ok",
+        "bytes": 294045,
+        "row_count": 10,
+        "allow_empty": false
+      },
+      "projection_te": {
+        "status": "ok",
+        "bytes": 292938,
+        "row_count": 10,
+        "allow_empty": false
+      },
+      "api_player_sample": {
+        "status": "ok",
+        "row_count": 10,
+        "expected_truncated_plan": true
+      },
+      "api_news_sample": {
+        "status": "ok",
+        "row_count": 10,
+        "expected_truncated_plan": true
       }
     },
     "issues": [
       {
-        "source": "draft_rankings",
-        "status": "empty"
+        "source": "draft_ppr",
+        "status": "parse_empty"
       },
       {
-        "source": "weekly_rankings",
-        "status": "error"
-      },
-      {
-        "source": "injuries",
-        "status": "error"
-      },
-      {
-        "source": "news",
-        "status": "error"
+        "source": "adp",
+        "status": "parse_empty"
       }
     ]
   },
-  "player_index": {
-    "8010": {
-      "fantasypros_id": 8010,
-      "name": "Atlanta Falcons",
-      "short_name": "Atlanta",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "ATL",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 278,
-        "adp": 309,
-        "ecr_ppr": 278,
-        "adp_ppr": 245,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8010,
-        "espn_id": "-16001",
-        "yahoo_id": "100001",
-        "nfl_id": "100001",
-        "rotowire_id": "-128",
-        "mfl_id": "526",
-        "sportsdata_player_id": "e6aa13a4-0055-48a9-bc41-be28dc106929"
-      }
-    },
-    "8020": {
-      "fantasypros_id": 8020,
-      "name": "Baltimore Ravens",
-      "short_name": "Baltimore",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "BAL",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 200,
-        "adp": 194,
-        "ecr_ppr": 198,
-        "adp_ppr": 158,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8020,
-        "espn_id": "-16033",
-        "yahoo_id": "100033",
-        "nfl_id": "100002",
-        "rotowire_id": "-109",
-        "mfl_id": "531",
-        "sportsdata_player_id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c"
-      }
-    },
-    "8030": {
-      "fantasypros_id": 8030,
-      "name": "Buffalo Bills",
-      "short_name": "Buffalo",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
+  "player_market": {
+    "joshallen|BUF": {
+      "player_name": "Josh Allen",
       "team": "BUF",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 227,
-        "adp": 267,
-        "ecr_ppr": 232,
-        "adp_ppr": 197,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8030,
-        "espn_id": "-16002",
-        "yahoo_id": "100002",
-        "nfl_id": "100003",
-        "rotowire_id": "-101",
-        "mfl_id": "501",
-        "sportsdata_player_id": "768c92aa-75ff-4a43-bcc0-f2798c2e1724"
-      }
+      "position": "QB",
+      "season_projected_fantasy_points": 372.3
     },
-    "8040": {
-      "fantasypros_id": 8040,
-      "name": "Carolina Panthers",
-      "short_name": "Carolina",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "CAR",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 349,
-        "adp": 313,
-        "ecr_ppr": 349,
-        "adp_ppr": 264,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8040,
-        "espn_id": "-16029",
-        "yahoo_id": "100029",
-        "nfl_id": "100004",
-        "rotowire_id": "-129",
-        "mfl_id": "527",
-        "sportsdata_player_id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314"
-      }
+    "lamarjackson|BAL": {
+      "player_name": "Lamar Jackson",
+      "team": "BAL",
+      "position": "QB",
+      "season_projected_fantasy_points": 324.8
     },
-    "8050": {
-      "fantasypros_id": 8050,
-      "name": "Chicago Bears",
-      "short_name": "Chicago",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "CHI",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 317,
-        "adp": 285,
-        "ecr_ppr": 319,
-        "adp_ppr": 223,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8050,
-        "espn_id": "-16003",
-        "yahoo_id": "100003",
-        "nfl_id": "100005",
-        "rotowire_id": "-124",
-        "mfl_id": "521",
-        "sportsdata_player_id": "7b112545-38e6-483c-a55c-96cf6ee49cb8"
-      }
+    "drakemaye|NE": {
+      "player_name": "Drake Maye",
+      "team": "NE",
+      "position": "QB",
+      "season_projected_fantasy_points": 322.8
     },
-    "8060": {
-      "fantasypros_id": 8060,
-      "name": "Cincinnati Bengals",
-      "short_name": "Cincinnati",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
+    "jaydendaniels|WAS": {
+      "player_name": "Jayden Daniels",
+      "team": "WAS",
+      "position": "QB",
+      "season_projected_fantasy_points": 322.6
+    },
+    "jalenhurts|PHI": {
+      "player_name": "Jalen Hurts",
+      "team": "PHI",
+      "position": "QB",
+      "season_projected_fantasy_points": 320.6
+    },
+    "joeburrow|CIN": {
+      "player_name": "Joe Burrow",
       "team": "CIN",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 369,
-        "adp": 314,
-        "ecr_ppr": 373,
-        "adp_ppr": 268,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8060,
-        "espn_id": "-16004",
-        "yahoo_id": "100004",
-        "nfl_id": "100006",
-        "rotowire_id": "-110",
-        "mfl_id": "506",
-        "sportsdata_player_id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123"
-      }
+      "position": "QB",
+      "season_projected_fantasy_points": 310.7
     },
-    "8070": {
-      "fantasypros_id": 8070,
-      "name": "Cleveland Browns",
-      "short_name": "Cleveland",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "CLE",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 231,
-        "adp": 294,
-        "ecr_ppr": 236,
-        "adp_ppr": 198,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8070,
-        "espn_id": "-16005",
-        "yahoo_id": "100005",
-        "nfl_id": "100007",
-        "rotowire_id": "-111",
-        "mfl_id": "507",
-        "sportsdata_player_id": "d5a2eb42-8065-4174-ab79-0a6fa820e35e"
-      }
+    "jaxsondart|NYG": {
+      "player_name": "Jaxson Dart",
+      "team": "NYG",
+      "position": "QB",
+      "season_projected_fantasy_points": 310.3
     },
-    "8080": {
-      "fantasypros_id": 8080,
-      "name": "Dallas Cowboys",
-      "short_name": "Dallas",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
+    "brockpurdy|SF": {
+      "player_name": "Brock Purdy",
+      "team": "SF",
+      "position": "QB",
+      "season_projected_fantasy_points": 307.4
+    },
+    "dakprescott|DAL": {
+      "player_name": "Dak Prescott",
       "team": "DAL",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 351,
-        "adp": 245,
-        "ecr_ppr": 355,
-        "adp_ppr": 213,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8080,
-        "espn_id": "-16006",
-        "yahoo_id": "100006",
-        "nfl_id": "100008",
-        "rotowire_id": "-117",
-        "mfl_id": "516",
-        "sportsdata_player_id": "e627eec7-bbae-4fa4-8e73-8e1d6bc5c060"
-      }
+      "position": "QB",
+      "season_projected_fantasy_points": 306.2
     },
-    "8090": {
-      "fantasypros_id": 8090,
-      "name": "Denver Broncos",
-      "short_name": "Denver",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
-      "team": "DEN",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 163,
-        "adp": 156,
-        "ecr_ppr": 166,
-        "adp_ppr": 113,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8090,
-        "espn_id": "-16007",
-        "yahoo_id": "100007",
-        "nfl_id": "100009",
-        "rotowire_id": "-105",
-        "mfl_id": "511",
-        "sportsdata_player_id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0"
-      }
+    "trevorlawrence|JAC": {
+      "player_name": "Trevor Lawrence",
+      "team": "JAC",
+      "position": "QB",
+      "season_projected_fantasy_points": 306
     },
-    "8100": {
-      "fantasypros_id": 8100,
-      "name": "Detroit Lions",
-      "short_name": "Detroit",
-      "position": "DST",
-      "positions": [
-        "DST"
-      ],
+    "jahmyrgibbs|DET": {
+      "player_name": "Jahmyr Gibbs",
       "team": "DET",
-      "age": null,
-      "birthdate": "",
-      "rookie": null,
-      "ranks": {
-        "ecr": 221,
-        "adp": 230,
-        "ecr_ppr": 223,
-        "adp_ppr": 181,
-        "position": 0
-      },
-      "ids": {
-        "fantasypros_id": 8100,
-        "espn_id": "-16008",
-        "yahoo_id": "100008",
-        "nfl_id": "100010",
-        "rotowire_id": "-125",
-        "mfl_id": "522",
-        "sportsdata_player_id": "c5a59daa-53a7-4de0-851f-fb12be893e9e"
-      }
+      "position": "RB",
+      "season_projected_fantasy_points": 337.3
+    },
+    "bijanrobinson|ATL": {
+      "player_name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "season_projected_fantasy_points": 332.2
+    },
+    "christianmccaffrey|SF": {
+      "player_name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "season_projected_fantasy_points": 295.6
+    },
+    "jonathantaylor|IND": {
+      "player_name": "Jonathan Taylor",
+      "team": "IND",
+      "position": "RB",
+      "season_projected_fantasy_points": 289.8
+    },
+    "derrickhenry|BAL": {
+      "player_name": "Derrick Henry",
+      "team": "BAL",
+      "position": "RB",
+      "season_projected_fantasy_points": 263.9
+    },
+    "devonachane|MIA": {
+      "player_name": "De'Von Achane",
+      "team": "MIA",
+      "position": "RB",
+      "season_projected_fantasy_points": 259.5
+    },
+    "jamescookiii|BUF": {
+      "player_name": "James Cook III",
+      "team": "BUF",
+      "position": "RB",
+      "season_projected_fantasy_points": 253.8
+    },
+    "ashtonjeanty|LV": {
+      "player_name": "Ashton Jeanty",
+      "team": "LV",
+      "position": "RB",
+      "season_projected_fantasy_points": 247.6
+    },
+    "chasebrown|CIN": {
+      "player_name": "Chase Brown",
+      "team": "CIN",
+      "position": "RB",
+      "season_projected_fantasy_points": 246.8
+    },
+    "saquonbarkley|PHI": {
+      "player_name": "Saquon Barkley",
+      "team": "PHI",
+      "position": "RB",
+      "season_projected_fantasy_points": 243.9
+    },
+    "pukanacua|LAR": {
+      "player_name": "Puka Nacua",
+      "team": "LAR",
+      "position": "WR",
+      "season_projected_fantasy_points": 294.4
+    },
+    "jamarrchase|CIN": {
+      "player_name": "Ja'Marr Chase",
+      "team": "CIN",
+      "position": "WR",
+      "season_projected_fantasy_points": 274.9
+    },
+    "jaxonsmithnjigba|SEA": {
+      "player_name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "position": "WR",
+      "season_projected_fantasy_points": 268.7
+    },
+    "amonrastbrown|DET": {
+      "player_name": "Amon-Ra St. Brown",
+      "team": "DET",
+      "position": "WR",
+      "season_projected_fantasy_points": 261.2
+    },
+    "drakelondon|ATL": {
+      "player_name": "Drake London",
+      "team": "ATL",
+      "position": "WR",
+      "season_projected_fantasy_points": 238.3
+    },
+    "ceedeelamb|DAL": {
+      "player_name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "season_projected_fantasy_points": 224.4
+    },
+    "rasheerice|KC": {
+      "player_name": "Rashee Rice",
+      "team": "KC",
+      "position": "WR",
+      "season_projected_fantasy_points": 224.2
+    },
+    "justinjefferson|MIN": {
+      "player_name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "season_projected_fantasy_points": 223.2
+    },
+    "ajbrown|NE": {
+      "player_name": "A.J. Brown",
+      "team": "NE",
+      "position": "WR",
+      "season_projected_fantasy_points": 211.3
+    },
+    "georgepickens|DAL": {
+      "player_name": "George Pickens",
+      "team": "DAL",
+      "position": "WR",
+      "season_projected_fantasy_points": 210.9
+    },
+    "treymcbride|ARI": {
+      "player_name": "Trey McBride",
+      "team": "ARI",
+      "position": "TE",
+      "season_projected_fantasy_points": 199.9
+    },
+    "brockbowers|LV": {
+      "player_name": "Brock Bowers",
+      "team": "LV",
+      "position": "TE",
+      "season_projected_fantasy_points": 195.6
+    },
+    "colstonloveland|CHI": {
+      "player_name": "Colston Loveland",
+      "team": "CHI",
+      "position": "TE",
+      "season_projected_fantasy_points": 171.9
+    },
+    "tylerwarren|IND": {
+      "player_name": "Tyler Warren",
+      "team": "IND",
+      "position": "TE",
+      "season_projected_fantasy_points": 160.8
+    },
+    "kylepittssr|ATL": {
+      "player_name": "Kyle Pitts Sr.",
+      "team": "ATL",
+      "position": "TE",
+      "season_projected_fantasy_points": 156
+    },
+    "haroldfanninjr|CLE": {
+      "player_name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "position": "TE",
+      "season_projected_fantasy_points": 151.5
+    },
+    "samlaporta|DET": {
+      "player_name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "season_projected_fantasy_points": 148.9
+    },
+    "dallasgoedert|PHI": {
+      "player_name": "Dallas Goedert",
+      "team": "PHI",
+      "position": "TE",
+      "season_projected_fantasy_points": 146.7
+    },
+    "tuckerkraft|GB": {
+      "player_name": "Tucker Kraft",
+      "team": "GB",
+      "position": "TE",
+      "season_projected_fantasy_points": 145.3
+    },
+    "traviskelce|KC": {
+      "player_name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "season_projected_fantasy_points": 144.4
     }
   },
   "rankings": {
     "draft_ppr": [],
     "ros_ppr": [],
-    "weekly_ppr_flex": []
+    "weekly": {
+      "flex": [],
+      "qb": [],
+      "rb": [],
+      "wr": [],
+      "te": []
+    }
   },
+  "adp": [],
   "projections": {
     "qb": [
       {
-        "fpid": 17298,
-        "mflid": 13589,
-        "name": "Josh Allen",
-        "position_id": "QB",
-        "team_id": "BUF",
-        "filename": "josh-allen-qb.php",
-        "stats": {
-          "points": 372.32,
-          "points_ppr": 372.32,
-          "points_half": 372.32,
-          "pass_att": 492.27,
-          "pass_cmp": 333.35,
-          "pass_yds": 3816.91,
-          "pass_tds": 27.41,
-          "pass_ints": 11.19,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 118.12,
-          "rush_yds": 585.49,
-          "rush_tds": 11.81,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 4.1,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Josh Allen",
+        "team": "BUF",
+        "position": "QB",
+        "projected_fantasy_points": 372.3,
+        "raw_cells": [
+          "Josh Allen BUF",
+          "492.3",
+          "333.4",
+          "3,816.9",
+          "27.4",
+          "11.2",
+          "118.1",
+          "585.5",
+          "11.8",
+          "4.1",
+          "372.3"
+        ]
       },
       {
-        "fpid": 17233,
-        "mflid": 13593,
-        "name": "Lamar Jackson",
-        "position_id": "QB",
-        "team_id": "BAL",
-        "filename": "lamar-jackson.php",
-        "stats": {
-          "points": 324.82,
-          "points_ppr": 324.82,
-          "points_half": 324.82,
-          "pass_att": 448.93,
-          "pass_cmp": 291.93,
-          "pass_yds": 3652.58,
-          "pass_tds": 28.32,
-          "pass_ints": 9.58,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 118.39,
-          "rush_yds": 639.6,
-          "rush_tds": 3.23,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 4.16,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Lamar Jackson",
+        "team": "BAL",
+        "position": "QB",
+        "projected_fantasy_points": 324.8,
+        "raw_cells": [
+          "Lamar Jackson BAL",
+          "448.9",
+          "291.9",
+          "3,652.6",
+          "28.3",
+          "9.6",
+          "118.4",
+          "639.6",
+          "3.2",
+          "4.2",
+          "324.8"
+        ]
       },
       {
-        "fpid": 23046,
-        "mflid": 16580,
-        "name": "Drake Maye",
-        "position_id": "QB",
-        "team_id": "NE",
-        "filename": "drake-maye.php",
-        "stats": {
-          "points": 322.85,
-          "points_ppr": 322.85,
-          "points_half": 322.85,
-          "pass_att": 499.91,
-          "pass_cmp": 342.98,
-          "pass_yds": 4026.42,
-          "pass_tds": 27.98,
-          "pass_ints": 10.39,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 99.35,
-          "rush_yds": 492.86,
-          "rush_tds": 3.68,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 5.57,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Drake Maye",
+        "team": "NE",
+        "position": "QB",
+        "projected_fantasy_points": 322.8,
+        "raw_cells": [
+          "Drake Maye NE",
+          "499.9",
+          "343.0",
+          "4,026.4",
+          "28.0",
+          "10.4",
+          "99.3",
+          "492.9",
+          "3.7",
+          "5.6",
+          "322.8"
+        ]
       },
       {
-        "fpid": 22902,
-        "mflid": 16581,
-        "name": "Jayden Daniels",
-        "position_id": "QB",
-        "team_id": "WAS",
-        "filename": "jayden-daniels.php",
-        "stats": {
-          "points": 322.58,
-          "points_ppr": 322.58,
-          "points_half": 322.58,
-          "pass_att": 493.06,
-          "pass_cmp": 322.12,
-          "pass_yds": 3681.63,
-          "pass_tds": 23.79,
-          "pass_ints": 10.97,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 129.99,
-          "rush_yds": 685.59,
-          "rush_tds": 4.71,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 2.83,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jayden Daniels",
+        "team": "WAS",
+        "position": "QB",
+        "projected_fantasy_points": 322.6,
+        "raw_cells": [
+          "Jayden Daniels WAS",
+          "493.1",
+          "322.1",
+          "3,681.6",
+          "23.8",
+          "11.0",
+          "130.0",
+          "685.6",
+          "4.7",
+          "2.8",
+          "322.6"
+        ]
       },
       {
-        "fpid": 19275,
-        "mflid": 14783,
-        "name": "Jalen Hurts",
-        "position_id": "QB",
-        "team_id": "PHI",
-        "filename": "jalen-hurts.php",
-        "stats": {
-          "points": 320.61,
-          "points_ppr": 320.61,
-          "points_half": 320.61,
-          "pass_att": 487.96,
-          "pass_cmp": 317.19,
-          "pass_yds": 3570.77,
-          "pass_tds": 24.19,
-          "pass_ints": 7.39,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 111.77,
-          "rush_yds": 461.4,
-          "rush_tds": 8.39,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 4.04,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jalen Hurts",
+        "team": "PHI",
+        "position": "QB",
+        "projected_fantasy_points": 320.6,
+        "raw_cells": [
+          "Jalen Hurts PHI",
+          "488.0",
+          "317.2",
+          "3,570.8",
+          "24.2",
+          "7.4",
+          "111.8",
+          "461.4",
+          "8.4",
+          "4.0",
+          "320.6"
+        ]
       },
       {
-        "fpid": 19196,
-        "mflid": 14777,
-        "name": "Joe Burrow",
-        "position_id": "QB",
-        "team_id": "CIN",
-        "filename": "joe-burrow.php",
-        "stats": {
-          "points": 310.73,
-          "points_ppr": 310.73,
-          "points_half": 310.73,
-          "pass_att": 590.06,
-          "pass_cmp": 394.77,
-          "pass_yds": 4170.41,
-          "pass_tds": 33.34,
-          "pass_ints": 11.62,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 48.26,
-          "rush_yds": 178.73,
-          "rush_tds": 1.36,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 1.92,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Joe Burrow",
+        "team": "CIN",
+        "position": "QB",
+        "projected_fantasy_points": 310.7,
+        "raw_cells": [
+          "Joe Burrow CIN",
+          "590.1",
+          "394.8",
+          "4,170.4",
+          "33.3",
+          "11.6",
+          "48.3",
+          "178.7",
+          "1.4",
+          "1.9",
+          "310.7"
+        ]
       },
       {
-        "fpid": 23160,
-        "mflid": 17032,
-        "name": "Jaxson Dart",
-        "position_id": "QB",
-        "team_id": "NYG",
-        "filename": "jaxson-dart.php",
-        "stats": {
-          "points": 310.31,
-          "points_ppr": 310.31,
-          "points_half": 310.31,
-          "pass_att": 509.92,
-          "pass_cmp": 324.77,
-          "pass_yds": 3592.13,
-          "pass_tds": 22.3,
-          "pass_ints": 11.05,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 100.93,
-          "rush_yds": 549.39,
-          "rush_tds": 6.54,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 2.86,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jaxson Dart",
+        "team": "NYG",
+        "position": "QB",
+        "projected_fantasy_points": 310.3,
+        "raw_cells": [
+          "Jaxson Dart NYG",
+          "509.9",
+          "324.8",
+          "3,592.1",
+          "22.3",
+          "11.1",
+          "100.9",
+          "549.4",
+          "6.5",
+          "2.9",
+          "310.3"
+        ]
       },
       {
-        "fpid": 19797,
-        "mflid": 15698,
-        "name": "Brock Purdy",
-        "position_id": "QB",
-        "team_id": "SF",
-        "filename": "brock-purdy.php",
-        "stats": {
-          "points": 307.38,
-          "points_ppr": 307.38,
-          "points_half": 307.38,
-          "pass_att": 547.55,
-          "pass_cmp": 369.32,
-          "pass_yds": 4153.59,
-          "pass_tds": 27.69,
-          "pass_ints": 14.3,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 70.47,
-          "rush_yds": 304.09,
-          "rush_tds": 3.84,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 4.33,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Brock Purdy",
+        "team": "SF",
+        "position": "QB",
+        "projected_fantasy_points": 307.4,
+        "raw_cells": [
+          "Brock Purdy SF",
+          "547.6",
+          "369.3",
+          "4,153.6",
+          "27.7",
+          "14.3",
+          "70.5",
+          "304.1",
+          "3.8",
+          "4.3",
+          "307.4"
+        ]
       },
       {
-        "fpid": 15600,
-        "mflid": 12620,
-        "name": "Dak Prescott",
-        "position_id": "QB",
-        "team_id": "DAL",
-        "filename": "dak-prescott.php",
-        "stats": {
-          "points": 306.17,
-          "points_ppr": 306.17,
-          "points_half": 306.17,
-          "pass_att": 581.98,
-          "pass_cmp": 384.33,
-          "pass_yds": 4294.02,
-          "pass_tds": 30.92,
-          "pass_ints": 11.31,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 49.06,
-          "rush_yds": 173.31,
-          "rush_tds": 1.72,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 2.8,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Dak Prescott",
+        "team": "DAL",
+        "position": "QB",
+        "projected_fantasy_points": 306.2,
+        "raw_cells": [
+          "Dak Prescott DAL",
+          "582.0",
+          "384.3",
+          "4,294.0",
+          "30.9",
+          "11.3",
+          "49.1",
+          "173.3",
+          "1.7",
+          "2.8",
+          "306.2"
+        ]
       },
       {
-        "fpid": 19780,
-        "mflid": 15237,
-        "name": "Trevor Lawrence",
-        "position_id": "QB",
-        "team_id": "JAC",
-        "filename": "trevor-lawrence.php",
-        "stats": {
-          "points": 306.01,
-          "points_ppr": 306.01,
-          "points_half": 306.01,
-          "pass_att": 546.09,
-          "pass_cmp": 336.03,
-          "pass_yds": 3909.4,
-          "pass_tds": 26.92,
-          "pass_ints": 13,
-          "pass_yds_300": 0,
-          "pass_yds_400": 0,
-          "rush_att": 72.48,
-          "rush_yds": 321.77,
-          "rush_tds": 4.93,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 3.41,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Trevor Lawrence",
+        "team": "JAC",
+        "position": "QB",
+        "projected_fantasy_points": 306,
+        "raw_cells": [
+          "Trevor Lawrence JAC",
+          "546.1",
+          "336.0",
+          "3,909.4",
+          "26.9",
+          "13.0",
+          "72.5",
+          "321.8",
+          "4.9",
+          "3.4",
+          "306.0"
+        ]
       }
     ],
     "rb": [
       {
-        "fpid": 22968,
-        "mflid": 16162,
-        "name": "Jahmyr Gibbs",
-        "position_id": "RB",
-        "team_id": "DET",
-        "filename": "jahmyr-gibbs.php",
-        "stats": {
-          "points": 301.81,
-          "points_ppr": 372.74,
-          "points_half": 337.27,
-          "rush_att": 274.73,
-          "rush_yds": 1382.7,
-          "rush_tds": 13.83,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 70.94,
-          "rec_yds": 580.77,
-          "rec_tds": 4.13,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.13,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jahmyr Gibbs",
+        "team": "DET",
+        "position": "RB",
+        "projected_fantasy_points": 337.3,
+        "raw_cells": [
+          "Jahmyr Gibbs DET",
+          "274.7",
+          "1,382.7",
+          "13.8",
+          "70.9",
+          "580.8",
+          "4.1",
+          "1.1",
+          "337.3"
+        ]
       },
       {
-        "fpid": 23133,
-        "mflid": 16161,
-        "name": "Bijan Robinson",
-        "position_id": "RB",
-        "team_id": "ATL",
-        "filename": "bijan-robinson.php",
-        "stats": {
-          "points": 292.43,
-          "points_ppr": 371.99,
-          "points_half": 332.21,
-          "rush_att": 289.56,
-          "rush_yds": 1427.36,
-          "rush_tds": 9.48,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 79.55,
-          "rec_yds": 736.37,
-          "rec_tds": 3.79,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.8,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Bijan Robinson",
+        "team": "ATL",
+        "position": "RB",
+        "projected_fantasy_points": 332.2,
+        "raw_cells": [
+          "Bijan Robinson ATL",
+          "289.6",
+          "1,427.4",
+          "9.5",
+          "79.6",
+          "736.4",
+          "3.8",
+          "1.8",
+          "332.2"
+        ]
       },
       {
-        "fpid": 19217,
-        "mflid": 14802,
-        "name": "Jonathan Taylor",
-        "position_id": "RB",
-        "team_id": "IND",
-        "filename": "jonathan-taylor.php",
-        "stats": {
-          "points": 267.3,
-          "points_ppr": 312.39,
-          "points_half": 289.85,
-          "rush_att": 327.06,
-          "rush_yds": 1508.11,
-          "rush_tds": 12.87,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 45.1,
-          "rec_yds": 339.16,
-          "rec_tds": 1.47,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.74,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Christian McCaffrey",
+        "team": "SF",
+        "position": "RB",
+        "projected_fantasy_points": 295.6,
+        "raw_cells": [
+          "Christian McCaffrey SF",
+          "269.4",
+          "1,093.3",
+          "8.7",
+          "78.4",
+          "694.1",
+          "4.6",
+          "1.1",
+          "295.6"
+        ]
       },
       {
-        "fpid": 16393,
-        "mflid": 13130,
-        "name": "Christian McCaffrey",
-        "position_id": "RB",
-        "team_id": "SF",
-        "filename": "christian-mccaffrey.php",
-        "stats": {
-          "points": 256.42,
-          "points_ppr": 334.78,
-          "points_half": 295.6,
-          "rush_att": 269.4,
-          "rush_yds": 1093.29,
-          "rush_tds": 8.72,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 78.36,
-          "rec_yds": 694.08,
-          "rec_tds": 4.59,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.1,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jonathan Taylor",
+        "team": "IND",
+        "position": "RB",
+        "projected_fantasy_points": 289.8,
+        "raw_cells": [
+          "Jonathan Taylor IND",
+          "327.1",
+          "1,508.1",
+          "12.9",
+          "45.1",
+          "339.2",
+          "1.5",
+          "1.7",
+          "289.8"
+        ]
       },
       {
-        "fpid": 15514,
-        "mflid": 12626,
-        "name": "Derrick Henry",
-        "position_id": "RB",
-        "team_id": "BAL",
-        "filename": "derrick-henry.php",
-        "stats": {
-          "points": 255.02,
-          "points_ppr": 272.82,
-          "points_half": 263.92,
-          "rush_att": 314,
-          "rush_yds": 1567.69,
-          "rush_tds": 13.37,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 17.8,
-          "rec_yds": 171.06,
-          "rec_tds": 0.73,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.74,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Derrick Henry",
+        "team": "BAL",
+        "position": "RB",
+        "projected_fantasy_points": 263.9,
+        "raw_cells": [
+          "Derrick Henry BAL",
+          "314.0",
+          "1,567.7",
+          "13.4",
+          "17.8",
+          "171.1",
+          "0.7",
+          "1.7",
+          "263.9"
+        ]
       },
       {
-        "fpid": 22958,
-        "mflid": 15715,
-        "name": "James Cook III",
-        "position_id": "RB",
-        "team_id": "BUF",
-        "filename": "james-cook.php",
-        "stats": {
-          "points": 237.15,
-          "points_ppr": 270.45,
-          "points_half": 253.8,
-          "rush_att": 287.63,
-          "rush_yds": 1403.87,
-          "rush_tds": 10.32,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 33.31,
-          "rec_yds": 283.7,
-          "rec_tds": 1.87,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 2.4,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "De'Von Achane",
+        "team": "MIA",
+        "position": "RB",
+        "projected_fantasy_points": 259.5,
+        "raw_cells": [
+          "De'Von Achane MIA",
+          "238.2",
+          "1,198.5",
+          "6.0",
+          "65.3",
+          "491.3",
+          "4.0",
+          "1.0",
+          "259.5"
+        ]
       },
       {
-        "fpid": 23136,
-        "mflid": 16167,
-        "name": "De'Von Achane",
-        "position_id": "RB",
-        "team_id": "MIA",
-        "filename": "devon-achane.php",
-        "stats": {
-          "points": 226.86,
-          "points_ppr": 292.13,
-          "points_half": 259.49,
-          "rush_att": 238.21,
-          "rush_yds": 1198.51,
-          "rush_tds": 5.99,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 65.27,
-          "rec_yds": 491.27,
-          "rec_tds": 3.99,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 0.98,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "James Cook III",
+        "team": "BUF",
+        "position": "RB",
+        "projected_fantasy_points": 253.8,
+        "raw_cells": [
+          "James Cook III BUF",
+          "287.6",
+          "1,403.9",
+          "10.3",
+          "33.3",
+          "283.7",
+          "1.9",
+          "2.4",
+          "253.8"
+        ]
       },
       {
-        "fpid": 17240,
-        "mflid": 13604,
-        "name": "Saquon Barkley",
-        "position_id": "RB",
-        "team_id": "PHI",
-        "filename": "saquon-barkley.php",
-        "stats": {
-          "points": 222.99,
-          "points_ppr": 264.72,
-          "points_half": 243.86,
-          "rush_att": 295.89,
-          "rush_yds": 1299.34,
-          "rush_tds": 8.24,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 41.73,
-          "rec_yds": 330.38,
-          "rec_tds": 2.1,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.01,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Ashton Jeanty",
+        "team": "LV",
+        "position": "RB",
+        "projected_fantasy_points": 247.6,
+        "raw_cells": [
+          "Ashton Jeanty LV",
+          "281.7",
+          "1,107.8",
+          "8.0",
+          "58.7",
+          "414.2",
+          "3.3",
+          "1.1",
+          "247.6"
+        ]
       },
       {
-        "fpid": 25989,
-        "mflid": 17042,
-        "name": "Ashton Jeanty",
-        "position_id": "RB",
-        "team_id": "LV",
-        "filename": "ashton-jeanty.php",
-        "stats": {
-          "points": 218.23,
-          "points_ppr": 276.88,
-          "points_half": 247.56,
-          "rush_att": 281.69,
-          "rush_yds": 1107.82,
-          "rush_tds": 8.04,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 58.65,
-          "rec_yds": 414.2,
-          "rec_tds": 3.34,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.12,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Chase Brown",
+        "team": "CIN",
+        "position": "RB",
+        "projected_fantasy_points": 246.8,
+        "raw_cells": [
+          "Chase Brown CIN",
+          "239.4",
+          "1,039.8",
+          "7.8",
+          "63.7",
+          "427.3",
+          "3.9",
+          "1.1",
+          "246.8"
+        ]
       },
       {
-        "fpid": 25324,
-        "mflid": 16181,
-        "name": "Chase Brown",
-        "position_id": "RB",
-        "team_id": "CIN",
-        "filename": "chase-brown.php",
-        "stats": {
-          "points": 215,
-          "points_ppr": 278.69,
-          "points_half": 246.85,
-          "rush_att": 239.44,
-          "rush_yds": 1039.79,
-          "rush_tds": 7.8,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rec_rec": 63.69,
-          "rec_yds": 427.26,
-          "rec_tds": 3.94,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "fumbles": 1.08,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Saquon Barkley",
+        "team": "PHI",
+        "position": "RB",
+        "projected_fantasy_points": 243.9,
+        "raw_cells": [
+          "Saquon Barkley PHI",
+          "295.9",
+          "1,299.3",
+          "8.2",
+          "41.7",
+          "330.4",
+          "2.1",
+          "1.0",
+          "243.9"
+        ]
       }
     ],
     "wr": [
       {
-        "fpid": 23180,
-        "mflid": 16211,
-        "name": "Puka Nacua",
-        "position_id": "WR",
-        "team_id": "LAR",
-        "filename": "puka-nacua.php",
-        "stats": {
-          "points": 222.8,
-          "points_ppr": 339.8,
-          "points_half": 281.3,
-          "rec_rec": 117,
-          "rec_yds": 1539,
-          "rec_tds": 9,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 13.64,
-          "rush_yds": 85,
-          "rush_tds": 1.39,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.98,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Puka Nacua",
+        "team": "LAR",
+        "position": "WR",
+        "projected_fantasy_points": 294.4,
+        "raw_cells": [
+          "Puka Nacua LAR",
+          "122.7",
+          "1,616.3",
+          "9.3",
+          "13.6",
+          "95.6",
+          "1.4",
+          "1.0",
+          "294.4"
+        ]
       },
       {
-        "fpid": 19788,
-        "mflid": 15281,
-        "name": "Ja'Marr Chase",
-        "position_id": "WR",
-        "team_id": "CIN",
-        "filename": "jamarr-chase.php",
-        "stats": {
-          "points": 214.39,
-          "points_ppr": 335.49,
-          "points_half": 274.94,
-          "rec_rec": 121.11,
-          "rec_yds": 1509.43,
-          "rec_tds": 10.57,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 3.02,
-          "rush_yds": 17.03,
-          "rush_tds": 0.05,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.97,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Ja'Marr Chase",
+        "team": "CIN",
+        "position": "WR",
+        "projected_fantasy_points": 274.9,
+        "raw_cells": [
+          "Ja'Marr Chase CIN",
+          "121.1",
+          "1,509.4",
+          "10.6",
+          "3.0",
+          "17.0",
+          "0.0",
+          "1.0",
+          "274.9"
+        ]
       },
       {
-        "fpid": 23070,
-        "mflid": 16185,
-        "name": "Jaxon Smith-Njigba",
-        "position_id": "WR",
-        "team_id": "SEA",
-        "filename": "jaxon-smith-njigba.php",
-        "stats": {
-          "points": 213.27,
-          "points_ppr": 324.18,
-          "points_half": 268.73,
-          "rec_rec": 110.91,
-          "rec_yds": 1569.72,
-          "rec_tds": 9.18,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 5.53,
-          "rush_yds": 30.39,
-          "rush_tds": 0.06,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 1.08,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Jaxon Smith-Njigba",
+        "team": "SEA",
+        "position": "WR",
+        "projected_fantasy_points": 268.7,
+        "raw_cells": [
+          "Jaxon Smith-Njigba SEA",
+          "110.9",
+          "1,569.7",
+          "9.2",
+          "5.5",
+          "30.4",
+          "0.1",
+          "1.1",
+          "268.7"
+        ]
       },
       {
-        "fpid": 19799,
-        "mflid": 15287,
-        "name": "Amon-Ra St. Brown",
-        "position_id": "WR",
-        "team_id": "DET",
-        "filename": "amonra-stbrown.php",
-        "stats": {
-          "points": 202.47,
-          "points_ppr": 319.85,
-          "points_half": 261.16,
-          "rec_rec": 117.38,
-          "rec_yds": 1390.43,
-          "rec_tds": 10.47,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 3.11,
-          "rush_yds": 11.82,
-          "rush_tds": 0.04,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.42,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Amon-Ra St. Brown",
+        "team": "DET",
+        "position": "WR",
+        "projected_fantasy_points": 261.2,
+        "raw_cells": [
+          "Amon-Ra St. Brown DET",
+          "117.4",
+          "1,390.4",
+          "10.5",
+          "3.1",
+          "11.8",
+          "0.0",
+          "0.4",
+          "261.2"
+        ]
       },
       {
-        "fpid": 23163,
-        "mflid": 15751,
-        "name": "Drake London",
-        "position_id": "WR",
-        "team_id": "ATL",
-        "filename": "drake-london.php",
-        "stats": {
-          "points": 187.49,
-          "points_ppr": 289.14,
-          "points_half": 238.31,
-          "rec_rec": 101.65,
-          "rec_yds": 1328.2,
-          "rec_tds": 9.43,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 0,
-          "rush_yds": 0,
-          "rush_tds": 0,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.96,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Drake London",
+        "team": "ATL",
+        "position": "WR",
+        "projected_fantasy_points": 238.3,
+        "raw_cells": [
+          "Drake London ATL",
+          "101.7",
+          "1,328.2",
+          "9.4",
+          "0.0",
+          "0.0",
+          "0.0",
+          "1.0",
+          "238.3"
+        ]
       },
       {
-        "fpid": 19202,
-        "mflid": 14832,
-        "name": "CeeDee Lamb",
-        "position_id": "WR",
-        "team_id": "DAL",
-        "filename": "ceedee-lamb.php",
-        "stats": {
-          "points": 175.6,
-          "points_ppr": 273.22,
-          "points_half": 224.41,
-          "rec_rec": 97.63,
-          "rec_yds": 1296.63,
-          "rec_tds": 7.52,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 2.4,
-          "rush_yds": 12.53,
-          "rush_tds": 0.04,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.33,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "CeeDee Lamb",
+        "team": "DAL",
+        "position": "WR",
+        "projected_fantasy_points": 224.4,
+        "raw_cells": [
+          "CeeDee Lamb DAL",
+          "97.6",
+          "1,296.6",
+          "7.5",
+          "2.4",
+          "12.5",
+          "0.0",
+          "0.3",
+          "224.4"
+        ]
       },
       {
-        "fpid": 23113,
-        "mflid": 16194,
-        "name": "Rashee Rice",
-        "position_id": "WR",
-        "team_id": "KC",
-        "filename": "rashee-rice.php",
-        "stats": {
-          "points": 174.65,
-          "points_ppr": 273.74,
-          "points_half": 224.2,
-          "rec_rec": 99.09,
-          "rec_yds": 1099.65,
-          "rec_tds": 9.68,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 5.41,
-          "rush_yds": 25.55,
-          "rush_tds": 0.86,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.58,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Rashee Rice",
+        "team": "KC",
+        "position": "WR",
+        "projected_fantasy_points": 224.2,
+        "raw_cells": [
+          "Rashee Rice KC",
+          "99.1",
+          "1,099.7",
+          "9.7",
+          "5.4",
+          "25.5",
+          "0.9",
+          "0.6",
+          "224.2"
+        ]
       },
       {
-        "fpid": 19236,
-        "mflid": 14836,
-        "name": "Justin Jefferson",
-        "position_id": "WR",
-        "team_id": "MIN",
-        "filename": "justin-jefferson.php",
-        "stats": {
-          "points": 173.9,
-          "points_ppr": 272.48,
-          "points_half": 223.19,
-          "rec_rec": 98.58,
-          "rec_yds": 1310.86,
-          "rec_tds": 7.12,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 1.34,
-          "rush_yds": 5.54,
-          "rush_tds": 0.03,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.34,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Justin Jefferson",
+        "team": "MIN",
+        "position": "WR",
+        "projected_fantasy_points": 223.2,
+        "raw_cells": [
+          "Justin Jefferson MIN",
+          "98.6",
+          "1,310.9",
+          "7.1",
+          "1.3",
+          "5.5",
+          "0.0",
+          "0.3",
+          "223.2"
+        ]
       },
       {
-        "fpid": 22963,
-        "mflid": 15762,
-        "name": "George Pickens",
-        "position_id": "WR",
-        "team_id": "DAL",
-        "filename": "george-pickens.php",
-        "stats": {
-          "points": 169.54,
-          "points_ppr": 252.18,
-          "points_half": 210.86,
-          "rec_rec": 82.64,
-          "rec_yds": 1201.37,
-          "rec_tds": 8.38,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 0.33,
-          "rush_yds": -0.33,
-          "rush_tds": 0,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.45,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "A.J. Brown",
+        "team": "NE",
+        "position": "WR",
+        "projected_fantasy_points": 211.3,
+        "raw_cells": [
+          "A.J. Brown NE",
+          "87.7",
+          "1,222.0",
+          "7.6",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.3",
+          "211.3"
+        ]
       },
       {
-        "fpid": 18218,
-        "mflid": 14104,
-        "name": "A.J. Brown",
-        "position_id": "WR",
-        "team_id": "NE",
-        "filename": "aj-brown.php",
-        "stats": {
-          "points": 167.49,
-          "points_ppr": 255.15,
-          "points_half": 211.32,
-          "rec_rec": 87.66,
-          "rec_yds": 1222.03,
-          "rec_tds": 7.64,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "rush_att": 0,
-          "rush_yds": 0,
-          "rush_tds": 0,
-          "rush_yds_100": 0,
-          "rush_yds_200": 0,
-          "fumbles": 0.29,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "George Pickens",
+        "team": "DAL",
+        "position": "WR",
+        "projected_fantasy_points": 210.9,
+        "raw_cells": [
+          "George Pickens DAL",
+          "82.6",
+          "1,201.4",
+          "8.4",
+          "0.3",
+          "-0.3",
+          "0.0",
+          "0.5",
+          "210.9"
+        ]
       }
     ],
     "te": [
       {
-        "fpid": 22955,
-        "mflid": 16641,
-        "name": "Brock Bowers",
-        "position_id": "TE",
-        "team_id": "LV",
-        "filename": "brock-bowers.php",
-        "stats": {
-          "points": 147.35,
-          "points_ppr": 243.83,
-          "points_half": 195.59,
-          "rec_rec": 96.48,
-          "rec_yds": 1025.98,
-          "rec_tds": 7.52,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.18,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Trey McBride",
+        "team": "ARI",
+        "position": "TE",
+        "projected_fantasy_points": 199.9,
+        "raw_cells": [
+          "Trey McBride ARI",
+          "109.0",
+          "1,051.6",
+          "6.8",
+          "0.2",
+          "199.9"
+        ]
       },
       {
-        "fpid": 22936,
-        "mflid": 15794,
-        "name": "Trey McBride",
-        "position_id": "TE",
-        "team_id": "ARI",
-        "filename": "trey-mcbride.php",
-        "stats": {
-          "points": 145.41,
-          "points_ppr": 254.36,
-          "points_half": 199.89,
-          "rec_rec": 108.95,
-          "rec_yds": 1051.64,
-          "rec_tds": 6.79,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.24,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Brock Bowers",
+        "team": "LV",
+        "position": "TE",
+        "projected_fantasy_points": 195.6,
+        "raw_cells": [
+          "Brock Bowers LV",
+          "96.5",
+          "1,026.0",
+          "7.5",
+          "0.2",
+          "195.6"
+        ]
       },
       {
-        "fpid": 26006,
-        "mflid": 17104,
-        "name": "Colston Loveland",
-        "position_id": "TE",
-        "team_id": "CHI",
-        "filename": "colston-loveland.php",
-        "stats": {
-          "points": 132.53,
-          "points_ppr": 211.26,
-          "points_half": 171.9,
-          "rec_rec": 78.73,
-          "rec_yds": 929.29,
-          "rec_tds": 6.67,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.22,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Colston Loveland",
+        "team": "CHI",
+        "position": "TE",
+        "projected_fantasy_points": 171.9,
+        "raw_cells": [
+          "Colston Loveland CHI",
+          "78.7",
+          "929.3",
+          "6.7",
+          "0.2",
+          "171.9"
+        ]
       },
       {
-        "fpid": 26434,
-        "mflid": 17102,
-        "name": "Tyler Warren",
-        "position_id": "TE",
-        "team_id": "IND",
-        "filename": "tyler-warren.php",
-        "stats": {
-          "points": 119.34,
-          "points_ppr": 202.34,
-          "points_half": 160.84,
-          "rec_rec": 82.99,
-          "rec_yds": 873.24,
-          "rec_tds": 5.44,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.31,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Tyler Warren",
+        "team": "IND",
+        "position": "TE",
+        "projected_fantasy_points": 160.8,
+        "raw_cells": [
+          "Tyler Warren IND",
+          "83.0",
+          "873.2",
+          "5.4",
+          "0.3",
+          "160.8"
+        ]
       },
       {
-        "fpid": 20164,
-        "mflid": 15329,
-        "name": "Kyle Pitts Sr.",
-        "position_id": "TE",
-        "team_id": "ATL",
-        "filename": "kyle-pitts.php",
-        "stats": {
-          "points": 116.23,
-          "points_ppr": 195.68,
-          "points_half": 155.95,
-          "rec_rec": 79.45,
-          "rec_yds": 881.29,
-          "rec_tds": 4.73,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.14,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Kyle Pitts Sr.",
+        "team": "ATL",
+        "position": "TE",
+        "projected_fantasy_points": 156,
+        "raw_cells": [
+          "Kyle Pitts Sr. ATL",
+          "79.5",
+          "881.3",
+          "4.7",
+          "0.1",
+          "156.0"
+        ]
       },
       {
-        "fpid": 25298,
-        "mflid": 16222,
-        "name": "Tucker Kraft",
-        "position_id": "TE",
-        "team_id": "GB",
-        "filename": "tucker-kraft.php",
-        "stats": {
-          "points": 115.14,
-          "points_ppr": 175.38,
-          "points_half": 145.26,
-          "rec_rec": 60.24,
-          "rec_yds": 771.38,
-          "rec_tds": 6.4,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.21,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Harold Fannin Jr.",
+        "team": "CLE",
+        "position": "TE",
+        "projected_fantasy_points": 151.5,
+        "raw_cells": [
+          "Harold Fannin Jr. CLE",
+          "78.3",
+          "815.4",
+          "5.4",
+          "0.8",
+          "151.5"
+        ]
       },
       {
-        "fpid": 17270,
-        "mflid": 13674,
-        "name": "Dallas Goedert",
-        "position_id": "TE",
-        "team_id": "PHI",
-        "filename": "dallas-goedert.php",
-        "stats": {
-          "points": 113.89,
-          "points_ppr": 179.42,
-          "points_half": 146.66,
-          "rec_rec": 65.53,
-          "rec_yds": 689.19,
-          "rec_tds": 7.56,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.2,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Sam LaPorta",
+        "team": "DET",
+        "position": "TE",
+        "projected_fantasy_points": 148.9,
+        "raw_cells": [
+          "Sam LaPorta DET",
+          "70.4",
+          "813.3",
+          "5.5",
+          "0.2",
+          "148.9"
+        ]
       },
       {
-        "fpid": 22978,
-        "mflid": 16214,
-        "name": "Sam LaPorta",
-        "position_id": "TE",
-        "team_id": "DET",
-        "filename": "sam-laporta.php",
-        "stats": {
-          "points": 113.69,
-          "points_ppr": 184.14,
-          "points_half": 148.91,
-          "rec_rec": 70.44,
-          "rec_yds": 813.33,
-          "rec_tds": 5.46,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.19,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Dallas Goedert",
+        "team": "PHI",
+        "position": "TE",
+        "projected_fantasy_points": 146.7,
+        "raw_cells": [
+          "Dallas Goedert PHI",
+          "65.5",
+          "689.2",
+          "7.6",
+          "0.2",
+          "146.7"
+        ]
       },
       {
-        "fpid": 27050,
-        "mflid": 17103,
-        "name": "Harold Fannin Jr.",
-        "position_id": "TE",
-        "team_id": "CLE",
-        "filename": "harold-fannin-jr.php",
-        "stats": {
-          "points": 112.3,
-          "points_ppr": 190.63,
-          "points_half": 151.46,
-          "rec_rec": 78.32,
-          "rec_yds": 815.42,
-          "rec_tds": 5.4,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.81,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Tucker Kraft",
+        "team": "GB",
+        "position": "TE",
+        "projected_fantasy_points": 145.3,
+        "raw_cells": [
+          "Tucker Kraft GB",
+          "60.2",
+          "771.4",
+          "6.4",
+          "0.2",
+          "145.3"
+        ]
       },
       {
-        "fpid": 16499,
-        "mflid": 13299,
-        "name": "George Kittle",
-        "position_id": "TE",
-        "team_id": "SF",
-        "filename": "george-kittle.php",
-        "stats": {
-          "points": 109.42,
-          "points_ppr": 175.66,
-          "points_half": 142.54,
-          "rec_rec": 66.24,
-          "rec_yds": 753.56,
-          "rec_tds": 5.73,
-          "rec_yds_100": 0,
-          "rec_yds_200": 0,
-          "scrimage_yards_100": 0,
-          "scrimage_yards_200": 0,
-          "fumbles": 0.17,
-          "ret_tds": 0,
-          "2pt_tds": 0
-        }
+        "player_name": "Travis Kelce",
+        "team": "KC",
+        "position": "TE",
+        "projected_fantasy_points": 144.4,
+        "raw_cells": [
+          "Travis Kelce KC",
+          "74.9",
+          "784.9",
+          "4.8",
+          "0.3",
+          "144.4"
+        ]
       }
     ]
   },
-  "projection_index": {
-    "15514": {
-      "fantasypros_id": 15514,
-      "name": "Derrick Henry",
-      "team": "BAL",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "15600": {
-      "fantasypros_id": 15600,
-      "name": "Dak Prescott",
-      "team": "DAL",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "16393": {
-      "fantasypros_id": 16393,
-      "name": "Christian McCaffrey",
-      "team": "SF",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "16499": {
-      "fantasypros_id": 16499,
-      "name": "George Kittle",
-      "team": "SF",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "17233": {
-      "fantasypros_id": 17233,
-      "name": "Lamar Jackson",
-      "team": "BAL",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "17240": {
-      "fantasypros_id": 17240,
-      "name": "Saquon Barkley",
-      "team": "PHI",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "17270": {
-      "fantasypros_id": 17270,
-      "name": "Dallas Goedert",
-      "team": "PHI",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "17298": {
-      "fantasypros_id": 17298,
-      "name": "Josh Allen",
-      "team": "BUF",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "18218": {
-      "fantasypros_id": 18218,
-      "name": "A.J. Brown",
-      "team": "NE",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19196": {
-      "fantasypros_id": 19196,
-      "name": "Joe Burrow",
-      "team": "CIN",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19202": {
-      "fantasypros_id": 19202,
-      "name": "CeeDee Lamb",
-      "team": "DAL",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19217": {
-      "fantasypros_id": 19217,
-      "name": "Jonathan Taylor",
-      "team": "IND",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19236": {
-      "fantasypros_id": 19236,
-      "name": "Justin Jefferson",
-      "team": "MIN",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19275": {
-      "fantasypros_id": 19275,
-      "name": "Jalen Hurts",
-      "team": "PHI",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19780": {
-      "fantasypros_id": 19780,
-      "name": "Trevor Lawrence",
-      "team": "JAC",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19788": {
-      "fantasypros_id": 19788,
-      "name": "Ja'Marr Chase",
-      "team": "CIN",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19797": {
-      "fantasypros_id": 19797,
-      "name": "Brock Purdy",
-      "team": "SF",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "19799": {
-      "fantasypros_id": 19799,
-      "name": "Amon-Ra St. Brown",
-      "team": "DET",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "20164": {
-      "fantasypros_id": 20164,
-      "name": "Kyle Pitts Sr.",
-      "team": "ATL",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22902": {
-      "fantasypros_id": 22902,
-      "name": "Jayden Daniels",
-      "team": "WAS",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22936": {
-      "fantasypros_id": 22936,
-      "name": "Trey McBride",
-      "team": "ARI",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22955": {
-      "fantasypros_id": 22955,
-      "name": "Brock Bowers",
-      "team": "LV",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22958": {
-      "fantasypros_id": 22958,
-      "name": "James Cook III",
-      "team": "BUF",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22963": {
-      "fantasypros_id": 22963,
-      "name": "George Pickens",
-      "team": "DAL",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22968": {
-      "fantasypros_id": 22968,
-      "name": "Jahmyr Gibbs",
-      "team": "DET",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "22978": {
-      "fantasypros_id": 22978,
-      "name": "Sam LaPorta",
-      "team": "DET",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23046": {
-      "fantasypros_id": 23046,
-      "name": "Drake Maye",
-      "team": "NE",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23070": {
-      "fantasypros_id": 23070,
-      "name": "Jaxon Smith-Njigba",
-      "team": "SEA",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23113": {
-      "fantasypros_id": 23113,
-      "name": "Rashee Rice",
-      "team": "KC",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23133": {
-      "fantasypros_id": 23133,
-      "name": "Bijan Robinson",
-      "team": "ATL",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23136": {
-      "fantasypros_id": 23136,
-      "name": "De'Von Achane",
-      "team": "MIA",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23160": {
-      "fantasypros_id": 23160,
-      "name": "Jaxson Dart",
-      "team": "NYG",
-      "position": "QB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23163": {
-      "fantasypros_id": 23163,
-      "name": "Drake London",
-      "team": "ATL",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "23180": {
-      "fantasypros_id": 23180,
-      "name": "Puka Nacua",
-      "team": "LAR",
-      "position": "WR",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "25298": {
-      "fantasypros_id": 25298,
-      "name": "Tucker Kraft",
-      "team": "GB",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "25324": {
-      "fantasypros_id": 25324,
-      "name": "Chase Brown",
-      "team": "CIN",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "25989": {
-      "fantasypros_id": 25989,
-      "name": "Ashton Jeanty",
-      "team": "LV",
-      "position": "RB",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "26006": {
-      "fantasypros_id": 26006,
-      "name": "Colston Loveland",
-      "team": "CHI",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "26434": {
-      "fantasypros_id": 26434,
-      "name": "Tyler Warren",
-      "team": "IND",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    },
-    "27050": {
-      "fantasypros_id": 27050,
-      "name": "Harold Fannin Jr.",
-      "team": "CLE",
-      "position": "TE",
-      "points": null,
-      "points_ppr": null,
-      "stats": []
-    }
+  "api_supplement": {
+    "players": [
+      {
+        "player_id": 8010,
+        "player_name": "Atlanta Falcons",
+        "short_name": "Atlanta",
+        "first_name": "Atlanta",
+        "last_name": "Falcons",
+        "reverse_name": "Falcons, Atlanta",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "ATL",
+        "filename": "https://www.fantasypros.com/nfl/teams/atlanta-defense.php",
+        "sportsdata_player_id": "e6aa13a4-0055-48a9-bc41-be28dc106929",
+        "rank_ecr": 278,
+        "rank_adp": 309,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16001",
+        "yahoo_id": "100001",
+        "nfl_id": "100001",
+        "rotowire_id": "-128",
+        "mfl_id": "526",
+        "rank_ecr_ppr": 278,
+        "rank_adp_ppr": 245,
+        "rank_ecr_half": 284,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8020,
+        "player_name": "Baltimore Ravens",
+        "short_name": "Baltimore",
+        "first_name": "Baltimore",
+        "last_name": "Ravens",
+        "reverse_name": "Ravens, Baltimore",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "BAL",
+        "filename": "https://www.fantasypros.com/nfl/teams/baltimore-defense.php",
+        "sportsdata_player_id": "ebd87119-b331-4469-9ea6-d51fe3ce2f1c",
+        "rank_ecr": 200,
+        "rank_adp": 194,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16033",
+        "yahoo_id": "100033",
+        "nfl_id": "100002",
+        "rotowire_id": "-109",
+        "mfl_id": "531",
+        "rank_ecr_ppr": 198,
+        "rank_adp_ppr": 158,
+        "rank_ecr_half": 215,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8030,
+        "player_name": "Buffalo Bills",
+        "short_name": "Buffalo",
+        "first_name": "Buffalo",
+        "last_name": "Bills",
+        "reverse_name": "Bills, Buffalo",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "BUF",
+        "filename": "https://www.fantasypros.com/nfl/teams/buffalo-defense.php",
+        "sportsdata_player_id": "768c92aa-75ff-4a43-bcc0-f2798c2e1724",
+        "rank_ecr": 227,
+        "rank_adp": 267,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16002",
+        "yahoo_id": "100002",
+        "nfl_id": "100003",
+        "rotowire_id": "-101",
+        "mfl_id": "501",
+        "rank_ecr_ppr": 232,
+        "rank_adp_ppr": 197,
+        "rank_ecr_half": 237,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8040,
+        "player_name": "Carolina Panthers",
+        "short_name": "Carolina",
+        "first_name": "Carolina",
+        "last_name": "Panthers",
+        "reverse_name": "Panthers, Carolina",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "CAR",
+        "filename": "https://www.fantasypros.com/nfl/teams/carolina-defense.php",
+        "sportsdata_player_id": "f14bf5cc-9a82-4a38-bc15-d39f75ed5314",
+        "rank_ecr": 349,
+        "rank_adp": 313,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16029",
+        "yahoo_id": "100029",
+        "nfl_id": "100004",
+        "rotowire_id": "-129",
+        "mfl_id": "527",
+        "rank_ecr_ppr": 349,
+        "rank_adp_ppr": 264,
+        "rank_ecr_half": 348,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8050,
+        "player_name": "Chicago Bears",
+        "short_name": "Chicago",
+        "first_name": "Chicago",
+        "last_name": "Bears",
+        "reverse_name": "Bears, Chicago",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "CHI",
+        "filename": "https://www.fantasypros.com/nfl/teams/chicago-defense.php",
+        "sportsdata_player_id": "7b112545-38e6-483c-a55c-96cf6ee49cb8",
+        "rank_ecr": 317,
+        "rank_adp": 285,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16003",
+        "yahoo_id": "100003",
+        "nfl_id": "100005",
+        "rotowire_id": "-124",
+        "mfl_id": "521",
+        "rank_ecr_ppr": 319,
+        "rank_adp_ppr": 223,
+        "rank_ecr_half": 321,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8060,
+        "player_name": "Cincinnati Bengals",
+        "short_name": "Cincinnati",
+        "first_name": "Cincinnati",
+        "last_name": "Bengals",
+        "reverse_name": "Bengals, Cincinnati",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "CIN",
+        "filename": "https://www.fantasypros.com/nfl/teams/cincinnati-defense.php",
+        "sportsdata_player_id": "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123",
+        "rank_ecr": 369,
+        "rank_adp": 314,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16004",
+        "yahoo_id": "100004",
+        "nfl_id": "100006",
+        "rotowire_id": "-110",
+        "mfl_id": "506",
+        "rank_ecr_ppr": 373,
+        "rank_adp_ppr": 268,
+        "rank_ecr_half": 387,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8070,
+        "player_name": "Cleveland Browns",
+        "short_name": "Cleveland",
+        "first_name": "Cleveland",
+        "last_name": "Browns",
+        "reverse_name": "Browns, Cleveland",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "CLE",
+        "filename": "https://www.fantasypros.com/nfl/teams/cleveland-defense.php",
+        "sportsdata_player_id": "d5a2eb42-8065-4174-ab79-0a6fa820e35e",
+        "rank_ecr": 231,
+        "rank_adp": 294,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16005",
+        "yahoo_id": "100005",
+        "nfl_id": "100007",
+        "rotowire_id": "-111",
+        "mfl_id": "507",
+        "rank_ecr_ppr": 236,
+        "rank_adp_ppr": 198,
+        "rank_ecr_half": 259,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8080,
+        "player_name": "Dallas Cowboys",
+        "short_name": "Dallas",
+        "first_name": "Dallas",
+        "last_name": "Cowboys",
+        "reverse_name": "Cowboys, Dallas",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "DAL",
+        "filename": "https://www.fantasypros.com/nfl/teams/dallas-defense.php",
+        "sportsdata_player_id": "e627eec7-bbae-4fa4-8e73-8e1d6bc5c060",
+        "rank_ecr": 351,
+        "rank_adp": 245,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16006",
+        "yahoo_id": "100006",
+        "nfl_id": "100008",
+        "rotowire_id": "-117",
+        "mfl_id": "516",
+        "rank_ecr_ppr": 355,
+        "rank_adp_ppr": 213,
+        "rank_ecr_half": 358,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8090,
+        "player_name": "Denver Broncos",
+        "short_name": "Denver",
+        "first_name": "Denver",
+        "last_name": "Broncos",
+        "reverse_name": "Broncos, Denver",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "DEN",
+        "filename": "https://www.fantasypros.com/nfl/teams/denver-defense.php",
+        "sportsdata_player_id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0",
+        "rank_ecr": 163,
+        "rank_adp": 156,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16007",
+        "yahoo_id": "100007",
+        "nfl_id": "100009",
+        "rotowire_id": "-105",
+        "mfl_id": "511",
+        "rank_ecr_ppr": 166,
+        "rank_adp_ppr": 113,
+        "rank_ecr_half": 191,
+        "birthdate": "",
+        "birthdatetime": ""
+      },
+      {
+        "player_id": 8100,
+        "player_name": "Detroit Lions",
+        "short_name": "Detroit",
+        "first_name": "Detroit",
+        "last_name": "Lions",
+        "reverse_name": "Lions, Detroit",
+        "position_id": "DST",
+        "positions": [
+          "DST"
+        ],
+        "team_id": "DET",
+        "filename": "https://www.fantasypros.com/nfl/teams/detroit-defense.php",
+        "sportsdata_player_id": "c5a59daa-53a7-4de0-851f-fb12be893e9e",
+        "rank_ecr": 221,
+        "rank_adp": 230,
+        "rank_ecr_pos": 0,
+        "espn_id": "-16008",
+        "yahoo_id": "100008",
+        "nfl_id": "100010",
+        "rotowire_id": "-125",
+        "mfl_id": "522",
+        "rank_ecr_ppr": 223,
+        "rank_adp_ppr": 181,
+        "rank_ecr_half": 230,
+        "birthdate": "",
+        "birthdatetime": ""
+      }
+    ],
+    "news": [
+      {
+        "id": 602399,
+        "created": "2026-08-14 23:52:34",
+        "created_formated": "Fri, Aug 14th 11:52pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 23062,
+        "team_id": "TB",
+        "title": "Emeka Egbuka dealing with sprained toe, expected to be ready for Week 1",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News",
+          "Injury"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602399/emeka-egbuka-dealing-with-sprained-toe-expected-to-be-ready-week-1.php",
+        "desc": "Emeka Egbuka has a sprained toe, but he is expected to be good to go for Week 1.",
+        "impact": "Egbuka underwent more testing on his injured toe and a specialist diagnosed him with a sprained toe after he limped off the field during the joint practice at the Jets' facility. "
+      },
+      {
+        "id": 602359,
+        "created": "2026-08-14 19:37:04",
+        "created_formated": "Fri, Aug 14th 7:37pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 18269,
+        "team_id": "GB",
+        "title": "Josh Jacobs (groin) could return next week",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News",
+          "Injury"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602359/josh-jacobs-groin-could-return-next-week.php",
+        "desc": "Packers coach Matt LaFleur said Josh Jacobs could return to practice next week. ",
+        "impact": "LaFleur clarified that it wouldn't be till later in the week. Jacobs has been absent from practice due to a groin injury. "
+      },
+      {
+        "id": 602358,
+        "created": "2026-08-14 19:35:00",
+        "created_formated": "Fri, Aug 14th 7:35pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 24582,
+        "team_id": "TEN",
+        "title": "Nazeeh Johnson suspended six games by NFL",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602358/nazeeh-johnson-suspended-six-games-by-nfl.php",
+        "desc": "The NFL has suspended Titans CB Nazeeh Johnson six regular season games for performance-enhancing substance policy violation. ",
+        "impact": "Johnson can still participate in all preseason activities. He will be eligible for reinstatement on October 19."
+      },
+      {
+        "id": 602356,
+        "created": "2026-08-14 19:31:44",
+        "created_formated": "Fri, Aug 14th 7:31pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 17315,
+        "team_id": "WAS",
+        "title": "Dorance Armstrong Jr. suspended for the season opener",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602356/dorance-armstrong-jr-suspended-season-opener.php",
+        "desc": "The NFL has suspended DE Dorance Armstrong Jr. for the season opener. ",
+        "impact": "Armstrong is still eligible to participate in all preseason activities. He'll be eligible for reinstatement on September 14. "
+      },
+      {
+        "id": 602355,
+        "created": "2026-08-14 19:29:22",
+        "created_formated": "Fri, Aug 14th 7:29pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 23735,
+        "team_id": "BUF",
+        "title": "Phidarian Mathis suspended three games ",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602355/phidarian-mathis-suspended-three-games.php",
+        "desc": "Bills DT Phidarian Mathis has been suspended for three games for violating the NFL's Substances of Abuse Policy. ",
+        "impact": "Mathis is still eligible to participate in preseason practices and games. He'll be eligible to return September 28. "
+      },
+      {
+        "id": 602354,
+        "created": "2026-08-14 19:26:57",
+        "created_formated": "Fri, Aug 14th 7:26pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 27605,
+        "team_id": "PHI",
+        "title": "Brandon George signs with Eagles ",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602354/brandon-george-signs-with-eagles.php",
+        "desc": "The Eagles signed LB Brandon George. ",
+        "impact": "George spent last season on injured reserve with the Chiefs. He will compete for a depth role in the Eagles linebacker room. "
+      },
+      {
+        "id": 602350,
+        "created": "2026-08-14 19:14:47",
+        "created_formated": "Fri, Aug 14th 7:14pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 27018,
+        "team_id": "ATL",
+        "title": "James Pearce Jr. suspended eight games by NFL",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602350/james-pearce-jr-suspended-eight-games-by-nfl.php",
+        "desc": "Falcons DE James Pearce Jr. is being suspended eight regular-season games for violating the NFL's personal conduct policy.",
+        "impact": "Pearce was arrested in February after a domestic dispute. He will miss the first eight games of the season. "
+      },
+      {
+        "id": 602336,
+        "created": "2026-08-14 18:19:56",
+        "created_formated": "Fri, Aug 14th 6:19pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 27129,
+        "team_id": "SF",
+        "title": "Kurtis Rourke (ribs) released from hospital ",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News",
+          "Injury"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602336/kurtis-rourke-ribs-released-from-hospital.php",
+        "desc": "Kurtis Rourke was released from a local hospital Thursday night. ",
+        "impact": "Rourke left Thursday's preseason game against the Titans in the first half. He was having trouble breathing, head coach Kyle Shanahan said after the game. The initial X-rays he underwent did not show a broken rib. "
+      },
+      {
+        "id": 602335,
+        "created": "2026-08-14 18:05:16",
+        "created_formated": "Fri, Aug 14th 6:05pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 22953,
+        "team_id": "ARI",
+        "title": "Carson Beck not dealing with serious rib injury",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News",
+          "Injury"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602335/carson-beck-not-dealing-with-serious-rib-injury.php",
+        "desc": "Cardinals head coach Mike LaFleur said he has 'no concern' over the rib injury that Carson Beck is dealing with. ",
+        "impact": "The injury kept Beck out of Thursday's preseason game against the Raiders. He should be good to go for next week's preseason game. "
+      },
+      {
+        "id": 602334,
+        "created": "2026-08-14 18:03:23",
+        "created_formated": "Fri, Aug 14th 6:03pm UTC",
+        "author": "Ari Koslow",
+        "player_id": 11177,
+        "team_id": "LV",
+        "title": "Kirk Cousins: Starting job is 'his to lose' per HC Klint Kubiak ",
+        "sport_id": "NFL",
+        "categories": [
+          "Commentary",
+          "News"
+        ],
+        "link": "https://www.fantasypros.com/nfl/news/602334/kirk-cousins-starting-job-is-his-to-lose-per-hc-klint-kubiak.php",
+        "desc": "Raiders coach Klint Kubiak said \"it's his job to lose\" when asked about Kirk Cousins' status as QB1 following Thursday's preseason game. ",
+        "impact": "Cousins played on the opening drive on Thursday, which resulted in a touchdown pass to Michael Mayer. He remains highly likely to open the season as the starter for Las Vegas. "
+      }
+    ]
   },
-  "injuries": [],
-  "injury_index": {},
-  "news": [],
-  "news_by_player": {},
-  "metadata": {
-    "fantasypros_players_count": 10,
-    "draft_last_updated": "8/15",
-    "draft_last_updated_ts": 1786760989,
-    "ros_last_updated": "8/15",
-    "weekly_last_updated": null
+  "notes": {
+    "api_tier": "50 truncated requests/day; API is supplemental rather than the broad market backbone.",
+    "broad_market_source": "FantasyPros public ranking/ADP/projection tables",
+    "compiler_join": "Normalize player name + team, then reconcile through Sleeper/nflverse ID maps."
   }
 }
