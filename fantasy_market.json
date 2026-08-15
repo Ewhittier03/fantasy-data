@@ -1,12 +1,12 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-08-15T03:08:01.040Z",
+  "schema_version": 5,
+  "generated_at": "2026-08-15T03:12:32.518Z",
   "data_type": "fantasy_market_state",
   "season": 2026,
   "week": 1,
-  "source": "FantasyPros hybrid: public consensus pages + limited Public API v2",
+  "source": "FantasyPros hybrid: public pages + limited Public API v2",
   "source_health": {
-    "checked_at": "2026-08-15T03:08:01.026Z",
+    "checked_at": "2026-08-15T03:12:32.503Z",
     "overall_status": "degraded",
     "request_budget": {
       "fantasypros_api_calls_per_run": 2,
@@ -78,7 +78,7 @@
       },
       "projection_wr": {
         "status": "ok",
-        "bytes": 294081,
+        "bytes": 294089,
         "row_count": 10,
         "allow_empty": false
       },
@@ -1505,9 +1505,9 @@
     ]
   },
   "notes": {
-    "parser_version": "robust-table-v2",
-    "api_tier": "50 truncated requests/day; API is supplemental rather than broad market backbone.",
-    "broad_market_source": "FantasyPros server-rendered public ranking/ADP/projection tables",
+    "parser_version": "table-plus-embedded-json-v3",
+    "api_tier": "50 truncated requests/day; API remains supplemental.",
+    "parsing_strategy": "Prefer embedded FantasyPros hydration data when raw HTML contains no rendered ranking rows; fall back to normal HTML tables.",
     "compiler_join": "Normalize player name + team, then reconcile through Sleeper/nflverse ID maps."
   }
 }
