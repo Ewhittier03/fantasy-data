@@ -1,12 +1,12 @@
 {
-  "schema_version": 3,
-  "generated_at": "2026-08-15T02:48:27.383Z",
+  "schema_version": 4,
+  "generated_at": "2026-08-15T03:08:01.040Z",
   "data_type": "fantasy_market_state",
   "season": 2026,
   "week": 1,
   "source": "FantasyPros hybrid: public consensus pages + limited Public API v2",
   "source_health": {
-    "checked_at": "2026-08-15T02:48:27.369Z",
+    "checked_at": "2026-08-15T03:08:01.026Z",
     "overall_status": "degraded",
     "request_budget": {
       "fantasypros_api_calls_per_run": 2,
@@ -18,73 +18,73 @@
     "sources": {
       "draft_ppr": {
         "status": "parse_empty",
-        "bytes": 810183,
+        "bytes": 807576,
         "row_count": 0,
         "allow_empty": false
       },
       "adp": {
         "status": "parse_empty",
-        "bytes": 313583,
+        "bytes": 313654,
         "row_count": 0,
         "allow_empty": false
       },
       "ros_ppr": {
         "status": "ok_empty",
-        "bytes": 659890,
+        "bytes": 659950,
         "row_count": 0,
         "allow_empty": true
       },
       "weekly_flex": {
         "status": "ok_empty",
-        "bytes": 556884,
+        "bytes": 556944,
         "row_count": 0,
         "allow_empty": true
       },
       "weekly_qb": {
         "status": "ok_empty",
-        "bytes": 430689,
+        "bytes": 430749,
         "row_count": 0,
         "allow_empty": true
       },
       "weekly_rb": {
         "status": "ok_empty",
-        "bytes": 466931,
+        "bytes": 466991,
         "row_count": 0,
         "allow_empty": true
       },
       "weekly_wr": {
         "status": "ok_empty",
-        "bytes": 475457,
+        "bytes": 478551,
         "row_count": 0,
         "allow_empty": true
       },
       "weekly_te": {
         "status": "ok_empty",
-        "bytes": 430130,
+        "bytes": 433224,
         "row_count": 0,
         "allow_empty": true
       },
       "projection_qb": {
         "status": "ok",
-        "bytes": 293992,
+        "bytes": 294030,
         "row_count": 10,
         "allow_empty": false
       },
       "projection_rb": {
         "status": "ok",
-        "bytes": 294086,
+        "bytes": 294124,
         "row_count": 10,
         "allow_empty": false
       },
       "projection_wr": {
         "status": "ok",
-        "bytes": 294045,
+        "bytes": 294081,
         "row_count": 10,
         "allow_empty": false
       },
       "projection_te": {
         "status": "ok",
-        "bytes": 292938,
+        "bytes": 292976,
         "row_count": 10,
         "allow_empty": false
       },
@@ -235,7 +235,7 @@
       "player_name": "Puka Nacua",
       "team": "LAR",
       "position": "WR",
-      "season_projected_fantasy_points": 294.4
+      "season_projected_fantasy_points": 281.3
     },
     "jamarrchase|CIN": {
       "player_name": "Ja'Marr Chase",
@@ -734,17 +734,17 @@
         "player_name": "Puka Nacua",
         "team": "LAR",
         "position": "WR",
-        "projected_fantasy_points": 294.4,
+        "projected_fantasy_points": 281.3,
         "raw_cells": [
           "Puka Nacua LAR",
-          "122.7",
-          "1,616.3",
-          "9.3",
+          "117.0",
+          "1,539.0",
+          "9.0",
           "13.6",
-          "95.6",
+          "85.0",
           "1.4",
           "1.0",
-          "294.4"
+          "281.3"
         ]
       },
       {
@@ -1505,8 +1505,9 @@
     ]
   },
   "notes": {
-    "api_tier": "50 truncated requests/day; API is supplemental rather than the broad market backbone.",
-    "broad_market_source": "FantasyPros public ranking/ADP/projection tables",
+    "parser_version": "robust-table-v2",
+    "api_tier": "50 truncated requests/day; API is supplemental rather than broad market backbone.",
+    "broad_market_source": "FantasyPros server-rendered public ranking/ADP/projection tables",
     "compiler_join": "Normalize player name + team, then reconcile through Sleeper/nflverse ID maps."
   }
 }
