@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T06:31:04.437Z",
+  "generated_at": "2026-08-17T22:46:49.404Z",
   "data_type": "fantasy_sleeper_state",
   "source": "Sleeper API",
   "identity": {
@@ -8,7 +8,7 @@
     "sleeper_display_name": "EthanWhittier"
   },
   "source_health": {
-    "checked_at": "2026-08-15T06:31:04.420Z",
+    "checked_at": "2026-08-17T22:46:49.387Z",
     "overall_status": "ok",
     "sources": {
       "nfl_state": {
@@ -57,8 +57,8 @@
         "allow_empty": true
       },
       "gcs_transactions": {
-        "status": "ok",
-        "item_count": 2,
+        "status": "ok_empty",
+        "item_count": 0,
         "allow_empty": true
       },
       "gcs_2_league": {
@@ -115,14 +115,14 @@
     "issues": []
   },
   "nfl_state": {
-    "week": 1,
+    "week": 2,
     "season_type": "pre",
     "season": "2026",
     "leg": 0,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
-    "display_week": 1,
+    "display_week": 2,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -180,7 +180,7 @@
       "injury_status": null,
       "years_exp": 18,
       "age": 41,
-      "search_rank": 498,
+      "search_rank": 482,
       "identifiers": {
         "sleeper_id": "19",
         "espn_id": 11252,
@@ -205,7 +205,7 @@
       "injury_status": null,
       "years_exp": 17,
       "age": 38,
-      "search_rank": 79,
+      "search_rank": 77,
       "identifiers": {
         "sleeper_id": "421",
         "espn_id": 12483,
@@ -214,31 +214,6 @@
         "sportradar_id": "ade43b1a-0601-4672-83b6-d246bc066a19",
         "fantasy_data_id": 9038,
         "stats_id": 323205
-      }
-    },
-    "1166": {
-      "sleeper_id": "1166",
-      "name": "Kirk Cousins",
-      "first_name": "Kirk",
-      "last_name": "Cousins",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 14,
-      "age": 37,
-      "search_rank": 281,
-      "identifiers": {
-        "sleeper_id": "1166",
-        "espn_id": 14880,
-        "yahoo_id": 25812,
-        "rotowire_id": 8057,
-        "sportradar_id": "bbd0942c-6f77-4f83-a6d0-66ec6548019e",
-        "fantasy_data_id": 14252,
-        "stats_id": 403308
       }
     },
     "1339": {
@@ -280,7 +255,7 @@
       "injury_status": null,
       "years_exp": 13,
       "age": 36,
-      "search_rank": 96,
+      "search_rank": 93,
       "identifiers": {
         "sleeper_id": "1466",
         "espn_id": 15847,
@@ -330,7 +305,7 @@
       "injury_status": null,
       "years_exp": 12,
       "age": 33,
-      "search_rank": 438,
+      "search_rank": 447,
       "identifiers": {
         "sleeper_id": "2078",
         "espn_id": 16733,
@@ -377,7 +352,7 @@
       ],
       "team": "SF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "years_exp": 12,
       "age": 32,
       "search_rank": 59,
@@ -430,7 +405,7 @@
       "injury_status": null,
       "years_exp": 11,
       "age": 33,
-      "search_rank": 378,
+      "search_rank": 451,
       "identifiers": {
         "sleeper_id": "2505",
         "espn_id": 2576925,
@@ -530,7 +505,7 @@
       "injury_status": null,
       "years_exp": 10,
       "age": 33,
-      "search_rank": 43,
+      "search_rank": 41,
       "identifiers": {
         "sleeper_id": "3294",
         "espn_id": 2577417,
@@ -580,7 +555,7 @@
       "injury_status": null,
       "years_exp": 9,
       "age": 30,
-      "search_rank": 345,
+      "search_rank": 332,
       "identifiers": {
         "sleeper_id": "4017",
         "espn_id": 3122840,
@@ -730,7 +705,7 @@
       "injury_status": "Questionable",
       "years_exp": 9,
       "age": 30,
-      "search_rank": 35,
+      "search_rank": 36,
       "identifiers": {
         "sleeper_id": "4046",
         "espn_id": 3139477,
@@ -755,7 +730,7 @@
       "injury_status": null,
       "years_exp": 9,
       "age": 31,
-      "search_rank": 477,
+      "search_rank": 466,
       "identifiers": {
         "sleeper_id": "4066",
         "espn_id": 3051876,
@@ -855,7 +830,7 @@
       "injury_status": "PUP",
       "years_exp": 9,
       "age": 32,
-      "search_rank": 93,
+      "search_rank": 90,
       "identifiers": {
         "sleeper_id": "4217",
         "espn_id": 3040151,
@@ -905,7 +880,7 @@
       "injury_status": null,
       "years_exp": 9,
       "age": 31,
-      "search_rank": 415,
+      "search_rank": 576,
       "identifiers": {
         "sleeper_id": "4454",
         "espn_id": 3045523,
@@ -914,31 +889,6 @@
         "sportradar_id": "5aba3610-ab55-4922-ac46-806ded5eb8bf",
         "fantasy_data_id": 19318,
         "stats_id": 754412
-      }
-    },
-    "4663": {
-      "sleeper_id": "4663",
-      "name": "Austin Ekeler",
-      "first_name": "Austin",
-      "last_name": "Ekeler",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 9,
-      "age": 30,
-      "search_rank": 317,
-      "identifiers": {
-        "sleeper_id": "4663",
-        "espn_id": 3068267,
-        "yahoo_id": 30423,
-        "rotowire_id": 12401,
-        "sportradar_id": "e5b8c439-a48a-4f83-b63b-1a4d30e04cd3",
-        "fantasy_data_id": 19562,
-        "stats_id": 790004
       }
     },
     "4866": {
@@ -980,7 +930,7 @@
       "injury_status": null,
       "years_exp": 8,
       "age": 29,
-      "search_rank": 12,
+      "search_rank": 10,
       "identifiers": {
         "sleeper_id": "4881",
         "espn_id": 3916387,
@@ -1005,7 +955,7 @@
       "injury_status": null,
       "years_exp": 8,
       "age": 31,
-      "search_rank": 67,
+      "search_rank": 69,
       "identifiers": {
         "sleeper_id": "4892",
         "espn_id": 3052587,
@@ -1030,7 +980,7 @@
       "injury_status": null,
       "years_exp": 8,
       "age": 29,
-      "search_rank": 94,
+      "search_rank": 93,
       "identifiers": {
         "sleeper_id": "4943",
         "espn_id": 3912547,
@@ -1052,7 +1002,7 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 8,
       "age": 29,
       "search_rank": 57,
@@ -1080,7 +1030,7 @@
       "injury_status": null,
       "years_exp": 8,
       "age": 30,
-      "search_rank": 4,
+      "search_rank": 3,
       "identifiers": {
         "sleeper_id": "4984",
         "espn_id": 3918298,
@@ -1230,7 +1180,7 @@
       "injury_status": "Questionable",
       "years_exp": 7,
       "age": 28,
-      "search_rank": 71,
+      "search_rank": 73,
       "identifiers": {
         "sleeper_id": "5846",
         "espn_id": 4047650,
@@ -1255,7 +1205,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 29,
-      "search_rank": 96,
+      "search_rank": 98,
       "identifiers": {
         "sleeper_id": "5849",
         "espn_id": 3917315,
@@ -1305,7 +1255,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 29,
-      "search_rank": 18,
+      "search_rank": 19,
       "identifiers": {
         "sleeper_id": "5859",
         "espn_id": 4047646,
@@ -1330,7 +1280,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 30,
-      "search_rank": 136,
+      "search_rank": 137,
       "identifiers": {
         "sleeper_id": "5872",
         "espn_id": 3126486,
@@ -1380,7 +1330,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 30,
-      "search_rank": 51,
+      "search_rank": 53,
       "identifiers": {
         "sleeper_id": "5927",
         "espn_id": 3121422,
@@ -1427,7 +1377,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 7,
       "age": 29,
       "search_rank": 63,
@@ -1455,7 +1405,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 28,
-      "search_rank": 254,
+      "search_rank": 244,
       "identifiers": {
         "sleeper_id": "5995",
         "espn_id": 4038441,
@@ -1480,7 +1430,7 @@
       "injury_status": null,
       "years_exp": 7,
       "age": 28,
-      "search_rank": 573,
+      "search_rank": 690,
       "identifiers": {
         "sleeper_id": "6130",
         "espn_id": 4040761,
@@ -1505,7 +1455,7 @@
       "injury_status": null,
       "years_exp": 6,
       "age": 29,
-      "search_rank": 13,
+      "search_rank": 14,
       "identifiers": {
         "sleeper_id": "6770",
         "espn_id": 3915511,
@@ -1605,7 +1555,7 @@
       "injury_status": null,
       "years_exp": 6,
       "age": 27,
-      "search_rank": 12,
+      "search_rank": 11,
       "identifiers": {
         "sleeper_id": "6794",
         "espn_id": 4262921,
@@ -1630,7 +1580,7 @@
       "injury_status": null,
       "years_exp": 6,
       "age": 28,
-      "search_rank": 31,
+      "search_rank": 30,
       "identifiers": {
         "sleeper_id": "6797",
         "espn_id": 4038941,
@@ -1680,7 +1630,7 @@
       "injury_status": null,
       "years_exp": 6,
       "age": 27,
-      "search_rank": 63,
+      "search_rank": 62,
       "identifiers": {
         "sleeper_id": "6804",
         "espn_id": 4036378,
@@ -1755,7 +1705,7 @@
       "injury_status": "Questionable",
       "years_exp": 6,
       "age": 28,
-      "search_rank": 99,
+      "search_rank": 100,
       "identifiers": {
         "sleeper_id": "6819",
         "espn_id": 4035687,
@@ -1930,7 +1880,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 26,
-      "search_rank": 35,
+      "search_rank": 38,
       "identifiers": {
         "sleeper_id": "7523",
         "espn_id": null,
@@ -1955,7 +1905,7 @@
       "injury_status": "Questionable",
       "years_exp": 5,
       "age": 27,
-      "search_rank": 35,
+      "search_rank": 34,
       "identifiers": {
         "sleeper_id": "7525",
         "espn_id": null,
@@ -2080,7 +2030,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 25,
-      "search_rank": 68,
+      "search_rank": 69,
       "identifiers": {
         "sleeper_id": "7553",
         "espn_id": null,
@@ -2155,7 +2105,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 27,
-      "search_rank": 24,
+      "search_rank": 23,
       "identifiers": {
         "sleeper_id": "7569",
         "espn_id": null,
@@ -2205,7 +2155,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 27,
-      "search_rank": 391,
+      "search_rank": 394,
       "identifiers": {
         "sleeper_id": "7591",
         "espn_id": null,
@@ -2255,7 +2205,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 27,
-      "search_rank": 621,
+      "search_rank": 660,
       "identifiers": {
         "sleeper_id": "7607",
         "espn_id": null,
@@ -2280,7 +2230,7 @@
       "injury_status": null,
       "years_exp": 5,
       "age": 28,
-      "search_rank": 600,
+      "search_rank": 470,
       "identifiers": {
         "sleeper_id": "7608",
         "espn_id": null,
@@ -2355,7 +2305,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 25,
-      "search_rank": 15,
+      "search_rank": 17,
       "identifiers": {
         "sleeper_id": "8112",
         "espn_id": null,
@@ -2363,31 +2313,6 @@
         "rotowire_id": 15868,
         "sportradar_id": "5053f9ae-15d9-4730-833d-484886b6f890",
         "fantasy_data_id": 23151,
-        "stats_id": null
-      }
-    },
-    "8117": {
-      "sleeper_id": "8117",
-      "name": "Jalen Tolbert",
-      "first_name": "Jalen",
-      "last_name": "Tolbert",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 4,
-      "age": 27,
-      "search_rank": 465,
-      "identifiers": {
-        "sleeper_id": "8117",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 16010,
-        "sportradar_id": "c6fb9f3a-f8ff-4224-a5f6-4d2d09501c9c",
-        "fantasy_data_id": 22597,
         "stats_id": null
       }
     },
@@ -2430,7 +2355,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 27,
-      "search_rank": 587,
+      "search_rank": 698,
       "identifiers": {
         "sleeper_id": "8125",
         "espn_id": null,
@@ -2466,31 +2391,6 @@
         "stats_id": null
       }
     },
-    "8127": {
-      "sleeper_id": "8127",
-      "name": "Charlie Kolar",
-      "first_name": "Charlie",
-      "last_name": "Kolar",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 4,
-      "age": 27,
-      "search_rank": 557,
-      "identifiers": {
-        "sleeper_id": "8127",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 15924,
-        "sportradar_id": "3c048ac9-2c0f-4bf0-9ddc-ce99c9387ac8",
-        "fantasy_data_id": 23135,
-        "stats_id": null
-      }
-    },
     "8130": {
       "sleeper_id": "8130",
       "name": "Trey McBride",
@@ -2505,7 +2405,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 26,
-      "search_rank": 19,
+      "search_rank": 21,
       "identifiers": {
         "sleeper_id": "8130",
         "espn_id": null,
@@ -2605,7 +2505,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 26,
-      "search_rank": 392,
+      "search_rank": 426,
       "identifiers": {
         "sleeper_id": "8135",
         "espn_id": null,
@@ -2655,7 +2555,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 25,
-      "search_rank": 24,
+      "search_rank": 23,
       "identifiers": {
         "sleeper_id": "8137",
         "espn_id": null,
@@ -2730,7 +2630,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 26,
-      "search_rank": 30,
+      "search_rank": 31,
       "identifiers": {
         "sleeper_id": "8144",
         "espn_id": null,
@@ -2752,7 +2652,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 4,
       "age": 26,
       "search_rank": 38,
@@ -2780,7 +2680,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 26,
-      "search_rank": 382,
+      "search_rank": 563,
       "identifiers": {
         "sleeper_id": "8147",
         "espn_id": null,
@@ -2802,7 +2702,7 @@
       ],
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 4,
       "age": 25,
       "search_rank": 53,
@@ -2902,7 +2802,7 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 4,
       "age": 25,
       "search_rank": 27,
@@ -2930,7 +2830,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 27,
-      "search_rank": 110,
+      "search_rank": 111,
       "identifiers": {
         "sleeper_id": "8161",
         "espn_id": null,
@@ -2980,7 +2880,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 27,
-      "search_rank": 183,
+      "search_rank": 184,
       "identifiers": {
         "sleeper_id": "8180",
         "espn_id": null,
@@ -3005,7 +2905,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 26,
-      "search_rank": 47,
+      "search_rank": 49,
       "identifiers": {
         "sleeper_id": "8183",
         "espn_id": null,
@@ -3130,7 +3030,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 27,
-      "search_rank": 151,
+      "search_rank": 152,
       "identifiers": {
         "sleeper_id": "8676",
         "espn_id": null,
@@ -3138,31 +3038,6 @@
         "rotowire_id": 16560,
         "sportradar_id": "e1ecc660-cc9f-11ec-952e-a10f2c98fc4d",
         "fantasy_data_id": 23729,
-        "stats_id": null
-      }
-    },
-    "8698": {
-      "sleeper_id": "8698",
-      "name": "Jake Tonges",
-      "first_name": "Jake",
-      "last_name": "Tonges",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 4,
-      "age": 27,
-      "search_rank": 178,
-      "identifiers": {
-        "sleeper_id": "8698",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 16418,
-        "sportradar_id": "8d9236c0-ce09-11ec-9598-03840dd5f387",
-        "fantasy_data_id": 23662,
         "stats_id": null
       }
     },
@@ -3180,7 +3055,7 @@
       "injury_status": null,
       "years_exp": 4,
       "age": 27,
-      "search_rank": 569,
+      "search_rank": 583,
       "identifiers": {
         "sleeper_id": "8800",
         "espn_id": null,
@@ -3252,7 +3127,7 @@
       ],
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 3,
       "age": 23,
       "search_rank": 147,
@@ -3316,31 +3191,6 @@
         "stats_id": null
       }
     },
-    "9482": {
-      "sleeper_id": "9482",
-      "name": "Michael Mayer",
-      "first_name": "Michael",
-      "last_name": "Mayer",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 3,
-      "age": 25,
-      "search_rank": 422,
-      "identifiers": {
-        "sleeper_id": "9482",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 16666,
-        "sportradar_id": "31f4645a-7ccb-4633-8580-2fca361beb4f",
-        "fantasy_data_id": 23140,
-        "stats_id": null
-      }
-    },
     "9484": {
       "sleeper_id": "9484",
       "name": "Tucker Kraft",
@@ -3355,7 +3205,7 @@
       "injury_status": "Questionable",
       "years_exp": 3,
       "age": 25,
-      "search_rank": 66,
+      "search_rank": 65,
       "identifiers": {
         "sleeper_id": "9484",
         "espn_id": null,
@@ -3363,31 +3213,6 @@
         "rotowire_id": 16649,
         "sportradar_id": "3a084c5f-6b9f-4703-a0c7-1566bc4b1129",
         "fantasy_data_id": 24118,
-        "stats_id": null
-      }
-    },
-    "9486": {
-      "sleeper_id": "9486",
-      "name": "Dontayvion Wicks",
-      "first_name": "Dontayvion",
-      "last_name": "Wicks",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 3,
-      "age": 25,
-      "search_rank": 226,
-      "identifiers": {
-        "sleeper_id": "9486",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 16658,
-        "sportradar_id": "ea3d1393-8c3b-4e81-a519-f636d28d692e",
-        "fantasy_data_id": 23253,
         "stats_id": null
       }
     },
@@ -3502,7 +3327,7 @@
       ],
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "years_exp": 3,
       "age": 25,
       "search_rank": 111,
@@ -3513,6 +3338,31 @@
         "rotowire_id": 16689,
         "sportradar_id": "dd227f4a-0785-482d-a28b-f231c7f3b73f",
         "fantasy_data_id": 24145,
+        "stats_id": null
+      }
+    },
+    "9502": {
+      "sleeper_id": "9502",
+      "name": "Tank Dell",
+      "first_name": "Tank",
+      "last_name": "Dell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "years_exp": 3,
+      "age": 26,
+      "search_rank": 178,
+      "identifiers": {
+        "sleeper_id": "9502",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 16935,
+        "sportradar_id": "25e7b423-f716-4d1a-9623-cee3e7d822ab",
+        "fantasy_data_id": 24176,
         "stats_id": null
       }
     },
@@ -3680,7 +3530,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 24,
-      "search_rank": 103,
+      "search_rank": 102,
       "identifiers": {
         "sleeper_id": "9754",
         "espn_id": null,
@@ -3702,10 +3552,10 @@
       ],
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "years_exp": 3,
       "age": 24,
-      "search_rank": 98,
+      "search_rank": 99,
       "identifiers": {
         "sleeper_id": "9756",
         "espn_id": null,
@@ -3730,7 +3580,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 24,
-      "search_rank": 92,
+      "search_rank": 95,
       "identifiers": {
         "sleeper_id": "9758",
         "espn_id": null,
@@ -3755,7 +3605,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 25,
-      "search_rank": 43,
+      "search_rank": 41,
       "identifiers": {
         "sleeper_id": "9997",
         "espn_id": null,
@@ -3805,7 +3655,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 26,
-      "search_rank": 141,
+      "search_rank": 139,
       "identifiers": {
         "sleeper_id": "10219",
         "espn_id": null,
@@ -3855,7 +3705,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 26,
-      "search_rank": 532,
+      "search_rank": 501,
       "identifiers": {
         "sleeper_id": "10226",
         "espn_id": null,
@@ -3916,6 +3766,31 @@
         "stats_id": null
       }
     },
+    "10235": {
+      "sleeper_id": "10235",
+      "name": "Roschon Johnson",
+      "first_name": "Roschon",
+      "last_name": "Johnson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 3,
+      "age": 25,
+      "search_rank": 404,
+      "identifiers": {
+        "sleeper_id": "10235",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 16772,
+        "sportradar_id": "e3c414c0-be8c-4807-af9c-f91d89c83e60",
+        "fantasy_data_id": 24372,
+        "stats_id": null
+      }
+    },
     "10236": {
       "sleeper_id": "10236",
       "name": "Dalton Kincaid",
@@ -3955,7 +3830,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 25,
-      "search_rank": 63,
+      "search_rank": 61,
       "identifiers": {
         "sleeper_id": "10859",
         "espn_id": null,
@@ -3977,7 +3852,7 @@
       ],
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 3,
       "age": 27,
       "search_rank": 161,
@@ -4005,7 +3880,7 @@
       "injury_status": null,
       "years_exp": 3,
       "age": 27,
-      "search_rank": 163,
+      "search_rank": 160,
       "identifiers": {
         "sleeper_id": "11539",
         "espn_id": null,
@@ -4030,7 +3905,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 24,
-      "search_rank": 17,
+      "search_rank": 19,
       "identifiers": {
         "sleeper_id": "11560",
         "espn_id": null,
@@ -4080,7 +3955,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 23,
-      "search_rank": 7,
+      "search_rank": 6,
       "identifiers": {
         "sleeper_id": "11564",
         "espn_id": null,
@@ -4105,7 +3980,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 25,
-      "search_rank": 17,
+      "search_rank": 16,
       "identifiers": {
         "sleeper_id": "11566",
         "espn_id": null,
@@ -4130,7 +4005,7 @@
       "injury_status": "Questionable",
       "years_exp": 2,
       "age": 24,
-      "search_rank": 494,
+      "search_rank": 546,
       "identifiers": {
         "sleeper_id": "11571",
         "espn_id": null,
@@ -4138,6 +4013,31 @@
         "rotowire_id": 17057,
         "sportradar_id": "849789be-b8f0-4d97-a777-2fcf336efa6a",
         "fantasy_data_id": 25064,
+        "stats_id": null
+      }
+    },
+    "11576": {
+      "sleeper_id": "11576",
+      "name": "Braelon Allen",
+      "first_name": "Braelon",
+      "last_name": "Allen",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 2,
+      "age": 22,
+      "search_rank": 135,
+      "identifiers": {
+        "sleeper_id": "11576",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 17702,
+        "sportradar_id": "d7f72deb-c1e2-47a2-b651-887f0e33dc44",
+        "fantasy_data_id": 24934,
         "stats_id": null
       }
     },
@@ -4152,7 +4052,7 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 2,
       "age": 22,
       "search_rank": 190,
@@ -4180,7 +4080,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 25,
-      "search_rank": 215,
+      "search_rank": 186,
       "identifiers": {
         "sleeper_id": "11581",
         "espn_id": null,
@@ -4277,7 +4177,7 @@
       ],
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 2,
       "age": 24,
       "search_rank": 114,
@@ -4288,31 +4188,6 @@
         "rotowire_id": 17767,
         "sportradar_id": "0c1253f2-1822-445d-8590-fea6fd32703f",
         "fantasy_data_id": 24292,
-        "stats_id": null
-      }
-    },
-    "11592": {
-      "sleeper_id": "11592",
-      "name": "Erick All",
-      "first_name": "Erick",
-      "last_name": "All",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 2,
-      "age": 25,
-      "search_rank": 520,
-      "identifiers": {
-        "sleeper_id": "11592",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 17696,
-        "sportradar_id": "5523779b-db60-4158-b232-8391bc7db65b",
-        "fantasy_data_id": 25208,
         "stats_id": null
       }
     },
@@ -4366,6 +4241,31 @@
         "stats_id": null
       }
     },
+    "11608": {
+      "sleeper_id": "11608",
+      "name": "Isaiah Williams",
+      "first_name": "Isaiah",
+      "last_name": "Williams",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 2,
+      "age": 25,
+      "search_rank": 420,
+      "identifiers": {
+        "sleeper_id": "11608",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 17977,
+        "sportradar_id": "2ddb2f40-07bc-11ef-82d9-5f86367458d3",
+        "fantasy_data_id": 25205,
+        "stats_id": null
+      }
+    },
     "11610": {
       "sleeper_id": "11610",
       "name": "Malik Washington",
@@ -4380,7 +4280,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 25,
-      "search_rank": 208,
+      "search_rank": 202,
       "identifiers": {
         "sleeper_id": "11610",
         "espn_id": null,
@@ -4455,7 +4355,7 @@
       "injury_status": "Questionable",
       "years_exp": 2,
       "age": 23,
-      "search_rank": 122,
+      "search_rank": 121,
       "identifiers": {
         "sleeper_id": "11624",
         "espn_id": null,
@@ -4530,7 +4430,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 25,
-      "search_rank": 588,
+      "search_rank": 662,
       "identifiers": {
         "sleeper_id": "11630",
         "espn_id": null,
@@ -4605,7 +4505,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 24,
-      "search_rank": 40,
+      "search_rank": 38,
       "identifiers": {
         "sleeper_id": "11635",
         "espn_id": null,
@@ -4627,7 +4527,7 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 2,
       "age": 23,
       "search_rank": 206,
@@ -4705,7 +4605,7 @@
       "injury_status": null,
       "years_exp": 2,
       "age": 25,
-      "search_rank": 426,
+      "search_rank": 433,
       "identifiers": {
         "sleeper_id": "11650",
         "espn_id": null,
@@ -4816,53 +4716,28 @@
         "stats_id": null
       }
     },
-    "12470": {
-      "sleeper_id": "12470",
-      "name": "Riley Leonard",
-      "first_name": "Riley",
-      "last_name": "Leonard",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 1,
-      "age": 23,
-      "search_rank": 501,
-      "identifiers": {
-        "sleeper_id": "12470",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 18513,
-        "sportradar_id": "38b62d7f-4403-4e2b-8083-4d0cd08e81aa",
-        "fantasy_data_id": 24992,
-        "stats_id": null
-      }
-    },
-    "12471": {
-      "sleeper_id": "12471",
-      "name": "DJ Giddens",
-      "first_name": "DJ",
-      "last_name": "Giddens",
+    "12457": {
+      "sleeper_id": "12457",
+      "name": "Jaydon Blue",
+      "first_name": "Jaydon",
+      "last_name": "Blue",
       "position": "RB",
       "fantasy_positions": [
         "RB"
       ],
-      "team": "IND",
+      "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "years_exp": 1,
       "age": 22,
-      "search_rank": 516,
+      "search_rank": 189,
       "identifiers": {
-        "sleeper_id": "12471",
+        "sleeper_id": "12457",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 18443,
-        "sportradar_id": "73ffa6e6-7fb3-4f34-a856-38bfd62cca15",
-        "fantasy_data_id": 25900,
+        "rotowire_id": 18499,
+        "sportradar_id": "f5e6eb8e-2c76-4bf9-b47f-57c62659341d",
+        "fantasy_data_id": 26038,
         "stats_id": null
       }
     },
@@ -4930,7 +4805,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 23,
-      "search_rank": 125,
+      "search_rank": 126,
       "identifiers": {
         "sleeper_id": "12484",
         "espn_id": null,
@@ -4938,31 +4813,6 @@
         "rotowire_id": 18551,
         "sportradar_id": "f55444a9-ccad-4343-bb03-caca6ea3de99",
         "fantasy_data_id": 26094,
-        "stats_id": null
-      }
-    },
-    "12486": {
-      "sleeper_id": "12486",
-      "name": "Dillon Gabriel",
-      "first_name": "Dillon",
-      "last_name": "Gabriel",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 1,
-      "age": 25,
-      "search_rank": 999,
-      "identifiers": {
-        "sleeper_id": "12486",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 18496,
-        "sportradar_id": "299d4fe8-188c-43d1-95d3-8a8f103da5c5",
-        "fantasy_data_id": 23177,
         "stats_id": null
       }
     },
@@ -5041,31 +4891,6 @@
         "stats_id": null
       }
     },
-    "12492": {
-      "sleeper_id": "12492",
-      "name": "Pat Bryant",
-      "first_name": "Pat",
-      "last_name": "Bryant",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 1,
-      "age": 23,
-      "search_rank": 172,
-      "identifiers": {
-        "sleeper_id": "12492",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 18562,
-        "sportradar_id": "2858209e-4aa7-4539-9901-99a4d881229c",
-        "fantasy_data_id": 25975,
-        "stats_id": null
-      }
-    },
     "12493": {
       "sleeper_id": "12493",
       "name": "Oronde Gadsden",
@@ -5088,6 +4913,31 @@
         "rotowire_id": 18481,
         "sportradar_id": "6af50530-145a-4b34-946d-ce1a7f7d3166",
         "fantasy_data_id": 25876,
+        "stats_id": null
+      }
+    },
+    "12495": {
+      "sleeper_id": "12495",
+      "name": "Ollie Gordon",
+      "first_name": "Ollie",
+      "last_name": "Gordon",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 1,
+      "age": 22,
+      "search_rank": 469,
+      "identifiers": {
+        "sleeper_id": "12495",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 18450,
+        "sportradar_id": "42753bb4-a416-4d40-bf81-f20d2181be2f",
+        "fantasy_data_id": 25953,
         "stats_id": null
       }
     },
@@ -5127,10 +4977,10 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 1,
       "age": 23,
-      "search_rank": 481,
+      "search_rank": 341,
       "identifiers": {
         "sleeper_id": "12500",
         "espn_id": null,
@@ -5155,7 +5005,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 23,
-      "search_rank": 126,
+      "search_rank": 124,
       "identifiers": {
         "sleeper_id": "12501",
         "espn_id": null,
@@ -5163,31 +5013,6 @@
         "rotowire_id": 18500,
         "sportradar_id": "d1963360-c011-4764-9a36-9e627073f68f",
         "fantasy_data_id": 25922,
-        "stats_id": null
-      }
-    },
-    "12502": {
-      "sleeper_id": "12502",
-      "name": "Gunnar Helm",
-      "first_name": "Gunnar",
-      "last_name": "Helm",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 1,
-      "age": 23,
-      "search_rank": 153,
-      "identifiers": {
-        "sleeper_id": "12502",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 18503,
-        "sportradar_id": "beb69cba-f240-43ed-88d3-50d066cf55d4",
-        "fantasy_data_id": 25962,
         "stats_id": null
       }
     },
@@ -5205,7 +5030,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 22,
-      "search_rank": 430,
+      "search_rank": 551,
       "identifiers": {
         "sleeper_id": "12503",
         "espn_id": null,
@@ -5291,6 +5116,31 @@
         "stats_id": null
       }
     },
+    "12510": {
+      "sleeper_id": "12510",
+      "name": "Jalen Milroe",
+      "first_name": "Jalen",
+      "last_name": "Milroe",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 1,
+      "age": 23,
+      "search_rank": 475,
+      "identifiers": {
+        "sleeper_id": "12510",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 18477,
+        "sportradar_id": "b0eb5b67-4ef2-462d-bfe7-e73bcce1f6b0",
+        "fantasy_data_id": 25882,
+        "stats_id": null
+      }
+    },
     "12512": {
       "sleeper_id": "12512",
       "name": "Quinshon Judkins",
@@ -5330,7 +5180,7 @@
       "injury_status": "Questionable",
       "years_exp": 1,
       "age": 23,
-      "search_rank": 40,
+      "search_rank": 39,
       "identifiers": {
         "sleeper_id": "12514",
         "espn_id": null,
@@ -5355,7 +5205,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 22,
-      "search_rank": 39,
+      "search_rank": 40,
       "identifiers": {
         "sleeper_id": "12517",
         "espn_id": null,
@@ -5380,7 +5230,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 24,
-      "search_rank": 47,
+      "search_rank": 46,
       "identifiers": {
         "sleeper_id": "12518",
         "espn_id": null,
@@ -5531,7 +5381,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 23,
-      "search_rank": 129,
+      "search_rank": 120,
       "identifiers": {
         "sleeper_id": "12530",
         "espn_id": null,
@@ -5578,7 +5428,7 @@
       ],
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 1,
       "age": 24,
       "search_rank": 61,
@@ -5589,6 +5439,31 @@
         "rotowire_id": 18520,
         "sportradar_id": "6edec23b-f938-40f7-a151-1db5374880dd",
         "fantasy_data_id": 25952,
+        "stats_id": null
+      }
+    },
+    "12535": {
+      "sleeper_id": "12535",
+      "name": "Isaac TeSlaa",
+      "first_name": "Isaac",
+      "last_name": "TeSlaa",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 1,
+      "age": 24,
+      "search_rank": 184,
+      "identifiers": {
+        "sleeper_id": "12535",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 18642,
+        "sportradar_id": "41e5e4a9-f04c-462e-a1d1-e35a8115b974",
+        "fantasy_data_id": 26101,
         "stats_id": null
       }
     },
@@ -5617,28 +5492,28 @@
         "stats_id": null
       }
     },
-    "12547": {
-      "sleeper_id": "12547",
-      "name": "Kyle Williams",
-      "first_name": "Kyle",
-      "last_name": "Williams",
-      "position": "WR",
+    "12545": {
+      "sleeper_id": "12545",
+      "name": "Tyler Shough",
+      "first_name": "Tyler",
+      "last_name": "Shough",
+      "position": "QB",
       "fantasy_positions": [
-        "WR"
+        "QB"
       ],
-      "team": "NE",
+      "team": "NO",
       "status": "Active",
       "injury_status": null,
       "years_exp": 1,
-      "age": 23,
-      "search_rank": 195,
+      "age": 26,
+      "search_rank": 86,
       "identifiers": {
-        "sleeper_id": "12547",
+        "sleeper_id": "12545",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 19126,
-        "sportradar_id": "3aa9330e-5201-4e99-ba55-0102f76bfe05",
-        "fantasy_data_id": 25912,
+        "rotowire_id": 17037,
+        "sportradar_id": "94b8f9e1-3109-4429-8f71-4f79d7588237",
+        "fantasy_data_id": 23187,
         "stats_id": null
       }
     },
@@ -5656,7 +5531,7 @@
       "injury_status": null,
       "years_exp": 1,
       "age": 24,
-      "search_rank": 446,
+      "search_rank": 675,
       "identifiers": {
         "sleeper_id": "12641",
         "espn_id": null,
@@ -5667,78 +5542,28 @@
         "stats_id": null
       }
     },
-    "12670": {
-      "sleeper_id": "12670",
-      "name": "KeAndre Lambert-Smith",
-      "first_name": "KeAndre",
-      "last_name": "Lambert-Smith",
-      "position": "WR",
+    "12711": {
+      "sleeper_id": "12711",
+      "name": "Tyler Loop",
+      "first_name": "Tyler",
+      "last_name": "Loop",
+      "position": "K",
       "fantasy_positions": [
-        "WR"
+        "K"
       ],
-      "team": "LAC",
+      "team": "BAL",
       "status": "Active",
       "injury_status": null,
       "years_exp": 1,
-      "age": 24,
-      "search_rank": 999,
+      "age": 25,
+      "search_rank": 150,
       "identifiers": {
-        "sleeper_id": "12670",
+        "sleeper_id": "12711",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 18650,
-        "sportradar_id": "2f6580d2-6f19-4a03-99e8-4dbd9ebf2a73",
-        "fantasy_data_id": 26059,
-        "stats_id": null
-      }
-    },
-    "13150": {
-      "sleeper_id": "13150",
-      "name": "Darius Cooper",
-      "first_name": "Darius",
-      "last_name": "Cooper",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 1,
-      "age": 24,
-      "search_rank": 669,
-      "identifiers": {
-        "sleeper_id": "13150",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 18958,
-        "sportradar_id": "2aa4ddb0-2775-11f0-9d31-3b5afe6c6d5f",
-        "fantasy_data_id": 25307,
-        "stats_id": null
-      }
-    },
-    "13264": {
-      "sleeper_id": "13264",
-      "name": "Dohnte Meyers",
-      "first_name": "Dohnte",
-      "last_name": "Meyers",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 3,
-      "age": 26,
-      "search_rank": 9999999,
-      "identifiers": {
-        "sleeper_id": "13264",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 19247,
-        "sportradar_id": "adf036f0-ebe3-11f0-b9c8-cb8413f2962c",
-        "fantasy_data_id": 26873,
+        "rotowire_id": 18742,
+        "sportradar_id": "a6b8b5d3-a2f2-4532-ade3-dc122b6b240c",
+        "fantasy_data_id": 26109,
         "stats_id": null
       }
     },
@@ -5778,7 +5603,7 @@
       ],
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 0,
       "age": 21,
       "search_rank": 61,
@@ -5803,7 +5628,7 @@
       ],
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Doubtful",
       "years_exp": 0,
       "age": 22,
       "search_rank": 62,
@@ -5828,10 +5653,10 @@
       ],
       "team": "SEA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "years_exp": 0,
       "age": 22,
-      "search_rank": 62,
+      "search_rank": 61,
       "identifiers": {
         "sleeper_id": "13286",
         "espn_id": null,
@@ -5906,7 +5731,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 22,
-      "search_rank": 389,
+      "search_rank": 350,
       "identifiers": {
         "sleeper_id": "13289",
         "espn_id": null,
@@ -5931,7 +5756,7 @@
       "injury_status": "Questionable",
       "years_exp": 0,
       "age": 22,
-      "search_rank": 83,
+      "search_rank": 84,
       "identifiers": {
         "sleeper_id": "13294",
         "espn_id": null,
@@ -5953,10 +5778,10 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "years_exp": 0,
       "age": 22,
-      "search_rank": 248,
+      "search_rank": 241,
       "identifiers": {
         "sleeper_id": "13296",
         "espn_id": null,
@@ -5992,6 +5817,31 @@
         "stats_id": null
       }
     },
+    "13302": {
+      "sleeper_id": "13302",
+      "name": "Adam Randall",
+      "first_name": "Adam",
+      "last_name": "Randall",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 0,
+      "age": 22,
+      "search_rank": 393,
+      "identifiers": {
+        "sleeper_id": "13302",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 19301,
+        "sportradar_id": "4fa0fbdb-05a1-4ca0-89dd-f999978b5827",
+        "fantasy_data_id": 26737,
+        "stats_id": null
+      }
+    },
     "13303": {
       "sleeper_id": "13303",
       "name": "Cade Klubnik",
@@ -6006,7 +5856,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 22,
-      "search_rank": 368,
+      "search_rank": 366,
       "identifiers": {
         "sleeper_id": "13303",
         "espn_id": null,
@@ -6031,7 +5881,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 23,
-      "search_rank": 507,
+      "search_rank": 558,
       "identifiers": {
         "sleeper_id": "13306",
         "espn_id": null,
@@ -6042,28 +5892,78 @@
         "stats_id": null
       }
     },
-    "13307": {
-      "sleeper_id": "13307",
-      "name": "Marlin Klein",
-      "first_name": "Marlin",
-      "last_name": "Klein",
+    "13311": {
+      "sleeper_id": "13311",
+      "name": "Chris Bell",
+      "first_name": "Chris",
+      "last_name": "Bell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "years_exp": 0,
+      "age": 22,
+      "search_rank": 203,
+      "identifiers": {
+        "sleeper_id": "13311",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 19309,
+        "sportradar_id": "e1d2a5a1-71a9-4053-b475-8e5075cb1860",
+        "fantasy_data_id": 26745,
+        "stats_id": null
+      }
+    },
+    "13315": {
+      "sleeper_id": "13315",
+      "name": "Dean Connors",
+      "first_name": "Dean",
+      "last_name": "Connors",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 0,
+      "age": 22,
+      "search_rank": 351,
+      "identifiers": {
+        "sleeper_id": "13315",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 19306,
+        "sportradar_id": "faa89ce0-42a4-11f1-9d8f-414640fbdaef",
+        "fantasy_data_id": 26949,
+        "stats_id": null
+      }
+    },
+    "13324": {
+      "sleeper_id": "13324",
+      "name": "Matt Hibner",
+      "first_name": "Matt",
+      "last_name": "Hibner",
       "position": "TE",
       "fantasy_positions": [
         "TE"
       ],
-      "team": "HOU",
+      "team": "BAL",
       "status": "Active",
       "injury_status": null,
       "years_exp": 0,
-      "age": 23,
-      "search_rank": 374,
+      "age": 24,
+      "search_rank": 513,
       "identifiers": {
-        "sleeper_id": "13307",
+        "sleeper_id": "13324",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 19352,
-        "sportradar_id": "bc8c44b4-bda4-43e6-9ed4-6da16263e7f2",
-        "fantasy_data_id": 26925,
+        "rotowire_id": 19364,
+        "sportradar_id": "8f18100f-d967-4cac-b1b7-7af70c4d985a",
+        "fantasy_data_id": 26976,
         "stats_id": null
       }
     },
@@ -6081,7 +5981,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 23,
-      "search_rank": 430,
+      "search_rank": 479,
       "identifiers": {
         "sleeper_id": "13329",
         "espn_id": null,
@@ -6167,6 +6067,31 @@
         "stats_id": null
       }
     },
+    "13348": {
+      "sleeper_id": "13348",
+      "name": "J'Mari Taylor",
+      "first_name": "J'Mari",
+      "last_name": "Taylor",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "years_exp": 0,
+      "age": 24,
+      "search_rank": 570,
+      "identifiers": {
+        "sleeper_id": "13348",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 19245,
+        "sportradar_id": "074d3d60-418e-11f1-97b1-f7c9890d626f",
+        "fantasy_data_id": 26736,
+        "stats_id": null
+      }
+    },
     "13392": {
       "sleeper_id": "13392",
       "name": "Jeff Caldwell",
@@ -6181,7 +6106,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 23,
-      "search_rank": 553,
+      "search_rank": 480,
       "identifiers": {
         "sleeper_id": "13392",
         "espn_id": null,
@@ -6192,28 +6117,28 @@
         "stats_id": null
       }
     },
-    "13403": {
-      "sleeper_id": "13403",
-      "name": "Jam Miller",
-      "first_name": "Jam",
-      "last_name": "Miller",
-      "position": "RB",
+    "13401": {
+      "sleeper_id": "13401",
+      "name": "Michael Trigg",
+      "first_name": "Michael",
+      "last_name": "Trigg",
+      "position": "TE",
       "fantasy_positions": [
-        "RB"
+        "TE"
       ],
-      "team": "NE",
+      "team": "DAL",
       "status": "Active",
       "injury_status": null,
       "years_exp": 0,
-      "age": null,
-      "search_rank": 999,
+      "age": 24,
+      "search_rank": 212,
       "identifiers": {
-        "sleeper_id": "13403",
+        "sleeper_id": "13401",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 19302,
-        "sportradar_id": "e7144c4a-1dd7-4474-b033-ad06e08f1745",
-        "fantasy_data_id": 26771,
+        "rotowire_id": 19346,
+        "sportradar_id": "6bff41b0-4191-11f1-9de2-13456d982f5a",
+        "fantasy_data_id": 28066,
         "stats_id": null
       }
     },
@@ -6231,7 +6156,7 @@
       "injury_status": "Questionable",
       "years_exp": 0,
       "age": 22,
-      "search_rank": 476,
+      "search_rank": 460,
       "identifiers": {
         "sleeper_id": "13411",
         "espn_id": null,
@@ -6256,7 +6181,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 23,
-      "search_rank": 204,
+      "search_rank": 200,
       "identifiers": {
         "sleeper_id": "13413",
         "espn_id": null,
@@ -6264,6 +6189,31 @@
         "rotowire_id": 19631,
         "sportradar_id": "a07ac8bd-3929-4e48-b3c4-3ddeecd09dca",
         "fantasy_data_id": 26979,
+        "stats_id": null
+      }
+    },
+    "13414": {
+      "sleeper_id": "13414",
+      "name": "Kaelon Black",
+      "first_name": "Kaelon",
+      "last_name": "Black",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "years_exp": 0,
+      "age": 24,
+      "search_rank": 213,
+      "identifiers": {
+        "sleeper_id": "13414",
+        "espn_id": null,
+        "yahoo_id": null,
+        "rotowire_id": 19607,
+        "sportradar_id": "4dea3ae1-8c53-4ef1-bd72-e2d2dfb3fa97",
+        "fantasy_data_id": 26981,
         "stats_id": null
       }
     },
@@ -6281,7 +6231,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 23,
-      "search_rank": 148,
+      "search_rank": 142,
       "identifiers": {
         "sleeper_id": "13417",
         "espn_id": null,
@@ -6306,7 +6256,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 24,
-      "search_rank": 999,
+      "search_rank": 276,
       "identifiers": {
         "sleeper_id": "13418",
         "espn_id": null,
@@ -6314,56 +6264,6 @@
         "rotowire_id": 18451,
         "sportradar_id": "75063230-4260-11f1-a80d-bff068733e76",
         "fantasy_data_id": 26770,
-        "stats_id": null
-      }
-    },
-    "13420": {
-      "sleeper_id": "13420",
-      "name": "Bryce Lance",
-      "first_name": "Bryce",
-      "last_name": "Lance",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 0,
-      "age": 23,
-      "search_rank": 441,
-      "identifiers": {
-        "sleeper_id": "13420",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 19319,
-        "sportradar_id": "4d5c31ba-45ea-4247-a41a-acfa82bdbd39",
-        "fantasy_data_id": 26852,
-        "stats_id": null
-      }
-    },
-    "13421": {
-      "sleeper_id": "13421",
-      "name": "Eli Raridon",
-      "first_name": "Eli",
-      "last_name": "Raridon",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "NE",
-      "status": "Active",
-      "injury_status": null,
-      "years_exp": 0,
-      "age": 22,
-      "search_rank": 352,
-      "identifiers": {
-        "sleeper_id": "13421",
-        "espn_id": null,
-        "yahoo_id": null,
-        "rotowire_id": 19348,
-        "sportradar_id": "aa71e3dc-07e5-4f99-ad1a-2f95ced64c28",
-        "fantasy_data_id": 26863,
         "stats_id": null
       }
     },
@@ -6381,7 +6281,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 24,
-      "search_rank": 445,
+      "search_rank": 479,
       "identifiers": {
         "sleeper_id": "13424",
         "espn_id": null,
@@ -6406,7 +6306,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 24,
-      "search_rank": 477,
+      "search_rank": 599,
       "identifiers": {
         "sleeper_id": "13477",
         "espn_id": null,
@@ -6431,7 +6331,7 @@
       "injury_status": null,
       "years_exp": 0,
       "age": 22,
-      "search_rank": 494,
+      "search_rank": 545,
       "identifiers": {
         "sleeper_id": "13533",
         "espn_id": null,
@@ -6442,28 +6342,28 @@
         "stats_id": null
       }
     },
-    "13545": {
-      "sleeper_id": "13545",
-      "name": "Trey Smack",
-      "first_name": "Trey",
-      "last_name": "Smack",
-      "position": "K",
+    "13726": {
+      "sleeper_id": "13726",
+      "name": "Camden Brown",
+      "first_name": "Camden",
+      "last_name": "Brown",
+      "position": "WR",
       "fantasy_positions": [
-        "K"
+        "WR"
       ],
-      "team": "GB",
+      "team": "DAL",
       "status": "Active",
       "injury_status": null,
       "years_exp": 0,
-      "age": 23,
-      "search_rank": 330,
+      "age": null,
+      "search_rank": 386,
       "identifiers": {
-        "sleeper_id": "13545",
+        "sleeper_id": "13726",
         "espn_id": null,
         "yahoo_id": null,
-        "rotowire_id": 19511,
-        "sportradar_id": "fc5890c6-b22d-4b5b-8ca5-2722b077bc8b",
-        "fantasy_data_id": 28107,
+        "rotowire_id": 19989,
+        "sportradar_id": "4d049250-4278-11f1-b3d1-bb3960424d63",
+        "fantasy_data_id": 26800,
         "stats_id": null
       }
     },
@@ -6897,406 +6797,406 @@
     "lookback_hours": 24,
     "adds": [
       {
-        "count": 83376,
+        "count": 49635,
         "player_id": "2505"
       },
       {
-        "count": 45900,
+        "count": 46944,
+        "player_id": "11571"
+      },
+      {
+        "count": 31686,
+        "player_id": "13726"
+      },
+      {
+        "count": 27783,
         "player_id": "13533"
       },
       {
-        "count": 36448,
-        "player_id": "13296"
+        "count": 26816,
+        "player_id": "11576"
       },
       {
-        "count": 32283,
-        "player_id": "13289"
-      },
-      {
-        "count": 14378,
+        "count": 24290,
         "player_id": "13418"
       },
       {
-        "count": 13923,
+        "count": 23121,
+        "player_id": "13324"
+      },
+      {
+        "count": 19496,
+        "player_id": "13296"
+      },
+      {
+        "count": 17829,
         "player_id": "11581"
       },
       {
-        "count": 9144,
-        "player_id": "13329"
-      },
-      {
-        "count": 8765,
-        "player_id": "13307"
-      },
-      {
-        "count": 8322,
-        "player_id": "13413"
-      },
-      {
-        "count": 7343,
-        "player_id": "11834"
-      },
-      {
-        "count": 7137,
+        "count": 15336,
         "player_id": "8180"
       },
       {
-        "count": 6888,
-        "player_id": "11783"
+        "count": 13062,
+        "player_id": "13413"
       },
       {
-        "count": 6831,
-        "player_id": "5995"
+        "count": 12943,
+        "player_id": "11834"
       },
       {
-        "count": 6800,
-        "player_id": "13424"
+        "count": 12270,
+        "player_id": "13329"
       },
       {
-        "count": 6102,
-        "player_id": "13477"
-      },
-      {
-        "count": 5789,
-        "player_id": "8161"
-      },
-      {
-        "count": 5256,
-        "player_id": "9511"
-      },
-      {
-        "count": 5157,
-        "player_id": "8127"
-      },
-      {
-        "count": 4536,
+        "count": 11560,
         "player_id": "11610"
       },
       {
-        "count": 4438,
-        "player_id": "13150"
+        "count": 10206,
+        "player_id": "8161"
       },
       {
-        "count": 4401,
-        "player_id": "13403"
+        "count": 10010,
+        "player_id": "13315"
       },
       {
-        "count": 4392,
-        "player_id": "13411"
-      },
-      {
-        "count": 4182,
+        "count": 9966,
         "player_id": "JAX"
       },
       {
-        "count": 4041,
-        "player_id": "13303"
+        "count": 8955,
+        "player_id": "5995"
       },
       {
-        "count": 3792,
-        "player_id": "12487"
+        "count": 8865,
+        "player_id": "9511"
       },
       {
-        "count": 3700,
-        "player_id": "13420"
+        "count": 8248,
+        "player_id": "10235"
       },
       {
-        "count": 3392,
+        "count": 8154,
+        "player_id": "13289"
+      },
+      {
+        "count": 7704,
         "player_id": "4017"
       },
       {
-        "count": 3330,
+        "count": 7568,
+        "player_id": "11783"
+      },
+      {
+        "count": 7263,
+        "player_id": "13401"
+      },
+      {
+        "count": 6738,
+        "player_id": "11608"
+      },
+      {
+        "count": 6680,
+        "player_id": "8132"
+      },
+      {
+        "count": 6300,
         "player_id": "10219"
       },
       {
-        "count": 3104,
-        "player_id": "1166"
+        "count": 6090,
+        "player_id": "13477"
       },
       {
-        "count": 3084,
-        "player_id": "9486"
+        "count": 5904,
+        "player_id": "13411"
       },
       {
-        "count": 3045,
-        "player_id": "9225"
-      },
-      {
-        "count": 2898,
-        "player_id": "11630"
-      },
-      {
-        "count": 2872,
-        "player_id": "13306"
-      },
-      {
-        "count": 2871,
-        "player_id": "13264"
-      },
-      {
-        "count": 2793,
-        "player_id": "13421"
-      },
-      {
-        "count": 2720,
-        "player_id": "12492"
-      },
-      {
-        "count": 2684,
-        "player_id": "13545"
-      },
-      {
-        "count": 2682,
-        "player_id": "19"
-      },
-      {
-        "count": 2628,
-        "player_id": "9482"
-      },
-      {
-        "count": 2616,
-        "player_id": "3321"
-      },
-      {
-        "count": 2547,
+        "count": 5904,
         "player_id": "DET"
       },
       {
-        "count": 2538,
-        "player_id": "11592"
+        "count": 5832,
+        "player_id": "13348"
       },
       {
-        "count": 2506,
-        "player_id": "12502"
-      },
-      {
-        "count": 2480,
+        "count": 5672,
         "player_id": "11539"
       },
       {
-        "count": 2472,
-        "player_id": "11625"
+        "count": 5190,
+        "player_id": "7528"
       },
       {
-        "count": 2448,
-        "player_id": "7608"
+        "count": 5085,
+        "player_id": "13303"
       },
       {
-        "count": 2345,
-        "player_id": "12503"
+        "count": 4950,
+        "player_id": "12711"
       },
       {
-        "count": 2340,
-        "player_id": "10213"
+        "count": 4795,
+        "player_id": "2078"
       },
       {
-        "count": 2295,
+        "count": 4608,
+        "player_id": "13424"
+      },
+      {
+        "count": 4509,
         "player_id": "9487"
       },
       {
-        "count": 2044,
-        "player_id": "2078"
+        "count": 4336,
+        "player_id": "5849"
+      },
+      {
+        "count": 4312,
+        "player_id": "13302"
+      },
+      {
+        "count": 4290,
+        "player_id": "10213"
+      },
+      {
+        "count": 4203,
+        "player_id": "9480"
+      },
+      {
+        "count": 4116,
+        "player_id": "13414"
+      },
+      {
+        "count": 4072,
+        "player_id": "3321"
+      },
+      {
+        "count": 4056,
+        "player_id": "12545"
+      },
+      {
+        "count": 3942,
+        "player_id": "13337"
+      },
+      {
+        "count": 3888,
+        "player_id": "12487"
+      },
+      {
+        "count": 3871,
+        "player_id": "13311"
+      },
+      {
+        "count": 3808,
+        "player_id": "13306"
+      },
+      {
+        "count": 3774,
+        "player_id": "11603"
       }
     ],
     "drops": [
       {
-        "count": 9729,
-        "player_id": "11435"
-      },
-      {
-        "count": 8910,
-        "player_id": "1339"
-      },
-      {
-        "count": 7668,
-        "player_id": "12540"
-      },
-      {
-        "count": 6822,
-        "player_id": "8800"
-      },
-      {
-        "count": 6594,
-        "player_id": "11589"
-      },
-      {
-        "count": 6579,
-        "player_id": "11619"
-      },
-      {
-        "count": 6525,
-        "player_id": "6130"
-      },
-      {
-        "count": 6440,
-        "player_id": "3321"
-      },
-      {
-        "count": 6314,
-        "player_id": "12455"
-      },
-      {
-        "count": 6309,
-        "player_id": "12500"
-      },
-      {
-        "count": 6230,
-        "player_id": "4144"
-      },
-      {
-        "count": 5475,
-        "player_id": "7528"
-      },
-      {
-        "count": 5432,
-        "player_id": "1479"
-      },
-      {
-        "count": 5432,
-        "player_id": "12641"
-      },
-      {
-        "count": 5319,
-        "player_id": "11571"
-      },
-      {
-        "count": 5175,
+        "count": 19782,
         "player_id": "7608"
       },
       {
-        "count": 5094,
+        "count": 15498,
+        "player_id": "11435"
+      },
+      {
+        "count": 12807,
+        "player_id": "1339"
+      },
+      {
+        "count": 11696,
+        "player_id": "3321"
+      },
+      {
+        "count": 11370,
+        "player_id": "11589"
+      },
+      {
+        "count": 11349,
+        "player_id": "12540"
+      },
+      {
+        "count": 9756,
+        "player_id": "6130"
+      },
+      {
+        "count": 9534,
+        "player_id": "12455"
+      },
+      {
+        "count": 8685,
         "player_id": "9506"
       },
       {
-        "count": 5085,
-        "player_id": "8125"
+        "count": 8397,
+        "player_id": "11571"
       },
       {
-        "count": 5076,
-        "player_id": "7090"
-      },
-      {
-        "count": 5022,
-        "player_id": "11630"
-      },
-      {
-        "count": 4916,
-        "player_id": "4098"
-      },
-      {
-        "count": 4606,
-        "player_id": "8135"
-      },
-      {
-        "count": 4576,
-        "player_id": "4066"
-      },
-      {
-        "count": 4560,
-        "player_id": "11647"
-      },
-      {
-        "count": 4545,
-        "player_id": "6783"
-      },
-      {
-        "count": 4536,
-        "player_id": "10226"
-      },
-      {
-        "count": 4473,
-        "player_id": "9494"
-      },
-      {
-        "count": 4404,
-        "player_id": "6865"
-      },
-      {
-        "count": 4396,
-        "player_id": "4381"
-      },
-      {
-        "count": 4248,
-        "player_id": "2505"
-      },
-      {
-        "count": 4248,
-        "player_id": "13392"
-      },
-      {
-        "count": 4025,
-        "player_id": "8147"
-      },
-      {
-        "count": 3928,
-        "player_id": "8205"
-      },
-      {
-        "count": 3896,
-        "player_id": "8117"
-      },
-      {
-        "count": 3840,
-        "player_id": "12524"
-      },
-      {
-        "count": 3834,
-        "player_id": "11637"
-      },
-      {
-        "count": 3768,
+        "count": 8256,
         "player_id": "11625"
       },
       {
-        "count": 3703,
-        "player_id": "12486"
+        "count": 8244,
+        "player_id": "11630"
       },
       {
-        "count": 3618,
-        "player_id": "19"
+        "count": 8232,
+        "player_id": "12524"
       },
       {
-        "count": 3600,
-        "player_id": "12470"
+        "count": 8064,
+        "player_id": "1479"
       },
       {
-        "count": 3588,
-        "player_id": "7591"
+        "count": 8029,
+        "player_id": "4144"
       },
       {
-        "count": 3465,
-        "player_id": "12670"
+        "count": 8010,
+        "player_id": "12500"
       },
       {
-        "count": 3444,
-        "player_id": "4663"
+        "count": 7902,
+        "player_id": "7090"
       },
       {
-        "count": 3425,
-        "player_id": "8698"
+        "count": 7632,
+        "player_id": "12641"
       },
       {
-        "count": 3353,
+        "count": 7488,
+        "player_id": "6783"
+      },
+      {
+        "count": 7416,
+        "player_id": "8205"
+      },
+      {
+        "count": 7400,
+        "player_id": "7528"
+      },
+      {
+        "count": 7218,
+        "player_id": "2505"
+      },
+      {
+        "count": 7218,
+        "player_id": "10226"
+      },
+      {
+        "count": 7150,
+        "player_id": "11647"
+      },
+      {
+        "count": 7128,
+        "player_id": "9494"
+      },
+      {
+        "count": 7020,
+        "player_id": "11619"
+      },
+      {
+        "count": 6900,
+        "player_id": "4098"
+      },
+      {
+        "count": 6813,
+        "player_id": "8800"
+      },
+      {
+        "count": 6800,
+        "player_id": "12457"
+      },
+      {
+        "count": 6786,
+        "player_id": "8125"
+      },
+      {
+        "count": 6712,
+        "player_id": "9502"
+      },
+      {
+        "count": 6440,
+        "player_id": "4066"
+      },
+      {
+        "count": 6424,
+        "player_id": "4035"
+      },
+      {
+        "count": 6360,
+        "player_id": "12510"
+      },
+      {
+        "count": 6186,
+        "player_id": "8154"
+      },
+      {
+        "count": 6139,
+        "player_id": "8135"
+      },
+      {
+        "count": 6021,
+        "player_id": "13392"
+      },
+      {
+        "count": 5922,
+        "player_id": "9480"
+      },
+      {
+        "count": 5862,
+        "player_id": "6865"
+      },
+      {
+        "count": 5823,
+        "player_id": "11637"
+      },
+      {
+        "count": 5705,
+        "player_id": "9225"
+      },
+      {
+        "count": 5677,
         "player_id": "11650"
       },
       {
-        "count": 3240,
-        "player_id": "7607"
+        "count": 5655,
+        "player_id": "12503"
       },
       {
-        "count": 3235,
-        "player_id": "12547"
+        "count": 5642,
+        "player_id": "12495"
       },
       {
-        "count": 3225,
-        "player_id": "12471"
+        "count": 5593,
+        "player_id": "8147"
       },
       {
-        "count": 3176,
-        "player_id": "13424"
+        "count": 5571,
+        "player_id": "19"
       },
       {
-        "count": 3141,
-        "player_id": "9480"
+        "count": 5358,
+        "player_id": "7591"
+      },
+      {
+        "count": 5346,
+        "player_id": "9511"
+      },
+      {
+        "count": 5216,
+        "player_id": "12535"
+      },
+      {
+        "count": 5187,
+        "player_id": "4381"
       }
     ]
   },
@@ -12828,7 +12728,7 @@
           ],
           "roster_id": 1,
           "custom_points": null,
-          "matchup_id": 3,
+          "matchup_id": 2,
           "starters": [
             "4984",
             "9221",
@@ -12889,7 +12789,7 @@
           ],
           "roster_id": 2,
           "custom_points": null,
-          "matchup_id": 6,
+          "matchup_id": 5,
           "starters": [
             "11566",
             "13287",
@@ -12949,7 +12849,7 @@
           ],
           "roster_id": 3,
           "custom_points": null,
-          "matchup_id": 4,
+          "matchup_id": 5,
           "starters": [
             "4881",
             "9226",
@@ -13009,7 +12909,7 @@
           ],
           "roster_id": 4,
           "custom_points": null,
-          "matchup_id": 5,
+          "matchup_id": 6,
           "starters": [
             "12508",
             "8138",
@@ -13069,7 +12969,7 @@
           ],
           "roster_id": 5,
           "custom_points": null,
-          "matchup_id": 3,
+          "matchup_id": 4,
           "starters": [
             "6904",
             "4866",
@@ -13129,7 +13029,7 @@
           ],
           "roster_id": 6,
           "custom_points": null,
-          "matchup_id": 1,
+          "matchup_id": 2,
           "starters": [
             "11560",
             "9224",
@@ -13249,7 +13149,7 @@
           ],
           "roster_id": 8,
           "custom_points": null,
-          "matchup_id": 4,
+          "matchup_id": 3,
           "starters": [
             "6797",
             "3198",
@@ -13310,7 +13210,7 @@
           ],
           "roster_id": 9,
           "custom_points": null,
-          "matchup_id": 5,
+          "matchup_id": 4,
           "starters": [
             "6770",
             "12507",
@@ -13431,7 +13331,7 @@
           ],
           "roster_id": 11,
           "custom_points": null,
-          "matchup_id": 2,
+          "matchup_id": 3,
           "starters": [
             "421",
             "6813",
@@ -13491,7 +13391,7 @@
           ],
           "roster_id": 12,
           "custom_points": null,
-          "matchup_id": 2,
+          "matchup_id": 1,
           "starters": [
             "3294",
             "12527",
@@ -13532,54 +13432,7 @@
           }
         }
       ],
-      "transactions": [
-        {
-          "status": "complete",
-          "type": "free_agent",
-          "metadata": null,
-          "created": 1786660245270,
-          "settings": null,
-          "leg": 1,
-          "draft_picks": [],
-          "creator": "1268247433763102720",
-          "transaction_id": "1393757723165745152",
-          "adds": {
-            "9508": 9
-          },
-          "drops": null,
-          "consenter_ids": [
-            9
-          ],
-          "roster_ids": [
-            9
-          ],
-          "status_updated": 1786660245270,
-          "waiver_budget": []
-        },
-        {
-          "status": "complete",
-          "type": "free_agent",
-          "metadata": null,
-          "created": 1786504695821,
-          "settings": null,
-          "leg": 1,
-          "draft_picks": [],
-          "creator": "408411837386727424",
-          "transaction_id": "1393105301489598464",
-          "adds": {
-            "8180": 1
-          },
-          "drops": null,
-          "consenter_ids": [
-            1
-          ],
-          "roster_ids": [
-            1
-          ],
-          "status_updated": 1786504695821,
-          "waiver_budget": []
-        }
-      ]
+      "transactions": []
     },
     "gcs_2_0": {
       "league_id": "1389347432927608832",
