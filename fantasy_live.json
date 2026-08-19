@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T01:45:27.127Z",
+  "generated_at": "2026-08-19T02:00:14.933Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-08-19T01:45:27.004Z",
+    "compiled_at": "2026-08-19T02:00:14.813Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
-        "generated_at": "2026-08-19T01:44:40.809Z",
-        "age_minutes": 1,
+        "generated_at": "2026-08-19T01:45:43.492Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
-        "generated_at": "2026-08-19T01:00:16.756Z",
-        "age_minutes": 45,
+        "generated_at": "2026-08-19T01:44:56.935Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
         "generated_at": "2026-08-18T22:00:44.804Z",
-        "age_minutes": 225,
+        "age_minutes": 240,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 190,
@@ -32,9 +32,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "pre",
-    "season": "2026",
     "leg": 0,
+    "season": "2026",
+    "season_type": "pre",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
