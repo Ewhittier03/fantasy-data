@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T21:45:15.204Z",
+  "generated_at": "2026-09-02T22:00:14.096Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-02T21:30:41.697Z",
+    "sleeper": "2026-09-02T21:45:41.659Z",
     "nfl": "2026-09-02T21:00:17.764Z",
     "market": "2026-09-02T16:00:42.048Z"
   },
@@ -11133,7 +11133,7 @@
     "11557": {
       "sleeper_id": "11557",
       "name": "Joe Milton",
-      "team": null,
+      "team": "DAL",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -11892,6 +11892,23 @@
         "gsis_id": null,
         "pfr_id": null,
         "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "12524": {
+      "sleeper_id": "12524",
+      "name": "Shedeur Sanders",
+      "team": "CLE",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "ids": {
+        "sleeper_id": "12524",
+        "espn_id": null,
+        "gsis_id": "00-0040668",
+        "pfr_id": "SandSh00",
+        "pff_id": 131396,
         "fantasypros_id": null
       }
     },
@@ -12799,10 +12816,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 239,
-    "nfl_matches": 216,
-    "market_matches": 179,
-    "nfl_match_rate": 0.9037656903765691,
-    "market_match_rate": 0.7489539748953975
+    "player_count": 240,
+    "nfl_matches": 217,
+    "market_matches": 180,
+    "nfl_match_rate": 0.9041666666666667,
+    "market_match_rate": 0.75
   }
 }
