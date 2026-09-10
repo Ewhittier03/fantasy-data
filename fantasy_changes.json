@@ -1,619 +1,1434 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T13:00:14.135Z",
+  "generated_at": "2026-09-10T13:15:15.196Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-09-10T12:45:15.412Z",
-  "current_generated_at": "2026-09-10T13:00:14.135Z",
+  "previous_generated_at": "2026-09-10T13:00:14.135Z",
+  "current_generated_at": "2026-09-10T13:15:15.196Z",
   "has_changes": true,
   "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
     "gcs_2_0": []
   },
-  "players": [],
+  "players": [
+    {
+      "player_id": "4035",
+      "name": "Alvin Kamara",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NO",
+              "week": 1,
+              "gsis_id": "00-0033906",
+              "position": "RB",
+              "full_name": "Alvin Kamara",
+              "first_name": "Alvin",
+              "last_name": "Kamara",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4217",
+      "name": "George Kittle",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 1,
+              "gsis_id": "00-0033288",
+              "position": "TE",
+              "full_name": "George Kittle",
+              "first_name": "George",
+              "last_name": "Kittle",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Achilles",
+              "practice_status": "Limited Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 1,
+              "gsis_id": "00-0033288",
+              "position": "TE",
+              "full_name": "George Kittle",
+              "first_name": "George",
+              "last_name": "Kittle",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Achilles",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5947",
+      "name": "Jakobi Meyers",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "JAX",
+              "week": 1,
+              "gsis_id": "00-0034960",
+              "position": "WR",
+              "full_name": "Jakobi Meyers",
+              "first_name": "Jakobi",
+              "last_name": "Meyers",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Thumb",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6801",
+      "name": "Tee Higgins",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CIN",
+              "week": 1,
+              "gsis_id": "00-0036410",
+              "position": "WR",
+              "full_name": "Tee Higgins",
+              "first_name": "Tamurice",
+              "last_name": "Higgins",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Foot",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7564",
+      "name": "Ja'Marr Chase",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CIN",
+              "week": 1,
+              "gsis_id": "00-0036900",
+              "position": "WR",
+              "full_name": "Ja'Marr Chase",
+              "first_name": "Ja'Marr",
+              "last_name": "Chase",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8142",
+      "name": "Alec Pierce",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "IND",
+              "week": 1,
+              "gsis_id": "00-0037664",
+              "position": "WR",
+              "full_name": "Alec Pierce",
+              "first_name": "Alec",
+              "last_name": "Pierce",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Heel",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8155",
+      "name": "Breece Hall",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NYJ",
+              "week": 1,
+              "gsis_id": "00-0038120",
+              "position": "RB",
+              "full_name": "Breece Hall",
+              "first_name": "Breece",
+              "last_name": "Hall",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Groin",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9511",
+      "name": "Keaton Mitchell",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LAC",
+              "week": 1,
+              "gsis_id": "00-0038454",
+              "position": "RB",
+              "full_name": "Keaton Mitchell",
+              "first_name": "Keaton",
+              "last_name": "Mitchell",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9997",
+      "name": "Zay Flowers",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "BAL",
+              "week": 1,
+              "gsis_id": "00-0039064",
+              "position": "WR",
+              "full_name": "Zay Flowers",
+              "first_name": "Xavien",
+              "last_name": "Flowers",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 1,
+              "gsis_id": "00-0038797",
+              "position": "RB",
+              "full_name": "Emanuel Wilson",
+              "first_name": "Emanuel",
+              "last_name": "Wilson",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 1,
+              "gsis_id": "00-0038797",
+              "position": "RB",
+              "full_name": "Emanuel Wilson",
+              "first_name": "Emanuel",
+              "last_name": "Wilson",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11583",
+      "name": "Jonathon Brooks",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CAR",
+              "week": 1,
+              "gsis_id": "00-0039344",
+              "position": "RB",
+              "full_name": "Jonathon Brooks",
+              "first_name": "Jonathon",
+              "last_name": "Brooks",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Groin",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11603",
+      "name": "AJ Barner",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 1,
+              "gsis_id": "00-0039793",
+              "position": "TE",
+              "full_name": "AJ Barner",
+              "first_name": "AJ",
+              "last_name": "Barner",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Oblique",
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 1,
+              "gsis_id": "00-0039793",
+              "position": "TE",
+              "full_name": "AJ Barner",
+              "first_name": "AJ",
+              "last_name": "Barner",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Oblique",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11604",
+      "name": "Brock Bowers",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 1,
+              "gsis_id": "00-0039338",
+              "position": "TE",
+              "full_name": "Brock Bowers",
+              "first_name": "Brock",
+              "last_name": "Bowers",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11620",
+      "name": "Rome Odunze",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CHI",
+              "week": 1,
+              "gsis_id": "00-0039919",
+              "position": "WR",
+              "full_name": "Rome Odunze",
+              "first_name": "Rome",
+              "last_name": "Odunze",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Calf",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11632",
+      "name": "Malik Nabers",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NYG",
+              "week": 1,
+              "gsis_id": "00-0039337",
+              "position": "WR",
+              "full_name": "Malik Nabers",
+              "first_name": "Malik",
+              "last_name": "Nabers",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12514",
+      "name": "Emeka Egbuka",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "TB",
+              "week": 1,
+              "gsis_id": "00-0040129",
+              "position": "WR",
+              "full_name": "Emeka Egbuka",
+              "first_name": "Emeka",
+              "last_name": "Egbuka",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Toe",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12527",
+      "name": "Ashton Jeanty",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 1,
+              "gsis_id": "00-0040122",
+              "position": "RB",
+              "full_name": "Ashton Jeanty",
+              "first_name": "Ashton",
+              "last_name": "Jeanty",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12529",
+      "name": "TreVeyon Henderson",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": "Out",
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NE",
+              "week": 1,
+              "gsis_id": "00-0040734",
+              "position": "RB",
+              "full_name": "TreVeyon Henderson",
+              "first_name": "TreVeyon",
+              "last_name": "Henderson",
+              "report_primary_injury": "Ankle",
+              "report_status": "Out",
+              "practice_primary_injury": "Ankle",
+              "practice_status": "Did Not Participate In Practice"
+            }
+          },
+          "after": {
+            "report_status": "Out",
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NE",
+              "week": 1,
+              "gsis_id": "00-0040734",
+              "position": "RB",
+              "full_name": "TreVeyon Henderson",
+              "first_name": "TreVeyon",
+              "last_name": "Henderson",
+              "report_primary_injury": "Ankle",
+              "report_status": "Out",
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "WAS",
+              "week": 1,
+              "gsis_id": "00-0040242",
+              "position": "RB",
+              "full_name": "Jacory Croskey-Merritt",
+              "first_name": "Jacory",
+              "last_name": "Croskey-Merritt",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Groin",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13287",
+      "name": "Jeremiyah Love",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "ARI",
+              "week": 1,
+              "gsis_id": "00-0041027",
+              "position": "RB",
+              "full_name": "Jeremiyah Love",
+              "first_name": "Jeremiyah",
+              "last_name": "Love",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13320",
+      "name": "Zachariah Branch",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "ATL",
+              "week": 1,
+              "gsis_id": "00-0041044",
+              "position": "WR",
+              "full_name": "Zachariah Branch",
+              "first_name": "Zachariah",
+              "last_name": "Branch",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13330",
+      "name": "Kenyon Sadiq",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NYJ",
+              "week": 1,
+              "gsis_id": "00-0041032",
+              "position": "TE",
+              "full_name": "Kenyon Sadiq",
+              "first_name": "Kenyon",
+              "last_name": "Sadiq",
+              "report_primary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Groin",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    }
+  ],
   "trending": {
     "adds": [
       {
         "player_id": "9482",
-        "before": 1557000,
-        "after": 1562526,
-        "delta": 5526
+        "before": 1562526,
+        "after": 1565379,
+        "delta": 2853
       },
       {
         "player_id": "10235",
-        "before": 190304,
-        "after": 182848,
-        "delta": -7456
+        "before": 182848,
+        "after": 183152,
+        "delta": 304
       },
       {
         "player_id": "2505",
-        "before": 179388,
-        "after": 177066,
-        "delta": -2322
+        "before": 177066,
+        "after": 177372,
+        "delta": 306
       },
       {
         "player_id": "11834",
-        "before": 166733,
-        "after": 161546,
-        "delta": -5187
+        "before": 161546,
+        "after": 161945,
+        "delta": 399
       },
       {
         "player_id": "LV",
-        "before": 159948,
-        "after": 155484,
-        "delta": -4464
+        "before": 155484,
+        "after": 155802,
+        "delta": 318
       },
       {
         "player_id": "11603",
-        "before": 152784,
-        "after": 151506,
-        "delta": -1278
+        "before": 151506,
+        "after": 151566,
+        "delta": 60
       },
       {
         "player_id": "5012",
-        "before": 140778,
-        "after": 140598,
-        "delta": -180
+        "before": 140598,
+        "after": 140787,
+        "delta": 189
       },
       {
         "player_id": "8800",
-        "before": 121545,
-        "after": 116676,
-        "delta": -4869
+        "before": 116676,
+        "after": 116928,
+        "delta": 252
       },
       {
         "player_id": "7002",
-        "before": 109982,
-        "after": 109406,
-        "delta": -576
+        "before": 109406,
+        "after": 109596,
+        "delta": 190
       },
       {
         "player_id": "10213",
-        "before": 104688,
-        "after": 104052,
-        "delta": -636
+        "before": 104052,
+        "after": 104586,
+        "delta": 534
       },
       {
         "player_id": "6083",
-        "before": 102230,
-        "after": 99430,
-        "delta": -2800
+        "before": 99430,
+        "after": 99650,
+        "delta": 220
       },
       {
         "player_id": "9502",
-        "before": 102304,
-        "after": 99032,
-        "delta": -3272
+        "before": 99032,
+        "after": 99176,
+        "delta": 144
       },
       {
         "player_id": "JAX",
-        "before": 83694,
-        "after": 81402,
-        "delta": -2292
+        "before": 81402,
+        "after": 81582,
+        "delta": 180
       },
       {
         "player_id": "4039",
-        "before": 79464,
-        "after": 78960,
-        "delta": -504
+        "before": 78960,
+        "after": 79164,
+        "delta": 204
       },
       {
         "player_id": "13311",
-        "before": 74634,
-        "after": 73514,
-        "delta": -1120
+        "before": 73514,
+        "after": 73668,
+        "delta": 154
       },
       {
         "player_id": "11581",
-        "before": 67446,
-        "after": 65529,
-        "delta": -1917
+        "before": 65529,
+        "after": 65646,
+        "delta": 117
       },
       {
         "player_id": "13414",
-        "before": 63819,
-        "after": 60865,
-        "delta": -2954
+        "before": 60865,
+        "after": 60984,
+        "delta": 119
       },
       {
         "player_id": "12487",
-        "before": 60944,
-        "after": 59856,
-        "delta": -1088
+        "before": 59856,
+        "after": 60104,
+        "delta": 248
       },
       {
         "player_id": "8180",
-        "before": 59616,
-        "after": 59211,
-        "delta": -405
+        "before": 59211,
+        "after": 59526,
+        "delta": 315
       },
       {
         "player_id": "8127",
-        "before": 53532,
-        "after": 51189,
-        "delta": -2343
+        "before": 51189,
+        "after": 51270,
+        "delta": 81
       },
       {
         "player_id": "8132",
-        "before": 53395,
-        "after": 51185,
-        "delta": -2210
+        "before": 51185,
+        "after": 51245,
+        "delta": 60
       },
       {
         "player_id": "9480",
-        "before": 49428,
-        "after": 49194,
-        "delta": -234
+        "before": 49194,
+        "after": 49293,
+        "delta": 99
       },
       {
         "player_id": "DET",
-        "before": 49581,
-        "after": 48339,
-        "delta": -1242
+        "before": 48339,
+        "after": 48447,
+        "delta": 108
       },
       {
         "player_id": "5995",
-        "before": 47025,
-        "after": 45468,
-        "delta": -1557
+        "before": 45468,
+        "after": 45549,
+        "delta": 81
       },
       {
         "player_id": "5854",
-        "before": 43658,
-        "after": 44403,
-        "delta": 745
+        "before": 44403,
+        "after": 44811,
+        "delta": 408
       },
       {
         "player_id": "2078",
-        "before": 45066,
-        "after": 43568,
-        "delta": -1498
+        "before": 43568,
+        "after": 43645,
+        "delta": 77
       },
       {
         "player_id": "13285",
-        "before": 45665,
-        "after": 43290,
-        "delta": -2375
+        "before": 43290,
+        "after": 43405,
+        "delta": 115
       },
       {
         "player_id": "13296",
-        "before": 44304,
-        "after": 42224,
-        "delta": -2080
+        "before": 42224,
+        "after": 42344,
+        "delta": 120
       },
       {
         "player_id": "8111",
-        "before": 40386,
-        "after": 40278,
-        "delta": -108
+        "before": 40278,
+        "after": 40392,
+        "delta": 114
       },
       {
         "player_id": "7611",
-        "before": 41346,
-        "after": 40113,
-        "delta": -1233
+        "before": 40113,
+        "after": 40149,
+        "delta": 36
       },
       {
         "player_id": "8134",
-        "before": 40770,
-        "after": 40023,
-        "delta": -747
+        "before": 40023,
+        "after": 40149,
+        "delta": 126
       },
       {
         "player_id": "12491",
-        "before": 40758,
-        "after": 39816,
-        "delta": -942
+        "before": 39816,
+        "after": 39834,
+        "delta": 18
       },
       {
         "player_id": "9511",
-        "before": 37485,
-        "after": 36396,
-        "delta": -1089
+        "before": 36396,
+        "after": 36486,
+        "delta": 90
       },
       {
         "player_id": "1166",
-        "before": 36768,
-        "after": 36304,
-        "delta": -464
+        "before": 36304,
+        "after": 36480,
+        "delta": 176
       },
       {
         "player_id": "13421",
-        "before": 36260,
-        "after": 35931,
-        "delta": -329
+        "before": 35931,
+        "after": 35987,
+        "delta": 56
       },
       {
         "player_id": "8161",
-        "before": 36827,
-        "after": 35861,
-        "delta": -966
+        "before": 35861,
+        "after": 35980,
+        "delta": 119
       },
       {
         "player_id": "12711",
-        "before": 36630,
-        "after": 35574,
-        "delta": -1056
+        "before": 35574,
+        "after": 35682,
+        "delta": 108
       },
       {
         "player_id": "12545",
-        "before": 35928,
-        "after": 35264,
-        "delta": -664
+        "before": 35264,
+        "after": 35392,
+        "delta": 128
       },
       {
         "player_id": "5849",
-        "before": 35272,
-        "after": 34848,
-        "delta": -424
+        "before": 34848,
+        "after": 34976,
+        "delta": 128
       },
       {
         "player_id": "7090",
-        "before": 34101,
-        "after": 33030,
-        "delta": -1071
+        "before": 33030,
+        "after": 33066,
+        "delta": 36
       },
       {
         "player_id": "8205",
-        "before": 33808,
-        "after": 32560,
-        "delta": -1248
-      },
-      {
-        "player_id": "4147",
-        "before": 32196,
-        "after": 30848,
-        "delta": -1348
+        "before": 32560,
+        "after": 32640,
+        "delta": 80
       },
       {
         "player_id": "3321",
-        "before": 30840,
-        "after": 30848,
-        "delta": 8
+        "before": 30848,
+        "after": 31032,
+        "delta": 184
+      },
+      {
+        "player_id": "4147",
+        "before": 30848,
+        "after": 30952,
+        "delta": 104
       },
       {
         "player_id": "10219",
-        "before": 29952,
-        "after": 29061,
-        "delta": -891
+        "before": 29061,
+        "after": 29106,
+        "delta": 45
       },
       {
         "player_id": "13533",
-        "before": 29691,
-        "after": 28566,
-        "delta": -1125
+        "before": 28566,
+        "after": 28593,
+        "delta": 27
       },
       {
         "player_id": "8121",
-        "before": 27936,
-        "after": 27552,
-        "delta": -384
+        "before": 27552,
+        "after": 27688,
+        "delta": 136
       },
       {
         "player_id": "PIT",
-        "before": 27762,
-        "after": 26913,
-        "delta": -849
+        "before": 26913,
+        "after": 26961,
+        "delta": 48
       },
       {
         "player_id": "11610",
-        "before": 26240,
-        "after": 25456,
-        "delta": -784
+        "before": 25456,
+        "after": 25496,
+        "delta": 40
       },
       {
         "player_id": "5850",
-        "before": 24910,
-        "after": 24340,
-        "delta": -570
+        "before": 24340,
+        "after": 24410,
+        "delta": 70
       },
       {
         "player_id": "11539",
-        "before": 24112,
-        "after": 23664,
-        "delta": -448
+        "before": 23664,
+        "after": 23712,
+        "delta": 48
       }
     ],
     "drops": [
       {
         "player_id": "10235",
-        "before": 164592,
-        "after": 161192,
-        "delta": -3400
+        "before": 161192,
+        "after": 162216,
+        "delta": 1024
       },
       {
         "player_id": "NE",
-        "before": 112483,
-        "after": 108934,
-        "delta": -3549
+        "before": 108934,
+        "after": 109011,
+        "delta": 77
       },
       {
         "player_id": "9482",
-        "before": 91467,
-        "after": 91269,
-        "delta": -198
+        "before": 91269,
+        "after": 91773,
+        "delta": 504
       },
       {
         "player_id": "13330",
-        "before": 85005,
-        "after": 83781,
-        "delta": -1224
+        "before": 83781,
+        "after": 84150,
+        "delta": 369
       },
       {
         "player_id": "12493",
-        "before": 84755,
-        "after": 83265,
-        "delta": -1490
+        "before": 83265,
+        "after": 83570,
+        "delta": 305
       },
       {
         "player_id": "9480",
-        "before": 75303,
-        "after": 74124,
-        "delta": -1179
+        "before": 74124,
+        "after": 74421,
+        "delta": 297
       },
       {
         "player_id": "6149",
-        "before": 74214,
-        "after": 71700,
-        "delta": -2514
+        "before": 71700,
+        "after": 72006,
+        "delta": 306
       },
       {
         "player_id": "4035",
-        "before": 71808,
-        "after": 70208,
-        "delta": -1600
+        "before": 70208,
+        "after": 70592,
+        "delta": 384
       },
       {
         "player_id": "8121",
-        "before": 67104,
-        "after": 67024,
-        "delta": -80
+        "before": 67024,
+        "after": 67720,
+        "delta": 696
       },
       {
         "player_id": "13413",
-        "before": 62820,
-        "after": 61548,
-        "delta": -1272
+        "before": 61548,
+        "after": 61830,
+        "delta": 282
       },
       {
         "player_id": "8800",
-        "before": 62046,
-        "after": 61065,
-        "delta": -981
+        "before": 61065,
+        "after": 61407,
+        "delta": 342
       },
       {
         "player_id": "9511",
-        "before": 61803,
-        "after": 60804,
-        "delta": -999
+        "before": 60804,
+        "after": 61101,
+        "delta": 297
       },
       {
         "player_id": "3321",
-        "before": 62040,
-        "after": 60416,
-        "delta": -1624
+        "before": 60416,
+        "after": 60696,
+        "delta": 280
       },
       {
         "player_id": "13414",
-        "before": 59472,
-        "after": 58702,
-        "delta": -770
+        "before": 58702,
+        "after": 58975,
+        "delta": 273
       },
       {
         "player_id": "12530",
-        "before": 58320,
-        "after": 57162,
-        "delta": -1158
+        "before": 57162,
+        "after": 57426,
+        "delta": 264
       },
       {
         "player_id": "12457",
-        "before": 56928,
-        "after": 55264,
-        "delta": -1664
+        "before": 55264,
+        "after": 55440,
+        "delta": 176
       },
       {
         "player_id": "13337",
-        "before": 50886,
-        "after": 50067,
-        "delta": -819
-      },
-      {
-        "player_id": "2505",
-        "before": 50436,
-        "after": 49932,
-        "delta": -504
+        "before": 50067,
+        "after": 50319,
+        "delta": 252
       },
       {
         "player_id": "10219",
-        "before": 50508,
-        "after": 49914,
-        "delta": -594
+        "before": 49914,
+        "after": 50157,
+        "delta": 243
+      },
+      {
+        "player_id": "2505",
+        "before": 49932,
+        "after": 50130,
+        "delta": 198
       },
       {
         "player_id": "11610",
-        "before": 50456,
-        "after": 49648,
-        "delta": -808
+        "before": 49648,
+        "after": 49832,
+        "delta": 184
       },
       {
         "player_id": "9225",
-        "before": 48419,
-        "after": 47544,
-        "delta": -875
+        "before": 47544,
+        "after": 47761,
+        "delta": 217
       },
       {
         "player_id": "13276",
-        "before": 47360,
-        "after": 46432,
-        "delta": -928
+        "before": 46432,
+        "after": 46712,
+        "delta": 280
       },
       {
         "player_id": "13269",
-        "before": 46808,
-        "after": 45952,
-        "delta": -856
+        "before": 45952,
+        "after": 46152,
+        "delta": 200
       },
       {
         "player_id": "8154",
-        "before": 46686,
-        "after": 45930,
-        "delta": -756
+        "before": 45930,
+        "after": 46152,
+        "delta": 222
       },
       {
         "player_id": "13298",
-        "before": 45441,
-        "after": 44928,
-        "delta": -513
+        "before": 44928,
+        "after": 45171,
+        "delta": 243
       },
       {
         "player_id": "12487",
-        "before": 45000,
-        "after": 44528,
-        "delta": -472
+        "before": 44528,
+        "after": 44744,
+        "delta": 216
       },
       {
         "player_id": "13281",
-        "before": 44640,
-        "after": 43864,
-        "delta": -776
+        "before": 43864,
+        "after": 44088,
+        "delta": 224
       },
       {
         "player_id": "5850",
-        "before": 44030,
-        "after": 43325,
-        "delta": -705
+        "before": 43325,
+        "after": 43545,
+        "delta": 220
       },
       {
         "player_id": "6783",
-        "before": 43317,
-        "after": 42444,
-        "delta": -873
+        "before": 42444,
+        "after": 42669,
+        "delta": 225
       },
       {
         "player_id": "13296",
-        "before": 42992,
-        "after": 42320,
-        "delta": -672
+        "before": 42320,
+        "after": 42440,
+        "delta": 120
       },
       {
         "player_id": "8180",
-        "before": 43002,
-        "after": 41877,
-        "delta": -1125
+        "before": 41877,
+        "after": 41976,
+        "delta": 99
       },
       {
         "player_id": "DET",
-        "before": 40563,
-        "after": 39564,
-        "delta": -999
+        "before": 39564,
+        "after": 39807,
+        "delta": 243
       },
       {
         "player_id": "11624",
-        "before": 39870,
-        "after": 39330,
-        "delta": -540
+        "before": 39330,
+        "after": 39582,
+        "delta": 252
       },
       {
         "player_id": "1339",
-        "before": 38916,
-        "after": 37863,
-        "delta": -1053
+        "before": 37863,
+        "after": 38016,
+        "delta": 153
       },
       {
         "player_id": "12534",
-        "before": 38208,
-        "after": 37656,
-        "delta": -552
+        "before": 37656,
+        "after": 37866,
+        "delta": 210
       },
       {
         "player_id": "11603",
-        "before": 37668,
-        "after": 37398,
-        "delta": -270
+        "before": 37398,
+        "after": 37686,
+        "delta": 288
       },
       {
         "player_id": "13294",
-        "before": 37416,
-        "after": 36816,
-        "delta": -600
-      },
-      {
-        "player_id": "5849",
-        "before": 35752,
-        "after": 35264,
-        "delta": -488
+        "before": 36816,
+        "after": 36956,
+        "delta": 140
       },
       {
         "player_id": "11435",
-        "before": 36207,
-        "after": 35217,
-        "delta": -990
+        "before": 35217,
+        "after": 35523,
+        "delta": 306
+      },
+      {
+        "player_id": "5849",
+        "before": 35264,
+        "after": 35416,
+        "delta": 152
       },
       {
         "player_id": "8134",
-        "before": 35523,
-        "after": 34902,
-        "delta": -621
+        "before": 34902,
+        "after": 35010,
+        "delta": 108
       },
       {
         "player_id": "11834",
-        "before": 35105,
-        "after": 34461,
-        "delta": -644
+        "before": 34461,
+        "after": 34685,
+        "delta": 224
       },
       {
         "player_id": "8205",
-        "before": 34120,
-        "after": 33504,
-        "delta": -616
-      },
-      {
-        "player_id": "13320",
-        "before": 32608,
-        "after": 31872,
-        "delta": -736
+        "before": 33504,
+        "after": 33632,
+        "delta": 128
       },
       {
         "player_id": "12501",
-        "before": 32319,
-        "after": 31871,
-        "delta": -448
+        "before": 31871,
+        "after": 32025,
+        "delta": 154
+      },
+      {
+        "player_id": "13320",
+        "before": 31872,
+        "after": 31976,
+        "delta": 104
       },
       {
         "player_id": "4943",
-        "before": 29232,
-        "after": 29244,
-        "delta": 12
+        "before": 29244,
+        "after": 29571,
+        "delta": 327
       },
       {
         "player_id": "MIN",
-        "before": 29830,
-        "after": 29000,
-        "delta": -830
+        "before": 29000,
+        "after": 29185,
+        "delta": 185
       },
       {
         "player_id": "13403",
-        "before": 29574,
-        "after": 28692,
-        "delta": -882
-      },
-      {
-        "player_id": "12540",
-        "before": 29331,
-        "after": 28584,
-        "delta": -747
+        "before": 28692,
+        "after": 28827,
+        "delta": 135
       },
       {
         "player_id": "12545",
-        "before": 29032,
-        "after": 28544,
-        "delta": -488
+        "before": 28544,
+        "after": 28672,
+        "delta": 128
+      },
+      {
+        "player_id": "12540",
+        "before": 28584,
+        "after": 28656,
+        "delta": 72
       },
       {
         "player_id": "9502",
-        "before": 29096,
-        "after": 28424,
-        "delta": -672
+        "before": 28424,
+        "after": 28584,
+        "delta": 160
       }
     ]
   },
