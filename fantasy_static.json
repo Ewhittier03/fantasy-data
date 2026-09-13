@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T22:30:14.299Z",
+  "generated_at": "2026-09-13T22:45:15.689Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-13T22:15:41.666Z",
+    "sleeper": "2026-09-13T22:30:41.540Z",
     "nfl": "2026-09-13T22:00:17.470Z",
     "market": "2026-09-13T22:00:42.421Z"
   },
@@ -12527,13 +12527,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "SF": {
+      "sleeper_id": "SF",
+      "name": "San Francisco 49ers",
+      "team": "SF",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "SF",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 223,
+    "player_count": 224,
     "nfl_matches": 202,
     "market_matches": 182,
-    "nfl_match_rate": 0.905829596412556,
-    "market_match_rate": 0.8161434977578476
+    "nfl_match_rate": 0.9017857142857143,
+    "market_match_rate": 0.8125
   }
 }
