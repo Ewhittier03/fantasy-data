@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T07:15:14.649Z",
+  "generated_at": "2026-09-16T07:30:14.635Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-16T07:00:43.871Z",
+    "sleeper": "2026-09-16T07:15:43.883Z",
     "nfl": "2026-09-16T06:00:17.887Z",
     "market": "2026-09-16T04:00:45.098Z"
   },
@@ -4863,7 +4863,7 @@
         "trade_review_days": 1,
         "bench_lock": 0,
         "offseason_adds": 0,
-        "leg": 1,
+        "leg": 2,
         "reserve_slots": 2,
         "reserve_allow_cov": 1,
         "daily_waivers_last_ran": 18
@@ -8740,6 +8740,21 @@
     }
   },
   "player_identity": {
+    "0": {
+      "sleeper_id": "0",
+      "name": null,
+      "team": null,
+      "position": null,
+      "fantasy_positions": [],
+      "ids": {
+        "sleeper_id": "0",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "421": {
       "sleeper_id": "421",
       "name": "Matthew Stafford",
@@ -12618,23 +12633,6 @@
         "fantasypros_id": null
       }
     },
-    "LV": {
-      "sleeper_id": "LV",
-      "name": "Las Vegas Raiders",
-      "team": "LV",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "LV",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "TB": {
       "sleeper_id": "TB",
       "name": "Tampa Bay Buccaneers",
@@ -12668,13 +12666,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "LV": {
+      "sleeper_id": "LV",
+      "name": "Las Vegas Raiders",
+      "team": "LV",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "LV",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 231,
+    "player_count": 232,
     "nfl_matches": 209,
     "market_matches": 181,
-    "nfl_match_rate": 0.9047619047619048,
-    "market_match_rate": 0.7835497835497836
+    "nfl_match_rate": 0.9008620689655172,
+    "market_match_rate": 0.7801724137931034
   }
 }
