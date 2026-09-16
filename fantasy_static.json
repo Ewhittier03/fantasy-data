@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T07:30:14.635Z",
+  "generated_at": "2026-09-16T07:45:15.860Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-16T07:15:43.883Z",
+    "sleeper": "2026-09-16T07:30:43.974Z",
     "nfl": "2026-09-16T06:00:17.887Z",
     "market": "2026-09-16T04:00:45.098Z"
   },
@@ -130,7 +130,7 @@
         "trade_review_days": 0,
         "bench_lock": 0,
         "offseason_adds": 0,
-        "leg": 1,
+        "leg": 2,
         "reserve_slots": 1,
         "reserve_allow_cov": 1,
         "daily_waivers_last_ran": 11
@@ -11509,23 +11509,6 @@
         "fantasypros_id": null
       }
     },
-    "12048": {
-      "sleeper_id": "12048",
-      "name": "George Holani",
-      "team": "SEA",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "ids": {
-        "sleeper_id": "12048",
-        "espn_id": null,
-        "gsis_id": "00-0039299",
-        "pfr_id": "HolaGe00",
-        "pff_id": 72154,
-        "fantasypros_id": null
-      }
-    },
     "12469": {
       "sleeper_id": "12469",
       "name": "Dylan Sampson",
@@ -12429,16 +12412,16 @@
         "fantasypros_id": null
       }
     },
-    "JAX": {
-      "sleeper_id": "JAX",
-      "name": "Jacksonville Jaguars",
-      "team": "JAX",
+    "KC": {
+      "sleeper_id": "KC",
+      "name": "Kansas City Chiefs",
+      "team": "KC",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
       ],
       "ids": {
-        "sleeper_id": "JAX",
+        "sleeper_id": "KC",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12633,6 +12616,23 @@
         "fantasypros_id": null
       }
     },
+    "JAX": {
+      "sleeper_id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "team": "JAX",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "JAX",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "TB": {
       "sleeper_id": "TB",
       "name": "Tampa Bay Buccaneers",
@@ -12687,9 +12687,9 @@
   },
   "compiler_health": {
     "player_count": 232,
-    "nfl_matches": 209,
-    "market_matches": 181,
-    "nfl_match_rate": 0.9008620689655172,
-    "market_match_rate": 0.7801724137931034
+    "nfl_matches": 208,
+    "market_matches": 180,
+    "nfl_match_rate": 0.896551724137931,
+    "market_match_rate": 0.7758620689655172
   }
 }
