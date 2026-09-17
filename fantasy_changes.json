@@ -1,19 +1,1916 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T07:00:15.726Z",
+  "generated_at": "2026-09-17T07:15:15.665Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-09-17T06:45:14.363Z",
-  "current_generated_at": "2026-09-17T07:00:15.726Z",
-  "has_changes": false,
-  "has_actionable_changes": false,
+  "previous_generated_at": "2026-09-17T07:00:15.726Z",
+  "current_generated_at": "2026-09-17T07:15:15.665Z",
+  "has_changes": true,
+  "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
     "gcs_2_0": []
   },
-  "players": [],
+  "players": [
+    {
+      "player_id": "2505",
+      "name": "Darren Waller",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CAR",
+              "week": 2,
+              "gsis_id": "00-0031610",
+              "position": "TE",
+              "full_name": "Darren Waller",
+              "first_name": "Darren",
+              "last_name": "Waller",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Not injury related - resting player",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4034",
+      "name": "Christian McCaffrey",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 2,
+              "gsis_id": "00-0033280",
+              "position": "RB",
+              "full_name": "Christian McCaffrey",
+              "first_name": "Christian",
+              "last_name": "McCaffrey",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Not injury related - resting player",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4035",
+      "name": "Alvin Kamara",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": "Questionable",
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NO",
+              "week": 1,
+              "gsis_id": "00-0033906",
+              "position": "RB",
+              "full_name": "Alvin Kamara",
+              "first_name": "Alvin",
+              "last_name": "Kamara",
+              "report_primary_injury": "Knee",
+              "report_secondary_injury": null,
+              "report_status": "Questionable",
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NO",
+              "week": 2,
+              "gsis_id": "00-0033906",
+              "position": "RB",
+              "full_name": "Alvin Kamara",
+              "first_name": "Alvin",
+              "last_name": "Kamara",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4039",
+      "name": "Cooper Kupp",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 2,
+              "gsis_id": "00-0033908",
+              "position": "WR",
+              "full_name": "Cooper Kupp",
+              "first_name": "Cooper",
+              "last_name": "Kupp",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Back",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4046",
+      "name": "Patrick Mahomes",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "KC",
+              "week": 1,
+              "gsis_id": "00-0033873",
+              "position": "QB",
+              "full_name": "Patrick Mahomes",
+              "first_name": "Patrick",
+              "last_name": "Mahomes",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "KC",
+              "week": 2,
+              "gsis_id": "00-0033873",
+              "position": "QB",
+              "full_name": "Patrick Mahomes",
+              "first_name": "Patrick",
+              "last_name": "Mahomes",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4217",
+      "name": "George Kittle",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 1,
+              "gsis_id": "00-0033288",
+              "position": "TE",
+              "full_name": "George Kittle",
+              "first_name": "George",
+              "last_name": "Kittle",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Achilles",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 2,
+              "gsis_id": "00-0033288",
+              "position": "TE",
+              "full_name": "George Kittle",
+              "first_name": "George",
+              "last_name": "Kittle",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Achilles",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4943",
+      "name": "Sam Darnold",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SEA",
+              "week": 2,
+              "gsis_id": "00-0034869",
+              "position": "QB",
+              "full_name": "Sam Darnold",
+              "first_name": "Sam",
+              "last_name": "Darnold",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Glute",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5001",
+      "name": "Dalton Schultz",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "HOU",
+              "week": 2,
+              "gsis_id": "00-0034383",
+              "position": "TE",
+              "full_name": "Dalton Schultz",
+              "first_name": "Dalton",
+              "last_name": "Schultz",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Not injury related - resting player",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5849",
+      "name": "Kyler Murray",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "MIN",
+              "week": 2,
+              "gsis_id": "00-0035228",
+              "position": "QB",
+              "full_name": "Kyler Murray",
+              "first_name": "Kyler",
+              "last_name": "Murray",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Concussion",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5947",
+      "name": "Jakobi Meyers",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "JAX",
+              "week": 1,
+              "gsis_id": "00-0034960",
+              "position": "WR",
+              "full_name": "Jakobi Meyers",
+              "first_name": "Jakobi",
+              "last_name": "Meyers",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Thumb",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "JAX",
+              "week": 2,
+              "gsis_id": "00-0034960",
+              "position": "WR",
+              "full_name": "Jakobi Meyers",
+              "first_name": "Jakobi",
+              "last_name": "Meyers",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Thumb",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6770",
+      "name": "Joe Burrow",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CIN",
+              "week": 2,
+              "gsis_id": "00-0036442",
+              "position": "QB",
+              "full_name": "Joe Burrow",
+              "first_name": "Joseph",
+              "last_name": "Burrow",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Back",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6783",
+      "name": "Jerry Jeudy",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CLE",
+              "week": 2,
+              "gsis_id": "00-0036407",
+              "position": "WR",
+              "full_name": "Jerry Jeudy",
+              "first_name": "Jerry",
+              "last_name": "Jeudy",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Wrist",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6790",
+      "name": "D'Andre Swift",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CHI",
+              "week": 2,
+              "gsis_id": "00-0036275",
+              "position": "RB",
+              "full_name": "D'Andre Swift",
+              "first_name": "D'Andre",
+              "last_name": "Swift",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": "Knee",
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6819",
+      "name": "Michael Pittman",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "PIT",
+              "week": 2,
+              "gsis_id": "00-0036252",
+              "position": "WR",
+              "full_name": "Michael Pittman",
+              "first_name": "Michael",
+              "last_name": "Pittman",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Foot",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7002",
+      "name": "Juwan Johnson",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NO",
+              "week": 2,
+              "gsis_id": "00-0036040",
+              "position": "TE",
+              "full_name": "Juwan Johnson",
+              "first_name": "Juwan",
+              "last_name": "Johnson",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Illness",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7049",
+      "name": "Jauan Jennings",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "MIN",
+              "week": 2,
+              "gsis_id": "00-0036259",
+              "position": "WR",
+              "full_name": "Jauan Jennings",
+              "first_name": "Bennie",
+              "last_name": "Jennings",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Not injury related - personal matter",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7569",
+      "name": "Nico Collins",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "HOU",
+              "week": 2,
+              "gsis_id": "00-0036554",
+              "position": "WR",
+              "full_name": "Nico Collins",
+              "first_name": "Nico",
+              "last_name": "Collins",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8130",
+      "name": "Trey McBride",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "ARI",
+              "week": 2,
+              "gsis_id": "00-0037744",
+              "position": "TE",
+              "full_name": "Trey McBride",
+              "first_name": "Trey",
+              "last_name": "McBride",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Not injury related - resting player",
+              "practice_secondary_injury": "Back",
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8142",
+      "name": "Alec Pierce",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "IND",
+              "week": 1,
+              "gsis_id": "00-0037664",
+              "position": "WR",
+              "full_name": "Alec Pierce",
+              "first_name": "Alec",
+              "last_name": "Pierce",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Heel",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "IND",
+              "week": 2,
+              "gsis_id": "00-0037664",
+              "position": "WR",
+              "full_name": "Alec Pierce",
+              "first_name": "Alec",
+              "last_name": "Pierce",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Heel",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8161",
+      "name": "Malik Willis",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "MIA",
+              "week": 2,
+              "gsis_id": "00-0038128",
+              "position": "QB",
+              "full_name": "Malik Willis",
+              "first_name": "Malik",
+              "last_name": "Willis",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Toe",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8210",
+      "name": "Chig Okonkwo",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "WAS",
+              "week": 2,
+              "gsis_id": "00-0037809",
+              "position": "TE",
+              "full_name": "Chig Okonkwo",
+              "first_name": "Chigoziem",
+              "last_name": "Okonkwo",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9997",
+      "name": "Zay Flowers",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "BAL",
+              "week": 1,
+              "gsis_id": "00-0039064",
+              "position": "WR",
+              "full_name": "Zay Flowers",
+              "first_name": "Xavien",
+              "last_name": "Flowers",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "BAL",
+              "week": 2,
+              "gsis_id": "00-0039064",
+              "position": "WR",
+              "full_name": "Zay Flowers",
+              "first_name": "Xavien",
+              "last_name": "Flowers",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "10229",
+      "name": "Rashee Rice",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "KC",
+              "week": 1,
+              "gsis_id": "00-0039067",
+              "position": "WR",
+              "full_name": "Rashee Rice",
+              "first_name": "Rashee",
+              "last_name": "Rice",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "KC",
+              "week": 2,
+              "gsis_id": "00-0039067",
+              "position": "WR",
+              "full_name": "Rashee Rice",
+              "first_name": "Rashee",
+              "last_name": "Rice",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11604",
+      "name": "Brock Bowers",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": "Out",
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 1,
+              "gsis_id": "00-0039338",
+              "position": "TE",
+              "full_name": "Brock Bowers",
+              "first_name": "Brock",
+              "last_name": "Bowers",
+              "report_primary_injury": "Knee",
+              "report_secondary_injury": null,
+              "report_status": "Out",
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 2,
+              "gsis_id": "00-0039338",
+              "position": "TE",
+              "full_name": "Brock Bowers",
+              "first_name": "Brock",
+              "last_name": "Bowers",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Knee",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11635",
+      "name": "Ladd McConkey",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LAC",
+              "week": 2,
+              "gsis_id": "00-0039915",
+              "position": "WR",
+              "full_name": "Ladd McConkey",
+              "first_name": "Andrew",
+              "last_name": "McConkey",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Rib",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11646",
+      "name": "Jalen Coker",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CAR",
+              "week": 2,
+              "gsis_id": "00-0039491",
+              "position": "WR",
+              "full_name": "Jalen Coker",
+              "first_name": "Jalen",
+              "last_name": "Coker",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12489",
+      "name": "RJ Harvey",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "DEN",
+              "week": 2,
+              "gsis_id": "00-0040730",
+              "position": "RB",
+              "full_name": "RJ Harvey",
+              "first_name": "Robert",
+              "last_name": "Harvey",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12527",
+      "name": "Ashton Jeanty",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 1,
+              "gsis_id": "00-0040122",
+              "position": "RB",
+              "full_name": "Ashton Jeanty",
+              "first_name": "Ashton",
+              "last_name": "Jeanty",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "LV",
+              "week": 2,
+              "gsis_id": "00-0040122",
+              "position": "RB",
+              "full_name": "Ashton Jeanty",
+              "first_name": "Ashton",
+              "last_name": "Jeanty",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12529",
+      "name": "TreVeyon Henderson",
+      "changes": {
+        "injury": {
+          "before": {
+            "report_status": "Out",
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 1,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NE",
+              "week": 1,
+              "gsis_id": "00-0040734",
+              "position": "RB",
+              "full_name": "TreVeyon Henderson",
+              "first_name": "TreVeyon",
+              "last_name": "Henderson",
+              "report_primary_injury": "Ankle",
+              "report_secondary_injury": null,
+              "report_status": "Out",
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          },
+          "after": {
+            "report_status": null,
+            "practice_status": "Full Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "NE",
+              "week": 2,
+              "gsis_id": "00-0040734",
+              "position": "RB",
+              "full_name": "TreVeyon Henderson",
+              "first_name": "TreVeyon",
+              "last_name": "Henderson",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Full Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12534",
+      "name": "Kyle Monangai",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "CHI",
+              "week": 2,
+              "gsis_id": "00-0040236",
+              "position": "RB",
+              "full_name": "Kyle Monangai",
+              "first_name": "Kyle",
+              "last_name": "Monangai",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Hamstring",
+              "practice_secondary_injury": null,
+              "practice_status": "Limited Participation in Practice"
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13417",
+      "name": "De'Zhaun Stribling",
+      "changes": {
+        "injury": {
+          "before": null,
+          "after": {
+            "report_status": null,
+            "practice_status": "Did Not Participate In Practice",
+            "primary_injury": null,
+            "report_date": null,
+            "week": 2,
+            "raw": {
+              "season": 2026,
+              "season_type": "REG",
+              "game_type": "REG",
+              "team": "SF",
+              "week": 2,
+              "gsis_id": "00-0041035",
+              "position": "WR",
+              "full_name": "De'Zhaun Stribling",
+              "first_name": "De'Zhaun-Ryan",
+              "last_name": "Stribling",
+              "report_primary_injury": null,
+              "report_secondary_injury": null,
+              "report_status": null,
+              "practice_primary_injury": "Ankle",
+              "practice_secondary_injury": null,
+              "practice_status": "Did Not Participate In Practice"
+            }
+          }
+        }
+      }
+    }
+  ],
   "trending": {
-    "adds": [],
-    "drops": []
+    "adds": [
+      {
+        "player_id": "6130",
+        "before": 853326,
+        "after": 816246,
+        "delta": -37080
+      },
+      {
+        "player_id": "TB",
+        "before": 815290,
+        "after": 772545,
+        "delta": -42745
+      },
+      {
+        "player_id": "13296",
+        "before": 823296,
+        "after": 749816,
+        "delta": -73480
+      },
+      {
+        "player_id": "11834",
+        "before": 670922,
+        "after": 584346,
+        "delta": -86576
+      },
+      {
+        "player_id": "12472",
+        "before": 445600,
+        "after": 415024,
+        "delta": -30576
+      },
+      {
+        "player_id": "SF",
+        "before": 427341,
+        "after": 401376,
+        "delta": -25965
+      },
+      {
+        "player_id": "3161",
+        "before": 413538,
+        "after": 376422,
+        "delta": -37116
+      },
+      {
+        "player_id": "13414",
+        "before": 411950,
+        "after": 369145,
+        "delta": -42805
+      },
+      {
+        "player_id": "13337",
+        "before": 284553,
+        "after": 269028,
+        "delta": -15525
+      },
+      {
+        "player_id": "3286",
+        "before": 272826,
+        "after": 259788,
+        "delta": -13038
+      },
+      {
+        "player_id": "12492",
+        "before": 241760,
+        "after": 227824,
+        "delta": -13936
+      },
+      {
+        "player_id": "4177",
+        "before": 222357,
+        "after": 211263,
+        "delta": -11094
+      },
+      {
+        "player_id": "2020",
+        "before": 191814,
+        "after": 188496,
+        "delta": -3318
+      },
+      {
+        "player_id": "4993",
+        "before": 193532,
+        "after": 184008,
+        "delta": -9524
+      },
+      {
+        "player_id": "13330",
+        "before": 181242,
+        "after": 171792,
+        "delta": -9450
+      },
+      {
+        "player_id": "9228",
+        "before": 161344,
+        "after": 154212,
+        "delta": -7132
+      },
+      {
+        "player_id": "11729",
+        "before": 161196,
+        "after": 153657,
+        "delta": -7539
+      },
+      {
+        "player_id": "9486",
+        "before": 156432,
+        "after": 146691,
+        "delta": -9741
+      },
+      {
+        "player_id": "4199",
+        "before": 137550,
+        "after": 137340,
+        "delta": -210
+      },
+      {
+        "player_id": "4066",
+        "before": 139872,
+        "after": 133616,
+        "delta": -6256
+      },
+      {
+        "player_id": "12501",
+        "before": 137928,
+        "after": 130774,
+        "delta": -7154
+      },
+      {
+        "player_id": "12545",
+        "before": 130640,
+        "after": 123720,
+        "delta": -6920
+      },
+      {
+        "player_id": "8134",
+        "before": 125334,
+        "after": 123633,
+        "delta": -1701
+      },
+      {
+        "player_id": "12533",
+        "before": 119349,
+        "after": 115758,
+        "delta": -3591
+      },
+      {
+        "player_id": "4035",
+        "before": 113336,
+        "after": 111696,
+        "delta": -1640
+      },
+      {
+        "player_id": "11610",
+        "before": 107472,
+        "after": 105392,
+        "delta": -2080
+      },
+      {
+        "player_id": "9758",
+        "before": 105791,
+        "after": 103831,
+        "delta": -1960
+      },
+      {
+        "player_id": "NE",
+        "before": 103362,
+        "after": 101815,
+        "delta": -1547
+      },
+      {
+        "player_id": "11581",
+        "before": 101592,
+        "after": 101619,
+        "delta": 27
+      },
+      {
+        "player_id": "8121",
+        "before": 100808,
+        "after": 98480,
+        "delta": -2328
+      },
+      {
+        "player_id": "12711",
+        "before": 98664,
+        "after": 96738,
+        "delta": -1926
+      },
+      {
+        "player_id": "13347",
+        "before": 95388,
+        "after": 95832,
+        "delta": 444
+      },
+      {
+        "player_id": "3634",
+        "before": 94992,
+        "after": 88148,
+        "delta": -6844
+      },
+      {
+        "player_id": "4454",
+        "before": 94704,
+        "after": 87387,
+        "delta": -7317
+      },
+      {
+        "player_id": "10218",
+        "before": 80836,
+        "after": 81067,
+        "delta": 231
+      },
+      {
+        "player_id": "11630",
+        "before": 80703,
+        "after": 75726,
+        "delta": -4977
+      },
+      {
+        "player_id": "13545",
+        "before": 76340,
+        "after": 75148,
+        "delta": -1192
+      },
+      {
+        "player_id": "7049",
+        "before": 69559,
+        "after": 68936,
+        "delta": -623
+      },
+      {
+        "player_id": "6083",
+        "before": 67545,
+        "after": 67170,
+        "delta": -375
+      },
+      {
+        "player_id": "11625",
+        "before": 71576,
+        "after": 67080,
+        "delta": -4496
+      },
+      {
+        "player_id": "GB",
+        "before": 65874,
+        "after": 65045,
+        "delta": -829
+      },
+      {
+        "player_id": "8183",
+        "before": 60952,
+        "after": 58988,
+        "delta": -1964
+      },
+      {
+        "player_id": "3321",
+        "before": 55992,
+        "after": 55888,
+        "delta": -104
+      },
+      {
+        "player_id": "6931",
+        "before": 53739,
+        "after": 54459,
+        "delta": 720
+      },
+      {
+        "player_id": "11624",
+        "before": 52515,
+        "after": 52380,
+        "delta": -135
+      },
+      {
+        "player_id": "9756",
+        "before": 50400,
+        "after": 50391,
+        "delta": -9
+      },
+      {
+        "player_id": "10236",
+        "before": 51835,
+        "after": 48986,
+        "delta": -2849
+      },
+      {
+        "player_id": "13301",
+        "before": 51320,
+        "after": 48647,
+        "delta": -2673
+      },
+      {
+        "player_id": "7042",
+        "before": 49290,
+        "after": 48385,
+        "delta": -905
+      },
+      {
+        "player_id": "9482",
+        "before": 49563,
+        "after": 48033,
+        "delta": -1530
+      }
+    ],
+    "drops": [
+      {
+        "player_id": "JAX",
+        "before": 463260,
+        "after": 441714,
+        "delta": -21546
+      },
+      {
+        "player_id": "DET",
+        "before": 428283,
+        "after": 416466,
+        "delta": -11817
+      },
+      {
+        "player_id": "9482",
+        "before": 348759,
+        "after": 338130,
+        "delta": -10629
+      },
+      {
+        "player_id": "5849",
+        "before": 286736,
+        "after": 276536,
+        "delta": -10200
+      },
+      {
+        "player_id": "LV",
+        "before": 231858,
+        "after": 224808,
+        "delta": -7050
+      },
+      {
+        "player_id": "MIN",
+        "before": 187530,
+        "after": 181615,
+        "delta": -5915
+      },
+      {
+        "player_id": "10235",
+        "before": 174272,
+        "after": 166728,
+        "delta": -7544
+      },
+      {
+        "player_id": "10219",
+        "before": 154377,
+        "after": 146889,
+        "delta": -7488
+      },
+      {
+        "player_id": "7567",
+        "before": 149168,
+        "after": 142424,
+        "delta": -6744
+      },
+      {
+        "player_id": "8180",
+        "before": 147690,
+        "after": 138924,
+        "delta": -8766
+      },
+      {
+        "player_id": "10213",
+        "before": 142008,
+        "after": 133284,
+        "delta": -8724
+      },
+      {
+        "player_id": "11539",
+        "before": 128360,
+        "after": 125736,
+        "delta": -2624
+      },
+      {
+        "player_id": "13413",
+        "before": 128484,
+        "after": 120270,
+        "delta": -8214
+      },
+      {
+        "player_id": "11581",
+        "before": 126639,
+        "after": 119547,
+        "delta": -7092
+      },
+      {
+        "player_id": "13298",
+        "before": 124191,
+        "after": 117873,
+        "delta": -6318
+      },
+      {
+        "player_id": "PIT",
+        "before": 119403,
+        "after": 114243,
+        "delta": -5160
+      },
+      {
+        "player_id": "8800",
+        "before": 117747,
+        "after": 113220,
+        "delta": -4527
+      },
+      {
+        "player_id": "9511",
+        "before": 119511,
+        "after": 112464,
+        "delta": -7047
+      },
+      {
+        "player_id": "6130",
+        "before": 107838,
+        "after": 108171,
+        "delta": 333
+      },
+      {
+        "player_id": "11563",
+        "before": 111558,
+        "after": 106992,
+        "delta": -4566
+      },
+      {
+        "player_id": "12530",
+        "before": 107508,
+        "after": 103788,
+        "delta": -3720
+      },
+      {
+        "player_id": "8408",
+        "before": 100265,
+        "after": 100245,
+        "delta": -20
+      },
+      {
+        "player_id": "13311",
+        "before": 104370,
+        "after": 97489,
+        "delta": -6881
+      },
+      {
+        "player_id": "NE",
+        "before": 97174,
+        "after": 93611,
+        "delta": -3563
+      },
+      {
+        "player_id": "9225",
+        "before": 97209,
+        "after": 92603,
+        "delta": -4606
+      },
+      {
+        "player_id": "5045",
+        "before": 90252,
+        "after": 86418,
+        "delta": -3834
+      },
+      {
+        "player_id": "2505",
+        "before": 89190,
+        "after": 86184,
+        "delta": -3006
+      },
+      {
+        "player_id": "13294",
+        "before": 88100,
+        "after": 84140,
+        "delta": -3960
+      },
+      {
+        "player_id": "9756",
+        "before": 87975,
+        "after": 82548,
+        "delta": -5427
+      },
+      {
+        "player_id": "11624",
+        "before": 85374,
+        "after": 80964,
+        "delta": -4410
+      },
+      {
+        "player_id": "12493",
+        "before": 83445,
+        "after": 80315,
+        "delta": -3130
+      },
+      {
+        "player_id": "11610",
+        "before": 84576,
+        "after": 79760,
+        "delta": -4816
+      },
+      {
+        "player_id": "11603",
+        "before": 82032,
+        "after": 78864,
+        "delta": -3168
+      },
+      {
+        "player_id": "11237",
+        "before": 83410,
+        "after": 78725,
+        "delta": -4685
+      },
+      {
+        "player_id": "8121",
+        "before": 80752,
+        "after": 77240,
+        "delta": -3512
+      },
+      {
+        "player_id": "12487",
+        "before": 82040,
+        "after": 76832,
+        "delta": -5208
+      },
+      {
+        "player_id": "4035",
+        "before": 78208,
+        "after": 75840,
+        "delta": -2368
+      },
+      {
+        "player_id": "10222",
+        "before": 79758,
+        "after": 75546,
+        "delta": -4212
+      },
+      {
+        "player_id": "7528",
+        "before": 76675,
+        "after": 73970,
+        "delta": -2705
+      },
+      {
+        "player_id": "421",
+        "before": 76302,
+        "after": 73323,
+        "delta": -2979
+      },
+      {
+        "player_id": "8205",
+        "before": 75880,
+        "after": 72776,
+        "delta": -3104
+      },
+      {
+        "player_id": "9754",
+        "before": 73325,
+        "after": 69713,
+        "delta": -3612
+      },
+      {
+        "player_id": "12469",
+        "before": 71760,
+        "after": 68425,
+        "delta": -3335
+      },
+      {
+        "player_id": "7553",
+        "before": 68159,
+        "after": 65982,
+        "delta": -2177
+      },
+      {
+        "player_id": "2078",
+        "before": 68691,
+        "after": 65737,
+        "delta": -2954
+      },
+      {
+        "player_id": "9480",
+        "before": 67158,
+        "after": 64953,
+        "delta": -2205
+      },
+      {
+        "player_id": "6783",
+        "before": 67023,
+        "after": 64008,
+        "delta": -3015
+      },
+      {
+        "player_id": "13285",
+        "before": 65935,
+        "after": 62260,
+        "delta": -3675
+      },
+      {
+        "player_id": "HOU",
+        "before": 62270,
+        "after": 61145,
+        "delta": -1125
+      },
+      {
+        "player_id": "8132",
+        "before": 62675,
+        "after": 60595,
+        "delta": -2080
+      }
+    ]
   },
   "source_health_changes": []
 }
