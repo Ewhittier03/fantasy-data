@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T01:00:16.368Z",
+  "generated_at": "2026-09-17T01:15:15.731Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-17T00:45:42.096Z",
-    "nfl": "2026-09-17T00:00:17.948Z",
+    "sleeper": "2026-09-17T01:00:42.025Z",
+    "nfl": "2026-09-17T01:00:18.087Z",
     "market": "2026-09-16T22:00:40.692Z"
   },
   "leagues": {
@@ -8740,6 +8740,21 @@
     }
   },
   "player_identity": {
+    "0": {
+      "sleeper_id": "0",
+      "name": null,
+      "team": null,
+      "position": null,
+      "fantasy_positions": [],
+      "ids": {
+        "sleeper_id": "0",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "421": {
       "sleeper_id": "421",
       "name": "Matthew Stafford",
@@ -12653,10 +12668,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 230,
+    "player_count": 231,
     "nfl_matches": 206,
     "market_matches": 180,
-    "nfl_match_rate": 0.8956521739130435,
-    "market_match_rate": 0.782608695652174
+    "nfl_match_rate": 0.8917748917748918,
+    "market_match_rate": 0.7792207792207793
   }
 }
