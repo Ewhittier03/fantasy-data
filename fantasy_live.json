@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T07:00:14.780Z",
+  "generated_at": "2026-09-18T07:15:15.279Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-09-18T07:00:14.664Z",
+    "compiled_at": "2026-09-18T07:15:15.161Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
-        "generated_at": "2026-09-18T06:30:44.017Z",
-        "age_minutes": 30,
+        "generated_at": "2026-09-18T07:00:44.603Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
-        "generated_at": "2026-09-18T05:00:17.644Z",
-        "age_minutes": 120,
+        "generated_at": "2026-09-18T07:00:18.737Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
         "generated_at": "2026-09-18T04:00:41.901Z",
-        "age_minutes": 180,
+        "age_minutes": 195,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 199,
@@ -2755,12 +2755,12 @@
           "adds": {
             "4199": 2
           },
-          "consenter_ids": [
-            2
-          ],
           "drops": {
             "11583": 2
           },
+          "consenter_ids": [
+            2
+          ],
           "roster_ids": [
             2
           ],
@@ -2780,12 +2780,12 @@
           "adds": {
             "KC": 2
           },
-          "consenter_ids": [
-            2
-          ],
           "drops": {
             "JAX": 2
           },
+          "consenter_ids": [
+            2
+          ],
           "roster_ids": [
             2
           ],
@@ -2805,10 +2805,10 @@
           "adds": {
             "13296": 2
           },
+          "drops": null,
           "consenter_ids": [
             2
           ],
-          "drops": null,
           "roster_ids": [
             2
           ],
@@ -2828,12 +2828,12 @@
           "adds": {
             "11834": 6
           },
-          "consenter_ids": [
-            6
-          ],
           "drops": {
             "9500": 6
           },
+          "consenter_ids": [
+            6
+          ],
           "roster_ids": [
             6
           ],
@@ -2847,405 +2847,405 @@
     "lookback_hours": 24,
     "adds": [
       {
-        "count": 515511,
+        "count": 507285,
         "player_id": "6130"
       },
       {
-        "count": 265432,
+        "count": 259584,
         "player_id": "13296"
       },
       {
-        "count": 227915,
+        "count": 224000,
         "player_id": "TB"
       },
       {
-        "count": 197160,
+        "count": 192168,
         "player_id": "12472"
       },
       {
-        "count": 153951,
+        "count": 152873,
         "player_id": "10218"
       },
       {
-        "count": 149538,
+        "count": 146484,
         "player_id": "3286"
       },
       {
-        "count": 137520,
+        "count": 141336,
         "player_id": "11637"
       },
       {
-        "count": 130578,
+        "count": 127956,
         "player_id": "3161"
       },
       {
-        "count": 129934,
+        "count": 127365,
         "player_id": "11834"
       },
       {
-        "count": 119475,
+        "count": 118539,
         "player_id": "8134"
       },
       {
-        "count": 116367,
+        "count": 114432,
         "player_id": "SF"
       },
       {
-        "count": 113946,
+        "count": 112630,
         "player_id": "2020"
       },
       {
-        "count": 89484,
+        "count": 87951,
         "player_id": "4177"
       },
       {
-        "count": 88416,
+        "count": 87280,
         "player_id": "4035"
       },
       {
-        "count": 87796,
+        "count": 86672,
         "player_id": "4993"
       },
       {
-        "count": 87696,
+        "count": 85449,
         "player_id": "13414"
       },
       {
-        "count": 83376,
+        "count": 81360,
         "player_id": "13337"
       },
       {
-        "count": 81928,
+        "count": 79814,
         "player_id": "11729"
       },
       {
-        "count": 76208,
+        "count": 75568,
         "player_id": "11610"
       },
       {
-        "count": 74295,
+        "count": 72621,
         "player_id": "13330"
       },
       {
-        "count": 72711,
+        "count": 71847,
         "player_id": "11581"
       },
       {
-        "count": 66582,
-        "player_id": "4199"
-      },
-      {
-        "count": 66072,
-        "player_id": "9228"
-      },
-      {
-        "count": 66003,
+        "count": 65191,
         "player_id": "12501"
       },
       {
-        "count": 59553,
+        "count": 65052,
+        "player_id": "4199"
+      },
+      {
+        "count": 64900,
+        "player_id": "9228"
+      },
+      {
+        "count": 57897,
         "player_id": "6931"
       },
       {
-        "count": 56944,
-        "player_id": "12492"
-      },
-      {
-        "count": 56672,
+        "count": 55728,
         "player_id": "4066"
       },
       {
-        "count": 54817,
+        "count": 55392,
+        "player_id": "12492"
+      },
+      {
+        "count": 54292,
         "player_id": "NE"
       },
       {
-        "count": 50442,
+        "count": 49608,
         "player_id": "12711"
       },
       {
-        "count": 50270,
+        "count": 49455,
         "player_id": "7042"
       },
       {
-        "count": 46888,
+        "count": 45904,
         "player_id": "12545"
       },
       {
-        "count": 45696,
+        "count": 45143,
         "player_id": "9758"
       },
       {
-        "count": 45300,
+        "count": 44660,
         "player_id": "6083"
       },
       {
-        "count": 45192,
+        "count": 44480,
         "player_id": "8121"
       },
       {
-        "count": 44700,
+        "count": 43767,
         "player_id": "9486"
       },
       {
-        "count": 43792,
+        "count": 43128,
         "player_id": "3321"
       },
       {
-        "count": 43056,
+        "count": 42795,
         "player_id": "9482"
       },
       {
-        "count": 42003,
+        "count": 41463,
         "player_id": "12533"
       },
       {
-        "count": 38124,
+        "count": 37809,
         "player_id": "11624"
       },
       {
-        "count": 37440,
+        "count": 36784,
         "player_id": "13545"
       },
       {
-        "count": 36351,
+        "count": 35658,
         "player_id": "11630"
       },
       {
-        "count": 34923,
+        "count": 34468,
         "player_id": "7049"
       },
       {
-        "count": 34101,
+        "count": 33162,
         "player_id": "13347"
       },
       {
-        "count": 32158,
+        "count": 31822,
         "player_id": "10236"
       },
       {
-        "count": 31645,
+        "count": 31268,
         "player_id": "GB"
       },
       {
-        "count": 31338,
+        "count": 30780,
         "player_id": "5012"
       },
       {
-        "count": 30744,
+        "count": 29842,
         "player_id": "3634"
       },
       {
-        "count": 29232,
+        "count": 28872,
         "player_id": "9756"
       },
       {
-        "count": 28140,
+        "count": 27888,
         "player_id": "8161"
       },
       {
-        "count": 26132,
+        "count": 25812,
         "player_id": "8183"
       }
     ],
     "drops": [
       {
-        "count": 228330,
+        "count": 224955,
         "player_id": "DET"
       },
       {
-        "count": 139212,
+        "count": 136719,
         "player_id": "9482"
       },
       {
-        "count": 135210,
+        "count": 133032,
         "player_id": "JAX"
       },
       {
-        "count": 103968,
+        "count": 102240,
         "player_id": "5849"
       },
       {
-        "count": 82632,
+        "count": 80944,
         "player_id": "11539"
       },
       {
-        "count": 81432,
+        "count": 80550,
         "player_id": "6130"
       },
       {
-        "count": 80620,
+        "count": 79585,
         "player_id": "MIN"
       },
       {
-        "count": 80610,
+        "count": 79416,
         "player_id": "LV"
       },
       {
-        "count": 71096,
+        "count": 69664,
         "player_id": "10235"
       },
       {
-        "count": 69966,
+        "count": 68985,
         "player_id": "10219"
       },
       {
-        "count": 64752,
+        "count": 63816,
         "player_id": "7567"
       },
       {
-        "count": 63315,
+        "count": 62325,
         "player_id": "8180"
       },
       {
-        "count": 61235,
+        "count": 60075,
         "player_id": "8408"
       },
       {
-        "count": 56970,
+        "count": 56310,
         "player_id": "12530"
       },
       {
-        "count": 52821,
+        "count": 51867,
         "player_id": "8800"
       },
       {
-        "count": 51858,
+        "count": 50823,
         "player_id": "13298"
       },
       {
-        "count": 48954,
+        "count": 48024,
         "player_id": "10213"
       },
       {
-        "count": 46377,
+        "count": 45477,
         "player_id": "9511"
       },
       {
-        "count": 46134,
+        "count": 45390,
         "player_id": "11563"
       },
       {
-        "count": 43593,
+        "count": 42996,
         "player_id": "PIT"
       },
       {
-        "count": 43575,
+        "count": 42910,
         "player_id": "9225"
       },
       {
-        "count": 43325,
+        "count": 42705,
         "player_id": "12493"
       },
       {
-        "count": 41832,
+        "count": 41211,
         "player_id": "5045"
       },
       {
-        "count": 40869,
-        "player_id": "2505"
-      },
-      {
-        "count": 40686,
+        "count": 40044,
         "player_id": "13413"
       },
       {
-        "count": 40536,
+        "count": 39996,
         "player_id": "13294"
       },
       {
-        "count": 40455,
+        "count": 39987,
+        "player_id": "2505"
+      },
+      {
+        "count": 39906,
         "player_id": "9480"
       },
       {
-        "count": 39123,
+        "count": 38591,
         "player_id": "NE"
       },
       {
-        "count": 37704,
+        "count": 37112,
         "player_id": "8121"
       },
       {
-        "count": 37629,
+        "count": 36909,
         "player_id": "11581"
       },
       {
-        "count": 37062,
+        "count": 36477,
         "player_id": "10222"
       },
       {
-        "count": 36155,
+        "count": 35335,
         "player_id": "11237"
       },
       {
-        "count": 35433,
-        "player_id": "421"
-      },
-      {
-        "count": 35420,
+        "count": 35098,
         "player_id": "7553"
       },
       {
-        "count": 34888,
+        "count": 34866,
+        "player_id": "421"
+      },
+      {
+        "count": 34480,
         "player_id": "4035"
       },
       {
-        "count": 34220,
+        "count": 33790,
         "player_id": "HOU"
       },
       {
-        "count": 34120,
+        "count": 33528,
         "player_id": "8205"
       },
       {
-        "count": 33903,
+        "count": 33471,
         "player_id": "11624"
       },
       {
-        "count": 33384,
+        "count": 32850,
         "player_id": "11603"
       },
       {
-        "count": 32350,
+        "count": 31855,
         "player_id": "8132"
       },
       {
-        "count": 31820,
-        "player_id": "7528"
-      },
-      {
-        "count": 31779,
+        "count": 31356,
         "player_id": "13330"
       },
       {
-        "count": 31779,
+        "count": 31347,
         "player_id": "6783"
       },
       {
-        "count": 31446,
+        "count": 31220,
+        "player_id": "7528"
+      },
+      {
+        "count": 31167,
         "player_id": "13337"
       },
       {
-        "count": 31296,
+        "count": 30816,
         "player_id": "11610"
       },
       {
-        "count": 30735,
+        "count": 30402,
         "player_id": "9756"
       },
       {
-        "count": 30646,
+        "count": 30107,
         "player_id": "13311"
       },
       {
-        "count": 29736,
+        "count": 29204,
         "player_id": "9754"
       },
       {
-        "count": 28976,
+        "count": 28504,
         "player_id": "12487"
       },
       {
-        "count": 28975,
+        "count": 28495,
         "player_id": "12469"
       }
     ]
@@ -3518,7 +3518,31 @@
           "carry_share": 0
         }
       },
-      "injury": null
+      "injury": {
+        "report_status": null,
+        "practice_status": "Did Not Participate In Practice",
+        "primary_injury": null,
+        "report_date": null,
+        "week": 2,
+        "raw": {
+          "season": 2026,
+          "season_type": "REG",
+          "game_type": "REG",
+          "team": "LA",
+          "week": 2,
+          "gsis_id": "00-0031381",
+          "position": "WR",
+          "full_name": "Davante Adams",
+          "first_name": "Davante",
+          "last_name": "Adams",
+          "report_primary_injury": null,
+          "report_secondary_injury": null,
+          "report_status": null,
+          "practice_primary_injury": "Not injury related - resting player",
+          "practice_secondary_injury": null,
+          "practice_status": "Did Not Participate In Practice"
+        }
+      }
     },
     "2216": {
       "sleeper_id": "2216",
@@ -3716,7 +3740,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Did Not Participate In Practice",
+        "practice_status": "Full Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -3736,7 +3760,7 @@
           "report_status": null,
           "practice_primary_injury": "Not injury related - resting player",
           "practice_secondary_injury": null,
-          "practice_status": "Did Not Participate In Practice"
+          "practice_status": "Full Participation in Practice"
         }
       }
     },
@@ -4298,7 +4322,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Did Not Participate In Practice",
+        "practice_status": "Full Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -4318,7 +4342,7 @@
           "report_status": null,
           "practice_primary_injury": "Not injury related - resting player",
           "practice_secondary_injury": null,
-          "practice_status": "Did Not Participate In Practice"
+          "practice_status": "Full Participation in Practice"
         }
       }
     },
@@ -4529,7 +4553,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Limited Participation in Practice",
+        "practice_status": "Full Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -4549,7 +4573,7 @@
           "report_status": null,
           "practice_primary_injury": "Back",
           "practice_secondary_injury": null,
-          "practice_status": "Limited Participation in Practice"
+          "practice_status": "Full Participation in Practice"
         }
       }
     },
@@ -7470,7 +7494,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Limited Participation in Practice",
+        "practice_status": "Did Not Participate In Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -7490,7 +7514,7 @@
           "report_status": null,
           "practice_primary_injury": "Foot",
           "practice_secondary_injury": null,
-          "practice_status": "Limited Participation in Practice"
+          "practice_status": "Did Not Participate In Practice"
         }
       }
     },
@@ -7684,7 +7708,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Did Not Participate In Practice",
+        "practice_status": "Limited Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -7704,7 +7728,7 @@
           "report_status": null,
           "practice_primary_injury": "Illness",
           "practice_secondary_injury": null,
-          "practice_status": "Did Not Participate In Practice"
+          "practice_status": "Limited Participation in Practice"
         }
       }
     },
@@ -8594,7 +8618,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Limited Participation in Practice",
+        "practice_status": "Did Not Participate In Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -8614,7 +8638,7 @@
           "report_status": null,
           "practice_primary_injury": "Hamstring",
           "practice_secondary_injury": null,
-          "practice_status": "Limited Participation in Practice"
+          "practice_status": "Did Not Participate In Practice"
         }
       }
     },
@@ -9190,7 +9214,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Did Not Participate In Practice",
+        "practice_status": "Full Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -9210,7 +9234,7 @@
           "report_status": null,
           "practice_primary_injury": "Not injury related - resting player",
           "practice_secondary_injury": "Back",
-          "practice_status": "Did Not Participate In Practice"
+          "practice_status": "Full Participation in Practice"
         }
       }
     },
@@ -9719,7 +9743,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Full Participation in Practice",
+        "practice_status": "Did Not Participate In Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -9739,7 +9763,7 @@
           "report_status": null,
           "practice_primary_injury": "Heel",
           "practice_secondary_injury": null,
-          "practice_status": "Full Participation in Practice"
+          "practice_status": "Did Not Participate In Practice"
         }
       }
     },
@@ -9814,7 +9838,31 @@
           "carry_share": 0
         }
       },
-      "injury": null
+      "injury": {
+        "report_status": null,
+        "practice_status": "Limited Participation in Practice",
+        "primary_injury": null,
+        "report_date": null,
+        "week": 2,
+        "raw": {
+          "season": 2026,
+          "season_type": "REG",
+          "game_type": "REG",
+          "team": "NO",
+          "week": 2,
+          "gsis_id": "00-0037239",
+          "position": "WR",
+          "full_name": "Chris Olave",
+          "first_name": "Chris",
+          "last_name": "Olave",
+          "report_primary_injury": null,
+          "report_secondary_injury": null,
+          "report_status": null,
+          "practice_primary_injury": "Hamstring",
+          "practice_secondary_injury": null,
+          "practice_status": "Limited Participation in Practice"
+        }
+      }
     },
     "8146": {
       "sleeper_id": "8146",
@@ -15068,7 +15116,7 @@
       },
       "injury": {
         "report_status": null,
-        "practice_status": "Did Not Participate In Practice",
+        "practice_status": "Limited Participation in Practice",
         "primary_injury": null,
         "report_date": null,
         "week": 2,
@@ -15088,7 +15136,7 @@
           "report_status": null,
           "practice_primary_injury": "Hamstring",
           "practice_secondary_injury": null,
-          "practice_status": "Did Not Participate In Practice"
+          "practice_status": "Limited Participation in Practice"
         }
       }
     },
@@ -17667,7 +17715,31 @@
           "carry_share": 0.4666666666666667
         }
       },
-      "injury": null
+      "injury": {
+        "report_status": null,
+        "practice_status": "Limited Participation in Practice",
+        "primary_injury": null,
+        "report_date": null,
+        "week": 2,
+        "raw": {
+          "season": 2026,
+          "season_type": "REG",
+          "game_type": "REG",
+          "team": "SF",
+          "week": 2,
+          "gsis_id": "00-0041052",
+          "position": "RB",
+          "full_name": "Kaelon Black",
+          "first_name": "Kaelon",
+          "last_name": "Black",
+          "report_primary_injury": null,
+          "report_secondary_injury": null,
+          "report_status": null,
+          "practice_primary_injury": "Groin",
+          "practice_secondary_injury": null,
+          "practice_status": "Limited Participation in Practice"
+        }
+      }
     },
     "13417": {
       "sleeper_id": "13417",
