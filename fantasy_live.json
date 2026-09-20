@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T07:00:18.031Z",
+  "generated_at": "2026-09-20T07:15:15.292Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-09-20T07:00:17.729Z",
+    "compiled_at": "2026-09-20T07:15:15.173Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
         "generated_at": "2026-09-20T06:45:43.673Z",
-        "age_minutes": 15,
+        "age_minutes": 30,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
-        "generated_at": "2026-09-20T06:00:19.299Z",
-        "age_minutes": 60,
+        "generated_at": "2026-09-20T07:00:22.124Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
         "generated_at": "2026-09-20T04:00:42.272Z",
-        "age_minutes": 180,
+        "age_minutes": 195,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 200,
@@ -12081,7 +12081,7 @@
         }
       },
       "injury": {
-        "report_status": null,
+        "report_status": "Questionable",
         "practice_status": "Did Not Participate In Practice",
         "primary_injury": null,
         "report_date": null,
@@ -12097,9 +12097,9 @@
           "full_name": "Puka Nacua",
           "first_name": "Puka",
           "last_name": "Nacua",
-          "report_primary_injury": null,
+          "report_primary_injury": "Hip",
           "report_secondary_injury": null,
-          "report_status": null,
+          "report_status": "Questionable",
           "practice_primary_injury": "Hip",
           "practice_secondary_injury": null,
           "practice_status": "Did Not Participate In Practice"
