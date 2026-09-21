@@ -1,613 +1,1194 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T06:00:14.637Z",
+  "generated_at": "2026-09-21T06:15:16.035Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-09-21T05:45:16.019Z",
-  "current_generated_at": "2026-09-21T06:00:14.637Z",
+  "previous_generated_at": "2026-09-21T06:00:14.637Z",
+  "current_generated_at": "2026-09-21T06:15:16.035Z",
   "has_changes": true,
   "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
     "gcs_2_0": []
   },
-  "players": [],
+  "players": [
+    {
+      "player_id": "1466",
+      "name": "Travis Kelce",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 9,
+              "target_share": 0.2558139534883721,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.22790697674418606,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.22790697674418606,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4046",
+      "name": "Patrick Mahomes",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.18421052631578946
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.18421052631578946
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.18421052631578946
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.06896551724137931
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.1265880217785844
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.1265880217785844
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6813",
+      "name": "Jonathan Taylor",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 4,
+              "carries": 19,
+              "touches": 22,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.95
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 19,
+              "touches": 22,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.95
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 19,
+              "touches": 22,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.95
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 4,
+              "carries": 24,
+              "touches": 28,
+              "target_share": 0.13333333333333333,
+              "carry_share": 0.75
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 21.5,
+              "touches": 25,
+              "target_share": 0.135632183908046,
+              "carry_share": 0.85
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 21.5,
+              "touches": 25,
+              "target_share": 0.135632183908046,
+              "carry_share": 0.85
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8142",
+      "name": "Alec Pierce",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.03333333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3.5,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.12011494252873563,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3.5,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.12011494252873563,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8188",
+      "name": "Tyquan Thornton",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.04,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.04,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.04,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.09302325581395349,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06651162790697675,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06651162790697675,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9500",
+      "name": "Josh Downs",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 7,
+              "target_share": 0.3,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.2189655172413793,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.2189655172413793,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "10229",
+      "name": "Rashee Rice",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.13953488372093023,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.10976744186046511,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.10976744186046511,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11624",
+      "name": "Xavier Worthy",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.24,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.24,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.24,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.16279069767441862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.2013953488372093,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.2013953488372093,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12518",
+      "name": "Tyler Warren",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "IND",
+            "last_1": {
+              "targets": 7,
+              "carries": 1,
+              "touches": 7,
+              "target_share": 0.23333333333333334,
+              "carry_share": 0.03125
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0.5,
+              "touches": 5,
+              "target_share": 0.2028735632183908,
+              "carry_share": 0.015625
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0.5,
+              "touches": 5,
+              "target_share": 0.2028735632183908,
+              "carry_share": 0.015625
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13337",
+      "name": "Emmett Johnson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 2,
+              "carries": 8,
+              "touches": 10,
+              "target_share": 0.08,
+              "carry_share": 0.21052631578947367
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 8,
+              "touches": 10,
+              "target_share": 0.08,
+              "carry_share": 0.21052631578947367
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 8,
+              "touches": 10,
+              "target_share": 0.08,
+              "carry_share": 0.21052631578947367
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "KC",
+            "last_1": {
+              "targets": 2,
+              "carries": 2,
+              "touches": 4,
+              "target_share": 0.046511627906976744,
+              "carry_share": 0.06896551724137931
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 5,
+              "touches": 7,
+              "target_share": 0.06325581395348837,
+              "carry_share": 0.1397459165154265
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 5,
+              "touches": 7,
+              "target_share": 0.06325581395348837,
+              "carry_share": 0.1397459165154265
+            }
+          }
+        }
+      }
+    }
+  ],
   "trending": {
     "adds": [
       {
         "player_id": "9228",
-        "before": 465484,
-        "after": 466576,
-        "delta": 1092
+        "before": 466576,
+        "after": 470128,
+        "delta": 3552
       },
       {
         "player_id": "12545",
-        "before": 311624,
-        "after": 312880,
-        "delta": 1256
+        "before": 312880,
+        "after": 315792,
+        "delta": 2912
       },
       {
         "player_id": "10218",
-        "before": 320397,
-        "after": 309981,
-        "delta": -10416
+        "before": 309981,
+        "after": 310219,
+        "delta": 238
       },
       {
         "player_id": "9482",
-        "before": 274491,
-        "after": 268650,
-        "delta": -5841
+        "before": 268650,
+        "after": 268767,
+        "delta": 117
       },
       {
         "player_id": "6130",
-        "before": 256095,
-        "after": 253539,
-        "delta": -2556
+        "before": 253539,
+        "after": 254385,
+        "delta": 846
       },
       {
         "player_id": "9225",
-        "before": 239449,
-        "after": 240247,
-        "delta": 798
-      },
-      {
-        "player_id": "11630",
-        "before": 245916,
-        "after": 236169,
-        "delta": -9747
+        "before": 240247,
+        "after": 241871,
+        "delta": 1624
       },
       {
         "player_id": "2505",
-        "before": 234594,
-        "after": 235296,
-        "delta": 702
+        "before": 235296,
+        "after": 236637,
+        "delta": 1341
+      },
+      {
+        "player_id": "11630",
+        "before": 236169,
+        "after": 236403,
+        "delta": 234
       },
       {
         "player_id": "10213",
-        "before": 220212,
-        "after": 220962,
-        "delta": 750
+        "before": 220962,
+        "after": 223332,
+        "delta": 2370
       },
       {
         "player_id": "11637",
-        "before": 195390,
-        "after": 193545,
-        "delta": -1845
+        "before": 193545,
+        "after": 194616,
+        "delta": 1071
       },
       {
         "player_id": "11256",
-        "before": 167070,
-        "after": 167556,
-        "delta": 486
+        "before": 167556,
+        "after": 168414,
+        "delta": 858
       },
       {
         "player_id": "4035",
-        "before": 154456,
-        "after": 151520,
-        "delta": -2936
+        "before": 151520,
+        "after": 151896,
+        "delta": 376
       },
       {
         "player_id": "6650",
-        "before": 150336,
-        "after": 149848,
-        "delta": -488
+        "before": 149848,
+        "after": 150760,
+        "delta": 912
       },
       {
         "player_id": "11435",
-        "before": 143451,
-        "after": 144513,
-        "delta": 1062
+        "before": 144513,
+        "after": 146916,
+        "delta": 2403
       },
       {
         "player_id": "12718",
-        "before": 144540,
-        "after": 143010,
-        "delta": -1530
+        "before": 143010,
+        "after": 143352,
+        "delta": 342
       },
       {
         "player_id": "11625",
-        "before": 124616,
-        "after": 124424,
-        "delta": -192
+        "before": 124424,
+        "after": 125960,
+        "delta": 1536
       },
       {
         "player_id": "13337",
-        "before": 110223,
-        "after": 109089,
-        "delta": -1134
+        "before": 109089,
+        "after": 109359,
+        "delta": 270
       },
       {
         "player_id": "13285",
-        "before": 99855,
-        "after": 98945,
-        "delta": -910
+        "before": 98945,
+        "after": 99330,
+        "delta": 385
       },
       {
         "player_id": "13346",
-        "before": 90800,
-        "after": 91126,
-        "delta": 326
+        "before": 91126,
+        "after": 92278,
+        "delta": 1152
       },
       {
         "player_id": "2307",
-        "before": 89640,
-        "after": 90048,
-        "delta": 408
+        "before": 90048,
+        "after": 90760,
+        "delta": 712
       },
       {
         "player_id": "9758",
-        "before": 85708,
-        "after": 85428,
-        "delta": -280
+        "before": 85428,
+        "after": 85841,
+        "delta": 413
       },
       {
         "player_id": "11624",
-        "before": 85473,
-        "after": 84762,
-        "delta": -711
+        "before": 84762,
+        "after": 85140,
+        "delta": 378
       },
       {
         "player_id": "1166",
-        "before": 80384,
-        "after": 80528,
-        "delta": 144
+        "before": 80528,
+        "after": 81232,
+        "delta": 704
       },
       {
         "player_id": "13345",
-        "before": 75806,
-        "after": 76322,
-        "delta": 516
+        "before": 76322,
+        "after": 77430,
+        "delta": 1108
       },
       {
         "player_id": "3163",
-        "before": 69150,
-        "after": 69410,
-        "delta": 260
+        "before": 69410,
+        "after": 70100,
+        "delta": 690
       },
       {
         "player_id": "3286",
-        "before": 69828,
-        "after": 67752,
-        "delta": -2076
+        "before": 67752,
+        "after": 67758,
+        "delta": 6
       },
       {
         "player_id": "3161",
-        "before": 67518,
-        "after": 65394,
-        "delta": -2124
+        "before": 65394,
+        "after": 65460,
+        "delta": 66
       },
       {
         "player_id": "2020",
-        "before": 67004,
-        "after": 64925,
-        "delta": -2079
+        "before": 64925,
+        "after": 64953,
+        "delta": 28
       },
       {
         "player_id": "9486",
-        "before": 64557,
-        "after": 64299,
-        "delta": -258
+        "before": 64299,
+        "after": 64785,
+        "delta": 486
       },
       {
         "player_id": "11834",
-        "before": 65443,
-        "after": 64148,
-        "delta": -1295
-      },
-      {
-        "player_id": "11610",
-        "before": 63784,
-        "after": 62472,
-        "delta": -1312
-      },
-      {
-        "player_id": "NE",
-        "before": 59395,
-        "after": 58478,
-        "delta": -917
-      },
-      {
-        "player_id": "TB",
-        "before": 60080,
-        "after": 58365,
-        "delta": -1715
-      },
-      {
-        "player_id": "MIN",
-        "before": 55555,
-        "after": 55835,
+        "before": 64148,
+        "after": 64428,
         "delta": 280
       },
       {
+        "player_id": "11610",
+        "before": 62472,
+        "after": 62600,
+        "delta": 128
+      },
+      {
+        "player_id": "NE",
+        "before": 58478,
+        "after": 58695,
+        "delta": 217
+      },
+      {
+        "player_id": "TB",
+        "before": 58365,
+        "after": 58395,
+        "delta": 30
+      },
+      {
+        "player_id": "MIN",
+        "before": 55835,
+        "after": 56545,
+        "delta": 710
+      },
+      {
         "player_id": "4017",
-        "before": 51480,
-        "after": 51568,
-        "delta": 88
+        "before": 51568,
+        "after": 52096,
+        "delta": 528
       },
       {
         "player_id": "8161",
-        "before": 51730,
-        "after": 51233,
-        "delta": -497
+        "before": 51233,
+        "after": 51317,
+        "delta": 84
       },
       {
         "player_id": "5012",
-        "before": 51831,
-        "after": 50580,
-        "delta": -1251
+        "before": 50580,
+        "after": 50697,
+        "delta": 117
       },
       {
         "player_id": "7571",
-        "before": 50564,
-        "after": 49701,
-        "delta": -863
+        "before": 49701,
+        "after": 49931,
+        "delta": 230
       },
       {
         "player_id": "6083",
-        "before": 46820,
-        "after": 46105,
-        "delta": -715
+        "before": 46105,
+        "after": 46240,
+        "delta": 135
       },
       {
         "player_id": "12487",
-        "before": 46576,
-        "after": 46032,
-        "delta": -544
+        "before": 46032,
+        "after": 46224,
+        "delta": 192
       },
       {
         "player_id": "7090",
-        "before": 46116,
-        "after": 45846,
-        "delta": -270
+        "before": 45846,
+        "after": 46098,
+        "delta": 252
       },
       {
         "player_id": "8183",
-        "before": 45932,
-        "after": 45772,
-        "delta": -160
-      },
-      {
-        "player_id": "13296",
-        "before": 45080,
-        "after": 43688,
-        "delta": -1392
+        "before": 45772,
+        "after": 45984,
+        "delta": 212
       },
       {
         "player_id": "8188",
-        "before": 43421,
-        "after": 43302,
-        "delta": -119
+        "before": 43302,
+        "after": 43750,
+        "delta": 448
+      },
+      {
+        "player_id": "13296",
+        "before": 43688,
+        "after": 43712,
+        "delta": 24
       },
       {
         "player_id": "SF",
-        "before": 43545,
-        "after": 42651,
-        "delta": -894
+        "before": 42651,
+        "after": 42726,
+        "delta": 75
       },
       {
         "player_id": "11581",
-        "before": 42255,
-        "after": 41247,
-        "delta": -1008
+        "before": 41247,
+        "after": 41364,
+        "delta": 117
       },
       {
         "player_id": "12501",
-        "before": 41601,
-        "after": 40341,
-        "delta": -1260
+        "before": 40341,
+        "after": 40460,
+        "delta": 119
       },
       {
         "player_id": "8134",
-        "before": 40014,
-        "after": 39537,
-        "delta": -477
+        "before": 39537,
+        "after": 39780,
+        "delta": 243
       },
       {
         "player_id": "4066",
-        "before": 36856,
-        "after": 36360,
-        "delta": -496
+        "before": 36360,
+        "after": 36376,
+        "delta": 16
       },
       {
         "player_id": "6931",
-        "before": 35163,
-        "after": 33990,
-        "delta": -1173
+        "before": 33990,
+        "after": 34035,
+        "delta": 45
       }
     ],
     "drops": [
       {
         "player_id": "10222",
-        "before": 228393,
-        "after": 229293,
-        "delta": 900
+        "before": 229293,
+        "after": 230148,
+        "delta": 855
       },
       {
         "player_id": "13296",
-        "before": 169320,
-        "after": 170776,
-        "delta": 1456
+        "before": 170776,
+        "after": 171728,
+        "delta": 952
       },
       {
         "player_id": "11566",
-        "before": 152208,
-        "after": 153952,
-        "delta": 1744
+        "before": 153952,
+        "after": 154808,
+        "delta": 856
       },
       {
         "player_id": "TB",
-        "before": 128700,
-        "after": 130460,
-        "delta": 1760
+        "before": 130460,
+        "after": 131155,
+        "delta": 695
       },
       {
         "player_id": "10219",
-        "before": 122688,
-        "after": 122751,
-        "delta": 63
-      },
-      {
-        "player_id": "6130",
-        "before": 120240,
-        "after": 119133,
-        "delta": -1107
-      },
-      {
-        "player_id": "9482",
-        "before": 116334,
-        "after": 116253,
-        "delta": -81
-      },
-      {
-        "player_id": "8180",
-        "before": 110016,
-        "after": 109971,
-        "delta": -45
-      },
-      {
-        "player_id": "4993",
-        "before": 102820,
-        "after": 102844,
-        "delta": 24
-      },
-      {
-        "player_id": "9754",
-        "before": 99981,
-        "after": 100583,
-        "delta": 602
-      },
-      {
-        "player_id": "7567",
-        "before": 94128,
-        "after": 94112,
-        "delta": -16
-      },
-      {
-        "player_id": "13330",
-        "before": 90000,
-        "after": 89874,
-        "delta": -126
-      },
-      {
-        "player_id": "5849",
-        "before": 87520,
-        "after": 86840,
-        "delta": -680
-      },
-      {
-        "player_id": "9756",
-        "before": 81630,
-        "after": 82026,
-        "delta": 396
-      },
-      {
-        "player_id": "7553",
-        "before": 81053,
-        "after": 81158,
-        "delta": 105
-      },
-      {
-        "player_id": "JAX",
-        "before": 81258,
-        "after": 80082,
-        "delta": -1176
-      },
-      {
-        "player_id": "11560",
-        "before": 75303,
-        "after": 75798,
+        "before": 122751,
+        "after": 123246,
         "delta": 495
       },
       {
+        "player_id": "6130",
+        "before": 119133,
+        "after": 119313,
+        "delta": 180
+      },
+      {
+        "player_id": "9482",
+        "before": 116253,
+        "after": 116676,
+        "delta": 423
+      },
+      {
+        "player_id": "8180",
+        "before": 109971,
+        "after": 110358,
+        "delta": 387
+      },
+      {
+        "player_id": "4993",
+        "before": 102844,
+        "after": 103104,
+        "delta": 260
+      },
+      {
+        "player_id": "9754",
+        "before": 100583,
+        "after": 101143,
+        "delta": 560
+      },
+      {
+        "player_id": "7567",
+        "before": 94112,
+        "after": 94400,
+        "delta": 288
+      },
+      {
+        "player_id": "13330",
+        "before": 89874,
+        "after": 90171,
+        "delta": 297
+      },
+      {
+        "player_id": "5849",
+        "before": 86840,
+        "after": 87040,
+        "delta": 200
+      },
+      {
+        "player_id": "9756",
+        "before": 82026,
+        "after": 82305,
+        "delta": 279
+      },
+      {
+        "player_id": "7553",
+        "before": 81158,
+        "after": 81326,
+        "delta": 168
+      },
+      {
+        "player_id": "JAX",
+        "before": 80082,
+        "after": 80292,
+        "delta": 210
+      },
+      {
+        "player_id": "11560",
+        "before": 75798,
+        "after": 75996,
+        "delta": 198
+      },
+      {
         "player_id": "13414",
-        "before": 73206,
-        "after": 73444,
-        "delta": 238
+        "before": 73444,
+        "after": 73710,
+        "delta": 266
       },
       {
         "player_id": "9480",
-        "before": 71541,
-        "after": 71172,
-        "delta": -369
+        "before": 71172,
+        "after": 71388,
+        "delta": 216
       },
       {
         "player_id": "13294",
-        "before": 70776,
-        "after": 70788,
-        "delta": 12
+        "before": 70788,
+        "after": 70964,
+        "delta": 176
       },
       {
         "player_id": "11563",
-        "before": 65274,
-        "after": 65034,
-        "delta": -240
+        "before": 65034,
+        "after": 65196,
+        "delta": 162
       },
       {
         "player_id": "12492",
-        "before": 63864,
-        "after": 64088,
-        "delta": 224
+        "before": 64088,
+        "after": 64432,
+        "delta": 344
       },
       {
         "player_id": "10218",
-        "before": 62216,
-        "after": 61796,
-        "delta": -420
+        "before": 61796,
+        "after": 61971,
+        "delta": 175
       },
       {
         "player_id": "8132",
-        "before": 61580,
-        "after": 61575,
-        "delta": -5
+        "before": 61575,
+        "after": 61845,
+        "delta": 270
       },
       {
         "player_id": "3161",
-        "before": 60978,
-        "after": 61284,
-        "delta": 306
+        "before": 61284,
+        "after": 61512,
+        "delta": 228
       },
       {
         "player_id": "13298",
-        "before": 60651,
-        "after": 60615,
-        "delta": -36
+        "before": 60615,
+        "after": 60840,
+        "delta": 225
       },
       {
         "player_id": "5947",
-        "before": 60480,
-        "after": 60450,
-        "delta": -30
+        "before": 60450,
+        "after": 60630,
+        "delta": 180
       },
       {
         "player_id": "5045",
-        "before": 60075,
-        "after": 60111,
-        "delta": 36
+        "before": 60111,
+        "after": 60345,
+        "delta": 234
       },
       {
         "player_id": "12530",
-        "before": 57390,
-        "after": 57042,
-        "delta": -348
+        "before": 57042,
+        "after": 57186,
+        "delta": 144
       },
       {
         "player_id": "9511",
-        "before": 56115,
-        "after": 55809,
-        "delta": -306
+        "before": 55809,
+        "after": 55953,
+        "delta": 144
       },
       {
         "player_id": "13337",
-        "before": 54954,
-        "after": 54819,
-        "delta": -135
+        "before": 54819,
+        "after": 54936,
+        "delta": 117
       },
       {
         "player_id": "11581",
-        "before": 54243,
-        "after": 54324,
-        "delta": 81
+        "before": 54324,
+        "after": 54522,
+        "delta": 198
       },
       {
         "player_id": "6783",
-        "before": 54504,
-        "after": 54252,
-        "delta": -252
+        "before": 54252,
+        "after": 54405,
+        "delta": 153
       },
       {
         "player_id": "6819",
-        "before": 54095,
-        "after": 53805,
-        "delta": -290
-      },
-      {
-        "player_id": "11628",
-        "before": 51508,
-        "after": 51824,
-        "delta": 316
-      },
-      {
-        "player_id": "12489",
-        "before": 50532,
-        "after": 50548,
-        "delta": 16
-      },
-      {
-        "player_id": "7021",
-        "before": 49400,
-        "after": 49560,
+        "before": 53805,
+        "after": 53965,
         "delta": 160
       },
       {
+        "player_id": "11628",
+        "before": 51824,
+        "after": 52084,
+        "delta": 260
+      },
+      {
+        "player_id": "8161",
+        "before": 51513,
+        "after": 51709,
+        "delta": 196
+      },
+      {
+        "player_id": "12489",
+        "before": 50548,
+        "after": 50692,
+        "delta": 144
+      },
+      {
+        "player_id": "7021",
+        "before": 49560,
+        "after": 49735,
+        "delta": 175
+      },
+      {
         "player_id": "DET",
-        "before": 47799,
-        "after": 47844,
-        "delta": 45
+        "before": 47844,
+        "after": 47970,
+        "delta": 126
       },
       {
         "player_id": "421",
-        "before": 47556,
-        "after": 47376,
-        "delta": -180
+        "before": 47376,
+        "after": 47475,
+        "delta": 99
       },
       {
         "player_id": "2020",
-        "before": 47208,
-        "after": 47026,
-        "delta": -182
+        "before": 47026,
+        "after": 47194,
+        "delta": 168
       },
       {
         "player_id": "3286",
-        "before": 44190,
-        "after": 44280,
-        "delta": 90
+        "before": 44280,
+        "after": 44424,
+        "delta": 144
       },
       {
         "player_id": "13311",
-        "before": 42497,
-        "after": 42490,
-        "delta": -7
+        "before": 42490,
+        "after": 42672,
+        "delta": 182
       },
       {
         "player_id": "10232",
-        "before": 41913,
-        "after": 42102,
-        "delta": 189
+        "before": 42102,
+        "after": 42381,
+        "delta": 279
       },
       {
         "player_id": "7049",
-        "before": 42511,
-        "after": 41895,
-        "delta": -616
+        "before": 41895,
+        "after": 41965,
+        "delta": 70
       },
       {
         "player_id": "10235",
-        "before": 40992,
-        "after": 40168,
-        "delta": -824
+        "before": 40168,
+        "after": 40256,
+        "delta": 88
       },
       {
         "player_id": "4066",
-        "before": 40120,
-        "after": 39968,
-        "delta": -152
-      },
-      {
-        "player_id": "MIN",
-        "before": 40820,
-        "after": 39670,
-        "delta": -1150
+        "before": 39968,
+        "after": 40080,
+        "delta": 112
       },
       {
         "player_id": "8408",
-        "before": 38225,
-        "after": 37935,
-        "delta": -290
+        "before": 37935,
+        "after": 38020,
+        "delta": 85
       },
       {
         "player_id": "11610",
-        "before": 38128,
-        "after": 37712,
-        "delta": -416
+        "before": 37712,
+        "after": 37824,
+        "delta": 112
       }
     ]
   },
