@@ -1,619 +1,4540 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T01:00:14.591Z",
+  "generated_at": "2026-09-21T01:15:16.176Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-09-21T00:45:16.156Z",
-  "current_generated_at": "2026-09-21T01:00:14.591Z",
+  "previous_generated_at": "2026-09-21T01:00:14.591Z",
+  "current_generated_at": "2026-09-21T01:15:16.175Z",
   "has_changes": true,
   "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
     "gcs_2_0": []
   },
-  "players": [],
+  "players": [
+    {
+      "player_id": "1166",
+      "name": "Kirk Cousins",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.13513513513513514
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.13513513513513514
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.13513513513513514
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.13793103448275862
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.13653308480894688
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.13653308480894688
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "2216",
+      "name": "Mike Evans",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.14285714285714285,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.17436974789915966,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.17436974789915966,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "2307",
+      "name": "Marcus Mariota",
+      "changes": {
+        "usage": {
+          "before": null,
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 0,
+              "carries": 1,
+              "touches": 1,
+              "target_share": 0,
+              "carry_share": 0.03125
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 1,
+              "touches": 1,
+              "target_share": 0,
+              "carry_share": 0.03125
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 1,
+              "touches": 1,
+              "target_share": 0,
+              "carry_share": 0.03125
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "2449",
+      "name": "Stefon Diggs",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.17647058823529413,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.2434077079107505,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.2434077079107505,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "3286",
+      "name": "Demarcus Robinson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08823529411764706,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08823529411764706,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08823529411764706,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.14285714285714285,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.11554621848739496,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.11554621848739496,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "3294",
+      "name": "Dak Prescott",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.1111111111111111
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.1111111111111111
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.1111111111111111
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.19047619047619047
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.15079365079365079
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.15079365079365079
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4017",
+      "name": "Deshaun Watson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.2727272727272727
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.2727272727272727
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.2727272727272727
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.30434782608695654
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 6.5,
+              "touches": 6.5,
+              "target_share": 0,
+              "carry_share": 0.2885375494071146
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 6.5,
+              "touches": 6.5,
+              "target_share": 0,
+              "carry_share": 0.2885375494071146
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4034",
+      "name": "Christian McCaffrey",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 8,
+              "carries": 10,
+              "touches": 15,
+              "target_share": 0.23529411764705882,
+              "carry_share": 0.3333333333333333
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 10,
+              "touches": 15,
+              "target_share": 0.23529411764705882,
+              "carry_share": 0.3333333333333333
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 10,
+              "touches": 15,
+              "target_share": 0.23529411764705882,
+              "carry_share": 0.3333333333333333
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 4,
+              "carries": 10,
+              "touches": 14,
+              "target_share": 0.19047619047619047,
+              "carry_share": 0.37037037037037035
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 10,
+              "touches": 14.5,
+              "target_share": 0.21288515406162464,
+              "carry_share": 0.35185185185185186
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 10,
+              "touches": 14.5,
+              "target_share": 0.21288515406162464,
+              "carry_share": 0.35185185185185186
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4037",
+      "name": "Chris Godwin",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 4,
+              "carries": 1,
+              "touches": 5,
+              "target_share": 0.14814814814814814,
+              "carry_share": 0.05
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 1,
+              "touches": 5,
+              "target_share": 0.14814814814814814,
+              "carry_share": 0.05
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 1,
+              "touches": 5,
+              "target_share": 0.14814814814814814,
+              "carry_share": 0.05
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 3,
+              "carries": 1,
+              "touches": 4,
+              "target_share": 0.09090909090909091,
+              "carry_share": 0.04
+            },
+            "last_3": {
+              "targets": 3.5,
+              "carries": 1,
+              "touches": 4.5,
+              "target_share": 0.11952861952861953,
+              "carry_share": 0.045
+            },
+            "last_5": {
+              "targets": 3.5,
+              "carries": 1,
+              "touches": 4.5,
+              "target_share": 0.11952861952861953,
+              "carry_share": 0.045
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4039",
+      "name": "Cooper Kupp",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.125,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.125,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.125,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.07692307692307693,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.10096153846153846,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.10096153846153846,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4066",
+      "name": "Evan Engram",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.034482758620689655,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.10983397190293742,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.10983397190293742,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4217",
+      "name": "George Kittle",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14705882352941177,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14705882352941177,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14705882352941177,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.19047619047619047,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4.5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.16876750700280113,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4.5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.16876750700280113,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "4892",
+      "name": "Baker Mayfield",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.25
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.25
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.25
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.16
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.20500000000000002
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4.5,
+              "touches": 4.5,
+              "target_share": 0,
+              "carry_share": 0.20500000000000002
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5045",
+      "name": "Courtland Sutton",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4.5,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.1615581098339719,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4.5,
+              "carries": 0,
+              "touches": 2.5,
+              "target_share": 0.1615581098339719,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5872",
+      "name": "Deebo Samuel",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 7,
+              "carries": 1,
+              "touches": 7,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0.03333333333333333
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 1,
+              "touches": 7,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0.03333333333333333
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 1,
+              "touches": 7,
+              "target_share": 0.20588235294117646,
+              "carry_share": 0.03333333333333333
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 4,
+              "carries": 1,
+              "touches": 4,
+              "target_share": 0.19047619047619047,
+              "carry_share": 0.037037037037037035
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 1,
+              "touches": 5.5,
+              "target_share": 0.19817927170868346,
+              "carry_share": 0.03518518518518518
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 1,
+              "touches": 5.5,
+              "target_share": 0.19817927170868346,
+              "carry_share": 0.03518518518518518
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5927",
+      "name": "Terry McLaurin",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2647058823529412,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2013184584178499,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2013184584178499,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "5947",
+      "name": "Jakobi Meyers",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 2,
+              "carries": 1,
+              "touches": 3,
+              "target_share": 0.09523809523809523,
+              "carry_share": 0.03125
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 1,
+              "touches": 3,
+              "target_share": 0.09523809523809523,
+              "carry_share": 0.03125
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 1,
+              "touches": 3,
+              "target_share": 0.09523809523809523,
+              "carry_share": 0.03125
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.03571428571428571,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.06547619047619047,
+              "carry_share": 0.015625
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.06547619047619047,
+              "carry_share": 0.015625
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6083",
+      "name": "Matt Gay",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6650",
+      "name": "Chase McLaughlin",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6783",
+      "name": "Jerry Jeudy",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.03333333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.10757575757575757,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.10757575757575757,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6786",
+      "name": "CeeDee Lamb",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 8,
+              "carries": 1,
+              "touches": 6,
+              "target_share": 0.26666666666666666,
+              "carry_share": 0.05555555555555555
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 1,
+              "touches": 6,
+              "target_share": 0.26666666666666666,
+              "carry_share": 0.05555555555555555
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 1,
+              "touches": 6,
+              "target_share": 0.26666666666666666,
+              "carry_share": 0.05555555555555555
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.2903225806451613,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 8.5,
+              "carries": 0.5,
+              "touches": 7,
+              "target_share": 0.278494623655914,
+              "carry_share": 0.027777777777777776
+            },
+            "last_5": {
+              "targets": 8.5,
+              "carries": 0.5,
+              "touches": 7,
+              "target_share": 0.278494623655914,
+              "carry_share": 0.027777777777777776
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6797",
+      "name": "Justin Herbert",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.23809523809523808
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.23809523809523808
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.23809523809523808
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.09375
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.16592261904761904
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.16592261904761904
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6806",
+      "name": "J.K. Dobbins",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 0,
+              "carries": 8,
+              "touches": 8,
+              "target_share": 0,
+              "carry_share": 0.5333333333333333
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 8,
+              "touches": 8,
+              "target_share": 0,
+              "carry_share": 0.5333333333333333
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 8,
+              "touches": 8,
+              "target_share": 0,
+              "carry_share": 0.5333333333333333
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 0,
+              "carries": 10,
+              "touches": 10,
+              "target_share": 0,
+              "carry_share": 0.35714285714285715
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 9,
+              "touches": 9,
+              "target_share": 0,
+              "carry_share": 0.4452380952380952
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 9,
+              "touches": 9,
+              "target_share": 0,
+              "carry_share": 0.4452380952380952
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7523",
+      "name": "Trevor Lawrence",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.0625
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.0625
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.0625
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.08333333333333333
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.07291666666666666
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.07291666666666666
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7526",
+      "name": "Jaylen Waddle",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 10,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.3448275862068966,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.22796934865900384,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.22796934865900384,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7567",
+      "name": "Kenny Gainwell",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 1,
+              "carries": 5,
+              "touches": 6,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0.25
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 5,
+              "touches": 6,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0.25
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 5,
+              "touches": 6,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0.25
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 4,
+              "carries": 2,
+              "touches": 5,
+              "target_share": 0.12121212121212122,
+              "carry_share": 0.08
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 3.5,
+              "touches": 5.5,
+              "target_share": 0.07912457912457913,
+              "carry_share": 0.165
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 3.5,
+              "touches": 5.5,
+              "target_share": 0.07912457912457913,
+              "carry_share": 0.165
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7588",
+      "name": "Javonte Williams",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 5,
+              "carries": 12,
+              "touches": 17,
+              "target_share": 0.16666666666666666,
+              "carry_share": 0.6666666666666666
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 12,
+              "touches": 17,
+              "target_share": 0.16666666666666666,
+              "carry_share": 0.6666666666666666
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 12,
+              "touches": 17,
+              "target_share": 0.16666666666666666,
+              "carry_share": 0.6666666666666666
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 4,
+              "carries": 12,
+              "touches": 15,
+              "target_share": 0.12903225806451613,
+              "carry_share": 0.5714285714285714
+            },
+            "last_3": {
+              "targets": 4.5,
+              "carries": 12,
+              "touches": 16,
+              "target_share": 0.14784946236559138,
+              "carry_share": 0.6190476190476191
+            },
+            "last_5": {
+              "targets": 4.5,
+              "carries": 12,
+              "touches": 16,
+              "target_share": 0.14784946236559138,
+              "carry_share": 0.6190476190476191
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8110",
+      "name": "Jake Ferguson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.12903225806451613,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.09784946236559139,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.09784946236559139,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8130",
+      "name": "Trey McBride",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 13,
+              "carries": 0,
+              "touches": 9,
+              "target_share": 0.35135135135135137,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 13,
+              "carries": 0,
+              "touches": 9,
+              "target_share": 0.35135135135135137,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 13,
+              "carries": 0,
+              "touches": 9,
+              "target_share": 0.35135135135135137,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 10,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.38461538461538464,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 11.5,
+              "carries": 0,
+              "touches": 8.5,
+              "target_share": 0.367983367983368,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 11.5,
+              "carries": 0,
+              "touches": 8.5,
+              "target_share": 0.367983367983368,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8132",
+      "name": "Tyler Allgeier",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 2,
+              "carries": 17,
+              "touches": 19,
+              "target_share": 0.05405405405405406,
+              "carry_share": 0.5
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 17,
+              "touches": 19,
+              "target_share": 0.05405405405405406,
+              "carry_share": 0.5
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 17,
+              "touches": 19,
+              "target_share": 0.05405405405405406,
+              "carry_share": 0.5
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 2,
+              "carries": 5,
+              "touches": 7,
+              "target_share": 0.07692307692307693,
+              "carry_share": 0.29411764705882354
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 11,
+              "touches": 13,
+              "target_share": 0.06548856548856549,
+              "carry_share": 0.3970588235294118
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 11,
+              "touches": 13,
+              "target_share": 0.06548856548856549,
+              "carry_share": 0.3970588235294118
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8136",
+      "name": "Rachaad White",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 2,
+              "carries": 7,
+              "touches": 9,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0.21875
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 7,
+              "touches": 9,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0.21875
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 7,
+              "touches": 9,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0.21875
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 6,
+              "carries": 7,
+              "touches": 13,
+              "target_share": 0.17647058823529413,
+              "carry_share": 0.21875
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 7,
+              "touches": 11,
+              "target_share": 0.12271805273833672,
+              "carry_share": 0.21875
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 7,
+              "touches": 11,
+              "target_share": 0.12271805273833672,
+              "carry_share": 0.21875
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8137",
+      "name": "George Pickens",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DAL",
+            "last_1": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.25806451612903225,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.22903225806451613,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.22903225806451613,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8161",
+      "name": "Malik Willis",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.3333333333333333
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.3333333333333333
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.3333333333333333
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.06896551724137931
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.2011494252873563
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.2011494252873563
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8180",
+      "name": "Jalen Nailor",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1724137931034483,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.10344827586206896,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8183",
+      "name": "Brock Purdy",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.16666666666666666
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.16666666666666666
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.16666666666666666
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.1111111111111111
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.1388888888888889
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.1388888888888889
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8676",
+      "name": "Rashid Shaheed",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.125,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.125,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.125,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 6,
+              "carries": 1,
+              "touches": 4,
+              "target_share": 0.23076923076923078,
+              "carry_share": 0.025
+            },
+            "last_3": {
+              "targets": 4.5,
+              "carries": 0.5,
+              "touches": 2.5,
+              "target_share": 0.1778846153846154,
+              "carry_share": 0.0125
+            },
+            "last_5": {
+              "targets": 4.5,
+              "carries": 0.5,
+              "touches": 2.5,
+              "target_share": 0.1778846153846154,
+              "carry_share": 0.0125
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9226",
+      "name": "De'Von Achane",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 5,
+              "carries": 11,
+              "touches": 15,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0.6111111111111112
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 11,
+              "touches": 15,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0.6111111111111112
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 11,
+              "touches": 15,
+              "target_share": 0.18518518518518517,
+              "carry_share": 0.6111111111111112
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 6,
+              "carries": 20,
+              "touches": 23,
+              "target_share": 0.2608695652173913,
+              "carry_share": 0.6896551724137931
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 15.5,
+              "touches": 19,
+              "target_share": 0.22302737520128824,
+              "carry_share": 0.6503831417624522
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 15.5,
+              "touches": 19,
+              "target_share": 0.22302737520128824,
+              "carry_share": 0.6503831417624522
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9480",
+      "name": "Brenton Strange",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14285714285714285,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14285714285714285,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.14285714285714285,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.07142857142857142,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.10714285714285714,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.10714285714285714,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9482",
+      "name": "Michael Mayer",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.2413793103448276,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.2413793103448276,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.2413793103448276,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.1896551724137931,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 4.5,
+              "target_share": 0.1896551724137931,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9487",
+      "name": "Parker Washington",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2857142857142857,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2857142857142857,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2857142857142857,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 12,
+              "carries": 0,
+              "touches": 7,
+              "target_share": 0.42857142857142855,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3571428571428571,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3571428571428571,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9488",
+      "name": "Jaxon Smith-Njigba",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.4583333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.4583333333333333,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.4583333333333333,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 9,
+              "target_share": 0.4230769230769231,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 8.5,
+              "target_share": 0.4407051282051282,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 11,
+              "carries": 0,
+              "touches": 8.5,
+              "target_share": 0.4407051282051282,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9511",
+      "name": "Keaton Mitchell",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.19047619047619047
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.19047619047619047
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.19047619047619047
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 1,
+              "carries": 5,
+              "touches": 6,
+              "target_share": 0.038461538461538464,
+              "carry_share": 0.15625
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 4.5,
+              "touches": 5,
+              "target_share": 0.019230769230769232,
+              "carry_share": 0.17336309523809523
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 4.5,
+              "touches": 5,
+              "target_share": 0.019230769230769232,
+              "carry_share": 0.17336309523809523
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "9754",
+      "name": "Quentin Johnston",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 5,
+              "carries": 1,
+              "touches": 2,
+              "target_share": 0.19230769230769232,
+              "carry_share": 0.03125
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.20726495726495725,
+              "carry_share": 0.015625
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.20726495726495725,
+              "carry_share": 0.015625
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "10213",
+      "name": "Tre Tucker",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2413793103448276,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.1896551724137931,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.1896551724137931,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "10232",
+      "name": "Michael Wilson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.1891891891891892,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.1891891891891892,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.1891891891891892,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.2692307692307692,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.2292099792099792,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.2292099792099792,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.09090909090909091
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.09090909090909091
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.09090909090909091
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 1,
+              "carries": 21,
+              "touches": 21,
+              "target_share": 0.038461538461538464,
+              "carry_share": 0.525
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 11.5,
+              "touches": 11.5,
+              "target_share": 0.019230769230769232,
+              "carry_share": 0.3079545454545455
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 11.5,
+              "touches": 11.5,
+              "target_share": 0.019230769230769232,
+              "carry_share": 0.3079545454545455
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11563",
+      "name": "Bo Nix",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.2
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.2
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.2
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.17857142857142858
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.18928571428571428
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.18928571428571428
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11566",
+      "name": "Jayden Daniels",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.15625
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.15625
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5,
+              "touches": 5,
+              "target_share": 0,
+              "carry_share": 0.15625
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.21875
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.1875
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 6,
+              "touches": 6,
+              "target_share": 0,
+              "carry_share": 0.1875
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11584",
+      "name": "Bucky Irving",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 7,
+              "carries": 8,
+              "touches": 15,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0.4
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 8,
+              "touches": 15,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0.4
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 8,
+              "touches": 15,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0.4
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 4,
+              "carries": 17,
+              "touches": 21,
+              "target_share": 0.12121212121212122,
+              "carry_share": 0.68
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 12.5,
+              "touches": 18,
+              "target_share": 0.19023569023569023,
+              "carry_share": 0.54
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 12.5,
+              "touches": 18,
+              "target_share": 0.19023569023569023,
+              "carry_share": 0.54
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11603",
+      "name": "AJ Barner",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 1,
+              "carries": 1,
+              "touches": 2,
+              "target_share": 0.038461538461538464,
+              "carry_share": 0.025
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.060897435897435896,
+              "carry_share": 0.0125
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 0.5,
+              "touches": 2,
+              "target_share": 0.060897435897435896,
+              "carry_share": 0.0125
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11610",
+      "name": "Malik Washington",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2962962962962963,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2962962962962963,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2962962962962963,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 5,
+              "carries": 1,
+              "touches": 5,
+              "target_share": 0.21739130434782608,
+              "carry_share": 0.034482758620689655
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0.5,
+              "touches": 4,
+              "target_share": 0.25684380032206117,
+              "carry_share": 0.017241379310344827
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0.5,
+              "touches": 4,
+              "target_share": 0.25684380032206117,
+              "carry_share": 0.017241379310344827
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11635",
+      "name": "Ladd McConkey",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.11538461538461539,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.1873219373219373,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.1873219373219373,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12490",
+      "name": "Bhayshul Tuten",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 1,
+              "carries": 15,
+              "touches": 16,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.46875
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 15,
+              "touches": 16,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.46875
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 15,
+              "touches": 16,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.46875
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 2,
+              "carries": 13,
+              "touches": 15,
+              "target_share": 0.07142857142857142,
+              "carry_share": 0.5416666666666666
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 14,
+              "touches": 15.5,
+              "target_share": 0.05952380952380952,
+              "carry_share": 0.5052083333333333
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 14,
+              "touches": 15.5,
+              "target_share": 0.05952380952380952,
+              "carry_share": 0.5052083333333333
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12492",
+      "name": "Pat Bryant",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 4,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 1,
+              "carries": 1,
+              "touches": 1,
+              "target_share": 0.034482758620689655,
+              "carry_share": 0.03571428571428571
+            },
+            "last_3": {
+              "targets": 3.5,
+              "carries": 0.5,
+              "touches": 2.5,
+              "target_share": 0.12835249042145594,
+              "carry_share": 0.017857142857142856
+            },
+            "last_5": {
+              "targets": 3.5,
+              "carries": 0.5,
+              "touches": 2.5,
+              "target_share": 0.12835249042145594,
+              "carry_share": 0.017857142857142856
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12507",
+      "name": "Omarion Hampton",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 0,
+              "carries": 12,
+              "touches": 12,
+              "target_share": 0,
+              "carry_share": 0.5714285714285714
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 12,
+              "touches": 12,
+              "target_share": 0,
+              "carry_share": 0.5714285714285714
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 12,
+              "touches": 12,
+              "target_share": 0,
+              "carry_share": 0.5714285714285714
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LAC",
+            "last_1": {
+              "targets": 2,
+              "carries": 23,
+              "touches": 25,
+              "target_share": 0.07692307692307693,
+              "carry_share": 0.71875
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 17.5,
+              "touches": 18.5,
+              "target_share": 0.038461538461538464,
+              "carry_share": 0.6450892857142857
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 17.5,
+              "touches": 18.5,
+              "target_share": 0.038461538461538464,
+              "carry_share": 0.6450892857142857
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12512",
+      "name": "Quinshon Judkins",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 2,
+              "carries": 12,
+              "touches": 14,
+              "target_share": 0.09090909090909091,
+              "carry_share": 0.5454545454545454
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 12,
+              "touches": 14,
+              "target_share": 0.09090909090909091,
+              "carry_share": 0.5454545454545454
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 12,
+              "touches": 14,
+              "target_share": 0.09090909090909091,
+              "carry_share": 0.5454545454545454
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 5,
+              "carries": 12,
+              "touches": 17,
+              "target_share": 0.16666666666666666,
+              "carry_share": 0.5217391304347826
+            },
+            "last_3": {
+              "targets": 3.5,
+              "carries": 12,
+              "touches": 15.5,
+              "target_share": 0.12878787878787878,
+              "carry_share": 0.5335968379446641
+            },
+            "last_5": {
+              "targets": 3.5,
+              "carries": 12,
+              "touches": 15.5,
+              "target_share": 0.12878787878787878,
+              "carry_share": 0.5335968379446641
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12514",
+      "name": "Emeka Egbuka",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "TB",
+            "last_1": {
+              "targets": 5,
+              "carries": 1,
+              "touches": 4,
+              "target_share": 0.15151515151515152,
+              "carry_share": 0.04
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 0.5,
+              "touches": 4.5,
+              "target_share": 0.18686868686868685,
+              "carry_share": 0.02
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 0.5,
+              "touches": 4.5,
+              "target_share": 0.18686868686868685,
+              "carry_share": 0.02
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12527",
+      "name": "Ashton Jeanty",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 6,
+              "carries": 23,
+              "touches": 29,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0.6216216216216216
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 23,
+              "touches": 29,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0.6216216216216216
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 23,
+              "touches": 29,
+              "target_share": 0.20689655172413793,
+              "carry_share": 0.6216216216216216
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LV",
+            "last_1": {
+              "targets": 7,
+              "carries": 21,
+              "touches": 25,
+              "target_share": 0.2413793103448276,
+              "carry_share": 0.7241379310344828
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 22,
+              "touches": 27,
+              "target_share": 0.22413793103448276,
+              "carry_share": 0.6728797763280522
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 22,
+              "touches": 27,
+              "target_share": 0.22413793103448276,
+              "carry_share": 0.6728797763280522
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12530",
+      "name": "Travis Hunter",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 1,
+              "carries": 1,
+              "touches": 2,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.03125
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 1,
+              "touches": 2,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.03125
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 1,
+              "touches": 2,
+              "target_share": 0.047619047619047616,
+              "carry_share": 0.03125
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "JAX",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 0.5,
+              "touches": 1,
+              "target_share": 0.023809523809523808,
+              "carry_share": 0.015625
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 0.5,
+              "touches": 1,
+              "target_share": 0.023809523809523808,
+              "carry_share": 0.015625
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 1,
+              "carries": 16,
+              "touches": 17,
+              "target_share": 0.034482758620689655,
+              "carry_share": 0.5
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 16,
+              "touches": 17,
+              "target_share": 0.034482758620689655,
+              "carry_share": 0.5
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 16,
+              "touches": 17,
+              "target_share": 0.034482758620689655,
+              "carry_share": 0.5
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "WAS",
+            "last_1": {
+              "targets": 1,
+              "carries": 12,
+              "touches": 13,
+              "target_share": 0.029411764705882353,
+              "carry_share": 0.375
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 14,
+              "touches": 15,
+              "target_share": 0.031947261663286,
+              "carry_share": 0.4375
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 14,
+              "touches": 15,
+              "target_share": 0.031947261663286,
+              "carry_share": 0.4375
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13286",
+      "name": "Jadarian Price",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 2,
+              "carries": 10,
+              "touches": 12,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0.45454545454545453
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 10,
+              "touches": 12,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0.45454545454545453
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 10,
+              "touches": 12,
+              "target_share": 0.08333333333333333,
+              "carry_share": 0.45454545454545453
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SEA",
+            "last_1": {
+              "targets": 2,
+              "carries": 13,
+              "touches": 14,
+              "target_share": 0.07692307692307693,
+              "carry_share": 0.325
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 11.5,
+              "touches": 13,
+              "target_share": 0.08012820512820512,
+              "carry_share": 0.38977272727272727
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 11.5,
+              "touches": 13,
+              "target_share": 0.08012820512820512,
+              "carry_share": 0.38977272727272727
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13287",
+      "name": "Jeremiyah Love",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 4,
+              "carries": 11,
+              "touches": 13,
+              "target_share": 0.10810810810810811,
+              "carry_share": 0.3235294117647059
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 11,
+              "touches": 13,
+              "target_share": 0.10810810810810811,
+              "carry_share": 0.3235294117647059
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 11,
+              "touches": 13,
+              "target_share": 0.10810810810810811,
+              "carry_share": 0.3235294117647059
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "ARI",
+            "last_1": {
+              "targets": 3,
+              "carries": 9,
+              "touches": 12,
+              "target_share": 0.11538461538461539,
+              "carry_share": 0.5294117647058824
+            },
+            "last_3": {
+              "targets": 3.5,
+              "carries": 10,
+              "touches": 12.5,
+              "target_share": 0.11174636174636175,
+              "carry_share": 0.42647058823529416
+            },
+            "last_5": {
+              "targets": 3.5,
+              "carries": 10,
+              "touches": 12.5,
+              "target_share": 0.11174636174636175,
+              "carry_share": 0.42647058823529416
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13296",
+      "name": "Caleb Douglas",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.25925925925925924,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13043478260869565,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.19484702093397743,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.19484702093397743,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13298",
+      "name": "KC Concepcion",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 5,
+              "carries": 3,
+              "touches": 7,
+              "target_share": 0.22727272727272727,
+              "carry_share": 0.13636363636363635
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 3,
+              "touches": 7,
+              "target_share": 0.22727272727272727,
+              "carry_share": 0.13636363636363635
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 3,
+              "touches": 7,
+              "target_share": 0.22727272727272727,
+              "carry_share": 0.13636363636363635
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 6,
+              "carries": 1,
+              "touches": 7,
+              "target_share": 0.2,
+              "carry_share": 0.043478260869565216
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 2,
+              "touches": 7,
+              "target_share": 0.21363636363636362,
+              "carry_share": 0.08992094861660078
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 2,
+              "touches": 7,
+              "target_share": 0.21363636363636362,
+              "carry_share": 0.08992094861660078
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13311",
+      "name": "Chris Bell",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "MIA",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.043478260869565216,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 0,
+              "touches": 0.5,
+              "target_share": 0.05877616747181964,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 0,
+              "touches": 0.5,
+              "target_share": 0.05877616747181964,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13345",
+      "name": "Jonah Coleman",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "DEN",
+            "last_1": {
+              "targets": 3,
+              "carries": 10,
+              "touches": 13,
+              "target_share": 0.10344827586206896,
+              "carry_share": 0.35714285714285715
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 5,
+              "touches": 6.5,
+              "target_share": 0.05172413793103448,
+              "carry_share": 0.17857142857142858
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 5,
+              "touches": 6.5,
+              "target_share": 0.05172413793103448,
+              "carry_share": 0.17857142857142858
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13346",
+      "name": "Denzel Boston",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.18181818181818182,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "CLE",
+            "last_1": {
+              "targets": 7,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.23333333333333334,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.20757575757575758,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.20757575757575758,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13414",
+      "name": "Kaelon Black",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 1,
+              "carries": 14,
+              "touches": 15,
+              "target_share": 0.029411764705882353,
+              "carry_share": 0.4666666666666667
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 14,
+              "touches": 15,
+              "target_share": 0.029411764705882353,
+              "carry_share": 0.4666666666666667
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 14,
+              "touches": 15,
+              "target_share": 0.029411764705882353,
+              "carry_share": 0.4666666666666667
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "SF",
+            "last_1": {
+              "targets": 0,
+              "carries": 7,
+              "touches": 7,
+              "target_share": 0,
+              "carry_share": 0.25925925925925924
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 10.5,
+              "touches": 11,
+              "target_share": 0.014705882352941176,
+              "carry_share": 0.36296296296296293
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 10.5,
+              "touches": 11,
+              "target_share": 0.014705882352941176,
+              "carry_share": 0.36296296296296293
+            }
+          }
+        }
+      }
+    }
+  ],
   "trending": {
     "adds": [
       {
         "player_id": "10218",
-        "before": 373086,
-        "after": 360374,
-        "delta": -12712
+        "before": 360374,
+        "after": 361032,
+        "delta": 658
       },
       {
         "player_id": "9228",
-        "before": 316996,
-        "after": 328492,
-        "delta": 11496
+        "before": 328492,
+        "after": 335172,
+        "delta": 6680
       },
       {
         "player_id": "9482",
-        "before": 302607,
-        "after": 297162,
-        "delta": -5445
+        "before": 297162,
+        "after": 297477,
+        "delta": 315
       },
       {
         "player_id": "11630",
-        "before": 283293,
-        "after": 276111,
-        "delta": -7182
+        "before": 276111,
+        "after": 276534,
+        "delta": 423
       },
       {
         "player_id": "6130",
-        "before": 235629,
-        "after": 234720,
-        "delta": -909
+        "before": 234720,
+        "after": 236286,
+        "delta": 1566
       },
       {
         "player_id": "12545",
-        "before": 205448,
-        "after": 214168,
-        "delta": 8720
+        "before": 214168,
+        "after": 218824,
+        "delta": 4656
       },
       {
         "player_id": "9225",
-        "before": 184282,
-        "after": 187803,
-        "delta": 3521
+        "before": 187803,
+        "after": 189938,
+        "delta": 2135
       },
       {
         "player_id": "2505",
-        "before": 168543,
-        "after": 172971,
-        "delta": 4428
+        "before": 172971,
+        "after": 175410,
+        "delta": 2439
       },
       {
         "player_id": "11637",
-        "before": 159381,
-        "after": 157626,
-        "delta": -1755
+        "before": 157626,
+        "after": 159795,
+        "delta": 2169
       },
       {
         "player_id": "4035",
-        "before": 156144,
-        "after": 153880,
-        "delta": -2264
+        "before": 153880,
+        "after": 154336,
+        "delta": 456
       },
       {
         "player_id": "10213",
-        "before": 131400,
-        "after": 137208,
-        "delta": 5808
+        "before": 137208,
+        "after": 140328,
+        "delta": 3120
       },
       {
         "player_id": "12718",
-        "before": 135216,
-        "after": 134334,
-        "delta": -882
+        "before": 134334,
+        "after": 135279,
+        "delta": 945
       },
       {
         "player_id": "11256",
-        "before": 128868,
-        "after": 132114,
-        "delta": 3246
+        "before": 132114,
+        "after": 133602,
+        "delta": 1488
       },
       {
         "player_id": "6650",
-        "before": 110848,
-        "after": 113432,
-        "delta": 2584
+        "before": 113432,
+        "after": 115168,
+        "delta": 1736
       },
       {
         "player_id": "13285",
-        "before": 84915,
-        "after": 85570,
-        "delta": 655
+        "before": 85570,
+        "after": 86465,
+        "delta": 895
       },
       {
         "player_id": "11625",
-        "before": 81216,
-        "after": 82504,
-        "delta": 1288
+        "before": 82504,
+        "after": 84224,
+        "delta": 1720
       },
       {
         "player_id": "13337",
-        "before": 81351,
-        "after": 80253,
-        "delta": -1098
+        "before": 80253,
+        "after": 80352,
+        "delta": 99
       },
       {
         "player_id": "3286",
-        "before": 81870,
-        "after": 79446,
-        "delta": -2424
-      },
-      {
-        "player_id": "2020",
-        "before": 77462,
-        "after": 75516,
-        "delta": -1946
+        "before": 79446,
+        "after": 79464,
+        "delta": 18
       },
       {
         "player_id": "11435",
-        "before": 70353,
-        "after": 74403,
-        "delta": 4050
+        "before": 74403,
+        "after": 76401,
+        "delta": 1998
+      },
+      {
+        "player_id": "2020",
+        "before": 75516,
+        "after": 75586,
+        "delta": 70
       },
       {
         "player_id": "3161",
-        "before": 74574,
-        "after": 72840,
-        "delta": -1734
+        "before": 72840,
+        "after": 73146,
+        "delta": 306
       },
       {
         "player_id": "9758",
-        "before": 68257,
-        "after": 69412,
-        "delta": 1155
+        "before": 69412,
+        "after": 70357,
+        "delta": 945
       },
       {
         "player_id": "TB",
-        "before": 69000,
-        "after": 67420,
-        "delta": -1580
+        "before": 67420,
+        "after": 67440,
+        "delta": 20
       },
       {
         "player_id": "11610",
-        "before": 67104,
-        "after": 65784,
-        "delta": -1320
+        "before": 65784,
+        "after": 66048,
+        "delta": 264
       },
       {
         "player_id": "2307",
-        "before": 60744,
-        "after": 63596,
-        "delta": 2852
+        "before": 63596,
+        "after": 64772,
+        "delta": 1176
       },
       {
         "player_id": "11834",
-        "before": 61243,
-        "after": 60249,
-        "delta": -994
+        "before": 60249,
+        "after": 60641,
+        "delta": 392
       },
       {
         "player_id": "11624",
-        "before": 57627,
-        "after": 58599,
-        "delta": 972
-      },
-      {
-        "player_id": "NE",
-        "before": 56567,
-        "after": 56406,
-        "delta": -161
+        "before": 58599,
+        "after": 58851,
+        "delta": 252
       },
       {
         "player_id": "13346",
-        "before": 53982,
-        "after": 56202,
-        "delta": 2220
+        "before": 56202,
+        "after": 57530,
+        "delta": 1328
+      },
+      {
+        "player_id": "NE",
+        "before": 56406,
+        "after": 56728,
+        "delta": 322
       },
       {
         "player_id": "13296",
-        "before": 54840,
-        "after": 52848,
-        "delta": -1992
+        "before": 52848,
+        "after": 52872,
+        "delta": 24
       },
       {
         "player_id": "5012",
-        "before": 52407,
-        "after": 51687,
-        "delta": -720
+        "before": 51687,
+        "after": 52011,
+        "delta": 324
       },
       {
         "player_id": "1166",
-        "before": 46744,
-        "after": 49632,
-        "delta": 2888
+        "before": 49632,
+        "after": 50968,
+        "delta": 1336
       },
       {
         "player_id": "9486",
-        "before": 48861,
-        "after": 49458,
-        "delta": 597
+        "before": 49458,
+        "after": 50097,
+        "delta": 639
       },
       {
         "player_id": "8161",
-        "before": 49567,
-        "after": 49427,
-        "delta": -140
+        "before": 49427,
+        "after": 49644,
+        "delta": 217
       },
       {
         "player_id": "13345",
-        "before": 46254,
-        "after": 47630,
-        "delta": 1376
+        "before": 47630,
+        "after": 48586,
+        "delta": 956
       },
       {
         "player_id": "3163",
-        "before": 45135,
-        "after": 46950,
-        "delta": 1815
+        "before": 46950,
+        "after": 48035,
+        "delta": 1085
       },
       {
         "player_id": "6083",
-        "before": 45775,
-        "after": 45450,
-        "delta": -325
+        "before": 45450,
+        "after": 45645,
+        "delta": 195
       },
       {
         "player_id": "7571",
-        "before": 45369,
-        "after": 44828,
-        "delta": -541
+        "before": 44828,
+        "after": 45179,
+        "delta": 351
       },
       {
         "player_id": "SF",
-        "before": 44832,
-        "after": 44235,
-        "delta": -597
-      },
-      {
-        "player_id": "11581",
-        "before": 43785,
-        "after": 43047,
-        "delta": -738
-      },
-      {
-        "player_id": "12501",
-        "before": 44268,
-        "after": 42966,
-        "delta": -1302
+        "before": 44235,
+        "after": 44418,
+        "delta": 183
       },
       {
         "player_id": "12487",
-        "before": 43464,
-        "after": 42864,
-        "delta": -600
+        "before": 42864,
+        "after": 43496,
+        "delta": 632
+      },
+      {
+        "player_id": "11581",
+        "before": 43047,
+        "after": 43182,
+        "delta": 135
+      },
+      {
+        "player_id": "12501",
+        "before": 42966,
+        "after": 43155,
+        "delta": 189
       },
       {
         "player_id": "6931",
-        "before": 40656,
-        "after": 39531,
-        "delta": -1125
+        "before": 39531,
+        "after": 39588,
+        "delta": 57
       },
       {
         "player_id": "4066",
-        "before": 37944,
-        "after": 37408,
-        "delta": -536
+        "before": 37408,
+        "after": 37616,
+        "delta": 208
       },
       {
         "player_id": "7090",
-        "before": 35487,
-        "after": 36225,
-        "delta": 738
+        "before": 36225,
+        "after": 36801,
+        "delta": 576
       },
       {
         "player_id": "8183",
-        "before": 35060,
-        "after": 35856,
-        "delta": 796
-      },
-      {
-        "player_id": "4177",
-        "before": 36591,
-        "after": 35268,
-        "delta": -1323
+        "before": 35856,
+        "after": 36576,
+        "delta": 720
       },
       {
         "player_id": "4017",
-        "before": 33416,
-        "after": 34824,
-        "delta": 1408
+        "before": 34824,
+        "after": 35544,
+        "delta": 720
+      },
+      {
+        "player_id": "4177",
+        "before": 35268,
+        "after": 35301,
+        "delta": 33
       },
       {
         "player_id": "12711",
-        "before": 35166,
-        "after": 34344,
-        "delta": -822
+        "before": 34344,
+        "after": 34446,
+        "delta": 102
       },
       {
         "player_id": "12492",
-        "before": 34312,
-        "after": 33192,
-        "delta": -1120
+        "before": 33192,
+        "after": 33200,
+        "delta": 8
       }
     ],
     "drops": [
       {
         "player_id": "10222",
-        "before": 167454,
-        "after": 169947,
-        "delta": 2493
+        "before": 169947,
+        "after": 175068,
+        "delta": 5121
       },
       {
         "player_id": "13296",
-        "before": 103920,
-        "after": 106576,
-        "delta": 2656
+        "before": 106576,
+        "after": 112152,
+        "delta": 5576
       },
       {
         "player_id": "6130",
-        "before": 102618,
-        "after": 103428,
-        "delta": 810
-      },
-      {
-        "player_id": "9482",
-        "before": 90594,
-        "after": 91728,
-        "delta": 1134
+        "before": 103428,
+        "after": 105183,
+        "delta": 1755
       },
       {
         "player_id": "11566",
-        "before": 87880,
-        "after": 91368,
-        "delta": 3488
+        "before": 91368,
+        "after": 98240,
+        "delta": 6872
+      },
+      {
+        "player_id": "9482",
+        "before": 91728,
+        "after": 94455,
+        "delta": 2727
       },
       {
         "player_id": "10219",
-        "before": 89154,
-        "after": 90657,
-        "delta": 1503
+        "before": 90657,
+        "after": 93474,
+        "delta": 2817
       },
       {
         "player_id": "8180",
-        "before": 82908,
-        "after": 84069,
-        "delta": 1161
+        "before": 84069,
+        "after": 86499,
+        "delta": 2430
       },
       {
         "player_id": "4993",
-        "before": 78764,
-        "after": 79756,
-        "delta": 992
-      },
-      {
-        "player_id": "5849",
-        "before": 76024,
-        "after": 76744,
-        "delta": 720
-      },
-      {
-        "player_id": "JAX",
-        "before": 76008,
-        "after": 76470,
-        "delta": 462
+        "before": 79756,
+        "after": 82184,
+        "delta": 2428
       },
       {
         "player_id": "TB",
-        "before": 72000,
-        "after": 73860,
-        "delta": 1860
+        "before": 73860,
+        "after": 78610,
+        "delta": 4750
+      },
+      {
+        "player_id": "5849",
+        "before": 76744,
+        "after": 78264,
+        "delta": 1520
+      },
+      {
+        "player_id": "JAX",
+        "before": 76470,
+        "after": 77502,
+        "delta": 1032
       },
       {
         "player_id": "7567",
-        "before": 71752,
-        "after": 72664,
-        "delta": 912
+        "before": 72664,
+        "after": 74448,
+        "delta": 1784
       },
       {
         "player_id": "13330",
-        "before": 71640,
-        "after": 72495,
-        "delta": 855
+        "before": 72495,
+        "after": 74106,
+        "delta": 1611
       },
       {
         "player_id": "9754",
-        "before": 62349,
-        "after": 63651,
-        "delta": 1302
+        "before": 63651,
+        "after": 66584,
+        "delta": 2933
       },
       {
         "player_id": "7553",
-        "before": 61551,
-        "after": 62398,
-        "delta": 847
+        "before": 62398,
+        "after": 64309,
+        "delta": 1911
       },
       {
         "player_id": "9756",
-        "before": 60075,
-        "after": 60759,
-        "delta": 684
+        "before": 60759,
+        "after": 62613,
+        "delta": 1854
       },
       {
         "player_id": "9480",
-        "before": 55836,
-        "after": 56592,
-        "delta": 756
+        "before": 56592,
+        "after": 58266,
+        "delta": 1674
       },
       {
         "player_id": "11560",
-        "before": 54999,
-        "after": 56115,
-        "delta": 1116
+        "before": 56115,
+        "after": 57951,
+        "delta": 1836
       },
       {
         "player_id": "13294",
-        "before": 54432,
-        "after": 55184,
-        "delta": 752
-      },
-      {
-        "player_id": "10218",
-        "before": 53550,
-        "after": 53998,
-        "delta": 448
+        "before": 55184,
+        "after": 56684,
+        "delta": 1500
       },
       {
         "player_id": "13414",
-        "before": 52843,
-        "after": 53641,
-        "delta": 798
+        "before": 53641,
+        "after": 55405,
+        "delta": 1764
+      },
+      {
+        "player_id": "10218",
+        "before": 53998,
+        "after": 54922,
+        "delta": 924
       },
       {
         "player_id": "11563",
-        "before": 52548,
-        "after": 53286,
-        "delta": 738
+        "before": 53286,
+        "after": 54528,
+        "delta": 1242
       },
       {
         "player_id": "9511",
-        "before": 48924,
-        "after": 49329,
-        "delta": 405
+        "before": 49329,
+        "after": 50013,
+        "delta": 684
       },
       {
         "player_id": "12530",
-        "before": 48342,
-        "after": 48882,
-        "delta": 540
+        "before": 48882,
+        "after": 49926,
+        "delta": 1044
       },
       {
         "player_id": "13298",
-        "before": 47790,
-        "after": 48330,
-        "delta": 540
+        "before": 48330,
+        "after": 49626,
+        "delta": 1296
       },
       {
         "player_id": "8132",
-        "before": 47265,
-        "after": 47920,
-        "delta": 655
+        "before": 47920,
+        "after": 49175,
+        "delta": 1255
       },
       {
         "player_id": "5947",
-        "before": 46272,
-        "after": 46962,
-        "delta": 690
+        "before": 46962,
+        "after": 48204,
+        "delta": 1242
       },
       {
         "player_id": "6819",
-        "before": 45795,
-        "after": 46230,
-        "delta": 435
+        "before": 46230,
+        "after": 47145,
+        "delta": 915
       },
       {
         "player_id": "12492",
-        "before": 44528,
-        "after": 45232,
-        "delta": 704
-      },
-      {
-        "player_id": "13337",
-        "before": 44748,
-        "after": 45126,
-        "delta": 378
-      },
-      {
-        "player_id": "MIN",
-        "before": 45090,
-        "after": 45100,
-        "delta": 10
+        "before": 45232,
+        "after": 46856,
+        "delta": 1624
       },
       {
         "player_id": "3161",
-        "before": 44208,
-        "after": 44898,
-        "delta": 690
+        "before": 44898,
+        "after": 46410,
+        "delta": 1512
+      },
+      {
+        "player_id": "13337",
+        "before": 45126,
+        "after": 46260,
+        "delta": 1134
+      },
+      {
+        "player_id": "MIN",
+        "before": 45100,
+        "after": 45115,
+        "delta": 15
       },
       {
         "player_id": "5045",
-        "before": 41715,
-        "after": 42588,
-        "delta": 873
+        "before": 42588,
+        "after": 44352,
+        "delta": 1764
       },
       {
         "player_id": "6783",
-        "before": 41796,
-        "after": 42444,
-        "delta": 648
+        "before": 42444,
+        "after": 43677,
+        "delta": 1233
       },
       {
         "player_id": "12489",
-        "before": 41508,
-        "after": 41888,
-        "delta": 380
+        "before": 41888,
+        "after": 42808,
+        "delta": 920
       },
       {
         "player_id": "11581",
-        "before": 40788,
-        "after": 41229,
-        "delta": 441
+        "before": 41229,
+        "after": 42552,
+        "delta": 1323
       },
       {
         "player_id": "8161",
-        "before": 40285,
-        "after": 40922,
-        "delta": 637
+        "before": 40922,
+        "after": 41979,
+        "delta": 1057
       },
       {
         "player_id": "421",
-        "before": 39429,
-        "after": 39672,
-        "delta": 243
+        "before": 39672,
+        "after": 40437,
+        "delta": 765
       },
       {
         "player_id": "7049",
-        "before": 39046,
-        "after": 39382,
-        "delta": 336
+        "before": 39382,
+        "after": 40082,
+        "delta": 700
       },
       {
         "player_id": "10235",
-        "before": 38232,
-        "after": 38576,
-        "delta": 344
+        "before": 38576,
+        "after": 39160,
+        "delta": 584
       },
       {
         "player_id": "2020",
-        "before": 38178,
-        "after": 38465,
-        "delta": 287
+        "before": 38465,
+        "after": 39144,
+        "delta": 679
       },
       {
         "player_id": "7021",
-        "before": 35810,
-        "after": 36330,
-        "delta": 520
+        "before": 36330,
+        "after": 37585,
+        "delta": 1255
       },
       {
         "player_id": "DET",
-        "before": 33966,
-        "after": 34569,
-        "delta": 603
-      },
-      {
-        "player_id": "LV",
-        "before": 34470,
-        "after": 34500,
-        "delta": 30
+        "before": 34569,
+        "after": 35892,
+        "delta": 1323
       },
       {
         "player_id": "13311",
-        "before": 33285,
-        "after": 33782,
-        "delta": 497
+        "before": 33782,
+        "after": 34580,
+        "delta": 798
+      },
+      {
+        "player_id": "LV",
+        "before": 34500,
+        "after": 34524,
+        "delta": 24
       },
       {
         "player_id": "8408",
-        "before": 33195,
-        "after": 33515,
-        "delta": 320
+        "before": 33515,
+        "after": 34160,
+        "delta": 645
       },
       {
         "player_id": "11610",
-        "before": 33072,
-        "after": 33392,
-        "delta": 320
+        "before": 33392,
+        "after": 33856,
+        "delta": 464
       },
       {
-        "player_id": "13276",
-        "before": 33056,
-        "after": 33232,
-        "delta": 176
+        "player_id": "11628",
+        "before": 0,
+        "after": 33748,
+        "delta": 33748
       },
       {
         "player_id": "4066",
-        "before": 32040,
-        "after": 32464,
-        "delta": 424
+        "before": 32464,
+        "after": 33664,
+        "delta": 1200
       },
       {
-        "player_id": "11603",
-        "before": 32100,
-        "after": 32244,
-        "delta": 144
+        "player_id": "13276",
+        "before": 33232,
+        "after": 33632,
+        "delta": 400
       }
     ]
   },
