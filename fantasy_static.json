@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T17:45:16.238Z",
+  "generated_at": "2026-09-21T18:00:14.773Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-21T17:30:41.500Z",
+    "sleeper": "2026-09-21T17:45:41.622Z",
     "nfl": "2026-09-21T17:00:18.360Z",
     "market": "2026-09-21T16:00:44.769Z"
   },
@@ -11494,23 +11494,6 @@
         "fantasypros_id": null
       }
     },
-    "12472": {
-      "sleeper_id": "12472",
-      "name": "Raheim Sanders",
-      "team": "CLE",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "ids": {
-        "sleeper_id": "12472",
-        "espn_id": null,
-        "gsis_id": "00-0040466",
-        "pfr_id": "SandRa00",
-        "pff_id": 146626,
-        "fantasypros_id": null
-      }
-    },
     "12474": {
       "sleeper_id": "12474",
       "name": "Woody Marks",
@@ -12565,13 +12548,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "LV": {
+      "sleeper_id": "LV",
+      "name": "Las Vegas Raiders",
+      "team": "LV",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "LV",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
     "player_count": 225,
-    "nfl_matches": 203,
+    "nfl_matches": 202,
     "market_matches": 182,
-    "nfl_match_rate": 0.9022222222222223,
+    "nfl_match_rate": 0.8977777777777778,
     "market_match_rate": 0.8088888888888889
   }
 }
