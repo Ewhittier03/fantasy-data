@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T05:00:14.640Z",
+  "generated_at": "2026-09-22T05:15:15.973Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-09-22T05:00:14.518Z",
+    "compiled_at": "2026-09-22T05:15:15.850Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
-        "generated_at": "2026-09-22T04:45:44.483Z",
+        "generated_at": "2026-09-22T05:00:45.335Z",
         "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
-        "generated_at": "2026-09-22T04:00:18.408Z",
-        "age_minutes": 60,
+        "generated_at": "2026-09-22T05:00:17.911Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
         "generated_at": "2026-09-22T04:00:42.151Z",
-        "age_minutes": 60,
+        "age_minutes": 75,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 203,
@@ -32,9 +32,9 @@
   },
   "nfl_state": {
     "week": 3,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 3,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -57,8 +57,8 @@
           "p_nick_12481": "Cam Skooterbro",
           "p_nick_6786": "CeeDeez Nuts",
           "p_nick_7594": "Chubby Hubbard",
-          "record": "L",
-          "streak": "1L"
+          "record": "LW",
+          "streak": "1W"
         },
         "owner_id": "807399587525566464",
         "player_map": null,
@@ -81,18 +81,18 @@
         "reserve": null,
         "roster_id": 7,
         "settings": {
-          "fpts": 119,
-          "fpts_against": 132,
-          "fpts_against_decimal": 66,
-          "fpts_decimal": 36,
+          "fpts": 275,
+          "fpts_against": 220,
+          "fpts_against_decimal": 48,
+          "fpts_decimal": 14,
           "losses": 1,
-          "ppts": 121,
-          "ppts_decimal": 36,
+          "ppts": 281,
+          "ppts_decimal": 24,
           "ties": 0,
           "total_moves": 0,
           "waiver_budget_used": 0,
           "waiver_position": 7,
-          "wins": 0
+          "wins": 1
         },
         "starters": [
           "4046",
@@ -208,11 +208,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 11,
-            "wins": 1,
+            "wins": 2,
             "losses": 0,
             "ties": 0,
-            "fpts": 179,
-            "fpts_decimal": 76
+            "fpts": 313,
+            "fpts_decimal": 28
           }
         },
         {
@@ -251,10 +251,10 @@
           "settings": {
             "waiver_position": 6,
             "wins": 0,
-            "losses": 1,
+            "losses": 2,
             "ties": 0,
-            "fpts": 114,
-            "fpts_decimal": 96
+            "fpts": 228,
+            "fpts_decimal": 70
           }
         },
         {
@@ -292,11 +292,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 3,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 127,
-            "fpts_decimal": 86
+            "fpts": 284,
+            "fpts_decimal": 46
           }
         },
         {
@@ -338,10 +338,10 @@
           "settings": {
             "waiver_position": 1,
             "wins": 0,
-            "losses": 1,
+            "losses": 2,
             "ties": 0,
-            "fpts": 112,
-            "fpts_decimal": 70
+            "fpts": 186,
+            "fpts_decimal": 30
           }
         },
         {
@@ -380,10 +380,10 @@
           "settings": {
             "waiver_position": 4,
             "wins": 0,
-            "losses": 1,
+            "losses": 2,
             "ties": 0,
-            "fpts": 165,
-            "fpts_decimal": 22
+            "fpts": 280,
+            "fpts_decimal": 8
           }
         },
         {
@@ -425,10 +425,10 @@
           "settings": {
             "waiver_position": 9,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 132,
-            "fpts_decimal": 66
+            "fpts": 265,
+            "fpts_decimal": 78
           }
         },
         {
@@ -466,11 +466,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 7,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 119,
-            "fpts_decimal": 36
+            "fpts": 275,
+            "fpts_decimal": 14
           }
         },
         {
@@ -512,10 +512,10 @@
           "settings": {
             "waiver_position": 5,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 142,
-            "fpts_decimal": 86
+            "fpts": 231,
+            "fpts_decimal": 4
           }
         },
         {
@@ -556,11 +556,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 8,
-            "wins": 1,
+            "wins": 2,
             "losses": 0,
             "ties": 0,
-            "fpts": 115,
-            "fpts_decimal": 36
+            "fpts": 250,
+            "fpts_decimal": 64
           }
         },
         {
@@ -601,11 +601,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 10,
-            "wins": 1,
+            "wins": 2,
             "losses": 0,
             "ties": 0,
-            "fpts": 119,
-            "fpts_decimal": 24
+            "fpts": 219,
+            "fpts_decimal": 42
           }
         },
         {
@@ -643,11 +643,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 12,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 111,
-            "fpts_decimal": 60
+            "fpts": 300,
+            "fpts_decimal": 58
           }
         },
         {
@@ -686,10 +686,10 @@
           "settings": {
             "waiver_position": 2,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 157,
-            "fpts_decimal": 82
+            "fpts": 245,
+            "fpts_decimal": 64
           }
         }
       ],
@@ -1423,7 +1423,9 @@
           "allow_pn_inactive_starters": "on",
           "allow_pn_player_injury_status": "on",
           "allow_pn_scoring": "on",
-          "restrict_pn_scoring_starters_only": "on"
+          "record": "WL",
+          "restrict_pn_scoring_starters_only": "on",
+          "streak": "1L"
         },
         "owner_id": "807399587525566464",
         "player_map": null,
@@ -1451,13 +1453,13 @@
         ],
         "roster_id": 1,
         "settings": {
-          "fpts": 158,
-          "fpts_against": 81,
-          "fpts_against_decimal": 26,
-          "fpts_decimal": 42,
-          "losses": 0,
-          "ppts": 189,
-          "ppts_decimal": 0,
+          "fpts": 315,
+          "fpts_against": 260,
+          "fpts_against_decimal": 54,
+          "fpts_decimal": 18,
+          "losses": 1,
+          "ppts": 368,
+          "ppts_decimal": 16,
           "ties": 0,
           "total_moves": 0,
           "waiver_budget_used": 0,
@@ -1571,10 +1573,10 @@
           "settings": {
             "waiver_position": 2,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 158,
-            "fpts_decimal": 42
+            "fpts": 315,
+            "fpts_decimal": 18
           }
         },
         {
@@ -1616,10 +1618,10 @@
           "settings": {
             "waiver_position": 1,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 158,
-            "fpts_decimal": 46
+            "fpts": 257,
+            "fpts_decimal": 84
           }
         },
         {
@@ -1657,11 +1659,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 3,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 134,
-            "fpts_decimal": 40
+            "fpts": 268,
+            "fpts_decimal": 10
           }
         },
         {
@@ -1699,11 +1701,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 8,
-            "wins": 1,
+            "wins": 2,
             "losses": 0,
             "ties": 0,
-            "fpts": 145,
-            "fpts_decimal": 66
+            "fpts": 254,
+            "fpts_decimal": 50
           }
         },
         {
@@ -1742,10 +1744,10 @@
           "settings": {
             "waiver_position": 5,
             "wins": 0,
-            "losses": 1,
+            "losses": 2,
             "ties": 0,
-            "fpts": 110,
-            "fpts_decimal": 60
+            "fpts": 215,
+            "fpts_decimal": 48
           }
         },
         {
@@ -1783,11 +1785,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 9,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 148,
-            "fpts_decimal": 90
+            "fpts": 328,
+            "fpts_decimal": 18
           }
         },
         {
@@ -1828,11 +1830,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 6,
-            "wins": 1,
+            "wins": 2,
             "losses": 0,
             "ties": 0,
-            "fpts": 144,
-            "fpts_decimal": 56
+            "fpts": 266,
+            "fpts_decimal": 88
           }
         },
         {
@@ -1871,10 +1873,10 @@
           "settings": {
             "waiver_position": 4,
             "wins": 0,
-            "losses": 1,
+            "losses": 2,
             "ties": 0,
-            "fpts": 81,
-            "fpts_decimal": 26
+            "fpts": 195,
+            "fpts_decimal": 66
           }
         },
         {
@@ -1917,11 +1919,11 @@
           "taxi": [],
           "settings": {
             "waiver_position": 10,
-            "wins": 0,
+            "wins": 1,
             "losses": 1,
             "ties": 0,
-            "fpts": 127,
-            "fpts_decimal": 20
+            "fpts": 251,
+            "fpts_decimal": 86
           }
         },
         {
@@ -1962,10 +1964,10 @@
           "settings": {
             "waiver_position": 7,
             "wins": 1,
-            "losses": 0,
+            "losses": 1,
             "ties": 0,
-            "fpts": 192,
-            "fpts_decimal": 6
+            "fpts": 298,
+            "fpts_decimal": 88
           }
         }
       ],
@@ -2590,139 +2592,139 @@
     "lookback_hours": 24,
     "adds": [
       {
-        "count": 825651,
+        "count": 850977,
         "player_id": "11435"
       },
       {
-        "count": 516680,
+        "count": 529752,
         "player_id": "9228"
       },
       {
-        "count": 445104,
+        "count": 455848,
         "player_id": "12545"
       },
       {
-        "count": 442986,
+        "count": 454698,
         "player_id": "10213"
       },
       {
-        "count": 350024,
+        "count": 364984,
         "player_id": "11625"
       },
       {
-        "count": 284202,
+        "count": 290664,
         "player_id": "1339"
       },
       {
-        "count": 281349,
+        "count": 281538,
         "player_id": "12718"
       },
       {
-        "count": 275211,
+        "count": 281259,
         "player_id": "2505"
       },
       {
-        "count": 261335,
+        "count": 261525,
         "player_id": "13285"
       },
       {
-        "count": 230685,
+        "count": 235410,
         "player_id": "9225"
       },
       {
-        "count": 189660,
+        "count": 194686,
         "player_id": "13346"
       },
       {
-        "count": 185290,
+        "count": 190030,
         "player_id": "13345"
       },
       {
-        "count": 174360,
+        "count": 178952,
         "player_id": "6650"
       },
       {
-        "count": 164025,
+        "count": 169092,
         "player_id": "11637"
       },
       {
-        "count": 150813,
+        "count": 151002,
         "player_id": "7090"
       },
       {
-        "count": 137192,
+        "count": 141040,
         "player_id": "1166"
       },
       {
-        "count": 125824,
+        "count": 129000,
         "player_id": "12487"
       },
       {
-        "count": 113848,
+        "count": 117308,
         "player_id": "2307"
       },
       {
-        "count": 112824,
-        "player_id": "11256"
-      },
-      {
-        "count": 111870,
+        "count": 116260,
         "player_id": "MIN"
       },
       {
-        "count": 95940,
+        "count": 116112,
+        "player_id": "11256"
+      },
+      {
+        "count": 96192,
         "player_id": "6130"
       },
       {
-        "count": 87332,
+        "count": 87395,
         "player_id": "7562"
       },
       {
-        "count": 82278,
+        "count": 85425,
         "player_id": "9486"
       },
       {
-        "count": 75278,
+        "count": 76951,
         "player_id": "9758"
       },
       {
-        "count": 72315,
+        "count": 75290,
         "player_id": "12493"
       },
       {
-        "count": 70965,
+        "count": 73825,
         "player_id": "3163"
       },
       {
-        "count": 69720,
+        "count": 71064,
         "player_id": "4017"
       },
       {
-        "count": 62176,
+        "count": 65896,
         "player_id": "5849"
       },
       {
-        "count": 57128,
+        "count": 58720,
         "player_id": "4035"
       },
       {
-        "count": 53316,
+        "count": 54531,
         "player_id": "DET"
       },
       {
-        "count": 52654,
+        "count": 54439,
         "player_id": "8188"
       },
       {
-        "count": 49815,
+        "count": 51525,
         "player_id": "11624"
       },
       {
-        "count": 49230,
+        "count": 51205,
         "player_id": "9500"
       },
       {
-        "count": 44073,
+        "count": 45369,
         "player_id": "13337"
       },
       {
@@ -2730,265 +2732,265 @@
         "player_id": "11168"
       },
       {
-        "count": 43164,
+        "count": 43218,
         "player_id": "6865"
       },
       {
-        "count": 41909,
+        "count": 42847,
         "player_id": "11834"
       },
       {
-        "count": 41652,
+        "count": 42728,
         "player_id": "8183"
       },
       {
-        "count": 40194,
+        "count": 41346,
         "player_id": "8134"
       },
       {
-        "count": 35017,
+        "count": 36210,
         "player_id": "7571"
       },
       {
-        "count": 34605,
+        "count": 35613,
         "player_id": "421"
       },
       {
-        "count": 32742,
+        "count": 33564,
         "player_id": "LV"
       },
       {
-        "count": 27288,
+        "count": 27756,
         "player_id": "11630"
       },
       {
-        "count": 26495,
+        "count": 26990,
         "player_id": "8110"
       },
       {
-        "count": 25263,
-        "player_id": "10236"
-      },
-      {
-        "count": 24584,
+        "count": 26116,
         "player_id": "NYG"
       },
       {
-        "count": 24080,
+        "count": 25767,
+        "player_id": "10236"
+      },
+      {
+        "count": 24384,
         "player_id": "2133"
       },
       {
-        "count": 22127,
-        "player_id": "NE"
-      },
-      {
-        "count": 21968,
+        "count": 23260,
         "player_id": "13545"
       },
       {
-        "count": 20892,
+        "count": 22421,
+        "player_id": "NE"
+      },
+      {
+        "count": 21261,
         "player_id": "8136"
       }
     ],
     "drops": [
       {
-        "count": 291960,
+        "count": 295056,
         "player_id": "13296"
       },
       {
-        "count": 254000,
+        "count": 258850,
         "player_id": "TB"
       },
       {
-        "count": 236556,
+        "count": 238995,
         "player_id": "10222"
       },
       {
-        "count": 194640,
+        "count": 196464,
         "player_id": "11566"
       },
       {
-        "count": 187515,
+        "count": 190197,
         "player_id": "6130"
       },
       {
-        "count": 179451,
+        "count": 181035,
         "player_id": "10219"
       },
       {
-        "count": 171514,
+        "count": 173166,
         "player_id": "9754"
       },
       {
-        "count": 162054,
+        "count": 164817,
         "player_id": "9482"
       },
       {
-        "count": 128907,
+        "count": 130248,
         "player_id": "8180"
       },
       {
-        "count": 119216,
+        "count": 120472,
         "player_id": "7567"
       },
       {
-        "count": 102900,
-        "player_id": "13414"
-      },
-      {
-        "count": 102708,
+        "count": 104184,
         "player_id": "11581"
       },
       {
-        "count": 100305,
+        "count": 103866,
+        "player_id": "13414"
+      },
+      {
+        "count": 101466,
         "player_id": "13330"
       },
       {
-        "count": 95988,
+        "count": 97064,
         "player_id": "4993"
       },
       {
-        "count": 94446,
-        "player_id": "9756"
-      },
-      {
-        "count": 94170,
+        "count": 95682,
         "player_id": "3161"
       },
       {
-        "count": 87088,
+        "count": 95454,
+        "player_id": "9756"
+      },
+      {
+        "count": 87840,
         "player_id": "12492"
       },
       {
-        "count": 82926,
+        "count": 83583,
         "player_id": "9480"
       },
       {
-        "count": 82143,
+        "count": 83133,
         "player_id": "13298"
       },
       {
-        "count": 80793,
+        "count": 81531,
         "player_id": "5045"
       },
       {
-        "count": 74480,
+        "count": 75120,
         "player_id": "13294"
       },
       {
-        "count": 74085,
+        "count": 74800,
         "player_id": "8132"
       },
       {
-        "count": 72310,
+        "count": 72849,
         "player_id": "7553"
       },
       {
-        "count": 71984,
+        "count": 72596,
         "player_id": "11628"
       },
       {
-        "count": 71598,
+        "count": 72348,
         "player_id": "5947"
       },
       {
-        "count": 66573,
+        "count": 67563,
         "player_id": "12718"
       },
       {
-        "count": 65790,
+        "count": 66231,
         "player_id": "10232"
       },
       {
-        "count": 63385,
+        "count": 64420,
         "player_id": "13285"
       },
       {
-        "count": 60914,
+        "count": 61747,
         "player_id": "10218"
       },
       {
-        "count": 59330,
+        "count": 59815,
         "player_id": "7021"
       },
       {
-        "count": 58422,
-        "player_id": "8161"
-      },
-      {
-        "count": 58314,
+        "count": 59274,
         "player_id": "3286"
       },
       {
-        "count": 57320,
+        "count": 59136,
+        "player_id": "8161"
+      },
+      {
+        "count": 57840,
         "player_id": "6819"
       },
       {
-        "count": 56616,
+        "count": 57126,
         "player_id": "11563"
       },
       {
-        "count": 54999,
+        "count": 55629,
         "player_id": "DET"
       },
       {
-        "count": 54801,
+        "count": 55395,
         "player_id": "9511"
       },
       {
-        "count": 54684,
+        "count": 55143,
         "player_id": "6783"
       },
       {
-        "count": 53192,
+        "count": 53616,
         "player_id": "5849"
       },
       {
-        "count": 52731,
+        "count": 53445,
         "player_id": "13311"
       },
       {
-        "count": 51921,
+        "count": 52308,
         "player_id": "11560"
       },
       {
-        "count": 50958,
+        "count": 51654,
         "player_id": "JAX"
       },
       {
-        "count": 46484,
+        "count": 46988,
         "player_id": "11583"
       },
       {
-        "count": 45252,
+        "count": 45886,
         "player_id": "8142"
       },
       {
-        "count": 44442,
+        "count": 44748,
         "player_id": "8134"
       },
       {
-        "count": 43533,
+        "count": 43884,
         "player_id": "12533"
       },
       {
-        "count": 42156,
-        "player_id": "421"
-      },
-      {
-        "count": 41601,
+        "count": 42476,
         "player_id": "2020"
       },
       {
-        "count": 40986,
-        "player_id": "12530"
+        "count": 42210,
+        "player_id": "421"
       },
       {
-        "count": 40928,
+        "count": 41328,
         "player_id": "12472"
       },
       {
-        "count": 40302,
+        "count": 41328,
+        "player_id": "12530"
+      },
+      {
+        "count": 40698,
         "player_id": "13337"
       }
     ]
@@ -3041,28 +3043,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
           "targets": 0,
-          "carries": 2,
-          "touches": 2,
+          "carries": 4,
+          "touches": 4,
           "target_share": 0,
-          "carry_share": 0.06896551724137931
+          "carry_share": 0.14285714285714285
         },
         "last_3": {
           "targets": 0,
-          "carries": 2,
-          "touches": 2,
+          "carries": 3,
+          "touches": 3,
           "target_share": 0,
-          "carry_share": 0.06896551724137931
+          "carry_share": 0.10591133004926108
         },
         "last_5": {
           "targets": 0,
-          "carries": 2,
-          "touches": 2,
+          "carries": 3,
+          "touches": 3,
           "target_share": 0,
-          "carry_share": 0.06896551724137931
+          "carry_share": 0.10591133004926108
         }
       },
       "injury": null
@@ -3324,27 +3326,27 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 6,
+          "targets": 10,
           "carries": 0,
-          "touches": 3,
-          "target_share": 0.2222222222222222,
+          "touches": 8,
+          "target_share": 0.3333333333333333,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 6,
+          "targets": 8,
           "carries": 0,
-          "touches": 3,
-          "target_share": 0.2222222222222222,
+          "touches": 5.5,
+          "target_share": 0.2777777777777778,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 6,
+          "targets": 8,
           "carries": 0,
-          "touches": 3,
-          "target_share": 0.2222222222222222,
+          "touches": 5.5,
+          "target_share": 0.2777777777777778,
           "carry_share": 0
         }
       },
@@ -6472,28 +6474,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 4,
-          "carries": 6,
-          "touches": 10,
-          "target_share": 0.13793103448275862,
-          "carry_share": 0.16216216216216217
+          "targets": 1,
+          "carries": 3,
+          "touches": 3,
+          "target_share": 0.03125,
+          "carry_share": 0.14285714285714285
         },
         "last_3": {
-          "targets": 4,
-          "carries": 6,
-          "touches": 10,
-          "target_share": 0.13793103448275862,
-          "carry_share": 0.16216216216216217
+          "targets": 2.5,
+          "carries": 4.5,
+          "touches": 6.5,
+          "target_share": 0.08459051724137931,
+          "carry_share": 0.1525096525096525
         },
         "last_5": {
-          "targets": 4,
-          "carries": 6,
-          "touches": 10,
-          "target_share": 0.13793103448275862,
-          "carry_share": 0.16216216216216217
+          "targets": 2.5,
+          "carries": 4.5,
+          "touches": 6.5,
+          "target_share": 0.08459051724137931,
+          "carry_share": 0.1525096525096525
         }
       },
       "injury": null
@@ -7466,27 +7468,27 @@
       },
       "market": null,
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
           "targets": 2,
           "carries": 0,
-          "touches": 1,
-          "target_share": 0.07407407407407407,
+          "touches": 2,
+          "target_share": 0.06666666666666667,
           "carry_share": 0
         },
         "last_3": {
           "targets": 2,
           "carries": 0,
-          "touches": 1,
-          "target_share": 0.07407407407407407,
+          "touches": 1.5,
+          "target_share": 0.07037037037037036,
           "carry_share": 0
         },
         "last_5": {
           "targets": 2,
           "carries": 0,
-          "touches": 1,
-          "target_share": 0.07407407407407407,
+          "touches": 1.5,
+          "target_share": 0.07037037037037036,
           "carry_share": 0
         }
       },
@@ -7833,27 +7835,27 @@
       },
       "market": null,
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 2,
+          "targets": 3,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.06896551724137931,
+          "target_share": 0.09375,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 2,
+          "targets": 2.5,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.06896551724137931,
+          "target_share": 0.08135775862068965,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 2,
+          "targets": 2.5,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.06896551724137931,
+          "target_share": 0.08135775862068965,
           "carry_share": 0
         }
       },
@@ -8296,7 +8298,31 @@
         "gcs_2_0": null
       },
       "market": null,
-      "usage": null,
+      "usage": {
+        "latest_week": 2,
+        "latest_team": "LA",
+        "last_1": {
+          "targets": 2,
+          "carries": 0,
+          "touches": 1,
+          "target_share": 0.06666666666666667,
+          "carry_share": 0
+        },
+        "last_3": {
+          "targets": 2,
+          "carries": 0,
+          "touches": 1,
+          "target_share": 0.06666666666666667,
+          "carry_share": 0
+        },
+        "last_5": {
+          "targets": 2,
+          "carries": 0,
+          "touches": 1,
+          "target_share": 0.06666666666666667,
+          "carry_share": 0
+        }
+      },
       "injury": null
     },
     "7564": {
@@ -9270,27 +9296,27 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 8,
+          "targets": 10,
           "carries": 0,
-          "touches": 8,
-          "target_share": 0.27586206896551724,
+          "touches": 5,
+          "target_share": 0.3125,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 8,
+          "targets": 9,
           "carries": 0,
-          "touches": 8,
-          "target_share": 0.27586206896551724,
+          "touches": 6.5,
+          "target_share": 0.2941810344827586,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 8,
+          "targets": 9,
           "carries": 0,
-          "touches": 8,
-          "target_share": 0.27586206896551724,
+          "touches": 6.5,
+          "target_share": 0.2941810344827586,
           "carry_share": 0
         }
       },
@@ -10042,28 +10068,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 3,
-          "carries": 11,
+          "targets": 2,
+          "carries": 12,
           "touches": 14,
-          "target_share": 0.1111111111111111,
-          "carry_share": 0.3793103448275862
+          "target_share": 0.06666666666666667,
+          "carry_share": 0.42857142857142855
         },
         "last_3": {
-          "targets": 3,
-          "carries": 11,
+          "targets": 2.5,
+          "carries": 11.5,
           "touches": 14,
-          "target_share": 0.1111111111111111,
-          "carry_share": 0.3793103448275862
+          "target_share": 0.08888888888888888,
+          "carry_share": 0.40394088669950734
         },
         "last_5": {
-          "targets": 3,
-          "carries": 11,
+          "targets": 2.5,
+          "carries": 11.5,
           "touches": 14,
-          "target_share": 0.1111111111111111,
-          "carry_share": 0.3793103448275862
+          "target_share": 0.08888888888888888,
+          "carry_share": 0.40394088669950734
         }
       },
       "injury": null
@@ -12985,27 +13011,27 @@
       },
       "market": null,
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 0,
+          "targets": 1,
           "carries": 0,
           "touches": 0,
-          "target_share": 0,
+          "target_share": 0.03333333333333333,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 0,
+          "targets": 0.5,
           "carries": 0,
           "touches": 0,
-          "target_share": 0,
+          "target_share": 0.016666666666666666,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 0,
+          "targets": 0.5,
           "carries": 0,
           "touches": 0,
-          "target_share": 0,
+          "target_share": 0.016666666666666666,
           "carry_share": 0
         }
       },
@@ -13796,28 +13822,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 0,
-          "carries": 10,
-          "touches": 10,
-          "target_share": 0,
-          "carry_share": 0.3448275862068966
+          "targets": 1,
+          "carries": 12,
+          "touches": 13,
+          "target_share": 0.03333333333333333,
+          "carry_share": 0.42857142857142855
         },
         "last_3": {
-          "targets": 0,
-          "carries": 10,
-          "touches": 10,
-          "target_share": 0,
-          "carry_share": 0.3448275862068966
+          "targets": 0.5,
+          "carries": 11,
+          "touches": 11.5,
+          "target_share": 0.016666666666666666,
+          "carry_share": 0.3866995073891626
         },
         "last_5": {
-          "targets": 0,
-          "carries": 10,
-          "touches": 10,
-          "target_share": 0,
-          "carry_share": 0.3448275862068966
+          "targets": 0.5,
+          "carries": 11,
+          "touches": 11.5,
+          "target_share": 0.016666666666666666,
+          "carry_share": 0.3866995073891626
         }
       },
       "injury": null
@@ -14413,27 +14439,27 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 9,
+          "targets": 4,
           "carries": 0,
-          "touches": 6,
-          "target_share": 0.3103448275862069,
+          "touches": 1,
+          "target_share": 0.125,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 9,
+          "targets": 6.5,
           "carries": 0,
-          "touches": 6,
-          "target_share": 0.3103448275862069,
+          "touches": 3.5,
+          "target_share": 0.21767241379310345,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 9,
+          "targets": 6.5,
           "carries": 0,
-          "touches": 6,
-          "target_share": 0.3103448275862069,
+          "touches": 3.5,
+          "target_share": 0.21767241379310345,
           "carry_share": 0
         }
       },
@@ -14976,28 +15002,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 0,
-          "carries": 18,
-          "touches": 18,
-          "target_share": 0,
-          "carry_share": 0.4864864864864865
+          "targets": 4,
+          "carries": 12,
+          "touches": 16,
+          "target_share": 0.125,
+          "carry_share": 0.5714285714285714
         },
         "last_3": {
-          "targets": 0,
-          "carries": 18,
-          "touches": 18,
-          "target_share": 0,
-          "carry_share": 0.4864864864864865
+          "targets": 2,
+          "carries": 15,
+          "touches": 17,
+          "target_share": 0.0625,
+          "carry_share": 0.528957528957529
         },
         "last_5": {
-          "targets": 0,
-          "carries": 18,
-          "touches": 18,
-          "target_share": 0,
-          "carry_share": 0.4864864864864865
+          "targets": 2,
+          "carries": 15,
+          "touches": 17,
+          "target_share": 0.0625,
+          "carry_share": 0.528957528957529
         }
       },
       "injury": null
@@ -15058,27 +15084,27 @@
       },
       "market": null,
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 1,
+          "targets": 9,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 6,
+          "target_share": 0.3,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 1,
+          "targets": 5,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 3,
+          "target_share": 0.1685185185185185,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 1,
+          "targets": 5,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 3,
+          "target_share": 0.1685185185185185,
           "carry_share": 0
         }
       },
@@ -15606,28 +15632,28 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
           "targets": 0,
-          "carries": 11,
-          "touches": 11,
+          "carries": 0,
+          "touches": 0,
           "target_share": 0,
-          "carry_share": 0.2972972972972973
+          "carry_share": 0
         },
         "last_3": {
           "targets": 0,
-          "carries": 11,
-          "touches": 11,
+          "carries": 5.5,
+          "touches": 5.5,
           "target_share": 0,
-          "carry_share": 0.2972972972972973
+          "carry_share": 0.14864864864864866
         },
         "last_5": {
           "targets": 0,
-          "carries": 11,
-          "touches": 11,
+          "carries": 5.5,
+          "touches": 5.5,
           "target_share": 0,
-          "carry_share": 0.2972972972972973
+          "carry_share": 0.14864864864864866
         }
       },
       "injury": null
@@ -16617,27 +16643,27 @@
       },
       "market": null,
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "LA",
         "last_1": {
-          "targets": 1,
+          "targets": 2,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 1,
+          "target_share": 0.06666666666666667,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 1,
+          "targets": 1.5,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 0.5,
+          "target_share": 0.05185185185185185,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 1,
+          "targets": 1.5,
           "carries": 0,
-          "touches": 0,
-          "target_share": 0.037037037037037035,
+          "touches": 0.5,
+          "target_share": 0.05185185185185185,
           "carry_share": 0
         }
       },
@@ -16869,27 +16895,27 @@
         "season_projected_fantasy_points": null
       },
       "usage": {
-        "latest_week": 1,
+        "latest_week": 2,
         "latest_team": "NYG",
         "last_1": {
-          "targets": 4,
+          "targets": 6,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.13793103448275862,
+          "target_share": 0.1875,
           "carry_share": 0
         },
         "last_3": {
-          "targets": 4,
+          "targets": 5,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.13793103448275862,
+          "target_share": 0.1627155172413793,
           "carry_share": 0
         },
         "last_5": {
-          "targets": 4,
+          "targets": 5,
           "carries": 0,
           "touches": 2,
-          "target_share": 0.13793103448275862,
+          "target_share": 0.1627155172413793,
           "carry_share": 0
         }
       },
