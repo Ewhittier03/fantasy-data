@@ -1,619 +1,1518 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T05:00:14.641Z",
+  "generated_at": "2026-09-22T05:15:15.973Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-09-22T04:45:15.786Z",
-  "current_generated_at": "2026-09-22T05:00:14.640Z",
+  "previous_generated_at": "2026-09-22T05:00:14.640Z",
+  "current_generated_at": "2026-09-22T05:15:15.973Z",
   "has_changes": true,
   "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
     "gcs_2_0": []
   },
-  "players": [],
+  "players": [
+    {
+      "player_id": "421",
+      "name": "Matthew Stafford",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.06896551724137931
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.06896551724137931
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 2,
+              "touches": 2,
+              "target_share": 0,
+              "carry_share": 0.06896551724137931
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 0,
+              "carries": 4,
+              "touches": 4,
+              "target_share": 0,
+              "carry_share": 0.14285714285714285
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.10591133004926108
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0,
+              "carry_share": 0.10591133004926108
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "2133",
+      "name": "Davante Adams",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.2222222222222222,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 10,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.3333333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 5.5,
+              "target_share": 0.2777777777777778,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 5.5,
+              "target_share": 0.2777777777777778,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6130",
+      "name": "Devin Singletary",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 4,
+              "carries": 6,
+              "touches": 10,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.16216216216216217
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 6,
+              "touches": 10,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.16216216216216217
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 6,
+              "touches": 10,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0.16216216216216217
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 1,
+              "carries": 3,
+              "touches": 3,
+              "target_share": 0.03125,
+              "carry_share": 0.14285714285714285
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 4.5,
+              "touches": 6.5,
+              "target_share": 0.08459051724137931,
+              "carry_share": 0.1525096525096525
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 4.5,
+              "touches": 6.5,
+              "target_share": 0.08459051724137931,
+              "carry_share": 0.1525096525096525
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "6865",
+      "name": "Colby Parkinson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.07407407407407407,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1.5,
+              "target_share": 0.07037037037037036,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1.5,
+              "target_share": 0.07037037037037036,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7090",
+      "name": "Darnell Mooney",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.06896551724137931,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 3,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.09375,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08135775862068965,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.08135775862068965,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "7562",
+      "name": "Tutu Atwell",
+      "changes": {
+        "usage": {
+          "before": null,
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8131",
+      "name": "Isaiah Likely",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.27586206896551724,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.27586206896551724,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 8,
+              "carries": 0,
+              "touches": 8,
+              "target_share": 0.27586206896551724,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 10,
+              "carries": 0,
+              "touches": 5,
+              "target_share": 0.3125,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6.5,
+              "target_share": 0.2941810344827586,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6.5,
+              "target_share": 0.2941810344827586,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "8150",
+      "name": "Kyren Williams",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 3,
+              "carries": 11,
+              "touches": 14,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0.3793103448275862
+            },
+            "last_3": {
+              "targets": 3,
+              "carries": 11,
+              "touches": 14,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0.3793103448275862
+            },
+            "last_5": {
+              "targets": 3,
+              "carries": 11,
+              "touches": 14,
+              "target_share": 0.1111111111111111,
+              "carry_share": 0.3793103448275862
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 2,
+              "carries": 12,
+              "touches": 14,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0.42857142857142855
+            },
+            "last_3": {
+              "targets": 2.5,
+              "carries": 11.5,
+              "touches": 14,
+              "target_share": 0.08888888888888888,
+              "carry_share": 0.40394088669950734
+            },
+            "last_5": {
+              "targets": 2.5,
+              "carries": 11.5,
+              "touches": 14,
+              "target_share": 0.08888888888888888,
+              "carry_share": 0.40394088669950734
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11168",
+      "name": "Xavier Smith",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.03333333333333333,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.016666666666666666,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.016666666666666666,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11586",
+      "name": "Blake Corum",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 0,
+              "carries": 10,
+              "touches": 10,
+              "target_share": 0,
+              "carry_share": 0.3448275862068966
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 10,
+              "touches": 10,
+              "target_share": 0,
+              "carry_share": 0.3448275862068966
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 10,
+              "touches": 10,
+              "target_share": 0,
+              "carry_share": 0.3448275862068966
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 1,
+              "carries": 12,
+              "touches": 13,
+              "target_share": 0.03333333333333333,
+              "carry_share": 0.42857142857142855
+            },
+            "last_3": {
+              "targets": 0.5,
+              "carries": 11,
+              "touches": 11.5,
+              "target_share": 0.016666666666666666,
+              "carry_share": 0.3866995073891626
+            },
+            "last_5": {
+              "targets": 0.5,
+              "carries": 11,
+              "touches": 11.5,
+              "target_share": 0.016666666666666666,
+              "carry_share": 0.3866995073891626
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "11632",
+      "name": "Malik Nabers",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3103448275862069,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.125,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.21767241379310345,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 6.5,
+              "carries": 0,
+              "touches": 3.5,
+              "target_share": 0.21767241379310345,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12481",
+      "name": "Cam Skattebo",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 0,
+              "carries": 18,
+              "touches": 18,
+              "target_share": 0,
+              "carry_share": 0.4864864864864865
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 18,
+              "touches": 18,
+              "target_share": 0,
+              "carry_share": 0.4864864864864865
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 18,
+              "touches": 18,
+              "target_share": 0,
+              "carry_share": 0.4864864864864865
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 4,
+              "carries": 12,
+              "touches": 16,
+              "target_share": 0.125,
+              "carry_share": 0.5714285714285714
+            },
+            "last_3": {
+              "targets": 2,
+              "carries": 15,
+              "touches": 17,
+              "target_share": 0.0625,
+              "carry_share": 0.528957528957529
+            },
+            "last_5": {
+              "targets": 2,
+              "carries": 15,
+              "touches": 17,
+              "target_share": 0.0625,
+              "carry_share": 0.528957528957529
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12487",
+      "name": "Terrance Ferguson",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 9,
+              "carries": 0,
+              "touches": 6,
+              "target_share": 0.3,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1685185185185185,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 3,
+              "target_share": 0.1685185185185185,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12508",
+      "name": "Jaxson Dart",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 0,
+              "carries": 11,
+              "touches": 11,
+              "target_share": 0,
+              "carry_share": 0.2972972972972973
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 11,
+              "touches": 11,
+              "target_share": 0,
+              "carry_share": 0.2972972972972973
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 11,
+              "touches": 11,
+              "target_share": 0,
+              "carry_share": 0.2972972972972973
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 0,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 0,
+              "carries": 5.5,
+              "touches": 5.5,
+              "target_share": 0,
+              "carry_share": 0.14864864864864866
+            },
+            "last_5": {
+              "targets": 0,
+              "carries": 5.5,
+              "touches": 5.5,
+              "target_share": 0,
+              "carry_share": 0.14864864864864866
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "12718",
+      "name": "Konata Mumpfield",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 1,
+              "carries": 0,
+              "touches": 0,
+              "target_share": 0.037037037037037035,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "LA",
+            "last_1": {
+              "targets": 2,
+              "carries": 0,
+              "touches": 1,
+              "target_share": 0.06666666666666667,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 1.5,
+              "carries": 0,
+              "touches": 0.5,
+              "target_share": 0.05185185185185185,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 1.5,
+              "carries": 0,
+              "touches": 0.5,
+              "target_share": 0.05185185185185185,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "player_id": "13285",
+      "name": "Malachi Fields",
+      "changes": {
+        "usage": {
+          "before": {
+            "latest_week": 1,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 4,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.13793103448275862,
+              "carry_share": 0
+            }
+          },
+          "after": {
+            "latest_week": 2,
+            "latest_team": "NYG",
+            "last_1": {
+              "targets": 6,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.1875,
+              "carry_share": 0
+            },
+            "last_3": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.1627155172413793,
+              "carry_share": 0
+            },
+            "last_5": {
+              "targets": 5,
+              "carries": 0,
+              "touches": 2,
+              "target_share": 0.1627155172413793,
+              "carry_share": 0
+            }
+          }
+        }
+      }
+    }
+  ],
   "trending": {
     "adds": [
       {
         "player_id": "11435",
-        "before": 827874,
-        "after": 825651,
-        "delta": -2223
+        "before": 825651,
+        "after": 850977,
+        "delta": 25326
       },
       {
         "player_id": "9228",
-        "before": 537860,
-        "after": 516680,
-        "delta": -21180
+        "before": 516680,
+        "after": 529752,
+        "delta": 13072
       },
       {
         "player_id": "12545",
-        "before": 459904,
-        "after": 445104,
-        "delta": -14800
+        "before": 445104,
+        "after": 455848,
+        "delta": 10744
       },
       {
         "player_id": "10213",
-        "before": 454080,
-        "after": 442986,
-        "delta": -11094
+        "before": 442986,
+        "after": 454698,
+        "delta": 11712
       },
       {
         "player_id": "11625",
-        "before": 351272,
-        "after": 350024,
-        "delta": -1248
+        "before": 350024,
+        "after": 364984,
+        "delta": 14960
       },
       {
         "player_id": "1339",
-        "before": 281547,
-        "after": 284202,
-        "delta": 2655
+        "before": 284202,
+        "after": 290664,
+        "delta": 6462
       },
       {
         "player_id": "12718",
-        "before": 285642,
-        "after": 281349,
-        "delta": -4293
+        "before": 281349,
+        "after": 281538,
+        "delta": 189
       },
       {
         "player_id": "2505",
-        "before": 284418,
-        "after": 275211,
-        "delta": -9207
+        "before": 275211,
+        "after": 281259,
+        "delta": 6048
       },
       {
         "player_id": "13285",
-        "before": 265865,
-        "after": 261335,
-        "delta": -4530
+        "before": 261335,
+        "after": 261525,
+        "delta": 190
       },
       {
         "player_id": "9225",
-        "before": 239589,
-        "after": 230685,
-        "delta": -8904
+        "before": 230685,
+        "after": 235410,
+        "delta": 4725
       },
       {
         "player_id": "13346",
-        "before": 194086,
-        "after": 189660,
-        "delta": -4426
+        "before": 189660,
+        "after": 194686,
+        "delta": 5026
       },
       {
         "player_id": "13345",
-        "before": 189302,
-        "after": 185290,
-        "delta": -4012
+        "before": 185290,
+        "after": 190030,
+        "delta": 4740
       },
       {
         "player_id": "6650",
-        "before": 180536,
-        "after": 174360,
-        "delta": -6176
+        "before": 174360,
+        "after": 178952,
+        "delta": 4592
       },
       {
         "player_id": "11637",
-        "before": 171936,
-        "after": 164025,
-        "delta": -7911
+        "before": 164025,
+        "after": 169092,
+        "delta": 5067
       },
       {
         "player_id": "7090",
-        "before": 153774,
-        "after": 150813,
-        "delta": -2961
+        "before": 150813,
+        "after": 151002,
+        "delta": 189
       },
       {
         "player_id": "1166",
-        "before": 141216,
-        "after": 137192,
-        "delta": -4024
+        "before": 137192,
+        "after": 141040,
+        "delta": 3848
       },
       {
         "player_id": "12487",
-        "before": 126040,
-        "after": 125824,
-        "delta": -216
+        "before": 125824,
+        "after": 129000,
+        "delta": 3176
       },
       {
         "player_id": "2307",
-        "before": 117204,
-        "after": 113848,
-        "delta": -3356
-      },
-      {
-        "player_id": "11256",
-        "before": 117822,
-        "after": 112824,
-        "delta": -4998
+        "before": 113848,
+        "after": 117308,
+        "delta": 3460
       },
       {
         "player_id": "MIN",
-        "before": 115300,
-        "after": 111870,
-        "delta": -3430
+        "before": 111870,
+        "after": 116260,
+        "delta": 4390
+      },
+      {
+        "player_id": "11256",
+        "before": 112824,
+        "after": 116112,
+        "delta": 3288
       },
       {
         "player_id": "6130",
-        "before": 103365,
-        "after": 95940,
-        "delta": -7425
+        "before": 95940,
+        "after": 96192,
+        "delta": 252
       },
       {
         "player_id": "7562",
-        "before": 88459,
-        "after": 87332,
-        "delta": -1127
+        "before": 87332,
+        "after": 87395,
+        "delta": 63
       },
       {
         "player_id": "9486",
-        "before": 84087,
-        "after": 82278,
-        "delta": -1809
+        "before": 82278,
+        "after": 85425,
+        "delta": 3147
       },
       {
         "player_id": "9758",
-        "before": 78085,
-        "after": 75278,
-        "delta": -2807
+        "before": 75278,
+        "after": 76951,
+        "delta": 1673
       },
       {
         "player_id": "12493",
-        "before": 71415,
-        "after": 72315,
-        "delta": 900
+        "before": 72315,
+        "after": 75290,
+        "delta": 2975
       },
       {
         "player_id": "3163",
-        "before": 74130,
-        "after": 70965,
-        "delta": -3165
+        "before": 70965,
+        "after": 73825,
+        "delta": 2860
       },
       {
         "player_id": "4017",
-        "before": 72168,
-        "after": 69720,
-        "delta": -2448
+        "before": 69720,
+        "after": 71064,
+        "delta": 1344
       },
       {
         "player_id": "5849",
-        "before": 61656,
-        "after": 62176,
-        "delta": 520
+        "before": 62176,
+        "after": 65896,
+        "delta": 3720
       },
       {
         "player_id": "4035",
-        "before": 59144,
-        "after": 57128,
-        "delta": -2016
+        "before": 57128,
+        "after": 58720,
+        "delta": 1592
       },
       {
         "player_id": "DET",
-        "before": 55692,
-        "after": 53316,
-        "delta": -2376
+        "before": 53316,
+        "after": 54531,
+        "delta": 1215
       },
       {
         "player_id": "8188",
-        "before": 59038,
-        "after": 52654,
-        "delta": -6384
+        "before": 52654,
+        "after": 54439,
+        "delta": 1785
       },
       {
         "player_id": "11624",
-        "before": 51984,
-        "after": 49815,
-        "delta": -2169
+        "before": 49815,
+        "after": 51525,
+        "delta": 1710
       },
       {
         "player_id": "9500",
-        "before": 51190,
-        "after": 49230,
-        "delta": -1960
+        "before": 49230,
+        "after": 51205,
+        "delta": 1975
       },
       {
         "player_id": "13337",
-        "before": 45369,
-        "after": 44073,
-        "delta": -1296
-      },
-      {
-        "player_id": "11168",
-        "before": 44510,
-        "after": 43745,
-        "delta": -765
+        "before": 44073,
+        "after": 45369,
+        "delta": 1296
       },
       {
         "player_id": "6865",
-        "before": 43992,
-        "after": 43164,
-        "delta": -828
+        "before": 43164,
+        "after": 43218,
+        "delta": 54
       },
       {
         "player_id": "11834",
-        "before": 43792,
-        "after": 41909,
-        "delta": -1883
+        "before": 41909,
+        "after": 42847,
+        "delta": 938
       },
       {
         "player_id": "8183",
-        "before": 43280,
-        "after": 41652,
-        "delta": -1628
+        "before": 41652,
+        "after": 42728,
+        "delta": 1076
       },
       {
         "player_id": "8134",
-        "before": 41814,
-        "after": 40194,
-        "delta": -1620
+        "before": 40194,
+        "after": 41346,
+        "delta": 1152
       },
       {
         "player_id": "7571",
-        "before": 36420,
-        "after": 35017,
-        "delta": -1403
+        "before": 35017,
+        "after": 36210,
+        "delta": 1193
       },
       {
         "player_id": "421",
-        "before": 34992,
-        "after": 34605,
-        "delta": -387
+        "before": 34605,
+        "after": 35613,
+        "delta": 1008
       },
       {
         "player_id": "LV",
-        "before": 34104,
-        "after": 32742,
-        "delta": -1362
+        "before": 32742,
+        "after": 33564,
+        "delta": 822
       },
       {
         "player_id": "11630",
-        "before": 28989,
-        "after": 27288,
-        "delta": -1701
+        "before": 27288,
+        "after": 27756,
+        "delta": 468
       },
       {
         "player_id": "8110",
-        "before": 27410,
-        "after": 26495,
-        "delta": -915
-      },
-      {
-        "player_id": "10236",
-        "before": 26635,
-        "after": 25263,
-        "delta": -1372
+        "before": 26495,
+        "after": 26990,
+        "delta": 495
       },
       {
         "player_id": "NYG",
-        "before": 25364,
-        "after": 24584,
-        "delta": -780
+        "before": 24584,
+        "after": 26116,
+        "delta": 1532
+      },
+      {
+        "player_id": "10236",
+        "before": 25263,
+        "after": 25767,
+        "delta": 504
       },
       {
         "player_id": "2133",
-        "before": 24264,
-        "after": 24080,
-        "delta": -184
-      },
-      {
-        "player_id": "NE",
-        "before": 23716,
-        "after": 22127,
-        "delta": -1589
+        "before": 24080,
+        "after": 24384,
+        "delta": 304
       },
       {
         "player_id": "13545",
-        "before": 22348,
-        "after": 21968,
-        "delta": -380
+        "before": 21968,
+        "after": 23260,
+        "delta": 1292
+      },
+      {
+        "player_id": "NE",
+        "before": 22127,
+        "after": 22421,
+        "delta": 294
       },
       {
         "player_id": "8136",
-        "before": 0,
-        "after": 20892,
-        "delta": 20892
+        "before": 20892,
+        "after": 21261,
+        "delta": 369
       }
     ],
     "drops": [
       {
         "player_id": "13296",
-        "before": 288504,
-        "after": 291960,
-        "delta": 3456
+        "before": 291960,
+        "after": 295056,
+        "delta": 3096
       },
       {
         "player_id": "TB",
-        "before": 248985,
-        "after": 254000,
-        "delta": 5015
+        "before": 254000,
+        "after": 258850,
+        "delta": 4850
       },
       {
         "player_id": "10222",
-        "before": 234261,
-        "after": 236556,
-        "delta": 2295
+        "before": 236556,
+        "after": 238995,
+        "delta": 2439
       },
       {
         "player_id": "11566",
-        "before": 192400,
-        "after": 194640,
-        "delta": 2240
+        "before": 194640,
+        "after": 196464,
+        "delta": 1824
       },
       {
         "player_id": "6130",
-        "before": 184518,
-        "after": 187515,
-        "delta": 2997
+        "before": 187515,
+        "after": 190197,
+        "delta": 2682
       },
       {
         "player_id": "10219",
-        "before": 177534,
-        "after": 179451,
-        "delta": 1917
+        "before": 179451,
+        "after": 181035,
+        "delta": 1584
       },
       {
         "player_id": "9754",
-        "before": 169638,
-        "after": 171514,
-        "delta": 1876
+        "before": 171514,
+        "after": 173166,
+        "delta": 1652
       },
       {
         "player_id": "9482",
-        "before": 159354,
-        "after": 162054,
-        "delta": 2700
+        "before": 162054,
+        "after": 164817,
+        "delta": 2763
       },
       {
         "player_id": "8180",
-        "before": 127746,
-        "after": 128907,
-        "delta": 1161
+        "before": 128907,
+        "after": 130248,
+        "delta": 1341
       },
       {
         "player_id": "7567",
-        "before": 117816,
-        "after": 119216,
-        "delta": 1400
-      },
-      {
-        "player_id": "13414",
-        "before": 101696,
-        "after": 102900,
-        "delta": 1204
+        "before": 119216,
+        "after": 120472,
+        "delta": 1256
       },
       {
         "player_id": "11581",
-        "before": 101349,
-        "after": 102708,
-        "delta": 1359
-      },
-      {
-        "player_id": "13330",
-        "before": 99216,
-        "after": 100305,
-        "delta": 1089
-      },
-      {
-        "player_id": "4993",
-        "before": 94904,
-        "after": 95988,
-        "delta": 1084
-      },
-      {
-        "player_id": "9756",
-        "before": 93510,
-        "after": 94446,
-        "delta": 936
-      },
-      {
-        "player_id": "3161",
-        "before": 92694,
-        "after": 94170,
+        "before": 102708,
+        "after": 104184,
         "delta": 1476
       },
       {
-        "player_id": "12492",
-        "before": 86296,
-        "after": 87088,
-        "delta": 792
+        "player_id": "13414",
+        "before": 102900,
+        "after": 103866,
+        "delta": 966
       },
       {
-        "player_id": "9480",
-        "before": 82143,
-        "after": 82926,
-        "delta": 783
+        "player_id": "13330",
+        "before": 100305,
+        "after": 101466,
+        "delta": 1161
       },
       {
-        "player_id": "13298",
-        "before": 81099,
-        "after": 82143,
-        "delta": 1044
+        "player_id": "4993",
+        "before": 95988,
+        "after": 97064,
+        "delta": 1076
       },
       {
-        "player_id": "5045",
-        "before": 80001,
-        "after": 80793,
-        "delta": 792
+        "player_id": "3161",
+        "before": 94170,
+        "after": 95682,
+        "delta": 1512
       },
       {
-        "player_id": "13294",
-        "before": 73824,
-        "after": 74480,
-        "delta": 656
-      },
-      {
-        "player_id": "8132",
-        "before": 73480,
-        "after": 74085,
-        "delta": 605
-      },
-      {
-        "player_id": "7553",
-        "before": 71694,
-        "after": 72310,
-        "delta": 616
-      },
-      {
-        "player_id": "11628",
-        "before": 71244,
-        "after": 71984,
-        "delta": 740
-      },
-      {
-        "player_id": "5947",
-        "before": 70992,
-        "after": 71598,
-        "delta": 606
-      },
-      {
-        "player_id": "12718",
-        "before": 65565,
-        "after": 66573,
+        "player_id": "9756",
+        "before": 94446,
+        "after": 95454,
         "delta": 1008
       },
       {
+        "player_id": "12492",
+        "before": 87088,
+        "after": 87840,
+        "delta": 752
+      },
+      {
+        "player_id": "9480",
+        "before": 82926,
+        "after": 83583,
+        "delta": 657
+      },
+      {
+        "player_id": "13298",
+        "before": 82143,
+        "after": 83133,
+        "delta": 990
+      },
+      {
+        "player_id": "5045",
+        "before": 80793,
+        "after": 81531,
+        "delta": 738
+      },
+      {
+        "player_id": "13294",
+        "before": 74480,
+        "after": 75120,
+        "delta": 640
+      },
+      {
+        "player_id": "8132",
+        "before": 74085,
+        "after": 74800,
+        "delta": 715
+      },
+      {
+        "player_id": "7553",
+        "before": 72310,
+        "after": 72849,
+        "delta": 539
+      },
+      {
+        "player_id": "11628",
+        "before": 71984,
+        "after": 72596,
+        "delta": 612
+      },
+      {
+        "player_id": "5947",
+        "before": 71598,
+        "after": 72348,
+        "delta": 750
+      },
+      {
+        "player_id": "12718",
+        "before": 66573,
+        "after": 67563,
+        "delta": 990
+      },
+      {
         "player_id": "10232",
-        "before": 65277,
-        "after": 65790,
-        "delta": 513
+        "before": 65790,
+        "after": 66231,
+        "delta": 441
       },
       {
         "player_id": "13285",
-        "before": 62185,
-        "after": 63385,
-        "delta": 1200
+        "before": 63385,
+        "after": 64420,
+        "delta": 1035
       },
       {
         "player_id": "10218",
-        "before": 60060,
-        "after": 60914,
-        "delta": 854
+        "before": 60914,
+        "after": 61747,
+        "delta": 833
       },
       {
         "player_id": "7021",
-        "before": 58775,
-        "after": 59330,
-        "delta": 555
-      },
-      {
-        "player_id": "8161",
-        "before": 57687,
-        "after": 58422,
-        "delta": 735
+        "before": 59330,
+        "after": 59815,
+        "delta": 485
       },
       {
         "player_id": "3286",
-        "before": 57420,
-        "after": 58314,
-        "delta": 894
+        "before": 58314,
+        "after": 59274,
+        "delta": 960
+      },
+      {
+        "player_id": "8161",
+        "before": 58422,
+        "after": 59136,
+        "delta": 714
       },
       {
         "player_id": "6819",
-        "before": 56885,
-        "after": 57320,
-        "delta": 435
+        "before": 57320,
+        "after": 57840,
+        "delta": 520
       },
       {
         "player_id": "11563",
-        "before": 56178,
-        "after": 56616,
-        "delta": 438
+        "before": 56616,
+        "after": 57126,
+        "delta": 510
       },
       {
         "player_id": "DET",
-        "before": 54378,
-        "after": 54999,
-        "delta": 621
+        "before": 54999,
+        "after": 55629,
+        "delta": 630
       },
       {
         "player_id": "9511",
-        "before": 54234,
-        "after": 54801,
-        "delta": 567
+        "before": 54801,
+        "after": 55395,
+        "delta": 594
       },
       {
         "player_id": "6783",
-        "before": 54063,
-        "after": 54684,
-        "delta": 621
+        "before": 54684,
+        "after": 55143,
+        "delta": 459
       },
       {
         "player_id": "5849",
-        "before": 52808,
-        "after": 53192,
-        "delta": 384
+        "before": 53192,
+        "after": 53616,
+        "delta": 424
       },
       {
         "player_id": "13311",
-        "before": 52143,
-        "after": 52731,
-        "delta": 588
+        "before": 52731,
+        "after": 53445,
+        "delta": 714
       },
       {
         "player_id": "11560",
-        "before": 51453,
-        "after": 51921,
-        "delta": 468
+        "before": 51921,
+        "after": 52308,
+        "delta": 387
       },
       {
         "player_id": "JAX",
-        "before": 50196,
-        "after": 50958,
-        "delta": 762
+        "before": 50958,
+        "after": 51654,
+        "delta": 696
       },
       {
         "player_id": "11583",
-        "before": 45876,
-        "after": 46484,
-        "delta": 608
+        "before": 46484,
+        "after": 46988,
+        "delta": 504
       },
       {
         "player_id": "8142",
-        "before": 44636,
-        "after": 45252,
-        "delta": 616
+        "before": 45252,
+        "after": 45886,
+        "delta": 634
       },
       {
         "player_id": "8134",
-        "before": 44136,
-        "after": 44442,
+        "before": 44442,
+        "after": 44748,
         "delta": 306
       },
       {
         "player_id": "12533",
-        "before": 43200,
-        "after": 43533,
-        "delta": 333
-      },
-      {
-        "player_id": "421",
-        "before": 41949,
-        "after": 42156,
-        "delta": 207
+        "before": 43533,
+        "after": 43884,
+        "delta": 351
       },
       {
         "player_id": "2020",
-        "before": 40866,
-        "after": 41601,
-        "delta": 735
+        "before": 41601,
+        "after": 42476,
+        "delta": 875
       },
       {
-        "player_id": "12530",
-        "before": 40614,
-        "after": 40986,
-        "delta": 372
+        "player_id": "421",
+        "before": 42156,
+        "after": 42210,
+        "delta": 54
       },
       {
         "player_id": "12472",
-        "before": 40352,
-        "after": 40928,
-        "delta": 576
+        "before": 40928,
+        "after": 41328,
+        "delta": 400
+      },
+      {
+        "player_id": "12530",
+        "before": 40986,
+        "after": 41328,
+        "delta": 342
       },
       {
         "player_id": "13337",
-        "before": 39879,
-        "after": 40302,
-        "delta": 423
+        "before": 40302,
+        "after": 40698,
+        "delta": 396
       }
     ]
   },
