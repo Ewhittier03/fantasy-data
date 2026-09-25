@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T16:00:17.496Z",
+  "generated_at": "2026-09-25T16:15:16.638Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-09-25T16:00:17.296Z",
+    "compiled_at": "2026-09-25T16:15:16.444Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
         "generated_at": "2026-09-25T15:45:44.433Z",
-        "age_minutes": 15,
+        "age_minutes": 30,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-09-25T12:00:19.824Z",
-        "age_minutes": 240,
+        "age_minutes": 255,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-09-25T10:00:44.747Z",
-        "age_minutes": 360,
+        "generated_at": "2026-09-25T16:00:44.990Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 201,
@@ -4960,18 +4960,7 @@
         },
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": {
         "latest_week": 2,
         "latest_team": "NE",
@@ -5793,18 +5782,7 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": {
         "latest_week": 1,
         "latest_team": "CIN",
@@ -12098,7 +12076,18 @@
           "keeper": false
         }
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": {
         "latest_week": 2,
         "latest_team": "LV",
@@ -13291,7 +13280,18 @@
         },
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": {
         "latest_week": 2,
         "latest_team": "HOU",
