@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T12:00:16.541Z",
+  "generated_at": "2026-09-27T12:15:14.905Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-27T11:45:43.873Z",
+    "sleeper": "2026-09-27T12:00:43.853Z",
     "nfl": "2026-09-27T11:00:19.311Z",
     "market": "2026-09-27T10:00:45.557Z"
   },
@@ -12600,6 +12600,23 @@
         "fantasypros_id": null
       }
     },
+    "NO": {
+      "sleeper_id": "NO",
+      "name": "New Orleans Saints",
+      "team": "NO",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "NO",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "JAX": {
       "sleeper_id": "JAX",
       "name": "Jacksonville Jaguars",
@@ -12619,10 +12636,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 228,
+    "player_count": 229,
     "nfl_matches": 202,
     "market_matches": 181,
-    "nfl_match_rate": 0.8859649122807017,
-    "market_match_rate": 0.793859649122807
+    "nfl_match_rate": 0.8820960698689956,
+    "market_match_rate": 0.7903930131004366
   }
 }
