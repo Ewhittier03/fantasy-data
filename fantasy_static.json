@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T05:00:15.233Z",
+  "generated_at": "2026-09-29T05:15:15.978Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-29T04:45:41.332Z",
+    "sleeper": "2026-09-29T05:00:43.077Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-09-29T04:00:44.607Z"
   },
@@ -104,7 +104,7 @@
         "daily_waivers_hour": 0,
         "playoff_type": 0,
         "taxi_slots": 0,
-        "last_scored_leg": 2,
+        "last_scored_leg": 3,
         "daily_waivers_days": 5461,
         "playoff_week_start": 15,
         "waiver_clear_days": 1,
@@ -4834,7 +4834,7 @@
         "playoff_type": 0,
         "taxi_slots": 0,
         "sub_start_time_eligibility": 0,
-        "last_scored_leg": 2,
+        "last_scored_leg": 3,
         "daily_waivers_days": 5461,
         "sub_lock_if_starter_active": 0,
         "playoff_week_start": 15,
@@ -12735,13 +12735,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "CLE": {
+      "sleeper_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CLE",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 235,
+    "player_count": 236,
     "nfl_matches": 210,
     "market_matches": 182,
-    "nfl_match_rate": 0.8936170212765957,
-    "market_match_rate": 0.774468085106383
+    "nfl_match_rate": 0.8898305084745762,
+    "market_match_rate": 0.7711864406779662
   }
 }
