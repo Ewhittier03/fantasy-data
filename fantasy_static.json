@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T15:45:16.218Z",
+  "generated_at": "2026-09-30T16:00:14.960Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-30T15:30:43.850Z",
+    "sleeper": "2026-09-30T15:45:43.990Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-09-30T10:00:45.904Z"
   },
@@ -8740,21 +8740,6 @@
     }
   },
   "player_identity": {
-    "0": {
-      "sleeper_id": "0",
-      "name": null,
-      "team": null,
-      "position": null,
-      "fantasy_positions": [],
-      "ids": {
-        "sleeper_id": "0",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "421": {
       "sleeper_id": "421",
       "name": "Matthew Stafford",
@@ -11118,6 +11103,23 @@
         "fantasypros_id": null
       }
     },
+    "11539": {
+      "sleeper_id": "11539",
+      "name": "Jake Bates",
+      "team": "DET",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "ids": {
+        "sleeper_id": "11539",
+        "espn_id": null,
+        "gsis_id": "00-0039172",
+        "pfr_id": "BateJa00",
+        "pff_id": 121959,
+        "fantasypros_id": null
+      }
+    },
     "11560": {
       "sleeper_id": "11560",
       "name": "Caleb Williams",
@@ -12666,23 +12668,6 @@
         "fantasypros_id": null
       }
     },
-    "CIN": {
-      "sleeper_id": "CIN",
-      "name": "Cincinnati Bengals",
-      "team": "CIN",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CIN",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "CHI": {
       "sleeper_id": "CHI",
       "name": "Chicago Bears",
@@ -12693,6 +12678,23 @@
       ],
       "ids": {
         "sleeper_id": "CHI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "CIN": {
+      "sleeper_id": "CIN",
+      "name": "Cincinnati Bengals",
+      "team": "CIN",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CIN",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12771,9 +12773,9 @@
   },
   "compiler_health": {
     "player_count": 237,
-    "nfl_matches": 208,
+    "nfl_matches": 209,
     "market_matches": 179,
-    "nfl_match_rate": 0.8776371308016878,
+    "nfl_match_rate": 0.8818565400843882,
     "market_match_rate": 0.7552742616033755
   }
 }
