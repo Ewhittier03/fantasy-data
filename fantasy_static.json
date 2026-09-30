@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T07:15:16.208Z",
+  "generated_at": "2026-09-30T07:30:15.808Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-09-30T07:00:42.961Z",
+    "sleeper": "2026-09-30T07:15:44.283Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-09-30T04:00:41.872Z"
   },
@@ -4863,7 +4863,7 @@
         "trade_review_days": 1,
         "bench_lock": 0,
         "offseason_adds": 0,
-        "leg": 3,
+        "leg": 4,
         "reserve_slots": 2,
         "reserve_allow_cov": 1,
         "daily_waivers_last_ran": 18
@@ -8740,6 +8740,21 @@
     }
   },
   "player_identity": {
+    "0": {
+      "sleeper_id": "0",
+      "name": null,
+      "team": null,
+      "position": null,
+      "fantasy_positions": [],
+      "ids": {
+        "sleeper_id": "0",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "421": {
       "sleeper_id": "421",
       "name": "Matthew Stafford",
@@ -12651,6 +12666,23 @@
         "fantasypros_id": null
       }
     },
+    "CHI": {
+      "sleeper_id": "CHI",
+      "name": "Chicago Bears",
+      "team": "CHI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CHI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "LV": {
       "sleeper_id": "LV",
       "name": "Las Vegas Raiders",
@@ -12678,23 +12710,6 @@
       ],
       "ids": {
         "sleeper_id": "CLE",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
-    "CHI": {
-      "sleeper_id": "CHI",
-      "name": "Chicago Bears",
-      "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CHI",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12738,10 +12753,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 235,
+    "player_count": 236,
     "nfl_matches": 207,
     "market_matches": 180,
-    "nfl_match_rate": 0.8808510638297873,
-    "market_match_rate": 0.7659574468085106
+    "nfl_match_rate": 0.8771186440677966,
+    "market_match_rate": 0.7627118644067796
   }
 }
