@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T06:45:15.835Z",
+  "generated_at": "2026-10-01T07:00:15.834Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-01T06:30:44.220Z",
+    "sleeper": "2026-10-01T06:45:44.191Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-01T04:00:45.333Z"
   },
@@ -9590,6 +9590,23 @@
         "fantasypros_id": null
       }
     },
+    "6783": {
+      "sleeper_id": "6783",
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "ids": {
+        "sleeper_id": "6783",
+        "espn_id": 4241463,
+        "gsis_id": "00-0036407",
+        "pfr_id": "JeudJe00",
+        "pff_id": 61103,
+        "fantasypros_id": null
+      }
+    },
     "6786": {
       "sleeper_id": "6786",
       "name": "CeeDee Lamb",
@@ -12311,23 +12328,6 @@
         "fantasypros_id": null
       }
     },
-    "13425": {
-      "sleeper_id": "13425",
-      "name": "Jalon Daniels",
-      "team": "TB",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "ids": {
-        "sleeper_id": "13425",
-        "espn_id": null,
-        "gsis_id": "00-0041251",
-        "pfr_id": "DaniJa03",
-        "pff_id": 122555,
-        "fantasypros_id": null
-      }
-    },
     "13545": {
       "sleeper_id": "13545",
       "name": "Trey Smack",
@@ -12668,6 +12668,23 @@
         "fantasypros_id": null
       }
     },
+    "BUF": {
+      "sleeper_id": "BUF",
+      "name": "Buffalo Bills",
+      "team": "BUF",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "BUF",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "NYG": {
       "sleeper_id": "NYG",
       "name": "New York Giants",
@@ -12687,10 +12704,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 232,
+    "player_count": 233,
     "nfl_matches": 204,
     "market_matches": 181,
-    "nfl_match_rate": 0.8793103448275862,
-    "market_match_rate": 0.7801724137931034
+    "nfl_match_rate": 0.8755364806866953,
+    "market_match_rate": 0.776824034334764
   }
 }
