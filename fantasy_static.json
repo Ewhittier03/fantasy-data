@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:45:14.823Z",
+  "generated_at": "2026-10-02T23:00:16.887Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-02T22:30:43.839Z",
+    "sleeper": "2026-10-02T22:45:43.750Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-02T22:00:44.837Z"
   },
@@ -12005,6 +12005,23 @@
         "fantasypros_id": null
       }
     },
+    "13150": {
+      "sleeper_id": "13150",
+      "name": "Darius Cooper",
+      "team": "PHI",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "ids": {
+        "sleeper_id": "13150",
+        "espn_id": null,
+        "gsis_id": "00-0040024",
+        "pfr_id": "CoopDa01",
+        "pff_id": 136866,
+        "fantasypros_id": null
+      }
+    },
     "13269": {
       "sleeper_id": "13269",
       "name": "Fernando Mendoza",
@@ -12583,23 +12600,6 @@
         "fantasypros_id": null
       }
     },
-    "CLE": {
-      "sleeper_id": "CLE",
-      "name": "Cleveland Browns",
-      "team": "CLE",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CLE",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "ARI": {
       "sleeper_id": "ARI",
       "name": "Arizona Cardinals",
@@ -12610,6 +12610,23 @@
       ],
       "ids": {
         "sleeper_id": "ARI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "CLE": {
+      "sleeper_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CLE",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12636,10 +12653,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 229,
-    "nfl_matches": 201,
+    "player_count": 230,
+    "nfl_matches": 202,
     "market_matches": 180,
-    "nfl_match_rate": 0.8777292576419214,
-    "market_match_rate": 0.7860262008733624
+    "nfl_match_rate": 0.8782608695652174,
+    "market_match_rate": 0.782608695652174
   }
 }
