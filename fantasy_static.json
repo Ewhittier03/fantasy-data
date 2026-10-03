@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T00:45:14.866Z",
+  "generated_at": "2026-10-03T01:00:16.606Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-03T00:30:43.856Z",
+    "sleeper": "2026-10-03T00:45:44.048Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-02T22:00:44.837Z"
   },
@@ -9182,6 +9182,23 @@
         "fantasypros_id": null
       }
     },
+    "4663": {
+      "sleeper_id": "4663",
+      "name": "Austin Ekeler",
+      "team": "WAS",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "ids": {
+        "sleeper_id": "4663",
+        "espn_id": 3068267,
+        "gsis_id": "00-0033699",
+        "pfr_id": "EkelAu00",
+        "pff_id": 12164,
+        "fantasypros_id": null
+      }
+    },
     "4866": {
       "sleeper_id": "4866",
       "name": "Saquon Barkley",
@@ -12634,23 +12651,6 @@
         "fantasypros_id": null
       }
     },
-    "CLE": {
-      "sleeper_id": "CLE",
-      "name": "Cleveland Browns",
-      "team": "CLE",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CLE",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "BUF": {
       "sleeper_id": "BUF",
       "name": "Buffalo Bills",
@@ -12671,9 +12671,9 @@
   },
   "compiler_health": {
     "player_count": 231,
-    "nfl_matches": 203,
+    "nfl_matches": 204,
     "market_matches": 181,
-    "nfl_match_rate": 0.8787878787878788,
+    "nfl_match_rate": 0.8831168831168831,
     "market_match_rate": 0.7835497835497836
   }
 }
