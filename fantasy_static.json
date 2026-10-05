@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T13:45:16.290Z",
+  "generated_at": "2026-10-05T14:00:15.151Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-05T13:30:43.785Z",
+    "sleeper": "2026-10-05T13:45:43.950Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-05T10:00:40.687Z"
   },
@@ -8740,6 +8740,23 @@
     }
   },
   "player_identity": {
+    "96": {
+      "sleeper_id": "96",
+      "name": "Aaron Rodgers",
+      "team": "PIT",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "ids": {
+        "sleeper_id": "96",
+        "espn_id": 8439,
+        "gsis_id": "00-0023459",
+        "pfr_id": "RodgAa00",
+        "pff_id": 2241,
+        "fantasypros_id": null
+      }
+    },
     "421": {
       "sleeper_id": "421",
       "name": "Matthew Stafford",
@@ -8924,23 +8941,6 @@
         "gsis_id": "00-0031492",
         "pfr_id": "MyerJa00",
         "pff_id": 10207,
-        "fantasypros_id": null
-      }
-    },
-    "3155": {
-      "sleeper_id": "3155",
-      "name": "Laquon Treadwell",
-      "team": "IND",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "ids": {
-        "sleeper_id": "3155",
-        "espn_id": 3051889,
-        "gsis_id": "00-0032951",
-        "pfr_id": "TreaLa00",
-        "pff_id": 10657,
         "fantasypros_id": null
       }
     },
@@ -10352,6 +10352,23 @@
         "gsis_id": "00-0037740",
         "pfr_id": "WilsGa00",
         "pff_id": 97405,
+        "fantasypros_id": null
+      }
+    },
+    "8147": {
+      "sleeper_id": "8147",
+      "name": "John Metchie",
+      "team": "CAR",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "ids": {
+        "sleeper_id": "8147",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
         "fantasypros_id": null
       }
     },
@@ -12735,13 +12752,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "CLE": {
+      "sleeper_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CLE",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 235,
+    "player_count": 237,
     "nfl_matches": 208,
-    "market_matches": 181,
-    "nfl_match_rate": 0.8851063829787233,
-    "market_match_rate": 0.7702127659574468
+    "market_matches": 182,
+    "nfl_match_rate": 0.8776371308016878,
+    "market_match_rate": 0.7679324894514767
   }
 }
