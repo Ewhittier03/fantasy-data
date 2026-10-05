@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T16:45:16.443Z",
+  "generated_at": "2026-10-05T17:00:14.832Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-05T16:30:43.798Z",
+    "sleeper": "2026-10-05T16:45:46.371Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-05T16:00:40.259Z"
   },
@@ -12073,6 +12073,23 @@
         "fantasypros_id": null
       }
     },
+    "12542": {
+      "sleeper_id": "12542",
+      "name": "Efton Chism",
+      "team": "NE",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "ids": {
+        "sleeper_id": "12542",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "12545": {
       "sleeper_id": "12545",
       "name": "Tyler Shough",
@@ -12736,23 +12753,6 @@
         "fantasypros_id": null
       }
     },
-    "ARI": {
-      "sleeper_id": "ARI",
-      "name": "Arizona Cardinals",
-      "team": "ARI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "ARI",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "JAX": {
       "sleeper_id": "JAX",
       "name": "Jacksonville Jaguars",
@@ -12786,13 +12786,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "ARI": {
+      "sleeper_id": "ARI",
+      "name": "Arizona Cardinals",
+      "team": "ARI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "ARI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 238,
+    "player_count": 239,
     "nfl_matches": 209,
     "market_matches": 184,
-    "nfl_match_rate": 0.8781512605042017,
-    "market_match_rate": 0.773109243697479
+    "nfl_match_rate": 0.8744769874476988,
+    "market_match_rate": 0.7698744769874477
   }
 }
