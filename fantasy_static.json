@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T10:30:17.052Z",
+  "generated_at": "2026-10-06T10:45:15.606Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-06T10:15:44.315Z",
+    "sleeper": "2026-10-06T10:30:44.424Z",
     "nfl": "2026-09-27T21:00:19.872Z",
     "market": "2026-10-06T10:00:42.686Z"
   },
@@ -12786,13 +12786,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "ARI": {
+      "sleeper_id": "ARI",
+      "name": "Arizona Cardinals",
+      "team": "ARI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "ARI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 238,
+    "player_count": 239,
     "nfl_matches": 211,
     "market_matches": 187,
-    "nfl_match_rate": 0.8865546218487395,
-    "market_match_rate": 0.7857142857142857
+    "nfl_match_rate": 0.8828451882845189,
+    "market_match_rate": 0.7824267782426778
   }
 }
