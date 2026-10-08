@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T22:00:16.548Z",
+  "generated_at": "2026-10-08T22:15:14.809Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-10-08T22:00:16.411Z",
+    "compiled_at": "2026-10-08T22:15:14.661Z",
     "overall_status": "ok",
     "sources": {
       "sleeper": {
         "generated_at": "2026-10-08T21:45:44.300Z",
-        "age_minutes": 15,
+        "age_minutes": 30,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-09-27T21:00:19.872Z",
-        "age_minutes": 15900,
+        "age_minutes": 15915,
         "upstream_health": "ok",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-10-08T16:00:40.755Z",
-        "age_minutes": 360,
+        "generated_at": "2026-10-08T22:00:43.757Z",
+        "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 202,
@@ -8738,18 +8738,7 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": {
         "latest_week": 2,
         "latest_team": "NYG",
@@ -11745,7 +11734,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": {
         "latest_week": 2,
         "latest_team": "PHI",
@@ -14592,7 +14592,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": {
         "latest_week": 2,
         "latest_team": "CAR",
@@ -14818,18 +14829,7 @@
         },
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": {
         "latest_week": 2,
         "latest_team": "SEA",
@@ -16455,7 +16455,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": {
         "latest_week": 2,
         "latest_team": "DEN",
@@ -19960,6 +19971,6 @@
   "source_summary": {
     "relevant_players": 239,
     "nfl_matches": 209,
-    "market_matches": 181
+    "market_matches": 182
   }
 }
