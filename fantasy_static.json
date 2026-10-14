@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T07:15:13.202Z",
+  "generated_at": "2026-10-14T07:30:13.249Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-14T07:00:42.984Z",
+    "sleeper": "2026-10-14T07:15:44.433Z",
     "nfl": "2026-10-12T12:00:38.792Z",
     "market": "2026-10-14T04:00:41.346Z"
   },
@@ -4863,7 +4863,7 @@
         "trade_review_days": 1,
         "bench_lock": 0,
         "offseason_adds": 0,
-        "leg": 5,
+        "leg": 6,
         "reserve_slots": 2,
         "reserve_allow_cov": 1,
         "daily_waivers_last_ran": 18
@@ -8740,6 +8740,21 @@
     }
   },
   "player_identity": {
+    "0": {
+      "sleeper_id": "0",
+      "name": null,
+      "team": null,
+      "position": null,
+      "fantasy_positions": [],
+      "ids": {
+        "sleeper_id": "0",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "96": {
       "sleeper_id": "96",
       "name": "Aaron Rodgers",
@@ -12959,10 +12974,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 248,
+    "player_count": 249,
     "nfl_matches": 0,
     "market_matches": 182,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7338709677419355
+    "market_match_rate": 0.7309236947791165
   }
 }
