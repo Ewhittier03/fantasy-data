@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T21:30:13.118Z",
+  "generated_at": "2026-10-15T21:45:12.944Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-15T21:15:41.727Z",
+    "sleeper": "2026-10-15T21:30:41.393Z",
     "nfl": "2026-10-12T12:00:38.792Z",
     "market": "2026-10-15T04:00:41.317Z"
   },
@@ -12838,6 +12838,23 @@
         "fantasypros_id": null
       }
     },
+    "CAR": {
+      "sleeper_id": "CAR",
+      "name": "Carolina Panthers",
+      "team": "CAR",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CAR",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "CLE": {
       "sleeper_id": "CLE",
       "name": "Cleveland Browns",
@@ -12891,10 +12908,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 244,
+    "player_count": 245,
     "nfl_matches": 0,
     "market_matches": 181,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7418032786885246
+    "market_match_rate": 0.7387755102040816
   }
 }
