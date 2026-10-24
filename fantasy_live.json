@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T04:00:13.137Z",
+  "generated_at": "2026-10-24T04:15:12.745Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-10-24T04:00:13.131Z",
+    "compiled_at": "2026-10-24T04:15:12.738Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
         "generated_at": "2026-10-24T03:45:46.365Z",
-        "age_minutes": 14,
+        "age_minutes": 29,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-10-12T12:00:38.792Z",
-        "age_minutes": 16800,
+        "age_minutes": 16815,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-10-23T22:00:44.658Z",
-        "age_minutes": 359,
+        "generated_at": "2026-10-24T04:00:44.553Z",
+        "age_minutes": 14,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 204,
@@ -12909,18 +12909,7 @@
           "keeper": false
         }
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": null,
       "injury": null
     },
@@ -12946,7 +12935,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
