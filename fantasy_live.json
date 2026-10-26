@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T16:00:13.242Z",
+  "generated_at": "2026-10-26T16:15:13.132Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-10-26T16:00:13.236Z",
+    "compiled_at": "2026-10-26T16:15:13.127Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
         "generated_at": "2026-10-26T15:45:43.944Z",
-        "age_minutes": 14,
+        "age_minutes": 29,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-10-12T12:00:38.792Z",
-        "age_minutes": 20400,
+        "age_minutes": 20415,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-10-26T10:00:45.123Z",
-        "age_minutes": 359,
+        "generated_at": "2026-10-26T16:00:44.705Z",
+        "age_minutes": 14,
         "upstream_health": "ok",
         "valid": true,
-        "market_players": 203,
+        "market_players": 204,
         "draft_rankings": 0,
         "adp_rows": 0,
         "parser_issues": []
@@ -5753,7 +5753,18 @@
         },
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
@@ -13687,6 +13698,6 @@
   "source_summary": {
     "relevant_players": 238,
     "nfl_matches": 0,
-    "market_matches": 172
+    "market_matches": 173
   }
 }
