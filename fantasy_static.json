@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T14:45:13.283Z",
+  "generated_at": "2026-10-26T15:00:13.230Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-26T14:30:43.857Z",
+    "sleeper": "2026-10-26T14:45:46.331Z",
     "nfl": "2026-10-12T12:00:38.792Z",
     "market": "2026-10-26T10:00:45.123Z"
   },
@@ -9318,23 +9318,6 @@
         "fantasypros_id": null
       }
     },
-    "4993": {
-      "sleeper_id": "4993",
-      "name": "Mike Gesicki",
-      "team": "CIN",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "ids": {
-        "sleeper_id": "4993",
-        "espn_id": 3116164,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "5001": {
       "sleeper_id": "5001",
       "name": "Dalton Schultz",
@@ -9584,23 +9567,6 @@
       "ids": {
         "sleeper_id": "5995",
         "espn_id": 4038441,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
-    "6083": {
-      "sleeper_id": "6083",
-      "name": "Matt Gay",
-      "team": "LV",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "ids": {
-        "sleeper_id": "6083",
-        "espn_id": 4249087,
         "gsis_id": null,
         "pfr_id": null,
         "pff_id": null,
@@ -12820,13 +12786,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "TB": {
+      "sleeper_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "team": "TB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "TB",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 240,
+    "player_count": 239,
     "nfl_matches": 0,
-    "market_matches": 172,
+    "market_matches": 171,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7166666666666667
+    "market_match_rate": 0.7154811715481172
   }
 }
