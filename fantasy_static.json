@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T20:31:37.535Z",
+  "generated_at": "2026-10-29T21:01:37.589Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-10-29T20:16:39.119Z",
+    "sleeper": "2026-10-29T20:46:38.855Z",
     "nfl": "2026-10-26T18:00:43.230Z",
     "market": "2026-10-29T16:00:39.441Z"
   },
@@ -8699,6 +8699,13 @@
           "previous_owner_id": 2
         },
         {
+          "round": 1,
+          "season": "2027",
+          "roster_id": 2,
+          "owner_id": 5,
+          "previous_owner_id": 2
+        },
+        {
           "round": 8,
           "season": "2026",
           "roster_id": 6,
@@ -8955,6 +8962,23 @@
       "ids": {
         "sleeper_id": "3214",
         "espn_id": 3046439,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "3257": {
+      "sleeper_id": "3257",
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "ids": {
+        "sleeper_id": "3257",
+        "espn_id": 2578570,
         "gsis_id": null,
         "pfr_id": null,
         "pff_id": null,
@@ -12874,10 +12898,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 243,
+    "player_count": 244,
     "nfl_matches": 0,
-    "market_matches": 172,
+    "market_matches": 173,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7078189300411523
+    "market_match_rate": 0.7090163934426229
   }
 }
