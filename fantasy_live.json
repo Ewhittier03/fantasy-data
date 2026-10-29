@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T09:46:38.990Z",
+  "generated_at": "2026-10-29T10:01:37.239Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-10-29T09:46:38.982Z",
+    "compiled_at": "2026-10-29T10:01:37.233Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
         "generated_at": "2026-10-29T08:46:39.505Z",
-        "age_minutes": 60,
+        "age_minutes": 75,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-10-26T18:00:43.230Z",
-        "age_minutes": 3826,
+        "age_minutes": 3841,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-10-29T04:00:39.656Z",
-        "age_minutes": 346,
+        "generated_at": "2026-10-29T10:00:39.370Z",
+        "age_minutes": 1,
         "upstream_health": "ok",
         "valid": true,
-        "market_players": 203,
+        "market_players": 204,
         "draft_rankings": 0,
         "adp_rows": 0,
         "parser_issues": []
@@ -4030,7 +4030,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
@@ -4250,7 +4261,18 @@
         },
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
@@ -5460,7 +5482,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
@@ -8018,7 +8051,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
@@ -9772,18 +9816,7 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": null,
       "injury": null
     },
@@ -10135,18 +10168,7 @@
         },
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": null,
       "injury": null
     },
@@ -13435,6 +13457,6 @@
   "source_summary": {
     "relevant_players": 242,
     "nfl_matches": 0,
-    "market_matches": 170
+    "market_matches": 172
   }
 }
