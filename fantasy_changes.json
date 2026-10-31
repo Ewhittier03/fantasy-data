@@ -1,19 +1,641 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T17:46:38.573Z",
+  "generated_at": "2026-10-31T18:16:35.990Z",
   "data_type": "fantasy_changes",
-  "previous_generated_at": "2026-10-31T17:31:36.795Z",
-  "current_generated_at": "2026-10-31T17:46:38.572Z",
-  "has_changes": false,
-  "has_actionable_changes": false,
+  "previous_generated_at": "2026-10-31T17:46:38.572Z",
+  "current_generated_at": "2026-10-31T18:16:35.990Z",
+  "has_changes": true,
+  "has_actionable_changes": true,
   "leagues": {
     "gcs": [],
-    "gcs_2_0": []
+    "gcs_2_0": [
+      {
+        "roster_id": 10,
+        "players_added": [
+          "13294"
+        ],
+        "players_removed": [
+          "11631"
+        ],
+        "starters_added": [
+          "13294"
+        ],
+        "starters_removed": [
+          "5859"
+        ],
+        "reserve_added": [],
+        "reserve_removed": [],
+        "waiver_position_before": 7,
+        "waiver_position_after": 7
+      }
+    ]
   },
   "players": [],
   "trending": {
-    "adds": [],
-    "drops": []
+    "adds": [
+      {
+        "player_id": "7561",
+        "before": 172539,
+        "after": 178209,
+        "delta": 5670
+      },
+      {
+        "player_id": "6130",
+        "before": 156969,
+        "after": 166878,
+        "delta": 9909
+      },
+      {
+        "player_id": "13424",
+        "before": 142080,
+        "after": 156808,
+        "delta": 14728
+      },
+      {
+        "player_id": "11783",
+        "before": 141896,
+        "after": 143664,
+        "delta": 1768
+      },
+      {
+        "player_id": "13294",
+        "before": 131808,
+        "after": 138264,
+        "delta": 6456
+      },
+      {
+        "player_id": "4147",
+        "before": 103656,
+        "after": 120196,
+        "delta": 16540
+      },
+      {
+        "player_id": "12499",
+        "before": 104880,
+        "after": 106644,
+        "delta": 1764
+      },
+      {
+        "player_id": "WAS",
+        "before": 104524,
+        "after": 101416,
+        "delta": -3108
+      },
+      {
+        "player_id": "4037",
+        "before": 99798,
+        "after": 99288,
+        "delta": -510
+      },
+      {
+        "player_id": "12457",
+        "before": 83304,
+        "after": 75664,
+        "delta": -7640
+      },
+      {
+        "player_id": "12498",
+        "before": 75015,
+        "after": 74330,
+        "delta": -685
+      },
+      {
+        "player_id": "13150",
+        "before": 60137,
+        "after": 65079,
+        "delta": 4942
+      },
+      {
+        "player_id": "TB",
+        "before": 66330,
+        "after": 64720,
+        "delta": -1610
+      },
+      {
+        "player_id": "11637",
+        "before": 55791,
+        "after": 57078,
+        "delta": 1287
+      },
+      {
+        "player_id": "13296",
+        "before": 56392,
+        "after": 53328,
+        "delta": -3064
+      },
+      {
+        "player_id": "13298",
+        "before": 54882,
+        "after": 52587,
+        "delta": -2295
+      },
+      {
+        "player_id": "10219",
+        "before": 46458,
+        "after": 51417,
+        "delta": 4959
+      },
+      {
+        "player_id": "8134",
+        "before": 52731,
+        "after": 51174,
+        "delta": -1557
+      },
+      {
+        "player_id": "13286",
+        "before": 48591,
+        "after": 49824,
+        "delta": 1233
+      },
+      {
+        "player_id": "9480",
+        "before": 49059,
+        "after": 47313,
+        "delta": -1746
+      },
+      {
+        "player_id": "11647",
+        "before": 38645,
+        "after": 42320,
+        "delta": 3675
+      },
+      {
+        "player_id": "9756",
+        "before": 37791,
+        "after": 40212,
+        "delta": 2421
+      },
+      {
+        "player_id": "JAX",
+        "before": 36078,
+        "after": 35706,
+        "delta": -372
+      },
+      {
+        "player_id": "6650",
+        "before": 34272,
+        "after": 34024,
+        "delta": -248
+      },
+      {
+        "player_id": "7042",
+        "before": 32625,
+        "after": 32350,
+        "delta": -275
+      },
+      {
+        "player_id": "10213",
+        "before": 32532,
+        "after": 31806,
+        "delta": -726
+      },
+      {
+        "player_id": "4454",
+        "before": 29616,
+        "after": 29031,
+        "delta": -585
+      },
+      {
+        "player_id": "DET",
+        "before": 28260,
+        "after": 28701,
+        "delta": 441
+      },
+      {
+        "player_id": "12491",
+        "before": 19506,
+        "after": 26664,
+        "delta": 7158
+      },
+      {
+        "player_id": "11610",
+        "before": 24416,
+        "after": 26424,
+        "delta": 2008
+      },
+      {
+        "player_id": "13345",
+        "before": 25020,
+        "after": 26234,
+        "delta": 1214
+      },
+      {
+        "player_id": "12469",
+        "before": 24075,
+        "after": 26010,
+        "delta": 1935
+      },
+      {
+        "player_id": "1166",
+        "before": 26176,
+        "after": 25624,
+        "delta": -552
+      },
+      {
+        "player_id": "11435",
+        "before": 24363,
+        "after": 25272,
+        "delta": 909
+      },
+      {
+        "player_id": "13276",
+        "before": 24984,
+        "after": 24920,
+        "delta": -64
+      },
+      {
+        "player_id": "7021",
+        "before": 24295,
+        "after": 24855,
+        "delta": 560
+      },
+      {
+        "player_id": "5849",
+        "before": 25096,
+        "after": 24696,
+        "delta": -400
+      },
+      {
+        "player_id": "3271",
+        "before": 23823,
+        "after": 24363,
+        "delta": 540
+      },
+      {
+        "player_id": "3214",
+        "before": 21897,
+        "after": 23784,
+        "delta": 1887
+      },
+      {
+        "player_id": "LV",
+        "before": 23130,
+        "after": 22932,
+        "delta": -198
+      },
+      {
+        "player_id": "12542",
+        "before": 23604,
+        "after": 22800,
+        "delta": -804
+      },
+      {
+        "player_id": "11603",
+        "before": 21888,
+        "after": 22110,
+        "delta": 222
+      },
+      {
+        "player_id": "1373",
+        "before": 21324,
+        "after": 21276,
+        "delta": -48
+      },
+      {
+        "player_id": "5995",
+        "before": 19053,
+        "after": 21105,
+        "delta": 2052
+      },
+      {
+        "player_id": "1479",
+        "before": 20324,
+        "after": 21040,
+        "delta": 716
+      },
+      {
+        "player_id": "11581",
+        "before": 0,
+        "after": 20520,
+        "delta": 20520
+      },
+      {
+        "player_id": "NE",
+        "before": 21343,
+        "after": 20482,
+        "delta": -861
+      },
+      {
+        "player_id": "9500",
+        "before": 20925,
+        "after": 20340,
+        "delta": -585
+      },
+      {
+        "player_id": "13317",
+        "before": 18708,
+        "after": 19530,
+        "delta": 822
+      },
+      {
+        "player_id": "8136",
+        "before": 19878,
+        "after": 19512,
+        "delta": -366
+      }
+    ],
+    "drops": [
+      {
+        "player_id": "8129",
+        "before": 136640,
+        "after": 135392,
+        "delta": -1248
+      },
+      {
+        "player_id": "7561",
+        "before": 119574,
+        "after": 120726,
+        "delta": 1152
+      },
+      {
+        "player_id": "10235",
+        "before": 75896,
+        "after": 75840,
+        "delta": -56
+      },
+      {
+        "player_id": "3271",
+        "before": 77760,
+        "after": 74259,
+        "delta": -3501
+      },
+      {
+        "player_id": "12457",
+        "before": 68832,
+        "after": 69696,
+        "delta": 864
+      },
+      {
+        "player_id": "11435",
+        "before": 67356,
+        "after": 66546,
+        "delta": -810
+      },
+      {
+        "player_id": "12718",
+        "before": 62514,
+        "after": 61074,
+        "delta": -1440
+      },
+      {
+        "player_id": "6130",
+        "before": 48231,
+        "after": 52119,
+        "delta": 3888
+      },
+      {
+        "player_id": "CLE",
+        "before": 48580,
+        "after": 47502,
+        "delta": -1078
+      },
+      {
+        "player_id": "HOU",
+        "before": 41275,
+        "after": 40545,
+        "delta": -730
+      },
+      {
+        "player_id": "8132",
+        "before": 40745,
+        "after": 39695,
+        "delta": -1050
+      },
+      {
+        "player_id": "11624",
+        "before": 39969,
+        "after": 39222,
+        "delta": -747
+      },
+      {
+        "player_id": "8122",
+        "before": 36628,
+        "after": 38902,
+        "delta": 2274
+      },
+      {
+        "player_id": "9482",
+        "before": 40203,
+        "after": 38844,
+        "delta": -1359
+      },
+      {
+        "player_id": "13424",
+        "before": 39192,
+        "after": 37664,
+        "delta": -1528
+      },
+      {
+        "player_id": "11581",
+        "before": 37260,
+        "after": 36297,
+        "delta": -963
+      },
+      {
+        "player_id": "13330",
+        "before": 35730,
+        "after": 35091,
+        "delta": -639
+      },
+      {
+        "player_id": "5849",
+        "before": 34480,
+        "after": 34224,
+        "delta": -256
+      },
+      {
+        "player_id": "5045",
+        "before": 32688,
+        "after": 32346,
+        "delta": -342
+      },
+      {
+        "player_id": "13296",
+        "before": 31696,
+        "after": 31792,
+        "delta": 96
+      },
+      {
+        "player_id": "9502",
+        "before": 31968,
+        "after": 31592,
+        "delta": -376
+      },
+      {
+        "player_id": "9758",
+        "before": 31542,
+        "after": 31052,
+        "delta": -490
+      },
+      {
+        "player_id": "4035",
+        "before": 28672,
+        "after": 28736,
+        "delta": 64
+      },
+      {
+        "player_id": "3321",
+        "before": 28720,
+        "after": 28456,
+        "delta": -264
+      },
+      {
+        "player_id": "1166",
+        "before": 27712,
+        "after": 28176,
+        "delta": 464
+      },
+      {
+        "player_id": "11610",
+        "before": 29200,
+        "after": 28056,
+        "delta": -1144
+      },
+      {
+        "player_id": "8154",
+        "before": 28692,
+        "after": 28038,
+        "delta": -654
+      },
+      {
+        "player_id": "11834",
+        "before": 27496,
+        "after": 27650,
+        "delta": 154
+      },
+      {
+        "player_id": "12545",
+        "before": 27552,
+        "after": 27320,
+        "delta": -232
+      },
+      {
+        "player_id": "12489",
+        "before": 26460,
+        "after": 27224,
+        "delta": 764
+      },
+      {
+        "player_id": "8121",
+        "before": 24576,
+        "after": 25376,
+        "delta": 800
+      },
+      {
+        "player_id": "11637",
+        "before": 25587,
+        "after": 25353,
+        "delta": -234
+      },
+      {
+        "player_id": "5012",
+        "before": 24588,
+        "after": 24822,
+        "delta": 234
+      },
+      {
+        "player_id": "96",
+        "before": 24584,
+        "after": 24556,
+        "delta": -28
+      },
+      {
+        "player_id": "9511",
+        "before": 24084,
+        "after": 24147,
+        "delta": 63
+      },
+      {
+        "player_id": "13150",
+        "before": 25102,
+        "after": 23156,
+        "delta": -1946
+      },
+      {
+        "player_id": "5927",
+        "before": 22356,
+        "after": 22716,
+        "delta": 360
+      },
+      {
+        "player_id": "13414",
+        "before": 22043,
+        "after": 22260,
+        "delta": 217
+      },
+      {
+        "player_id": "7567",
+        "before": 22400,
+        "after": 21928,
+        "delta": -472
+      },
+      {
+        "player_id": "11563",
+        "before": 21834,
+        "after": 21858,
+        "delta": 24
+      },
+      {
+        "player_id": "11783",
+        "before": 21024,
+        "after": 21368,
+        "delta": 344
+      },
+      {
+        "player_id": "11625",
+        "before": 21584,
+        "after": 21352,
+        "delta": -232
+      },
+      {
+        "player_id": "12533",
+        "before": 20448,
+        "after": 21069,
+        "delta": 621
+      },
+      {
+        "player_id": "2505",
+        "before": 20493,
+        "after": 20232,
+        "delta": -261
+      },
+      {
+        "player_id": "BAL",
+        "before": 19365,
+        "after": 19209,
+        "delta": -156
+      },
+      {
+        "player_id": "8135",
+        "before": 18620,
+        "after": 18858,
+        "delta": 238
+      },
+      {
+        "player_id": "9756",
+        "before": 19188,
+        "after": 18828,
+        "delta": -360
+      },
+      {
+        "player_id": "5947",
+        "before": 18150,
+        "after": 18480,
+        "delta": 330
+      },
+      {
+        "player_id": "11631",
+        "before": 18755,
+        "after": 18430,
+        "delta": -325
+      },
+      {
+        "player_id": "12534",
+        "before": 0,
+        "after": 18120,
+        "delta": 18120
+      }
+    ]
   },
   "source_health_changes": []
 }
