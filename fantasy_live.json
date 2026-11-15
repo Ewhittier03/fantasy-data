@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T16:46:39.159Z",
+  "generated_at": "2026-11-15T17:01:36.955Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-11-15T16:46:39.151Z",
+    "compiled_at": "2026-11-15T17:01:36.949Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
         "generated_at": "2026-11-15T15:31:41.321Z",
-        "age_minutes": 75,
+        "age_minutes": 90,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-11-09T06:00:48.080Z",
-        "age_minutes": 9286,
+        "age_minutes": 9301,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
-        "generated_at": "2026-11-15T11:00:39.840Z",
-        "age_minutes": 346,
+        "generated_at": "2026-11-15T17:00:39.560Z",
+        "age_minutes": 1,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 199,
@@ -4136,18 +4136,7 @@
         },
         "gcs_2_0": null
       },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
+      "market": null,
       "usage": null,
       "injury": null
     },
@@ -8322,7 +8311,18 @@
         "gcs": null,
         "gcs_2_0": null
       },
-      "market": null,
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
       "usage": null,
       "injury": null
     },
