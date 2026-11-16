@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T20:46:34.342Z",
+  "generated_at": "2026-11-16T21:01:36.957Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-11-16T20:01:40.717Z",
+    "sleeper": "2026-11-16T20:46:41.179Z",
     "nfl": "2026-11-09T06:00:48.080Z",
     "market": "2026-11-16T17:00:39.604Z"
   },
@@ -8849,6 +8849,23 @@
         "fantasypros_id": null
       }
     },
+    "1837": {
+      "sleeper_id": "1837",
+      "name": "Jimmy Garoppolo",
+      "team": null,
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "ids": {
+        "sleeper_id": "1837",
+        "espn_id": 16760,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "2133": {
       "sleeper_id": "2133",
       "name": "Davante Adams",
@@ -12878,13 +12895,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "IND": {
+      "sleeper_id": "IND",
+      "name": "Indianapolis Colts",
+      "team": "IND",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "IND",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 243,
+    "player_count": 245,
     "nfl_matches": 0,
     "market_matches": 185,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7613168724279835
+    "market_match_rate": 0.7551020408163265
   }
 }
