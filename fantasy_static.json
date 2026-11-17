@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T06:31:39.246Z",
+  "generated_at": "2026-11-17T06:46:36.831Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-11-17T05:31:41.268Z",
+    "sleeper": "2026-11-17T06:31:40.839Z",
     "nfl": "2026-11-09T06:00:48.080Z",
     "market": "2026-11-17T05:00:39.519Z"
   },
@@ -104,7 +104,7 @@
         "daily_waivers_hour": 0,
         "playoff_type": 0,
         "taxi_slots": 0,
-        "last_scored_leg": 9,
+        "last_scored_leg": 10,
         "daily_waivers_days": 5461,
         "playoff_week_start": 15,
         "waiver_clear_days": 1,
@@ -4834,7 +4834,7 @@
         "playoff_type": 0,
         "taxi_slots": 0,
         "sub_start_time_eligibility": 0,
-        "last_scored_leg": 9,
+        "last_scored_leg": 10,
         "daily_waivers_days": 5461,
         "sub_lock_if_starter_active": 0,
         "playoff_week_start": 15,
@@ -8860,6 +8860,23 @@
       "ids": {
         "sleeper_id": "1837",
         "espn_id": 16760,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "2020": {
+      "sleeper_id": "2020",
+      "name": "Cairo Santos",
+      "team": "CHI",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "ids": {
+        "sleeper_id": "2020",
+        "espn_id": 17427,
         "gsis_id": null,
         "pfr_id": null,
         "pff_id": null,
@@ -12898,10 +12915,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 244,
+    "player_count": 245,
     "nfl_matches": 0,
     "market_matches": 183,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.75
+    "market_match_rate": 0.746938775510204
   }
 }
