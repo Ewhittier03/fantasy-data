@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T03:16:39.180Z",
+  "generated_at": "2026-11-17T03:31:39.398Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-11-17T03:16:39.172Z",
+    "compiled_at": "2026-11-17T03:31:39.391Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
         "generated_at": "2026-11-17T03:01:41.274Z",
-        "age_minutes": 15,
+        "age_minutes": 30,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-11-09T06:00:48.080Z",
-        "age_minutes": 11356,
+        "age_minutes": 11371,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
         "generated_at": "2026-11-16T23:00:40.078Z",
-        "age_minutes": 256,
+        "age_minutes": 271,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 199,
