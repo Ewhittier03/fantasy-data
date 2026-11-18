@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T08:16:34.695Z",
+  "generated_at": "2026-11-18T09:16:37.118Z",
   "data_type": "fantasy_live",
   "source_health": {
-    "compiled_at": "2026-11-18T08:16:34.687Z",
+    "compiled_at": "2026-11-18T09:16:37.110Z",
     "overall_status": "degraded",
     "sources": {
       "sleeper": {
-        "generated_at": "2026-11-18T08:01:41.895Z",
+        "generated_at": "2026-11-18T09:01:41.322Z",
         "age_minutes": 15,
         "upstream_health": "ok",
         "valid": true
       },
       "nfl": {
         "generated_at": "2026-11-09T06:00:48.080Z",
-        "age_minutes": 13096,
+        "age_minutes": 13156,
         "upstream_health": "degraded",
         "valid": true
       },
       "market": {
         "generated_at": "2026-11-18T05:00:39.374Z",
-        "age_minutes": 196,
+        "age_minutes": 256,
         "upstream_health": "ok",
         "valid": true,
         "market_players": 200,
@@ -91,7 +91,7 @@
           "ties": 0,
           "total_moves": 0,
           "waiver_budget_used": 0,
-          "waiver_position": 6,
+          "waiver_position": 4,
           "wins": 4
         },
         "starters": [
@@ -109,63 +109,63 @@
       },
       "waiver_order": [
         {
-          "roster_id": 8,
-          "owner_id": "600540524453109760",
-          "waiver_position": 1
-        },
-        {
           "roster_id": 4,
           "owner_id": "599385483750993920",
-          "waiver_position": 2
+          "waiver_position": 1
         },
         {
           "roster_id": 3,
           "owner_id": "594073249365676032",
-          "waiver_position": 3
+          "waiver_position": 2
         },
         {
           "roster_id": 2,
           "owner_id": "599006180018270208",
-          "waiver_position": 4
-        },
-        {
-          "roster_id": 12,
-          "owner_id": "719298028019736576",
-          "waiver_position": 5
+          "waiver_position": 3
         },
         {
           "roster_id": 7,
           "owner_id": "807399587525566464",
-          "waiver_position": 6
+          "waiver_position": 4
         },
         {
           "roster_id": 5,
           "owner_id": "719329218126753792",
-          "waiver_position": 7
+          "waiver_position": 5
         },
         {
           "roster_id": 11,
           "owner_id": "993930771591155712",
-          "waiver_position": 8
+          "waiver_position": 6
         },
         {
           "roster_id": 10,
           "owner_id": "992975789727485952",
-          "waiver_position": 9
+          "waiver_position": 7
         },
         {
           "roster_id": 6,
           "owner_id": "597249796700430336",
-          "waiver_position": 10
+          "waiver_position": 8
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "600540524453109760",
+          "waiver_position": 9
         },
         {
           "roster_id": 9,
           "owner_id": "1268247433763102720",
-          "waiver_position": 11
+          "waiver_position": 10
         },
         {
           "roster_id": 1,
           "owner_id": "408411837386727424",
+          "waiver_position": 11
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "719298028019736576",
           "waiver_position": 12
         }
       ],
@@ -177,10 +177,10 @@
             "11620",
             "11632",
             "11637",
-            "12491",
             "12501",
             "12514",
             "12529",
+            "12534",
             "13281",
             "13345",
             "13414",
@@ -207,7 +207,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 12,
+            "waiver_position": 11,
             "wins": 7,
             "losses": 3,
             "ties": 0,
@@ -252,7 +252,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 4,
+            "waiver_position": 3,
             "wins": 6,
             "losses": 4,
             "ties": 0,
@@ -296,7 +296,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 3,
+            "waiver_position": 2,
             "wins": 4,
             "losses": 6,
             "ties": 0,
@@ -338,7 +338,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 2,
+            "waiver_position": 1,
             "wins": 6,
             "losses": 4,
             "ties": 0,
@@ -380,7 +380,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 7,
+            "waiver_position": 5,
             "wins": 3,
             "losses": 7,
             "ties": 0,
@@ -425,7 +425,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 10,
+            "waiver_position": 8,
             "wins": 6,
             "losses": 4,
             "ties": 0,
@@ -467,7 +467,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 6,
+            "waiver_position": 4,
             "wins": 4,
             "losses": 6,
             "ties": 0,
@@ -479,6 +479,7 @@
           "roster_id": 8,
           "owner_id": "600540524453109760",
           "players": [
+            "10218",
             "10859",
             "11635",
             "12518",
@@ -511,7 +512,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 1,
+            "waiver_position": 9,
             "wins": 1,
             "losses": 9,
             "ties": 0,
@@ -525,7 +526,6 @@
           "players": [
             "12507",
             "13274",
-            "13301",
             "13337",
             "2216",
             "6770",
@@ -534,6 +534,7 @@
             "8146",
             "8151",
             "8228",
+            "9482",
             "9484",
             "9502",
             "9753",
@@ -556,7 +557,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 11,
+            "waiver_position": 10,
             "wins": 9,
             "losses": 1,
             "ties": 0,
@@ -598,7 +599,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 9,
+            "waiver_position": 7,
             "wins": 7,
             "losses": 3,
             "ties": 0,
@@ -642,7 +643,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 8,
+            "waiver_position": 6,
             "wins": 3,
             "losses": 7,
             "ties": 0,
@@ -666,6 +667,8 @@
             "7553",
             "8144",
             "8408",
+            "BUF",
+            "CHI",
             "NE"
           ],
           "starters": [
@@ -685,7 +688,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 5,
+            "waiver_position": 12,
             "wins": 4,
             "losses": 6,
             "ties": 0,
@@ -701,10 +704,10 @@
             "11620",
             "11632",
             "11637",
-            "12491",
             "12501",
             "12514",
             "12529",
+            "12534",
             "13281",
             "13345",
             "13414",
@@ -747,10 +750,10 @@
             "11620": 0,
             "11632": 0,
             "11637": 0,
-            "12491": 0,
             "12501": 0,
             "12514": 0,
             "12529": 0,
+            "12534": 0,
             "13281": 0,
             "13345": 0,
             "13414": 0,
@@ -1124,6 +1127,7 @@
         {
           "points": 0,
           "players": [
+            "10218",
             "10859",
             "11635",
             "12518",
@@ -1173,6 +1177,7 @@
             "6819": 0,
             "7567": 0,
             "9493": 0,
+            "10218": 0,
             "10859": 0,
             "11635": 0,
             "12518": 0,
@@ -1186,7 +1191,6 @@
           "players": [
             "12507",
             "13274",
-            "13301",
             "13337",
             "2216",
             "6770",
@@ -1195,6 +1199,7 @@
             "8146",
             "8151",
             "8228",
+            "9482",
             "9484",
             "9502",
             "9753",
@@ -1233,12 +1238,12 @@
             "8146": 0,
             "8151": 0,
             "8228": 0,
+            "9482": 0,
             "9484": 0,
             "9502": 0,
             "9753": 0,
             "12507": 0,
             "13274": 0,
-            "13301": 0,
             "13337": 0,
             "CIN": 0
           }
@@ -1378,6 +1383,8 @@
             "7553",
             "8144",
             "8408",
+            "BUF",
+            "CHI",
             "NE"
           ],
           "roster_id": 12,
@@ -1418,6 +1425,8 @@
             "11610": 0,
             "11628": 0,
             "12527": 0,
+            "BUF": 0,
+            "CHI": 0,
             "NE": 0
           }
         }
@@ -1516,28 +1525,28 @@
           "waiver_position": 4
         },
         {
-          "roster_id": 4,
-          "owner_id": "599006180018270208",
-          "waiver_position": 5
-        },
-        {
           "roster_id": 3,
           "owner_id": "597249796700430336",
-          "waiver_position": 6
+          "waiver_position": 5
         },
         {
           "roster_id": 10,
           "owner_id": "599385483750993920",
-          "waiver_position": 7
+          "waiver_position": 6
         },
         {
           "roster_id": 9,
           "owner_id": "1265924175411822592",
-          "waiver_position": 8
+          "waiver_position": 7
         },
         {
           "roster_id": 2,
           "owner_id": "408411837386727424",
+          "waiver_position": 8
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "599006180018270208",
           "waiver_position": 9
         },
         {
@@ -1633,7 +1642,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 9,
+            "waiver_position": 8,
             "wins": 6,
             "losses": 4,
             "ties": 0,
@@ -1680,7 +1689,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 6,
+            "waiver_position": 5,
             "wins": 3,
             "losses": 7,
             "ties": 0,
@@ -1702,6 +1711,7 @@
             "12527",
             "5892",
             "6804",
+            "7600",
             "8146",
             "8150",
             "8408",
@@ -1726,7 +1736,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 5,
+            "waiver_position": 9,
             "wins": 5,
             "losses": 5,
             "ties": 0,
@@ -1785,8 +1795,8 @@
           "roster_id": 6,
           "owner_id": "993930771591155712",
           "players": [
+            "10218",
             "11586",
-            "11625",
             "11783",
             "12534",
             "13346",
@@ -1796,10 +1806,9 @@
             "8151",
             "9480",
             "9488",
-            "9501",
             "9502",
             "9758",
-            "SEA"
+            "BUF"
           ],
           "starters": [
             "9758",
@@ -1809,12 +1818,10 @@
             "11783",
             "9480",
             "9502",
-            "11625",
-            "SEA"
+            "10218",
+            "BUF"
           ],
-          "reserve": [
-            "12534"
-          ],
+          "reserve": [],
           "keepers": [],
           "taxi": [],
           "settings": {
@@ -1956,7 +1963,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 8,
+            "waiver_position": 7,
             "wins": 4,
             "losses": 6,
             "ties": 0,
@@ -2001,7 +2008,7 @@
           "keepers": [],
           "taxi": [],
           "settings": {
-            "waiver_position": 7,
+            "waiver_position": 6,
             "wins": 4,
             "losses": 6,
             "ties": 0,
@@ -2216,6 +2223,7 @@
             "12527",
             "5892",
             "6804",
+            "7600",
             "8146",
             "8150",
             "8408",
@@ -2250,6 +2258,7 @@
           "players_points": {
             "5892": 0,
             "6804": 0,
+            "7600": 0,
             "8146": 0,
             "8150": 0,
             "8408": 0,
@@ -2332,8 +2341,8 @@
         {
           "points": 0,
           "players": [
+            "10218",
             "11586",
-            "11625",
             "11783",
             "12534",
             "13346",
@@ -2343,10 +2352,9 @@
             "8151",
             "9480",
             "9488",
-            "9501",
             "9502",
             "9758",
-            "SEA"
+            "BUF"
           ],
           "roster_id": 6,
           "custom_points": null,
@@ -2359,8 +2367,8 @@
             "11783",
             "9480",
             "9502",
-            "11625",
-            "SEA"
+            "10218",
+            "BUF"
           ],
           "starters_points": [
             0,
@@ -2380,15 +2388,14 @@
             "8151": 0,
             "9480": 0,
             "9488": 0,
-            "9501": 0,
             "9502": 0,
             "9758": 0,
+            "10218": 0,
             "11586": 0,
-            "11625": 0,
             "11783": 0,
             "12534": 0,
             "13346": 0,
-            "SEA": 0
+            "BUF": 0
           }
         },
         {
@@ -2642,413 +2649,437 @@
           }
         }
       ],
-      "transactions": []
+      "transactions": [
+        {
+          "status": "complete",
+          "type": "free_agent",
+          "metadata": null,
+          "created": 1794989647872,
+          "settings": null,
+          "leg": 11,
+          "draft_picks": [],
+          "creator": "993930771591155712",
+          "transaction_id": "1428693769816903680",
+          "adds": null,
+          "consenter_ids": [
+            6
+          ],
+          "drops": {
+            "9501": 6
+          },
+          "roster_ids": [
+            6
+          ],
+          "status_updated": 1794989647872,
+          "waiver_budget": []
+        }
+      ]
     }
   },
   "trending": {
     "lookback_hours": 24,
     "adds": [
       {
-        "count": 1928808,
+        "count": 1959363,
         "player_id": "9482"
       },
       {
-        "count": 1685922,
+        "count": 1727726,
         "player_id": "10218"
       },
       {
-        "count": 1050696,
+        "count": 1081016,
         "player_id": "12492"
       },
       {
-        "count": 965862,
+        "count": 988200,
         "player_id": "5012"
       },
       {
-        "count": 950000,
+        "count": 960808,
         "player_id": "11783"
       },
       {
-        "count": 885328,
+        "count": 897744,
         "player_id": "13424"
       },
       {
-        "count": 785655,
+        "count": 836298,
         "player_id": "DET"
       },
       {
-        "count": 737792,
+        "count": 737712,
         "player_id": "13281"
       },
       {
-        "count": 662232,
+        "count": 690956,
         "player_id": "12499"
       },
       {
-        "count": 497160,
+        "count": 515619,
         "player_id": "12533"
       },
       {
-        "count": 420978,
+        "count": 432840,
         "player_id": "11563"
       },
       {
-        "count": 364861,
+        "count": 385518,
         "player_id": "2020"
       },
       {
-        "count": 337912,
+        "count": 344736,
         "player_id": "6650"
       },
       {
-        "count": 311080,
+        "count": 317562,
         "player_id": "13414"
       },
       {
-        "count": 285030,
+        "count": 293694,
         "player_id": "5892"
       },
       {
-        "count": 281288,
+        "count": 287616,
         "player_id": "13296"
       },
       {
-        "count": 250794,
+        "count": 258993,
         "player_id": "5995"
       },
       {
-        "count": 239824,
+        "count": 246752,
         "player_id": "11625"
       },
       {
-        "count": 230427,
-        "player_id": "12700"
-      },
-      {
-        "count": 230049,
+        "count": 238284,
         "player_id": "5045"
       },
       {
-        "count": 196758,
+        "count": 235404,
+        "player_id": "12700"
+      },
+      {
+        "count": 202434,
         "player_id": "12534"
       },
       {
-        "count": 189980,
+        "count": 197895,
         "player_id": "TB"
       },
       {
-        "count": 185840,
+        "count": 192008,
         "player_id": "7567"
       },
       {
-        "count": 184944,
+        "count": 189024,
         "player_id": "1166"
       },
       {
-        "count": 184681,
+        "count": 188426,
         "player_id": "9758"
       },
       {
-        "count": 175176,
+        "count": 180792,
         "player_id": "2505"
       },
       {
-        "count": 170010,
-        "player_id": "13337"
-      },
-      {
-        "count": 161559,
-        "player_id": "9480"
-      },
-      {
-        "count": 161022,
-        "player_id": "PIT"
-      },
-      {
-        "count": 151263,
+        "count": 175068,
         "player_id": "12540"
       },
       {
-        "count": 150888,
+        "count": 171351,
+        "player_id": "13337"
+      },
+      {
+        "count": 168807,
+        "player_id": "PIT"
+      },
+      {
+        "count": 166914,
+        "player_id": "9480"
+      },
+      {
+        "count": 154056,
         "player_id": "BUF"
       },
       {
-        "count": 142529,
+        "count": 148056,
         "player_id": "CHI"
       },
       {
-        "count": 139500,
+        "count": 140800,
         "player_id": "4993"
       },
       {
-        "count": 120624,
+        "count": 125660,
         "player_id": "4147"
       },
       {
-        "count": 117696,
+        "count": 118326,
         "player_id": "12507"
       },
       {
-        "count": 111232,
-        "player_id": "11610"
-      },
-      {
-        "count": 109400,
-        "player_id": "4035"
-      },
-      {
-        "count": 108535,
+        "count": 113875,
         "player_id": "5119"
       },
       {
-        "count": 105975,
+        "count": 113504,
+        "player_id": "11610"
+      },
+      {
+        "count": 111672,
+        "player_id": "4035"
+      },
+      {
+        "count": 109251,
         "player_id": "11637"
       },
       {
-        "count": 100705,
+        "count": 101655,
         "player_id": "9500"
       },
       {
-        "count": 88528,
+        "count": 90336,
         "player_id": "4017"
       },
       {
-        "count": 85636,
+        "count": 87700,
         "player_id": "11557"
       },
       {
-        "count": 83456,
+        "count": 86800,
         "player_id": "11539"
       },
       {
-        "count": 83152,
+        "count": 84732,
         "player_id": "12509"
       },
       {
-        "count": 80816,
+        "count": 84256,
         "player_id": "13269"
       },
       {
-        "count": 79263,
+        "count": 82080,
         "player_id": "8134"
       },
       {
-        "count": 79108,
+        "count": 81742,
         "player_id": "DEN"
       },
       {
-        "count": 76128,
+        "count": 76452,
         "player_id": "4037"
       },
       {
-        "count": 70344,
-        "player_id": "11620"
+        "count": 71784,
+        "player_id": "11566"
       },
       {
-        "count": 69776,
-        "player_id": "11566"
+        "count": 71550,
+        "player_id": "11620"
       }
     ],
     "drops": [
       {
-        "count": 851868,
+        "count": 878478,
         "player_id": "12491"
       },
       {
-        "count": 677232,
+        "count": 696933,
         "player_id": "6130"
       },
       {
-        "count": 400358,
+        "count": 414253,
         "player_id": "7562"
       },
       {
-        "count": 397989,
+        "count": 413721,
         "player_id": "2505"
       },
       {
-        "count": 380052,
+        "count": 398196,
         "player_id": "12718"
       },
       {
-        "count": 372402,
+        "count": 386334,
         "player_id": "3271"
       },
       {
-        "count": 343224,
+        "count": 356139,
         "player_id": "9756"
       },
       {
-        "count": 337465,
+        "count": 350620,
         "player_id": "2747"
       },
       {
-        "count": 337116,
+        "count": 348507,
         "player_id": "BAL"
       },
       {
-        "count": 318597,
+        "count": 329577,
         "player_id": "11579"
       },
       {
-        "count": 318216,
+        "count": 327870,
         "player_id": "3286"
       },
       {
-        "count": 303672,
+        "count": 312672,
         "player_id": "13276"
       },
       {
-        "count": 291795,
+        "count": 303926,
         "player_id": "11834"
       },
       {
-        "count": 285336,
+        "count": 297117,
         "player_id": "10219"
       },
       {
-        "count": 271833,
+        "count": 282879,
         "player_id": "IND"
       },
       {
-        "count": 256375,
+        "count": 266518,
         "player_id": "NE"
       },
       {
-        "count": 232056,
+        "count": 241624,
         "player_id": "9502"
       },
       {
-        "count": 230787,
+        "count": 234837,
         "player_id": "12540"
       },
       {
-        "count": 212463,
+        "count": 221337,
         "player_id": "11624"
       },
       {
-        "count": 206255,
+        "count": 214522,
         "player_id": "CLE"
       },
       {
-        "count": 197708,
+        "count": 204911,
         "player_id": "7553"
       },
       {
-        "count": 190448,
+        "count": 198344,
         "player_id": "12545"
       },
       {
-        "count": 177160,
+        "count": 183528,
         "player_id": "NYG"
       },
       {
-        "count": 169128,
+        "count": 174435,
         "player_id": "3214"
       },
       {
-        "count": 160968,
+        "count": 167304,
         "player_id": "10213"
       },
       {
-        "count": 151382,
+        "count": 155890,
         "player_id": "9754"
       },
       {
-        "count": 140935,
+        "count": 145970,
         "player_id": "8132"
       },
       {
-        "count": 138140,
+        "count": 141973,
         "player_id": "GB"
       },
       {
-        "count": 128955,
+        "count": 134895,
         "player_id": "12469"
       },
       {
-        "count": 126992,
+        "count": 130040,
         "player_id": "5849"
       },
       {
-        "count": 126117,
-        "player_id": "11435"
-      },
-      {
-        "count": 123642,
+        "count": 129897,
         "player_id": "5995"
       },
       {
-        "count": 122730,
+        "count": 129555,
+        "player_id": "11435"
+      },
+      {
+        "count": 127008,
         "player_id": "JAX"
       },
       {
-        "count": 120130,
+        "count": 125385,
         "player_id": "NO"
       },
       {
-        "count": 119898,
+        "count": 124461,
         "player_id": "11637"
       },
       {
-        "count": 118132,
+        "count": 122626,
         "player_id": "WAS"
       },
       {
-        "count": 117756,
+        "count": 121644,
         "player_id": "7561"
       },
       {
-        "count": 117423,
+        "count": 121068,
         "player_id": "6427"
       },
       {
-        "count": 115376,
+        "count": 120476,
         "player_id": "SEA"
       },
       {
-        "count": 114273,
+        "count": 117720,
         "player_id": "10232"
       },
       {
-        "count": 111114,
+        "count": 113040,
         "player_id": "8116"
       },
       {
-        "count": 109000,
+        "count": 112656,
         "player_id": "96"
       },
       {
-        "count": 105300,
+        "count": 110331,
         "player_id": "9480"
       },
       {
-        "count": 104384,
+        "count": 107820,
         "player_id": "12634"
       },
       {
-        "count": 100016,
+        "count": 103560,
         "player_id": "11539"
       },
       {
-        "count": 98732,
-        "player_id": "9228"
-      },
-      {
-        "count": 98156,
+        "count": 102600,
         "player_id": "4993"
       },
       {
-        "count": 97384,
+        "count": 102536,
         "player_id": "11625"
       },
       {
-        "count": 97100,
+        "count": 102300,
+        "player_id": "9228"
+      },
+      {
+        "count": 99192,
         "player_id": "1373"
       },
       {
-        "count": 95316,
-        "player_id": "6865"
+        "count": 97912,
+        "player_id": "13545"
       }
     ]
   },
@@ -3203,7 +3234,7 @@
         "QB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "1373",
         "espn_id": 15864,
@@ -3240,7 +3271,7 @@
         "TE"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Questionable",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "1466",
         "espn_id": 15847,
@@ -3407,7 +3438,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "2216",
         "espn_id": 16737,
@@ -4782,7 +4813,7 @@
         "TE"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "5844",
         "espn_id": 4036133,
@@ -5059,7 +5090,7 @@
         "RB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "5892",
         "espn_id": 4035538,
@@ -5845,32 +5876,6 @@
       "usage": null,
       "injury": null
     },
-    "6865": {
-      "sleeper_id": "6865",
-      "name": "Colby Parkinson",
-      "team": "LAR",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "sleeper_injury_status": null,
-      "ids": {
-        "sleeper_id": "6865",
-        "espn_id": 4242557,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      },
-      "ownership": {
-        "gcs": null,
-        "gcs_2_0": null
-      },
-      "market": null,
-      "usage": null,
-      "injury": null
-    },
     "6904": {
       "sleeper_id": "6904",
       "name": "Jalen Hurts",
@@ -6009,7 +6014,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "7049",
         "espn_id": 3886598,
@@ -6084,7 +6089,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "7525",
         "espn_id": null,
@@ -6133,7 +6138,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "7526",
         "espn_id": null,
@@ -6597,6 +6602,49 @@
           "roster_id": 1,
           "owner_id": "807399587525566464",
           "starter": true,
+          "reserve": false,
+          "keeper": false
+        }
+      },
+      "market": {
+        "draft_ppr_rank": null,
+        "adp_rank": null,
+        "average_adp": null,
+        "ros_ppr_rank": null,
+        "weekly_flex_rank": null,
+        "weekly_qb_rank": null,
+        "weekly_rb_rank": null,
+        "weekly_wr_rank": null,
+        "weekly_te_rank": null,
+        "season_projected_fantasy_points": null
+      },
+      "usage": null,
+      "injury": null
+    },
+    "7600": {
+      "sleeper_id": "7600",
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "sleeper_injury_status": null,
+      "ids": {
+        "sleeper_id": "7600",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      },
+      "ownership": {
+        "gcs": null,
+        "gcs_2_0": {
+          "roster_id": 4,
+          "owner_id": "599006180018270208",
+          "starter": false,
           "reserve": false,
           "keeper": false
         }
@@ -7470,7 +7518,7 @@
         "RB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "8151",
         "espn_id": null,
@@ -7729,7 +7777,7 @@
         "TE"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Questionable",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "8210",
         "espn_id": null,
@@ -8159,7 +8207,13 @@
         "fantasypros_id": null
       },
       "ownership": {
-        "gcs": null,
+        "gcs": {
+          "roster_id": 9,
+          "owner_id": "1268247433763102720",
+          "starter": false,
+          "reserve": false,
+          "keeper": false
+        },
         "gcs_2_0": {
           "roster_id": 8,
           "owner_id": "600540524453109760",
@@ -8448,13 +8502,7 @@
           "reserve": false,
           "keeper": false
         },
-        "gcs_2_0": {
-          "roster_id": 6,
-          "owner_id": "993930771591155712",
-          "starter": false,
-          "reserve": false,
-          "keeper": false
-        }
+        "gcs_2_0": null
       },
       "market": {
         "draft_ppr_rank": null,
@@ -8860,7 +8908,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Questionable",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "10218",
         "espn_id": null,
@@ -8870,8 +8918,20 @@
         "fantasypros_id": null
       },
       "ownership": {
-        "gcs": null,
-        "gcs_2_0": null
+        "gcs": {
+          "roster_id": 8,
+          "owner_id": "600540524453109760",
+          "starter": false,
+          "reserve": false,
+          "keeper": false
+        },
+        "gcs_2_0": {
+          "roster_id": 6,
+          "owner_id": "993930771591155712",
+          "starter": true,
+          "reserve": false,
+          "keeper": false
+        }
       },
       "market": null,
       "usage": null,
@@ -9678,7 +9738,7 @@
         "TE"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "11604",
         "espn_id": null,
@@ -9885,13 +9945,7 @@
           "reserve": false,
           "keeper": false
         },
-        "gcs_2_0": {
-          "roster_id": 6,
-          "owner_id": "993930771591155712",
-          "starter": true,
-          "reserve": false,
-          "keeper": false
-        }
+        "gcs_2_0": null
       },
       "market": {
         "draft_ppr_rank": null,
@@ -9917,7 +9971,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "11628",
         "espn_id": null,
@@ -10052,7 +10106,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "11635",
         "espn_id": null,
@@ -10392,7 +10446,7 @@
         "RB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Doubtful",
       "ids": {
         "sleeper_id": "12474",
         "espn_id": null,
@@ -10624,13 +10678,7 @@
         "fantasypros_id": null
       },
       "ownership": {
-        "gcs": {
-          "roster_id": 1,
-          "owner_id": "408411837386727424",
-          "starter": false,
-          "reserve": false,
-          "keeper": false
-        },
+        "gcs": null,
         "gcs_2_0": {
           "roster_id": 5,
           "owner_id": "594073249365676032",
@@ -10700,7 +10748,7 @@
         "TE"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Questionable",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "12493",
         "espn_id": null,
@@ -11250,7 +11298,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Questionable",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "12519",
         "espn_id": null,
@@ -11516,7 +11564,7 @@
         "RB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "12534",
         "espn_id": null,
@@ -11526,12 +11574,18 @@
         "fantasypros_id": null
       },
       "ownership": {
-        "gcs": null,
+        "gcs": {
+          "roster_id": 1,
+          "owner_id": "408411837386727424",
+          "starter": false,
+          "reserve": false,
+          "keeper": false
+        },
         "gcs_2_0": {
           "roster_id": 6,
           "owner_id": "993930771591155712",
           "starter": false,
-          "reserve": true,
+          "reserve": false,
           "keeper": false
         }
       },
@@ -11826,7 +11880,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "13276",
         "espn_id": null,
@@ -11875,7 +11929,7 @@
         "WR"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": "Questionable",
       "ids": {
         "sleeper_id": "13279",
         "espn_id": null,
@@ -12071,7 +12125,7 @@
         "RB"
       ],
       "status": "Active",
-      "sleeper_injury_status": "Out",
+      "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "13288",
         "espn_id": null,
@@ -12207,49 +12261,6 @@
           "reserve": false,
           "keeper": false
         }
-      },
-      "market": {
-        "draft_ppr_rank": null,
-        "adp_rank": null,
-        "average_adp": null,
-        "ros_ppr_rank": null,
-        "weekly_flex_rank": null,
-        "weekly_qb_rank": null,
-        "weekly_rb_rank": null,
-        "weekly_wr_rank": null,
-        "weekly_te_rank": null,
-        "season_projected_fantasy_points": null
-      },
-      "usage": null,
-      "injury": null
-    },
-    "13301": {
-      "sleeper_id": "13301",
-      "name": "Antonio Williams",
-      "team": "WAS",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "status": "Active",
-      "sleeper_injury_status": null,
-      "ids": {
-        "sleeper_id": "13301",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      },
-      "ownership": {
-        "gcs": {
-          "roster_id": 9,
-          "owner_id": "1268247433763102720",
-          "starter": false,
-          "reserve": false,
-          "keeper": false
-        },
-        "gcs_2_0": null
       },
       "market": {
         "draft_ppr_rank": null,
@@ -12559,6 +12570,32 @@
         "weekly_te_rank": null,
         "season_projected_fantasy_points": null
       },
+      "usage": null,
+      "injury": null
+    },
+    "13545": {
+      "sleeper_id": "13545",
+      "name": "Trey Smack",
+      "team": "GB",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "sleeper_injury_status": null,
+      "ids": {
+        "sleeper_id": "13545",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      },
+      "ownership": {
+        "gcs": null,
+        "gcs_2_0": null
+      },
+      "market": null,
       "usage": null,
       "injury": null
     },
@@ -12994,6 +13031,38 @@
           "reserve": false,
           "keeper": false
         },
+        "gcs_2_0": null
+      },
+      "market": null,
+      "usage": null,
+      "injury": null
+    },
+    "BUF": {
+      "sleeper_id": "BUF",
+      "name": "Buffalo Bills",
+      "team": "BUF",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "sleeper_injury_status": null,
+      "ids": {
+        "sleeper_id": "BUF",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      },
+      "ownership": {
+        "gcs": {
+          "roster_id": 12,
+          "owner_id": "719298028019736576",
+          "starter": false,
+          "reserve": false,
+          "keeper": false
+        },
         "gcs_2_0": {
           "roster_id": 6,
           "owner_id": "993930771591155712",
@@ -13001,6 +13070,38 @@
           "reserve": false,
           "keeper": false
         }
+      },
+      "market": null,
+      "usage": null,
+      "injury": null
+    },
+    "CHI": {
+      "sleeper_id": "CHI",
+      "name": "Chicago Bears",
+      "team": "CHI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "sleeper_injury_status": null,
+      "ids": {
+        "sleeper_id": "CHI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      },
+      "ownership": {
+        "gcs": {
+          "roster_id": 12,
+          "owner_id": "719298028019736576",
+          "starter": false,
+          "reserve": false,
+          "keeper": false
+        },
+        "gcs_2_0": null
       },
       "market": null,
       "usage": null,
@@ -13160,58 +13261,6 @@
       "sleeper_injury_status": null,
       "ids": {
         "sleeper_id": "TB",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      },
-      "ownership": {
-        "gcs": null,
-        "gcs_2_0": null
-      },
-      "market": null,
-      "usage": null,
-      "injury": null
-    },
-    "BUF": {
-      "sleeper_id": "BUF",
-      "name": "Buffalo Bills",
-      "team": "BUF",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "sleeper_injury_status": null,
-      "ids": {
-        "sleeper_id": "BUF",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      },
-      "ownership": {
-        "gcs": null,
-        "gcs_2_0": null
-      },
-      "market": null,
-      "usage": null,
-      "injury": null
-    },
-    "CHI": {
-      "sleeper_id": "CHI",
-      "name": "Chicago Bears",
-      "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "sleeper_injury_status": null,
-      "ids": {
-        "sleeper_id": "CHI",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
