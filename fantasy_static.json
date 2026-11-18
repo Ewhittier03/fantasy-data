@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T08:31:39.500Z",
+  "generated_at": "2026-11-18T08:46:39.576Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-11-18T08:16:41.719Z",
+    "sleeper": "2026-11-18T08:31:41.834Z",
     "nfl": "2026-11-09T06:00:48.080Z",
     "market": "2026-11-18T05:00:39.374Z"
   },
@@ -130,7 +130,7 @@
         "trade_review_days": 0,
         "bench_lock": 0,
         "offseason_adds": 0,
-        "leg": 10,
+        "leg": 11,
         "reserve_slots": 1,
         "reserve_allow_cov": 1,
         "daily_waivers_last_ran": 11
@@ -12352,23 +12352,6 @@
         "fantasypros_id": null
       }
     },
-    "13301": {
-      "sleeper_id": "13301",
-      "name": "Antonio Williams",
-      "team": "WAS",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "ids": {
-        "sleeper_id": "13301",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "13337": {
       "sleeper_id": "13337",
       "name": "Emmett Johnson",
@@ -12692,6 +12675,40 @@
         "fantasypros_id": null
       }
     },
+    "BUF": {
+      "sleeper_id": "BUF",
+      "name": "Buffalo Bills",
+      "team": "BUF",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "BUF",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
+    "CHI": {
+      "sleeper_id": "CHI",
+      "name": "Chicago Bears",
+      "team": "CHI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "CHI",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "NE": {
       "sleeper_id": "NE",
       "name": "New England Patriots",
@@ -12760,23 +12777,6 @@
         "fantasypros_id": null
       }
     },
-    "BUF": {
-      "sleeper_id": "BUF",
-      "name": "Buffalo Bills",
-      "team": "BUF",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "BUF",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "NYG": {
       "sleeper_id": "NYG",
       "name": "New York Giants",
@@ -12804,23 +12804,6 @@
       ],
       "ids": {
         "sleeper_id": "TB",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
-    "CHI": {
-      "sleeper_id": "CHI",
-      "name": "Chicago Bears",
-      "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CHI",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12915,10 +12898,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 245,
+    "player_count": 244,
     "nfl_matches": 0,
-    "market_matches": 183,
+    "market_matches": 182,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.746938775510204
+    "market_match_rate": 0.7459016393442623
   }
 }
