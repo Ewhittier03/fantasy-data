@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T08:31:39.537Z",
+  "generated_at": "2026-11-19T08:46:37.346Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-11-19T08:16:41.393Z",
+    "sleeper": "2026-11-19T08:31:41.622Z",
     "nfl": "2026-11-09T06:00:48.080Z",
     "market": "2026-11-19T05:00:39.914Z"
   },
@@ -8747,6 +8747,21 @@
     }
   },
   "player_identity": {
+    "0": {
+      "sleeper_id": "0",
+      "name": null,
+      "team": null,
+      "position": null,
+      "fantasy_positions": [],
+      "ids": {
+        "sleeper_id": "0",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "96": {
       "sleeper_id": "96",
       "name": "Aaron Rodgers",
@@ -12607,16 +12622,16 @@
         "fantasypros_id": null
       }
     },
-    "BAL": {
-      "sleeper_id": "BAL",
-      "name": "Baltimore Ravens",
-      "team": "BAL",
+    "CHI": {
+      "sleeper_id": "CHI",
+      "name": "Chicago Bears",
+      "team": "CHI",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
       ],
       "ids": {
-        "sleeper_id": "BAL",
+        "sleeper_id": "CHI",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12743,6 +12758,23 @@
         "fantasypros_id": null
       }
     },
+    "BAL": {
+      "sleeper_id": "BAL",
+      "name": "Baltimore Ravens",
+      "team": "BAL",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "BAL",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "PHI": {
       "sleeper_id": "PHI",
       "name": "Philadelphia Eagles",
@@ -12787,23 +12819,6 @@
       ],
       "ids": {
         "sleeper_id": "LAC",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
-    "CHI": {
-      "sleeper_id": "CHI",
-      "name": "Chicago Bears",
-      "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "CHI",
         "espn_id": null,
         "gsis_id": null,
         "pfr_id": null,
@@ -12949,10 +12964,10 @@
     }
   },
   "compiler_health": {
-    "player_count": 247,
+    "player_count": 248,
     "nfl_matches": 0,
     "market_matches": 181,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7327935222672065
+    "market_match_rate": 0.7298387096774194
   }
 }
