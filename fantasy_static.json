@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T23:46:34.389Z",
+  "generated_at": "2026-11-21T00:01:39.299Z",
   "data_type": "fantasy_static",
   "identity": {
     "sleeper_user_id": "807399587525566464",
     "sleeper_display_name": "EthanWhittier"
   },
   "source_generations": {
-    "sleeper": "2026-11-20T23:31:40.921Z",
+    "sleeper": "2026-11-20T23:46:38.522Z",
     "nfl": "2026-11-09T06:00:48.080Z",
     "market": "2026-11-20T23:00:39.754Z"
   },
@@ -9495,6 +9495,23 @@
         "fantasypros_id": null
       }
     },
+    "5870": {
+      "sleeper_id": "5870",
+      "name": "Daniel Jones",
+      "team": "IND",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "ids": {
+        "sleeper_id": "5870",
+        "espn_id": 3917792,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
+    },
     "5872": {
       "sleeper_id": "5872",
       "name": "Deebo Samuel Sr.",
@@ -12913,23 +12930,6 @@
         "fantasypros_id": null
       }
     },
-    "IND": {
-      "sleeper_id": "IND",
-      "name": "Indianapolis Colts",
-      "team": "IND",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "ids": {
-        "sleeper_id": "IND",
-        "espn_id": null,
-        "gsis_id": null,
-        "pfr_id": null,
-        "pff_id": null,
-        "fantasypros_id": null
-      }
-    },
     "NO": {
       "sleeper_id": "NO",
       "name": "New Orleans Saints",
@@ -12946,13 +12946,30 @@
         "pff_id": null,
         "fantasypros_id": null
       }
+    },
+    "IND": {
+      "sleeper_id": "IND",
+      "name": "Indianapolis Colts",
+      "team": "IND",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "ids": {
+        "sleeper_id": "IND",
+        "espn_id": null,
+        "gsis_id": null,
+        "pfr_id": null,
+        "pff_id": null,
+        "fantasypros_id": null
+      }
     }
   },
   "compiler_health": {
-    "player_count": 247,
+    "player_count": 248,
     "nfl_matches": 0,
-    "market_matches": 179,
+    "market_matches": 180,
     "nfl_match_rate": 0,
-    "market_match_rate": 0.7246963562753036
+    "market_match_rate": 0.7258064516129032
   }
 }
